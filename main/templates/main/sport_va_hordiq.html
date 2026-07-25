@@ -1,0 +1,148 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Sport va hordiq — Varnet Biotech University{% endblock %}
+
+{% block content %}
+
+{% include 'main/includes/page_subheader.html' with image='images/faoliyat/sport-va-hordiq-hero.jpg' badge_icon='fa-running' badge='Sog‘lom turmush' title='Sport va hordiq' desc='Sport majmuasi, klublar va madaniy tadbirlar — talabalarning jismoniy va ruhiy salomatligini qo‘llab-quvvatlaydi.' crumb='Sport va hordiq' %}
+
+<section class="fl-stats">
+    <div class="fl-container">
+        <div class="fl-stats-grid">
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-dumbbell"></i></div>
+                <div class="fl-stat-n">8</div>
+                <div class="fl-stat-l">Sport yo‘nalishi</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-trophy"></i></div>
+                <div class="fl-stat-n">35+</div>
+                <div class="fl-stat-l">Musobaqa g‘alabalari</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-users"></i></div>
+                <div class="fl-stat-n">1 200+</div>
+                <div class="fl-stat-l">Sportchi talabalar</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-calendar"></i></div>
+                <div class="fl-stat-n">60+</div>
+                <div class="fl-stat-l">Yillik tadbirlar</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fl-section">
+    <div class="fl-container">
+        <div class="fl-split">
+            <div class="fl-split-text">
+                <div class="fl-tag"><i class="fas fa-heartbeat"></i> Sport infratuzilmasi</div>
+                <h2 class="fl-h2">Faol hayot — sifatli ta’lim</h2>
+                <p class="fl-lead">
+                    Universitetda zamonaviy sport zali, ochiq maydonlar va klublar
+                    faoliyat yuritadi. Har bir talaba o‘ziga mos sport turini tanlashi mumkin.
+                </p>
+                <ul class="fl-check">
+                    <li><i class="fas fa-check"></i> Fitnes va umumjismoniy tayyorgarlik</li>
+                    <li><i class="fas fa-check"></i> Futbol, basketbol, voleybol seksiyalari</li>
+                    <li><i class="fas fa-check"></i> Yoshlar festivali va madaniy kechalar</li>
+                    <li><i class="fas fa-check"></i> Professional murabbiylar jamoasi</li>
+                </ul>
+            </div>
+            <div class="fl-split-img">
+                <img src="{% static 'images/faoliyat/sport-gym.jpg' %}" alt="Sport majmuasi" loading="lazy" decoding="async">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fl-section fl-section--gray">
+    <div class="fl-container">
+        <div class="fl-head">
+            <div class="fl-tag"><i class="fas fa-futbol"></i> Klublar</div>
+            <h2 class="fl-h2">Sport va hordiq yo‘nalishlari</h2>
+            <p class="fl-sub">Talabalar uchun ochiq seksiyalar va to‘garaklar.</p>
+        </div>
+        <div class="fl-cards">
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-futbol"></i></div>
+                <h3>Futbol</h3>
+                <p>Universitet jamoasi va ichki chempionatlar.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-basketball-ball"></i></div>
+                <h3>Basketbol</h3>
+                <p>Zal mashg‘ulotlari va viloyat musobaqalari.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-volleyball-ball"></i></div>
+                <h3>Voleybol</h3>
+                <p>Qizlar va yigitlar jamoalari uchun mashg‘ulotlar.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-running"></i></div>
+                <h3>Yengil atletika</h3>
+                <p>Yugurish, sakrash va chaqqonlik mashg‘ulotlari.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-chess"></i></div>
+                <h3>Shaxmat klubi</h3>
+                <p>Intellektual sport va turnirlar.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-music"></i></div>
+                <h3>Madaniy hordiq</h3>
+                <p>Konsertlar, teatr kechalari va ijodiy kechalar.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="fl-section">
+    <div class="fl-container">
+        <div class="fl-head">
+            <div class="fl-tag"><i class="fas fa-calendar-alt"></i> Tadbirlar</div>
+            <h2 class="fl-h2">Yillik sport va madaniy kalendar</h2>
+            <p class="fl-sub">Asosiy tadbirlar jadvali.</p>
+        </div>
+        <div class="fl-timeline">
+            <div class="fl-tl-item">
+                <div class="fl-tl-year">Bahor</div>
+                <div class="fl-tl-body">
+                    <h3>«Universiada» ichki olimpiadasi</h3>
+                    <p>Fakultetlar o‘rtasida ko‘p sport turlari bo‘yicha musobaqa.</p>
+                </div>
+            </div>
+            <div class="fl-tl-item">
+                <div class="fl-tl-year">Yoz</div>
+                <div class="fl-tl-body">
+                    <h3>Sog‘lom turmush haftaligi</h3>
+                    <p>Ertalabki yugurish, yoga va ochiq havo mashg‘ulotlari.</p>
+                </div>
+            </div>
+            <div class="fl-tl-item">
+                <div class="fl-tl-year">Kuz</div>
+                <div class="fl-tl-body">
+                    <h3>Talabalar festivali</h3>
+                    <p>Sport, musiqa va ijodiy tanlovlar birlashtirilgan katta tadbir.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fl-cta">
+    <div class="fl-container">
+        <div class="fl-cta-box">
+            <div>
+                <h2>Sport klubiga a’zo bo‘ling</h2>
+                <p>Sevimli sportingizni tanlang va sog‘lom jamiyatga qo‘shiling.</p>
+            </div>
+            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-running"></i> Ro‘yxatdan o‘tish</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

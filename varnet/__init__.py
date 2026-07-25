@@ -1,0 +1,3 @@
+"""
+varnet package initialization.
+"""

@@ -1,0 +1,120 @@
+﻿{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Universitet tuzilmasi - Varnet Biotech University{% endblock %}
+
+{% block content %}
+
+{% include 'main/includes/page_subheader.html' with image='images/subheader/tuzilma-hero.jpg' badge_icon='fa-sitemap' badge='Tuzilma' title='Universitet <em>tuzilmasi</em>' desc="Universitetimizning boshqaruv va tashkiliy tuzilmasi bilan tanishing." crumb='Tuzilma' %}
+
+<section class="structure-page">
+    <div class="structure-container">
+        
+        <div id="pdf-content" style="padding: 20px; background: #f0f4f8;">
+
+        <div class="org-chart">
+
+            <div style="display:flex; flex-direction:column; align-items:center;">
+                <div class="box rektor">Rektor</div>
+                <div class="v-line" style="height:70px;"></div>
+            </div>
+
+            <div class="connector-row">
+                <div class="h-bar"></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop" style="position: relative;">
+                    <div class="v-line" style="height:50px;"></div>
+                    <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); height: 190px; width: 220px; border-left: 2px solid #9ab0c0; border-right: 2px solid #9ab0c0; z-index: 1; pointer-events: none;"></div>
+                </div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+            </div>
+
+            <div class="row-5" style="margin-bottom: 50px;">
+                <div class="col-5">
+                    <div class="box standard">Yoshlar masalalari va ma'naviy-ma'rifiy ishlar bo'yicha birinchi prorektor</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">O'quv ishlari bo'yicha prorektor</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Ilmiy ishlar va innovatsiyalar bo'yicha prorektor</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Moliya iqtisod ishlari bo'yicha prorektor</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Xalqaro hamkorlik bo'yicha prorektor</div>
+                </div>
+            </div>
+
+            <div class="connector-row">
+                <div class="h-bar"></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop" style="position: relative;">
+                    <div class="v-line" style="height:50px;"></div>
+                    <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); height: 190px; width: 220px; border-left: 2px solid #9ab0c0; border-right: 2px solid #9ab0c0; z-index: 1; pointer-events: none;"></div>
+                </div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+            </div>
+
+            <div class="row-5" style="margin-bottom: 50px;">
+                <div class="col-5">
+                    <div class="box standard">Magistratura bo'limi</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">O'quv-uslubiy bo'lim</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Ilmiy tadqiqot bo'limi</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Moliya bo'limi</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Xalqaro aloqalar bo'limi</div>
+                </div>
+            </div>
+
+            <div class="connector-row">
+                <div class="h-bar"></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+            </div>
+
+            <div class="row-5">
+                <div class="col-5">
+                    <div class="box standard">Fakultet / Kafedra 1</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Fakultet / Kafedra 2</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Fakultet / Kafedra 3</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Fakultet / Kafedra 4</div>
+                </div>
+                <div class="col-5">
+                    <div class="box standard">Fakultet / Kafedra 5</div>
+                </div>
+            </div>
+
+        </div>
+        </div> <!-- pdf-content end -->
+
+        <div class="download-wrap">
+            <a href="{% url 'main:structure_pdf' %}" class="download-btn">
+                <i class="fas fa-file-pdf"></i> Tuzilmani yuklab olish (PDF)
+            </a>
+        </div>
+
+    </div>
+</section>
+{% endblock %}

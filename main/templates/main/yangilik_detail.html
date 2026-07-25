@@ -1,0 +1,125 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Yangilik - Varnet Biotech University{% endblock %}
+
+{% block content %}
+{% url 'main:yangiliklar' as yangiliklar_url %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/yangiliklar-hero.jpg' badge_icon='fa-newspaper' badge='Yangiliklar' title='BuxDU rektori <em>"Aqlli tuman"</em> situatsion markazi faoliyati bilan tanishdi' parent_url=yangiliklar_url parent_label='Yangiliklar' crumb='Batafsil' %}
+
+    <!-- News Detail -->
+    <section class="news-detail-section">
+        <div class="container">
+            <div class="nd-page-layout">
+
+                <!-- MAIN CONTENT -->
+                <div class="nd-main">
+                    <div class="news-detail-wrapper">
+
+                <!-- Carousel -->
+                <div class="nd-carousel">
+                    <div class="nd-carousel-track" id="carouselTrack">
+                        <div class="nd-slide">
+                            <img src="https://picsum.photos/seed/det1/900/480" alt="Rasm 1" loading="lazy" decoding="async">
+                        </div>
+                        <div class="nd-slide">
+                            <img src="https://picsum.photos/seed/det2/900/480" alt="Rasm 2" loading="lazy" decoding="async">
+                        </div>
+                        <div class="nd-slide">
+                            <img src="https://picsum.photos/seed/det3/900/480" alt="Rasm 3" loading="lazy" decoding="async">
+                        </div>
+                        <div class="nd-slide">
+                            <img src="https://picsum.photos/seed/det4/900/480" alt="Rasm 4" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <button class="nd-arrow nd-prev" onclick="changeSlide(-1)"><i class="fas fa-chevron-left"></i></button>
+                    <button class="nd-arrow nd-next" onclick="changeSlide(1)"><i class="fas fa-chevron-right"></i></button>
+                    <div class="nd-dots" id="carouselDots"></div>
+                </div>
+
+                <!-- Article Body -->
+                <div class="nd-body">
+                    <div class="nd-date">
+                        <i class="fas fa-calendar-alt"></i> 29.04.2026
+                    </div>
+
+                    <h1 class="nd-title">BuxDU rektori "Aqlli tuman" situatsion markazi faoliyati bilan tanishdi</h1>
+
+                    <div class="nd-content">
+                        <p>Buxoro davlat universiteti rektori Obidjon Xamidov Toshkent shahrining Mirzo Ulug'bek tumanida sun'iy intellekt asosida faoliyat yuritayotgan situatsion markaz — "Aqlli tuman" loyihasi doirasida tashkil etilgan zamonaviy boshqaruv tizimi faoliyati bilan yaqindan tanishdi.</p>
+
+                        <p>Tashrif davomida mazkur markazning real vaqt rejimida kommunal muammolar, xavfsizlik masalalari hamda shahar infratuzilmasini nazorat qilish bo'yicha imkoniyatlari haqida batafsil ma'lumot berildi.</p>
+
+                        <p>Shuningdek, markaz orqali tuman hokimligi va mutasaddi tashkilotlar faoliyatini raqamli boshqarish, tahlil qilish, aholi murojaatlari bilan ishlash samaradorligini oshirish, muammolarni tezkor aniqlash va bartaraf etish mexanizmlari bilan tanishildi.</p>
+
+                        <p>Mazkur loyiha doirasida aholi punktlari va bozorlardagi vaziyatni kuzatish, xavfsizlikni sun'iy intellekt yordamida nazorat qilish, shuningdek, shahar boshqaruvida zamonaviy raqamli yondashuvlarni keng joriy etish borasidagi tajribalar alohida qiziqish uyg'otdi.</p>
+
+                        <p>Ushbu tashrif ilg'or raqamli boshqaruv tajribalarini o'rganish, ularni ta'lim va boshqaruv jarayonlariga tatbiq etish hamda zamonaviy texnologiyalar asosida samaradorlikni oshirish nuqtai nazaridan muhim ahamiyat kasb etdi.</p>
+
+                        <p class="nd-author"><strong>Varnet Biotech Axborot xizmati</strong></p>
+                    </div>
+                </div>
+
+                <!-- Back Button -->
+                <div class="nd-back">
+                    <a href="{% url 'main:yangiliklar' %}" class="nd-back-btn">
+                        <i class="fas fa-arrow-left"></i> Yangiliklarga qaytish
+                    </a>
+                </div>
+
+                </div><!-- /news-detail-wrapper -->
+                </div><!-- /nd-main -->
+
+                <!-- SIDEBAR -->
+                <aside class="nd-sidebar">
+                    <div class="nd-sidebar-box">
+                        <div class="nd-sidebar-title">
+                            <i class="fas fa-fire"></i> Eng ko'p ko'rilgan
+                        </div>
+
+                        <a href="{% url 'main:yangilik_detail' 3 %}" class="nd-popular-card">
+                            <div class="nd-popular-img">
+                                <img src="https://picsum.photos/seed/news3/400/240" alt="" loading="lazy" decoding="async">
+                            </div>
+                            <div class="nd-popular-info">
+                                <p>Biotexnologiya laboratoriyasi yangi uskunalar bilan jihozlandi</p>
+                                <div class="nd-popular-meta">
+                                    <span><i class="fas fa-eye"></i> 464</span>
+                                    <span><i class="fas fa-calendar-alt"></i> 24.04.2026</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{% url 'main:yangilik_detail' 2 %}" class="nd-popular-card">
+                            <div class="nd-popular-img">
+                                <img src="https://picsum.photos/seed/news2/400/240" alt="" loading="lazy" decoding="async">
+                            </div>
+                            <div class="nd-popular-info">
+                                <p>2026-yil xalqaro ilmiy konferensiya muvaffaqiyatli o'tkazildi</p>
+                                <div class="nd-popular-meta">
+                                    <span><i class="fas fa-eye"></i> 355</span>
+                                    <span><i class="fas fa-calendar-alt"></i> 25.04.2026</span>
+                                </div>
+                            </div>
+                        </a>
+
+                        <a href="{% url 'main:yangilik_detail' 1 %}" class="nd-popular-card">
+                            <div class="nd-popular-img">
+                                <img src="https://picsum.photos/seed/news1/400/240" alt="" loading="lazy" decoding="async">
+                            </div>
+                            <div class="nd-popular-info">
+                                <p>Varnet Biotech universitetida xalqaro hamkorlik shartnomasi imzolandi</p>
+                                <div class="nd-popular-meta">
+                                    <span><i class="fas fa-eye"></i> 317</span>
+                                    <span><i class="fas fa-calendar-alt"></i> 25.04.2026</span>
+                                </div>
+                            </div>
+                        </a>
+
+                    </div>
+                </aside>
+
+            </div><!-- /nd-page-layout -->
+        </div>
+    </section>
+{% endblock %}

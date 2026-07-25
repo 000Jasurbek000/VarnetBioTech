@@ -1,0 +1,164 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}{{ person.ism }} - Varnet Biotech University{% endblock %}
+
+{% block content %}
+
+{% url 'main:rahbariyat' as rahbariyat_url %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/rahbariyat-hero.jpg' badge_icon='fa-user-tie' badge='Rahbariyat' title=person.ism desc="Rahbar haqida batafsil ma'lumot." parent_url=rahbariyat_url parent_label='Rahbariyat' crumb=person.ism %}
+
+<section class="rd-page">
+    <div class="container">
+
+        <!-- ORQAGA TUGMASI -->
+        <div class="rd-back-wrap">
+            <a href="{% url 'main:rahbariyat' %}" class="rd-back-btn">
+                <i class="fas fa-arrow-left"></i> Rahbariyatga qaytish
+            </a>
+        </div>
+
+        <!-- ASOSIY KARTA -->
+        <div class="rd-top-card">
+            <div class="rd-photo-col">
+                <img src="{{ person.rasm }}" alt="{{ person.ism }}" loading="lazy" decoding="async">
+                <span class="rd-lavozim-badge">{{ person.lavozim }}</span>
+            </div>
+            <div class="rd-info-col">
+                <h1 class="rd-ism">{{ person.ism }}</h1>
+                <ul class="rd-meta-list">
+                    {% if person.ilmiy_daraja %}
+                    <li><i class="fas fa-graduation-cap"></i> {{ person.ilmiy_daraja }}</li>
+                    {% endif %}
+                    {% if person.manzil %}
+                    <li><i class="far fa-map"></i> {{ person.manzil }}</li>
+                    {% endif %}
+                    {% if person.email %}
+                    <li><i class="far fa-envelope"></i> <a href="mailto:{{ person.email }}">{{ person.email }}</a></li>
+                    {% endif %}
+                    {% if person.qabulvaqti %}
+                    <li><i class="far fa-clock"></i> {{ person.qabulvaqti }}</li>
+                    {% endif %}
+                </ul>
+                {% if person.orcid %}
+                <div class="rd-links">
+                    <a href="https://orcid.org/{{ person.orcid }}" target="_blank" class="rd-orcid-btn">
+                        <img src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" alt="ORCID"> ORCID
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+
+        <!-- ACCORDION BLOKLAR -->
+        <div class="rd-accordion-wrap">
+
+            <!-- Mehnat faoliyati -->
+            {% if person.mehnat_faoliyati %}
+            <div class="rd-accordion">
+                <button class="rd-accordion-btn" onclick="toggleAccordion(this)">
+                    <span>Mehnat faoliyati</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="rd-accordion-body">
+                    <table class="rd-table">
+                        <thead>
+                            <tr><th>Yillar</th><th>Tashkilot</th><th>Lavozim</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for item in person.mehnat_faoliyati %}
+                            <tr>
+                                <td>{{ item.yil }}</td>
+                                <td>{{ item.joy }}</td>
+                                <td>{{ item.lavozim }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Malaka oshirish -->
+            {% if person.malaka_oshirish %}
+            <div class="rd-accordion">
+                <button class="rd-accordion-btn" onclick="toggleAccordion(this)">
+                    <span>Malaka oshirish</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="rd-accordion-body">
+                    <table class="rd-table">
+                        <thead>
+                            <tr><th>Yil</th><th>Joy</th><th>Mavzu</th></tr>
+                        </thead>
+                        <tbody>
+                            {% for item in person.malaka_oshirish %}
+                            <tr>
+                                <td>{{ item.yil }}</td>
+                                <td>{{ item.joy }}</td>
+                                <td>{{ item.mavzu }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- O'qitadigan fanlar -->
+            {% if person.fanlar %}
+            <div class="rd-accordion">
+                <button class="rd-accordion-btn" onclick="toggleAccordion(this)">
+                    <span>O'qitadigan fanlari (so'ngi uch o'quv yilida)</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="rd-accordion-body">
+                    <ul class="rd-fanlar-list">
+                        {% for fan in person.fanlar %}
+                        <li><i class="fas fa-book-open"></i> {{ fan }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Ilmiy faoliyat -->
+            {% if person.ilmiy_faoliyat %}
+            <div class="rd-accordion">
+                <button class="rd-accordion-btn" onclick="toggleAccordion(this)">
+                    <span>Ilmiy faoliyati</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="rd-accordion-body">
+                    <ul class="rd-fanlar-list">
+                        {% for qator in person.ilmiy_faoliyat %}
+                        <li><i class="fas fa-flask"></i> {{ qator }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+
+        </div>
+
+        <!-- LAVOZIM VAZIFALARI -->
+        {% if person.lavozim_vazifalari %}
+        <div class="rd-vazifalar-block">
+            <div class="rd-vazifalar-date">
+                <i class="far fa-calendar"></i> 01.01.2024
+            </div>
+            <h2 class="rd-vazifalar-title">{{ person.lavozim }}</h2>
+            <p class="rd-vazifalar-subtitle"><strong>Lavozim vazifalari:</strong></p>
+            <ul class="rd-vazifalar-list">
+                {% for vazifa in person.lavozim_vazifalari %}
+                <li>— {{ vazifa }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
+    </div>
+</section>
+
+
+{% endblock %}

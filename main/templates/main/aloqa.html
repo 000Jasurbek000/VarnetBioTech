@@ -1,0 +1,109 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Bog'lanish - Varnet Biotech University{% endblock %}
+
+{% block content %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/aloqa-hero.jpg' badge_icon='fa-envelope' badge='Aloqa' title="Biz bilan <em>bog'laning</em>" desc="Savollaringiz bormi? Biz doim yordam berishga tayyormiz." crumb="Bog'lanish" %}
+
+    <!-- Contact Section -->
+    <section class="contact-page">
+        <div class="container">
+            <div class="contact-layout">
+
+                <!-- LEFT: Info Cards + Social -->
+                <div class="contact-left">
+                    <h3 class="contact-left-title">Aloqa ma'lumotlari</h3>
+                    <div class="contact-cards-grid">
+                        <div class="contact-card">
+                            <div class="ccard-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div class="ccard-text">
+                                <h4>Manzil</h4>
+                                <p>Buxoro shahri,<br>Akademik Ibrohim Mo'minov ko'chasi 28/2</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="ccard-icon"><i class="fas fa-phone-alt"></i></div>
+                            <div class="ccard-text">
+                                <h4>Telefon</h4>
+                                <p>+998 87 736 20 11</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="ccard-icon"><i class="fas fa-envelope"></i></div>
+                            <div class="ccard-text">
+                                <h4>Elektron pochta</h4>
+                                <p>lifelonglearning@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="ccard-icon"><i class="fas fa-clock"></i></div>
+                            <div class="ccard-text">
+                                <h4>Ish vaqti</h4>
+                                <p>Dushanba - Juma: 9:00 - 18:00<br>Shanba - Yakshanba: Dam olish</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <h4>Ijtimoiy tarmoqlar</h4>
+                        <div class="social-btns">
+                            <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                            <a href="#" class="social-btn telegram"><i class="fab fa-telegram-plane"></i> Telegram</a>
+                            <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                            <a href="#" class="social-btn linkedin"><i class="fab fa-linkedin-in"></i> LinkedIn</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- RIGHT: Form -->
+                <div class="contact-right">
+                    <h3 class="contact-right-title">Xabar yuborish</h3>
+                    <form class="contact-form-new" action="#" method="POST">
+                        {% csrf_token %}
+                        <div class="cfn-group">
+                            <label>Ism-familiya *</label>
+                            <input type="text" name="fullname" placeholder="Ismingiz va familiyangiz" required>
+                        </div>
+                        <div class="cfn-group">
+                            <label>Elektron pochta *</label>
+                            <input type="email" name="email" placeholder="email@example.com" required>
+                        </div>
+                        <div class="cfn-group">
+                            <label>Telefon raqami</label>
+                            <input type="tel" name="phone" placeholder="+998 90 123 45 67">
+                        </div>
+                        <div class="cfn-group">
+                            <label>Mavzu *</label>
+                            <select name="subject" required>
+                                <option value="">Tanlang</option>
+                                <option value="qabul">Qabul bo'limi</option>
+                                <option value="malumot">Ma'lumot olish</option>
+                                <option value="hamkorlik">Hamkorlik</option>
+                                <option value="boshqa">Boshqa</option>
+                            </select>
+                        </div>
+                        <div class="cfn-group">
+                            <label>Xabar *</label>
+                            <textarea name="message" placeholder="Xabaringizni bu yerga yozing..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn-send">
+                            <i class="fas fa-paper-plane"></i> Xabar yuborish
+                        </button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="contact-map-section">
+        <div class="container">
+            <h2 class="map-title">Bizning joylashuvimiz</h2>
+            <div class="map-wrapper">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.5!2d64.4167!3d39.7747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMznCsDQ2JzI4LjkiTiA2NMKwMjUnMDAuMSJF!5e0!3m2!1suz!2suz!4v1234567890" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+{% endblock %}

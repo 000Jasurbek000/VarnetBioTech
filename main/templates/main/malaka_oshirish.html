@@ -1,0 +1,141 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Malaka oshirish — Varnet Biotech University{% endblock %}
+
+{% block content %}
+
+{% include 'main/includes/page_subheader.html' with image='images/subheader/talaba-malaka-hero.jpg' badge_icon='fa-certificate' badge='Talabalarga' title='Malaka oshirish' desc='Mutaxassislar va bitiruvchilar uchun qisqa muddatli kurslar, sertifikat dasturlari va professional rivojlanish.' crumb='Malaka oshirish' %}
+
+<section class="fl-stats">
+    <div class="fl-container">
+        <div class="fl-stats-grid">
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-certificate"></i></div>
+                <div class="fl-stat-n">20+</div>
+                <div class="fl-stat-l">Kurs va modul</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-calendar"></i></div>
+                <div class="fl-stat-n">2–12</div>
+                <div class="fl-stat-l">Haftalik dasturlar</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-users"></i></div>
+                <div class="fl-stat-n">500+</div>
+                <div class="fl-stat-l">Yillik tinglovchilar</div>
+            </div>
+            <div class="fl-stat">
+                <div class="fl-stat-ico"><i class="fas fa-award"></i></div>
+                <div class="fl-stat-n">Sertifikat</div>
+                <div class="fl-stat-l">Rasmiy tasdiqlash</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="fl-section">
+    <div class="fl-container">
+        <div class="fl-head">
+            <div class="fl-tag"><i class="fas fa-info-circle"></i> Dasturlar</div>
+            <h2 class="fl-h2">Malaka oshirish nima uchun?</h2>
+            <p class="fl-sub">
+                Biotexnologiya, ekologiya va raqamli texnologiyalar sohasida
+                bilimni yangilash, kasbiy ko‘nikmalarni mustahkamlash va sertifikat olish.
+            </p>
+        </div>
+        <div class="fl-cards">
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-vial"></i></div>
+                <h3>Laborator amaliyot</h3>
+                <p>Zamonaviy uskunalar bilan ishlash, namunaviy protokol va xavfsizlik standartlari.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-leaf"></i></div>
+                <h3>Ekologik monitoring</h3>
+                <p>Atrof-muhit tahlili, yashil texnologiyalar va barqaror boshqaruv asoslari.</p>
+            </article>
+            <article class="fl-card">
+                <div class="fl-card-ico"><i class="fas fa-laptop"></i></div>
+                <h3>Raqamli ko‘nikmalar</h3>
+                <p>Bioinformatika asoslari, ma’lumotlar tahlili va zamonaviy dasturiy vositalar.</p>
+            </article>
+        </div>
+    </div>
+</section>
+
+<section class="fl-section fl-section--gray">
+    <div class="fl-container">
+        <div class="fl-head">
+            <div class="fl-tag"><i class="fas fa-list"></i> Kurslar</div>
+            <h2 class="fl-h2">Mavjud yo‘nalishlar (namuna)</h2>
+        </div>
+        <div class="qb-table-wrap">
+            <table class="qb-table">
+                <thead>
+                    <tr>
+                        <th>Kurs nomi</th>
+                        <th>Muddat</th>
+                        <th>Format</th>
+                        <th>Natija</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Laboratoriya xavfsizligi va GLP</td>
+                        <td>2 hafta</td>
+                        <td>Kunduzgi</td>
+                        <td>Sertifikat</td>
+                    </tr>
+                    <tr>
+                        <td>Mikrobiologiya amaliyoti</td>
+                        <td>4 hafta</td>
+                        <td>Kunduzgi</td>
+                        <td>Sertifikat</td>
+                    </tr>
+                    <tr>
+                        <td>Ekologik monitoring asoslari</td>
+                        <td>3 hafta</td>
+                        <td>Kunduzgi / Onlayn</td>
+                        <td>Sertifikat</td>
+                    </tr>
+                    <tr>
+                        <td>Bioinformatikaga kirish</td>
+                        <td>6 hafta</td>
+                        <td>Onlayn</td>
+                        <td>Sertifikat</td>
+                    </tr>
+                    <tr>
+                        <td>Qishloq xo‘jaligi biotexnologiyasi</td>
+                        <td>4 hafta</td>
+                        <td>Kunduzgi</td>
+                        <td>Sertifikat</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <ul class="fl-check" style="margin-top:32px;">
+            <li><i class="fas fa-check"></i> Bitiruvchilar, mutaxassislar va tashkilot xodimlari uchun ochiq</li>
+            <li><i class="fas fa-check"></i> Guruh va individual shaklda tashkil etilishi mumkin</li>
+            <li><i class="fas fa-check"></i> Muvaffaqiyatli tugatganlarga universitet sertifikati beriladi</li>
+        </ul>
+        <div class="qb-links">
+            <a href="{% url 'main:aloqa' %}" class="hm-btn-green"><i class="fas fa-envelope"></i> Kursga yozilish</a>
+            <a href="{% url 'main:elonlar' %}" class="hm-btn-outline"><i class="fas fa-bullhorn"></i> E’lonlar</a>
+        </div>
+    </div>
+</section>
+
+<section class="fl-cta">
+    <div class="fl-container">
+        <div class="fl-cta-box">
+            <div>
+                <h2>Kasbiy malakangizni oshiring</h2>
+                <p>Keyingi kurs jadvali va narxlar haqida qabul bo‘limidan bilib oling.</p>
+            </div>
+            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-phone"></i> Bog‘lanish</a>
+        </div>
+    </div>
+</section>
+
+{% endblock %}

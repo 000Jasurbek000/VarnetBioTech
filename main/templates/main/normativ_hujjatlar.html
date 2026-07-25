@@ -1,0 +1,319 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Normativ hujjatlar — Varnet Biotech University{% endblock %}
+
+{% block extra_css %}{% endblock %}
+
+{% block content %}
+
+{% include 'main/includes/page_subheader.html' with image='images/subheader/normativ-hero.jpg' badge_icon='fa-balance-scale' badge='Huquqiy asoslar' title='Normativ <em>hujjatlar</em>' desc="Universitetimiz faoliyatini tartibga soluvchi qonunlar, qarorlar va nizomlar to'plami." crumb='Normativ hujjatlar' %}
+
+<!-- ══ TWO-PANEL LAYOUT ══════════════════════════════ -->
+<div style="background:#f5f7fa; padding-bottom:80px;">
+<div class="nh-wrapper">
+
+    <!-- ─── CHAP SIDEBAR ─── -->
+    <aside class="nh-sidebar">
+        <div class="nh-sidebar-label">Kategoriyalar</div>
+        <nav class="nh-nav">
+
+            <div class="nh-nav-item active" data-target="qonunlar">
+                <div class="nh-nav-icon"><i class="fas fa-book-open"></i></div>
+                <span class="nh-nav-text">O'zbekiston Respublikasi qonunlari</span>
+                <i class="fas fa-chevron-right nh-nav-arrow"></i>
+            </div>
+
+            <div class="nh-nav-item" data-target="mehnat">
+                <div class="nh-nav-icon"><i class="fas fa-hard-hat"></i></div>
+                <span class="nh-nav-text">O'zbekiston Respublikasi Mehnat kodeksi</span>
+                <i class="fas fa-chevron-right nh-nav-arrow"></i>
+            </div>
+
+            <div class="nh-nav-item" data-target="prezident">
+                <div class="nh-nav-icon"><i class="fas fa-scroll"></i></div>
+                <span class="nh-nav-text">O'zbekiston Respublikasi Prezidentining qarorlari</span>
+                <i class="fas fa-chevron-right nh-nav-arrow"></i>
+            </div>
+
+            <div class="nh-nav-item" data-target="vmq">
+                <div class="nh-nav-icon"><i class="fas fa-landmark"></i></div>
+                <span class="nh-nav-text">O'zbekiston Respublikasi Vazirlar Mahkamasining qarorlari</span>
+                <i class="fas fa-chevron-right nh-nav-arrow"></i>
+            </div>
+
+            <div class="nh-nav-item" data-target="nizomlar">
+                <div class="nh-nav-icon"><i class="fas fa-university"></i></div>
+                <span class="nh-nav-text">Oliy ta'lim muassasalariga o'qishga qabul qilish, talabalar o'qishini ko'chirish, qayta tiklash va o'qishdan chetlashtirish tartibi to'g'risidagi nizomlar</span>
+                <i class="fas fa-chevron-right nh-nav-arrow"></i>
+            </div>
+
+        </nav>
+    </aside>
+
+    <!-- ─── O'NG PANEL ─── -->
+    <main class="nh-panel">
+
+        <!-- 1. O'ZBEKISTON RESPUBLIKASI QONUNLARI -->
+        <div class="nh-pane active" id="qonunlar">
+            <div class="nh-pane-header">
+                <div class="nh-pane-icon"><i class="fas fa-book-open"></i></div>
+                <div>
+                    <div class="nh-pane-title">O'zbekiston Respublikasi qonunlari</div>
+                    <div class="nh-pane-sub">Axborot texnologiyalari, ta'lim va aloqaga oid asosiy qonunlar</div>
+                </div>
+            </div>
+            <div class="nh-list">
+                <a class="nh-item" href="https://lex.uz/docs/2010217" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">1</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasining <strong>"Axborotlashtirish to'g'risida"</strong>gi Qonuni</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Axborot texnologiyalari</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/4545164" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">2</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasining <strong>"Elektron hukumat to'g'risida"</strong>gi Qonuni</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Raqamli davlat xizmatlari</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/3522640" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">3</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasining <strong>"Elektron hujjat aylanishi to'g'risida"</strong>gi Qonuni</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Raqamli hujjat yuritish</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/2010038" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">4</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasining <strong>"Telekommunikatsiyalar to'g'risida"</strong>gi Qonuni</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Telekommunikatsiya</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/2010039" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">5</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasining <strong>"Aloqa to'g'risida"</strong>gi Qonuni</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Aloqa va kommunikatsiya</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- 2. MEHNAT KODEKSI -->
+        <div class="nh-pane" id="mehnat">
+            <div class="nh-pane-header">
+                <div class="nh-pane-icon"><i class="fas fa-hard-hat"></i></div>
+                <div>
+                    <div class="nh-pane-title">O'zbekiston Respublikasi Mehnat kodeksi</div>
+                    <div class="nh-pane-sub">Mehnat munosabatlarini tartibga soluvchi asosiy hujjat</div>
+                </div>
+            </div>
+            <div class="nh-list">
+                <a class="nh-item" href="https://lex.uz/docs/6257542" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">1</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasi <strong>Mehnat kodeksi</strong></div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Mehnat munosabatlari</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/6257542" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">2</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Mehnat shartnomalari va ish beruvchilar majburiyatlariga oid qoidalar</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Mehnat shartnomasi</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/6257542" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">3</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Xodimlarning ish vaqti, dam olish va ta'til huquqlari</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Ish vaqti va ta'til</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/6257542" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">4</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Mehnat nizolarini hal etish tartibi va mehnat muhofazasi</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Mehnat muhofazasi</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- 3. PREZIDENT QARORLARI -->
+        <div class="nh-pane" id="prezident">
+            <div class="nh-pane-header">
+                <div class="nh-pane-icon"><i class="fas fa-scroll"></i></div>
+                <div>
+                    <div class="nh-pane-title">O'zbekiston Respublikasi Prezidentining qarorlari</div>
+                    <div class="nh-pane-sub">Ta'lim va raqamlashtirish sohasidagi asosiy prezident qarorlari</div>
+                </div>
+            </div>
+            <div class="nh-list">
+                <a class="nh-item" href="https://lex.uz/docs/1981048" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">1</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Zamonaviy axborot-kommunikatsiya texnologiylarini yanada joriy etish va rivojlantirish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta">
+                            <span class="nh-badge"><i class="fas fa-calendar-alt"></i> 2012 yil 21 mart</span>
+                            <span class="nh-badge"><i class="fas fa-hashtag"></i> PQ-1730-son</span>
+                        </div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/2288688" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">2</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Mamlakatimizning dasturiy ta'minot vositalari ishlab chiquvchilarini rag'batlantirishni yanada kuchaytirish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta">
+                            <span class="nh-badge"><i class="fas fa-calendar-alt"></i> 2013 yil 20 sentyabr</span>
+                            <span class="nh-badge"><i class="fas fa-hashtag"></i> PQ-2042-son</span>
+                        </div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/2009948" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">3</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">O'zbekiston Respublikasi Qurolli Kuchlari safida muddatli harbiy xizmatni o'tab bo'lgan fuqarolarga imtiyozlar tizimini takomillashtirishga oid qo'shimcha chora-tadbirlar to'g'risidagi qarorga o'zgartirishlar kiritish to'g'risida</div>
+                        <div class="nh-item-meta">
+                            <span class="nh-badge"><i class="fas fa-calendar-alt"></i> 2012 yil 31 may</span>
+                            <span class="nh-badge"><i class="fas fa-hashtag"></i> PQ-1765-son</span>
+                        </div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5832367" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">4</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Axborot texnologiyalari sohasida ta'lim tizimini yanada takomillashtirish, ilmiy tadqiqotlarni rivojlantirish va ularni IT-industriya bilan integratsiya qilish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> IT ta'lim integratsiyasi</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5832368" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">5</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title"><strong>"Raqamli O'zbekiston — 2030"</strong> strategiyasini tasdiqlash va uni samarali amalga oshirish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Raqamli strategiya</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5832369" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">6</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">2022–2023-yillarda axborot-kommunikatsiya texnologiyalari sohasini yangi bosqichga olib chiqish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> AKT rivojlantirish</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5832370" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">7</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title"><strong>"O'zbekiston — 2030"</strong> strategiyasini 2023-yilda sifatli va o'z vaqtida amalga oshirish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Milliy strategiya</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5832371" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">8</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Raqamli xizmatlar qamrovi va sifatini oshirish hamda soha, tarmoq va hududlarni raqamli transformatsiya qilish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Raqamli transformatsiya</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- 4. VAZIRLAR MAHKAMASI QARORLARI -->
+        <div class="nh-pane" id="vmq">
+            <div class="nh-pane-header">
+                <div class="nh-pane-icon"><i class="fas fa-landmark"></i></div>
+                <div>
+                    <div class="nh-pane-title">O'zbekiston Respublikasi Vazirlar Mahkamasining qarorlari</div>
+                    <div class="nh-pane-sub">Ta'lim va texnologiya sohasidagi hukumat qarorlari</div>
+                </div>
+            </div>
+            <div class="nh-list">
+                <a class="nh-item" href="https://lex.uz/docs/5321440" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">1</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalarida kredit-modul tizimini joriy etish to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> O'quv jarayoni</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321441" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">2</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalarida masofaviy ta'lim tizimini joriy etish va rivojlantirish chora-tadbirlari to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Masofaviy ta'lim</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321442" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">3</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Davlat oliy ta'lim muassasalariga o'qishga qabul qilish jarayonlarini tashkil etish to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Qabul jarayoni</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321443" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">4</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Ta'lim muassasalarida axborot xavfsizligini ta'minlash tartibi to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Axborot xavfsizligi</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321444" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">5</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalarida ilmiy-tadqiqot ishlarini moliyalashtirish va boshqarish tartibi to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Ilmiy tadqiqot</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <!-- 5. NIZOMLAR -->
+        <div class="nh-pane" id="nizomlar">
+            <div class="nh-pane-header">
+                <div class="nh-pane-icon"><i class="fas fa-university"></i></div>
+                <div>
+                    <div class="nh-pane-title">Qabul, ko'chirish, tiklash va chetlashtirish nizomlar</div>
+                    <div class="nh-pane-sub">Oliy ta'lim muassasalariga o'qishga qabul qilish, talabalar o'qishini ko'chirish, qayta tiklash va o'qishdan chetlashtirish tartibi to'g'risidagi nizomlar</div>
+                </div>
+            </div>
+            <div class="nh-list">
+                <a class="nh-item" href="https://lex.uz/docs/5321440" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">1</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalarida o'quv jarayoniga <strong>kredit-modul tizimini joriy etish tartibi</strong> to'g'risida NIZOM</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Kredit-modul tizimi</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321445" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">2</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalarining <strong>bakalavriatiga talabalarni o'qishga qabul qilish tartibi</strong> to'g'risida NIZOM</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Bakalavriat qabuli</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321446" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">3</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Oliy ta'lim muassasalariga o'qishga qabul qilish, talabalar o'qishini <strong>ko'chirish, qayta tiklash va o'qishdan chetlashtirish tartibi</strong> to'g'risidagi nizom</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Ko'chirish va tiklash tartibi</span></div>
+                    </div>
+                </a>
+                <a class="nh-item" href="https://lex.uz/docs/5321447" target="_blank" rel="noopener noreferrer">
+                    <div class="nh-item-num">4</div>
+                    <div class="nh-item-body">
+                        <div class="nh-item-title">Davlat oliy ta'lim muassasalariga o'qishga qabul qilish jarayonlarini <strong>tashkil etish</strong> to'g'risida</div>
+                        <div class="nh-item-meta"><span class="nh-badge"><i class="fas fa-tag"></i> Qabul tashkiloti</span></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+    </main>
+</div>
+</div>
+
+{% endblock %}
+
+{% block extra_js %}{% endblock %}

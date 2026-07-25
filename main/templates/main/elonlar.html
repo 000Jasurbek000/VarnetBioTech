@@ -1,0 +1,190 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}E'lonlar - Varnet Biotech University{% endblock %}
+
+{% block content %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/elonlar-hero.jpg' badge_icon='fa-bullhorn' badge="E'lonlar" title="Rasmiy <em>e'lonlar</em>" desc="Universitetimizning barcha rasmiy e'lonlari va muhim xabarlari." crumb="E'lonlar" %}
+
+    <!-- E'lonlar Section -->
+    <section class="news-page-section">
+        <div class="container">
+
+            <!-- Filter Bar -->
+            <div class="news-filter-bar">
+                <button class="news-filter-btn active" data-filter="all">Barchasi</button>
+                <button class="news-filter-btn" data-filter="qabul">Qabul</button>
+                <button class="news-filter-btn" data-filter="tadqiqot">Tadqiqot</button>
+                <button class="news-filter-btn" data-filter="konkurs">Konkurs</button>
+                <button class="news-filter-btn" data-filter="umumiy">Umumiy</button>
+            </div>
+
+            <!-- E'lonlar Grid -->
+            <div class="news-page-grid elon-grid">
+
+                <a href="{% url 'main:elon_detail' 1 %}" class="news-page-card elon-card" data-category="qabul">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon1/400/220" alt="E'lon 1" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Qabul</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 01.06.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>2026-2027 o'quv yiliga bakalavr yo'nalishlariga hujjat qabul qilish boshlandi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 1 240</span>
+                            <span><i class="fas fa-calendar-alt"></i> 01.05.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 2 %}" class="news-page-card elon-card" data-category="konkurs">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon2/400/220" alt="E'lon 2" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Konkurs</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 15.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>Yosh tadqiqotchilar orasida grant tanloviga ariza topshirish muddati uzaytirildi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 875</span>
+                            <span><i class="fas fa-calendar-alt"></i> 28.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 3 %}" class="news-page-card elon-card" data-category="tadqiqot">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon3/400/220" alt="E'lon 3" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Tadqiqot</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 20.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>Biotexnologiya laboratoriyasiga laborant va kichik ilmiy xodim kerak</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 634</span>
+                            <span><i class="fas fa-calendar-alt"></i> 25.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 4 %}" class="news-page-card elon-card" data-category="umumiy">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon4/400/220" alt="E'lon 4" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Umumiy</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 10.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>2026-yil may oyida o'tkaziladigan imtihon jadvali e'lon qilindi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 1 058</span>
+                            <span><i class="fas fa-calendar-alt"></i> 22.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 5 %}" class="news-page-card elon-card" data-category="qabul">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon5/400/220" alt="E'lon 5" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Qabul</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 01.07.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>Magistratura dasturiga qabul: talablar va topshiriladigan hujjatlar ro'yxati</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 788</span>
+                            <span><i class="fas fa-calendar-alt"></i> 20.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 6 %}" class="news-page-card elon-card" data-category="konkurs">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon6/400/220" alt="E'lon 6" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Konkurs</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 25.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>"Eng yaxshi ilmiy maqola" tanloviga maqola topshirish muddati belgilandi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 412</span>
+                            <span><i class="fas fa-calendar-alt"></i> 18.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 7 %}" class="news-page-card elon-card" data-category="tadqiqot">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon7/400/220" alt="E'lon 7" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Tadqiqot</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 30.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>Xalqaro ilmiy hamkorlik loyihasida ishtirok etish uchun ariza qabul boshlanadi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 356</span>
+                            <span><i class="fas fa-calendar-alt"></i> 15.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+                <a href="{% url 'main:elon_detail' 8 %}" class="news-page-card elon-card" data-category="umumiy">
+                    <div class="news-page-img">
+                        <img src="https://picsum.photos/seed/elon8/400/220" alt="E'lon 8" loading="lazy" decoding="async">
+                        <div class="news-page-overlay">
+                            <span class="news-category-tag elon-tag">Umumiy</span>
+                        </div>
+                        <div class="elon-deadline">
+                            <i class="fas fa-clock"></i> 12.05.2026 gacha
+                        </div>
+                    </div>
+                    <div class="news-page-body">
+                        <h3>Kutubxonaning yangi elektron resurslari foydalanishga topshirildi</h3>
+                        <div class="news-page-meta">
+                            <span><i class="fas fa-eye"></i> 298</span>
+                            <span><i class="fas fa-calendar-alt"></i> 12.04.2026</span>
+                        </div>
+                    </div>
+                </a>
+
+            </div>
+
+            <!-- Pagination -->
+            <div class="news-pagination" id="elonPagination">
+                <button class="pag-btn pag-prev" id="elonPagPrev">‹</button>
+                <button class="pag-btn active" data-page="1">1</button>
+                <button class="pag-btn" data-page="2">2</button>
+                <button class="pag-btn" data-page="3">3</button>
+                <button class="pag-btn pag-next" id="elonPagNext">›</button>
+            </div>
+
+        </div>
+    </section>
+{% endblock %}

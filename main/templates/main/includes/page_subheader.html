@@ -1,0 +1,24 @@
+{% load static %}
+{# Bir xil rasmli subheader — barcha ichki sahifalar uchun #}
+<section class="fl-hero">
+    <div class="fl-hero-bg" style="background-image:url('{% static image %}')"></div>
+    <div class="fl-hero-overlay"></div>
+    <div class="fl-container">
+        <div class="fl-hero-content">
+            <div class="fl-breadcrumb">
+                <a href="{% url 'main:home' %}">Bosh sahifa</a>
+                {% if parent_url and parent_label %}
+                <span>/</span>
+                <a href="{{ parent_url }}">{{ parent_label }}</a>
+                {% endif %}
+                <span>/</span>
+                <strong>{{ crumb|default:title }}</strong>
+            </div>
+            <div class="fl-hero-badge"><i class="fas {{ badge_icon }}"></i> {{ badge }}</div>
+            <h1 class="fl-hero-title">{{ title|safe }}</h1>
+            {% if desc %}
+            <p class="fl-hero-desc">{{ desc }}</p>
+            {% endif %}
+        </div>
+    </div>
+</section>

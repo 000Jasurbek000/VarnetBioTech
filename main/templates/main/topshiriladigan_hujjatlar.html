@@ -1,0 +1,238 @@
+{% extends 'main/base.html' %}
+{% load static %}
+
+{% block title %}Topshiriladigan hujjatlar — Varnet Biotech University{% endblock %}
+
+{% block extra_css %}{% endblock %}
+
+{% block content %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/hujjatlar-hero.jpg' badge_icon='fa-folder-open' badge='Hujjatlar' title='Topshiriladigan <em>hujjatlar</em>' desc="O'zbekiston Respublikasi oliy ta'lim muassasalariga kirish uchun talab etiladigan rasmiy hujjatlar to'plami va ro'yxatdan o'tish tartibi." crumb='Topshiriladigan hujjatlar' %}
+
+<div class="hj-wrap">
+
+
+<!-- ══ HUJJATLAR ══════════════════════════════════════ -->
+<section class="hj-section">
+    <div class="hj-cont">
+        <div class="hj-section-head">
+            <div class="hj-tag"><i class="fas fa-file-alt"></i> Zarur hujjatlar</div>
+            <h2 class="hj-h2">Yuklash talab etiladigan hujjatlar</h2>
+            <p class="hj-lead">
+                Abituriyentlar doimiy yoki vaqtincha ro'yxatda turgan joyidan qat'i nazar,
+                quyidagi hujjatlarni <strong>my.uzbmb.uz</strong> saytiga yuklaydi.
+            </p>
+        </div>
+
+        <!-- Muhim eslatma -->
+        <div class="hj-notice-wrap">
+            <div class="hj-notice-icon"><i class="fas fa-exclamation"></i></div>
+            <div>
+                <div class="hj-notice-title">Muhim eslatma!</div>
+                <div class="hj-notice-text">
+                    Barcha hujjatlar
+                    <a href="https://my.uzbmb.uz" target="_blank" class="hj-notice-link">my.uzbmb.uz</a>
+                    saytiga elektron shaklda yuklanadi. Ro'yxatdan o'tish muddati:
+                    <strong>5-iyundan 25-iyungacha</strong> (25-iyun kuni ham kiritiladi).
+                </div>
+            </div>
+        </div>
+
+        <div style="height:40px;"></div>
+
+        <div class="hj-docs-list">
+
+            <!-- 1 -->
+            <div class="hj-doc-card">
+                <div class="hj-doc-num">1</div>
+                <div class="hj-doc-body">
+                    <div class="hj-doc-title">Fuqarolik pasporti yoki shaxsiy identifikatsiya ma'lumotnomasi</div>
+                    <div class="hj-doc-desc">
+                        Fuqarolik pasporti <strong>yoki</strong> ichki ishlar bo'limlari tomonidan berilgan
+                        <strong>09-shakl</strong> bo'yicha jismoniy shaxsning shaxsiy identifikatsiya raqami,
+                        pasport seriyasi va raqami ko'rsatilgan ma'lumotnoma.
+                    </div>
+                </div>
+                <span class="hj-doc-badge majburiy"><i class="fas fa-asterisk"></i> Majburiy</span>
+            </div>
+
+            <!-- 2 -->
+            <div class="hj-doc-card">
+                <div class="hj-doc-num">2</div>
+                <div class="hj-doc-body">
+                    <div class="hj-doc-title">Tug'ilganlik to'g'risidagi guvohnoma</div>
+                    <div class="hj-doc-desc">
+                        Faqat <strong>pasport yoshiga yetmagan</strong> abituriyentlar uchun talab etiladi.
+                        Pasport olgan abituriyentlar ushbu hujjatni taqdim etmaydi.
+                    </div>
+                </div>
+                <span class="hj-doc-badge shartli"><i class="fas fa-user-clock"></i> Yoshga ko'ra</span>
+            </div>
+
+            <!-- 3 -->
+            <div class="hj-doc-card">
+                <div class="hj-doc-num">3</div>
+                <div class="hj-doc-body">
+                    <div class="hj-doc-title">Ta'lim muassasasini tugatganligi haqidagi hujjat</div>
+                    <div class="hj-doc-desc">
+                        Umumiy o'rta ta'lim (<strong>11-sinf</strong> negizida) yoki o'rta maxsus,
+                        kasb-hunar ta'limi muassasasini tugatganligi haqidagi hujjat <strong>ilovasi bilan</strong>.
+                        Ma'lumotlar <strong>tizimda avtomatik tarzda chiqadi</strong>.
+                    </div>
+                </div>
+                <span class="hj-doc-badge auto"><i class="fas fa-magic"></i> Avtomatik</span>
+            </div>
+
+            <!-- 4 -->
+            <div class="hj-doc-card">
+                <div class="hj-doc-num">4</div>
+                <div class="hj-doc-body">
+                    <div class="hj-doc-title">Imtiyoz huquqini tasdiqlovchi hujjat</div>
+                    <div class="hj-doc-desc">
+                        <strong>O'zbekiston Respublikasi Prezidentining hamda Vazirlar Mahkamasining</strong>
+                        normativ-huquqiy hujjatlarida belgilangan tartibda imtiyozga ega bo'lgan
+                        abituriyentlar uchun. Imtiyozga ega bo'lmagan abituriyentlar bu hujjatni topshirmaydi.
+                    </div>
+                </div>
+                <span class="hj-doc-badge shartli"><i class="fas fa-medal"></i> Imtiyozlilar uchun</span>
+            </div>
+
+            <!-- 5 -->
+            <div class="hj-doc-card">
+                <div class="hj-doc-num">5</div>
+                <div class="hj-doc-body">
+                    <div class="hj-doc-title">To'lov varaqasi (kvitansiya)</div>
+                    <div class="hj-doc-desc">
+                        Test sinovlari tashkil etilayotgan <strong>o'quv yilidan avvalgi yillarda</strong>
+                        ta'lim muassasalarini tugatgan abituriyentlar uchun.
+                        Bazaviy hisoblash miqdorining <strong>yarim baravari</strong> miqdorida to'lovni
+                        amalga oshirganligi to'g'risida kvitansiya.
+                        <em style="color:#94a3b8;font-size:13px;">
+                            (Nogironligi bo'lgan yoki to'liq davlat ta'minotidagi shaxslar bundan mustasno)
+                        </em>
+                    </div>
+                </div>
+                <span class="hj-doc-badge shartli"><i class="fas fa-receipt"></i> Oldingi yil bitiruvchilar</span>
+            </div>
+
+        </div><!-- /.hj-docs-list -->
+    </div>
+</section>
+
+<!-- ══ QADAMLAR ══════════════════════════════════════ -->
+<section class="hj-section hj-section-gray">
+    <div class="hj-cont">
+        <div class="hj-section-head">
+            <div class="hj-tag"><i class="fas fa-list-ol"></i> Jarayon</div>
+            <h2 class="hj-h2">Ro'yxatdan o'tish qadamlari</h2>
+            <p class="hj-lead">Ariza topshirishdan testgacha bo'lgan to'rt bosqich.</p>
+        </div>
+
+        <div class="hj-steps">
+            <div class="hj-step">
+                <div class="hj-step-num">1</div>
+                <div class="hj-step-title">my.uzbmb.uz saytiga kiring</div>
+                <div class="hj-step-desc">Bilim va malakalarni baholash agentligi rasmiy veb-saytini oching va shaxsiy kabinetga kiring.</div>
+            </div>
+            <div class="hj-step">
+                <div class="hj-step-num">2</div>
+                <div class="hj-step-title">Hujjatlarni yuklang</div>
+                <div class="hj-step-desc">Yuqoridagi ro'yxatdagi zarur hujjatlarni sifatli rasmda skanerlang va tizimga yuklang.</div>
+            </div>
+            <div class="hj-step">
+                <div class="hj-step-num">3</div>
+                <div class="hj-step-title">Fanlar va sharoitni tanlang</div>
+                <div class="hj-step-desc">Test topshiriladigan <strong>fanlar majmuasi</strong>, <strong>ta'lim tili</strong> va <strong>test topshirish hududi</strong>ni tanlang.</div>
+            </div>
+            <div class="hj-step">
+                <div class="hj-step-num">4</div>
+                <div class="hj-step-title">Tasdiqlang va kutib turing</div>
+                <div class="hj-step-desc">Arizani tasdiqlang. Test sinovi jadvalini SMS yoki shaxsiy kabinet orqali kuzating.</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ MUDDAT BANNER ══════════════════════════════════ -->
+<div class="hj-cont">
+    <div class="hj-muddat-banner">
+        <div class="hj-muddat-left">
+            <div class="hj-muddat-label"><i class="fas fa-clock"></i> Ro'yxatdan o'tish muddati</div>
+            <div class="hj-muddat-title">5-iyundan 25-iyungacha<br>ariza qabul qilinadi</div>
+            <div class="hj-muddat-sub">
+                25-iyun kuni ham ariza qabul qilinadi. Muddatni o'tkazib yubormang —
+                kech qolganlar ro'yxatga kiritilmaydi.
+            </div>
+        </div>
+        <div class="hj-muddat-dates">
+            <div class="hj-date-box">
+                <div class="hj-date-num">5</div>
+                <div class="hj-date-mon">Iyun</div>
+            </div>
+            <div style="display:flex;align-items:center;color:rgba(255,255,255,0.4);font-size:22px;font-weight:900;">—</div>
+            <div class="hj-date-box">
+                <div class="hj-date-num">25</div>
+                <div class="hj-date-mon">Iyun</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ══ RO'YXATDAN O'TISH ══════════════════════════════ -->
+<section class="hj-section">
+    <div class="hj-cont">
+        <div class="hj-section-head">
+            <div class="hj-tag"><i class="fas fa-user-check"></i> Ro'yxatdan o'tish</div>
+            <h2 class="hj-h2">Ariza topshirish va tanlov</h2>
+            <p class="hj-lead">Ro'yxatdan o'tish va test sinoviga tayyorlanish uchun foydali ma'lumotlar.</p>
+        </div>
+
+        <div class="hj-reg-grid">
+            <div class="hj-reg-card">
+                <div class="hj-reg-icon"><i class="fas fa-globe"></i></div>
+                <div class="hj-reg-title">Online ro'yxatdan o'tish</div>
+                <ul class="hj-reg-list">
+                    <li><span class="dot"><i class="fas fa-check"></i></span> my.uzbmb.uz saytiga kiring</li>
+                    <li><span class="dot"><i class="fas fa-check"></i></span> Shaxsiy kabinetni oching yoki yangi hisob yarating</li>
+                    <li><span class="dot"><i class="fas fa-check"></i></span> Test topshiradigan fanlar majmuasini tanlang</li>
+                    <li><span class="dot"><i class="fas fa-check"></i></span> Ta'lim tilini belgilang (O'zbek / Rus)</li>
+                    <li><span class="dot"><i class="fas fa-check"></i></span> Test topshirish hududini tanlang</li>
+                    <li><span class="dot"><i class="fas fa-check"></i></span> Hujjatlarni yuklang va arizani yuboring</li>
+                </ul>
+                <a href="https://my.uzbmb.uz" target="_blank" class="hj-reg-btn">
+                    <i class="fas fa-external-link-alt"></i> my.uzbmb.uz ga o'tish
+                </a>
+            </div>
+
+            <div class="hj-reg-card">
+                <div class="hj-reg-icon"><i class="fas fa-info-circle"></i></div>
+                <div class="hj-reg-title">Muhim ma'lumotlar</div>
+                <ul class="hj-reg-list">
+                    <li><span class="dot"><i class="fas fa-map-marker-alt"></i></span> Yashash joyidan <strong>qat'i nazar</strong> har qanday hududda topshirish mumkin</li>
+                    <li><span class="dot"><i class="fas fa-calendar-check"></i></span> Ro'yxat muddati: <strong>5 – 25 iyun</strong> (shu kuni ham)</li>
+                    <li><span class="dot"><i class="fas fa-money-bill-wave"></i></span> Joriy yil bitiruvchilari uchun to'lov <strong>talab etilmaydi</strong></li>
+                    <li><span class="dot"><i class="fas fa-receipt"></i></span> Oldingi yil bitiruvchilari BHM ning <strong>½ miqdorida</strong> to'lov qiladi</li>
+                    <li><span class="dot"><i class="fas fa-phone-alt"></i></span> Savollar uchun: <strong>+998 95 260-11-12</strong></li>
+                </ul>
+                <a href="{% url 'main:hujjat_topshirish' %}" class="hj-reg-btn outline">
+                    <i class="fas fa-file-upload"></i> Universitetga hujjat topshirish
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ══ CTA ════════════════════════════════════════════ -->
+<div class="hj-cont hj-cta-outer">
+    <div class="hj-cta">
+        <div>
+            <div class="hj-cta-title">Hujjatlaringizni tayyorladingizmi?</div>
+            <p class="hj-cta-sub">Hoziroq ariza yuboring va kelajak mutaxassisiga aylanish yo'lida birinchi qadamni qo'ying.</p>
+        </div>
+        <a href="{% url 'main:hujjat_topshirish' %}" class="hj-cta-btn">
+            <i class="fas fa-arrow-right"></i> Hujjat topshirish
+        </a>
+    </div>
+</div>
+
+</div><!-- /.hj-wrap -->
+{% endblock %}
