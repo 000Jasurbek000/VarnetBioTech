@@ -1,17 +1,17 @@
-﻿{% load static %}
+﻿{% load static i18n varnet_extras %}
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}Varnet Biotech University{% endblock %}</title>
+    <title>{% block title %}{% translate "Varnet Biotech University" %}{% endblock %}</title>
 
-    <meta name="description" content="{% block meta_description %}Varnet Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi.{% endblock %}">
+    <meta name="description" content="{% block meta_description %}{% translate "Varnet Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi." %}{% endblock %}">
     <meta name="theme-color" content="#22804F">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="Varnet Biotech University">
-    <meta property="og:title" content="{% block og_title %}Varnet Biotexnologiyalar Universiteti{% endblock %}">
-    <meta property="og:description" content="{% block og_description %}Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi.{% endblock %}">
+    <meta property="og:title" content="{% block og_title %}{% translate "Varnet Biotexnologiyalar Universiteti" %}{% endblock %}">
+    <meta property="og:description" content="{% block og_description %}{% translate "Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi." %}{% endblock %}">
     <meta property="og:image" content="{% static 'images/logo.png' %}">
     <meta name="twitter:card" content="summary_large_image">
 
@@ -25,46 +25,54 @@
     {% block extra_css %}{% endblock %}
 </head>
 <body>
-    <a href="#main-content" class="skip-link">Asosiy kontentga o'tish</a>
+    <a href="#main-content" class="skip-link">{% translate "Asosiy kontentga o'tish" %}</a>
 
     <!-- Top Info Bar -->
     <div class="top-bar">
         <div class="container">
             <div class="top-bar-left">
                 <div class="top-contact">
-                    <span><strong>Call markaz</strong></span>
+                    <span><strong>{% translate "Call markaz" %}</strong></span>
                     <span><a href="tel:+998952601112">+998 95 260-11-12</a></span>
                 </div>
                 <div class="top-contact">
-                    <span><strong>Murojaat uchun email</strong></span>
+                    <span><strong>{% translate "Murojaat uchun email" %}</strong></span>
                     <span><a href="mailto:info@varnet.uz">info@varnet.uz</a></span>
                 </div>
             </div>
             <div class="top-bar-center">
-                <a href="https://gov.uz" target="_blank" rel="noopener">O'zbekiston Respublikasi hukumat portali</a>
-                <a href="https://dtm.uz" target="_blank" rel="noopener">Davlat test markazi</a>
-                <a href="https://yoshlar.gov.uz" target="_blank" rel="noopener">Yoshlar daftari</a>
+                <a href="https://gov.uz" target="_blank" rel="noopener">{% translate "O'zbekiston Respublikasi hukumat portali" %}</a>
+                <a href="https://dtm.uz" target="_blank" rel="noopener">{% translate "Davlat test markazi" %}</a>
+                <a href="https://yoshlar.gov.uz" target="_blank" rel="noopener">{% translate "Yoshlar daftari" %}</a>
             </div>
             <div class="top-bar-right">
                 <div class="top-social">
-                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a>
-                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                    <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="{% translate 'Instagram' %}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                    <a href="https://t.me" target="_blank" rel="noopener" aria-label="{% translate 'Telegram' %}"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+                    <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="{% translate 'Facebook' %}"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                    <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="{% translate 'YouTube' %}"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                 </div>
                 <div class="top-lang">
                     <div class="lang-dropdown" id="langDropdown">
-                        <button type="button" class="lang-trigger" onclick="toggleLangMenu()" aria-haspopup="true" aria-expanded="false">
-                            <img src="https://flagcdn.com/w20/uz.png" alt="" id="activeLangFlag" width="22" height="15">
-                            <span id="activeLangText">O'zbekcha</span>
+                        <button type="button" class="lang-trigger" onclick="toggleLangMenu()"
+                                aria-haspopup="true" aria-expanded="false" aria-controls="langMenu">
+                            {% for code, name in LANGUAGES %}{% if code == LANGUAGE_CODE %}
+                            <img src="https://flagcdn.com/w20/{{ code|language_flag }}.png" alt="" width="22" height="15">
+                            <span>{{ name }}</span>
+                            {% endif %}{% endfor %}
                             <i class="fas fa-chevron-up" id="langArrow" aria-hidden="true"></i>
                         </button>
-                        <ul class="lang-menu" id="langMenu">
-                            <li><a href="#" onclick="setLang(event, 'uz', 'O\'zbekcha')"><img src="https://flagcdn.com/w20/uz.png" alt="" width="20" height="15"> O'zbekcha</a></li>
-                            <li><a href="#" onclick="setLang(event, 'tr', 'Turkcha')"><img src="https://flagcdn.com/w20/tr.png" alt="" width="20" height="15"> Turkcha</a></li>
-                            <li><a href="#" onclick="setLang(event, 'ru', 'Ruscha')"><img src="https://flagcdn.com/w20/ru.png" alt="" width="20" height="15"> Ruscha</a></li>
-                            <li><a href="#" onclick="setLang(event, 'gb', 'English')"><img src="https://flagcdn.com/w20/gb.png" alt="" width="20" height="15"> English</a></li>
-                        </ul>
+                        <form class="lang-menu" id="langMenu" action="{% url 'set_language' %}" method="post">
+                            {% csrf_token %}
+                            <input type="hidden" name="next" value="{{ request.get_full_path }}">
+                            {% for code, name in LANGUAGES %}
+                            <button type="submit" name="language" value="{{ code }}"
+                                    class="lang-option{% if code == LANGUAGE_CODE %} active{% endif %}">
+                                <img src="https://flagcdn.com/w20/{{ code|language_flag }}.png" alt="" width="20" height="15">
+                                {{ name }}
+                            </button>
+                            {% endfor %}
+                        </form>
                     </div>
                 </div>
             </div>
@@ -72,79 +80,79 @@
     </div>
 
     <!-- Navigation -->
-    <nav class="navbar" aria-label="Asosiy navigatsiya">
+    <nav class="navbar" aria-label="{% translate 'Asosiy navigatsiya' %}">
         <div class="container">
             <div class="logo">
-                <a href="{% url 'main:home' %}" aria-label="Bosh sahifa">
+                <a href="{% url 'main:home' %}" aria-label="{% translate 'Bosh sahifa' %}">
                     <img src="{% static 'images/logo.png' %}" id="navbar-logo" class="navbar-logo-img"
-                         alt="Varnet Biotexnologiyalar Universiteti" width="190" height="46">
+                         alt="{% translate 'Varnet Biotexnologiyalar Universiteti' %}" width="190" height="46">
                 </a>
             </div>
 
             <button type="button" class="nav-toggle" id="navToggle"
-                    aria-label="Menyuni ochish" aria-expanded="false" aria-controls="navMenu">
+                    aria-label="{% translate 'Menyuni ochish' %}" aria-expanded="false" aria-controls="navMenu">
                 <span></span><span></span><span></span>
             </button>
 
             <ul class="nav-menu" id="navMenu">
                 <li class="nav-close-wrap">
-                    <button type="button" class="nav-close" id="navClose" aria-label="Menyuni yopish">
+                    <button type="button" class="nav-close" id="navClose" aria-label="{% translate 'Menyuni yopish' %}">
                         <i class="fas fa-times" aria-hidden="true"></i>
                     </button>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{% url 'main:universitet_haqida' %}">Universitet <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="{% url 'main:universitet_haqida' %}">{% translate "Universitet" %} <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown">
-                        <a href="{% url 'main:universitet_haqida' %}"><i class="fas fa-university" aria-hidden="true"></i> Universitet haqida</a>
-                        <a href="{% url 'main:structure' %}"><i class="fas fa-sitemap" aria-hidden="true"></i> Tuzilma</a>
-                        <a href="{% url 'main:rahbariyat' %}"><i class="fas fa-user-tie" aria-hidden="true"></i> Rahbariyat</a>
+                        <a href="{% url 'main:universitet_haqida' %}"><i class="fas fa-university" aria-hidden="true"></i> {% translate "Universitet haqida" %}</a>
+                        <a href="{% url 'main:structure' %}"><i class="fas fa-sitemap" aria-hidden="true"></i> {% translate "Tuzilma" %}</a>
+                        <a href="{% url 'main:rahbariyat' %}"><i class="fas fa-user-tie" aria-hidden="true"></i> {% translate "Rahbariyat" %}</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{% url 'main:ilmiy_faoliyat' %}">Faoliyat <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="{% url 'main:ilmiy_faoliyat' %}">{% translate "Faoliyat" %} <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown">
-                        <a href="{% url 'main:ilmiy_faoliyat' %}"><i class="fas fa-flask" aria-hidden="true"></i> Ilmiy faoliyat</a>
-                        <a href="{% url 'main:barqaror_rivojlanish' %}"><i class="fas fa-leaf" aria-hidden="true"></i> Barqaror rivojlanish</a>
-                        <a href="{% url 'main:moliyaviy_faoliyat' %}"><i class="fas fa-chart-line" aria-hidden="true"></i> Moliyaviy faoliyat</a>
-                        <a href="{% url 'main:sport_va_hordiq' %}"><i class="fas fa-running" aria-hidden="true"></i> Sport va hordiq</a>
+                        <a href="{% url 'main:ilmiy_faoliyat' %}"><i class="fas fa-flask" aria-hidden="true"></i> {% translate "Ilmiy faoliyat" %}</a>
+                        <a href="{% url 'main:barqaror_rivojlanish' %}"><i class="fas fa-leaf" aria-hidden="true"></i> {% translate "Barqaror rivojlanish" %}</a>
+                        <a href="{% url 'main:moliyaviy_faoliyat' %}"><i class="fas fa-chart-line" aria-hidden="true"></i> {% translate "Moliyaviy faoliyat" %}</a>
+                        <a href="{% url 'main:sport_va_hordiq' %}"><i class="fas fa-running" aria-hidden="true"></i> {% translate "Sport va hordiq" %}</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{% url 'main:malaka_oshirish' %}">Talabalarga <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="{% url 'main:malaka_oshirish' %}">{% translate "Talabalarga" %} <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown">
-                        <a href="{% url 'main:malaka_oshirish' %}"><i class="fas fa-certificate" aria-hidden="true"></i> Malaka oshirish</a>
-                        <a href="{% url 'main:ekofaol_talabalar' %}"><i class="fas fa-seedling" aria-hidden="true"></i> Ekofaol talabalar</a>
+                        <a href="{% url 'main:malaka_oshirish' %}"><i class="fas fa-certificate" aria-hidden="true"></i> {% translate "Malaka oshirish" %}</a>
+                        <a href="{% url 'main:ekofaol_talabalar' %}"><i class="fas fa-seedling" aria-hidden="true"></i> {% translate "Ekofaol talabalar" %}</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{% url 'main:bakalavr_qabuli' %}">Qabul <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="{% url 'main:bakalavr_qabuli' %}">{% translate "Qabul" %} <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown">
-                        <a href="{% url 'main:bakalavr_qabuli' %}"><i class="fas fa-user-plus" aria-hidden="true"></i> Bakalavr qabuli</a>
-                        <a href="{% url 'main:magistr_qabuli' %}"><i class="fas fa-user-graduate" aria-hidden="true"></i> Magistr qabuli</a>
-                        <a href="{% url 'main:topshiriladigan_hujjatlar' %}"><i class="fas fa-folder" aria-hidden="true"></i> Topshiriladigan hujjatlar</a>
-                        <a href="{% url 'main:kvota_va_ballar' %}"><i class="fas fa-list-ol" aria-hidden="true"></i> Kvota va ballar</a>
+                        <a href="{% url 'main:bakalavr_qabuli' %}"><i class="fas fa-user-plus" aria-hidden="true"></i> {% translate "Bakalavr qabuli" %}</a>
+                        <a href="{% url 'main:magistr_qabuli' %}"><i class="fas fa-user-graduate" aria-hidden="true"></i> {% translate "Magistr qabuli" %}</a>
+                        <a href="{% url 'main:topshiriladigan_hujjatlar' %}"><i class="fas fa-folder" aria-hidden="true"></i> {% translate "Topshiriladigan hujjatlar" %}</a>
+                        <a href="{% url 'main:kvota_va_ballar' %}"><i class="fas fa-list-ol" aria-hidden="true"></i> {% translate "Kvota va ballar" %}</a>
                     </div>
                 </li>
 
                 <li class="nav-item">
-                    <a href="{% url 'main:normativ_hujjatlar' %}">Hujjatlar <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
+                    <a href="{% url 'main:normativ_hujjatlar' %}">{% translate "Hujjatlar" %} <i class="fas fa-chevron-down" aria-hidden="true"></i></a>
                     <div class="dropdown">
-                        <a href="{% url 'main:normativ_hujjatlar' %}"><i class="fas fa-balance-scale" aria-hidden="true"></i> Normativ hujjatlar</a>
-                        <a href="{% url 'main:topshiriladigan_hujjatlar' %}"><i class="fas fa-folder" aria-hidden="true"></i> Topshiriladigan hujjatlar</a>
+                        <a href="{% url 'main:normativ_hujjatlar' %}"><i class="fas fa-balance-scale" aria-hidden="true"></i> {% translate "Normativ hujjatlar" %}</a>
+                        <a href="{% url 'main:topshiriladigan_hujjatlar' %}"><i class="fas fa-folder" aria-hidden="true"></i> {% translate "Topshiriladigan hujjatlar" %}</a>
                     </div>
                 </li>
 
-                <li><a href="https://arm.ssuv.uz/" target="_blank" rel="noopener">Kutubxona</a></li>
-                <li><a href="{% url 'main:yangiliklar' %}">Yangiliklar</a></li>
-                <li><a href="{% url 'main:elonlar' %}">E'lonlar</a></li>
-                <li><a href="{% url 'main:aloqa' %}">Aloqa</a></li>
+                <li><a href="https://arm.ssuv.uz/" target="_blank" rel="noopener">{% translate "Kutubxona" %}</a></li>
+                <li><a href="{% url 'main:yangiliklar' %}">{% translate "Yangiliklar" %}</a></li>
+                <li><a href="{% url 'main:elonlar' %}">{% translate "E'lonlar" %}</a></li>
+                <li><a href="{% url 'main:aloqa' %}">{% translate "Aloqa" %}</a></li>
 
                 <li class="nav-cta">
-                    <a href="{% url 'main:hujjat_topshirish' %}" class="btn-primary">Hujjat Topshirish</a>
+                    <a href="{% url 'main:hujjat_topshirish' %}" class="btn-primary">{% translate "Hujjat Topshirish" %}</a>
                 </li>
             </ul>
         </div>
@@ -161,26 +169,26 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-section">
-                    <h3>Varnet Biotexnologiyalar Universiteti</h3>
-                    <p>Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi</p>
+                    <h3>{% translate "Varnet Biotexnologiyalar Universiteti" %}</h3>
+                    <p>{% translate "Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi" %}</p>
                 </div>
                 <div class="footer-section">
-                    <h3>Aloqa</h3>
-                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> Buxoro viloyati, Buxoro tumani, Sufiko'rg'ar MFY</p>
+                    <h3>{% translate "Aloqa" %}</h3>
+                    <p><i class="fas fa-map-marker-alt" aria-hidden="true"></i> {% translate "Buxoro viloyati, Buxoro tumani, Sufiko'rg'ar MFY" %}</p>
                     <p><i class="fas fa-phone" aria-hidden="true"></i> <a href="tel:+998952601112" class="footer-link">+998 95 260-11-12</a></p>
                     <p><i class="fas fa-envelope" aria-hidden="true"></i> <a href="mailto:info@varnet.uz" class="footer-link">info@varnet.uz</a></p>
-                    <p><i class="fas fa-calendar-times" aria-hidden="true"></i> Dam olish kuni: Yakshanba</p>
+                    <p><i class="fas fa-calendar-times" aria-hidden="true"></i> {% translate "Dam olish kuni: Yakshanba" %}</p>
                     <div class="footer-social">
-                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a href="https://t.me" target="_blank" rel="noopener" aria-label="Telegram"><i class="fab fa-telegram" aria-hidden="true"></i></a>
-                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube"><i class="fab fa-youtube" aria-hidden="true"></i></a>
+                        <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="{% translate 'Facebook' %}"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="{% translate 'Instagram' %}"><i class="fab fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://t.me" target="_blank" rel="noopener" aria-label="{% translate 'Telegram' %}"><i class="fab fa-telegram" aria-hidden="true"></i></a>
+                        <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="{% translate 'YouTube' %}"><i class="fab fa-youtube" aria-hidden="true"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
-                    <h3>Manzil</h3>
+                    <h3>{% translate "Manzil" %}</h3>
                     <iframe src="https://maps.google.com/maps?q=39.872242,64.328424&hl=uz&z=14&output=embed"
-                            width="100%" height="200" class="footer-map" title="Universitet joylashuvi xaritada"
+                            width="100%" height="200" class="footer-map" title="{% translate 'Universitet joylashuvi xaritada' %}"
                             allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>

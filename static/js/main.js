@@ -86,15 +86,6 @@
             if (arrow) arrow.style.transform = isOpen ? 'rotate(0deg)' : 'rotate(180deg)';
         };
 
-        window.setLang = function (event, code, name) {
-            event.preventDefault();
-            const flag = document.getElementById('activeLangFlag');
-            const text = document.getElementById('activeLangText');
-            if (flag) flag.src = 'https://flagcdn.com/w20/' + code + '.png';
-            if (text) text.textContent = name;
-            close();
-        };
-
         document.addEventListener('click', (e) => {
             if (!dropdown.contains(e.target)) close();
         });

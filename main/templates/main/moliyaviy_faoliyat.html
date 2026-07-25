@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Moliyaviy faoliyat — Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Moliyaviy faoliyat — Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/faoliyat/moliyaviy-faoliyat-hero.jpg' badge_icon='fa-chart-line' badge='Shaffof boshqaruv' title='Moliyaviy faoliyat' desc='Byudjetning samarali boshqaruvi, ochiq hisobotlilik va ta’lim sifatini qo‘llab-quvvatlovchi moliyaviy siyosat.' crumb='Moliyaviy faoliyat' %}
+{% translate "Shaffof boshqaruv" as sh_badge %}
+{% translate "Moliyaviy faoliyat" as sh_title %}
+{% translate "Byudjetning samarali boshqaruvi, ochiq hisobotlilik va ta’lim sifatini qo‘llab-quvvatlovchi moliyaviy siyosat." as sh_desc %}
+{% translate "Moliyaviy faoliyat" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/faoliyat/moliyaviy-faoliyat-hero.jpg' badge_icon='fa-chart-line' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="fl-stats">
     <div class="fl-container">
@@ -13,22 +17,22 @@
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-university"></i></div>
                 <div class="fl-stat-n">100%</div>
-                <div class="fl-stat-l">Yillik audit</div>
+                <div class="fl-stat-l">{% translate "Yillik audit" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-hand-holding-usd"></i></div>
                 <div class="fl-stat-n">35%</div>
-                <div class="fl-stat-l">Ilmga ajratilgan mablag‘</div>
+                <div class="fl-stat-l">{% translate "Ilmga ajratilgan mablag‘" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-graduation-cap"></i></div>
                 <div class="fl-stat-n">420</div>
-                <div class="fl-stat-l">Stipendiya oluvchilar</div>
+                <div class="fl-stat-l">{% translate "Stipendiya oluvchilar" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-file-invoice-dollar"></i></div>
                 <div class="fl-stat-n">12</div>
-                <div class="fl-stat-l">Ochiq hisobotlar</div>
+                <div class="fl-stat-l">{% translate "Ochiq hisobotlar" %}</div>
             </div>
         </div>
     </div>
@@ -38,21 +42,19 @@
     <div class="fl-container">
         <div class="fl-split">
             <div class="fl-split-img">
-                <img src="{% static 'images/faoliyat/moliyaviy-chart.jpg' %}" alt="Moliyaviy tahlil" loading="lazy" decoding="async">
+                <img src="{% static 'images/faoliyat/moliyaviy-chart.jpg' %}" alt="{% translate 'Moliyaviy tahlil' %}" loading="lazy" decoding="async">
             </div>
             <div class="fl-split-text">
-                <div class="fl-tag"><i class="fas fa-balance-scale"></i> Moliya siyosati</div>
-                <h2 class="fl-h2">Shaffof va maqsadli xarajatlar</h2>
+                <div class="fl-tag"><i class="fas fa-balance-scale"></i> {% translate "Moliya siyosati" %}</div>
+                <h2 class="fl-h2">{% translate "Shaffof va maqsadli xarajatlar" %}</h2>
                 <p class="fl-lead">
-                    Universitet moliyaviy faoliyati qonunchilikka mos, ichki nazorat
-                    va tashqi audit asosida yuritiladi. Asosiy e’tibor — ta’lim,
-                    ilm-fan va talabalar farovonligi.
+                    {% translate "Universitet moliyaviy faoliyati qonunchilikka mos, ichki nazorat va tashqi audit asosida yuritiladi. Asosiy e’tibor — ta’lim, ilm-fan va talabalar farovonligi." %}
                 </p>
                 <ul class="fl-check">
-                    <li><i class="fas fa-check"></i> Byudjet rejalashtirish va monitoring</li>
-                    <li><i class="fas fa-check"></i> Grant va investitsiya jalb qilish</li>
-                    <li><i class="fas fa-check"></i> Stipendiya va ijtimoiy qo‘llab-quvvatlash</li>
-                    <li><i class="fas fa-check"></i> Yillik moliyaviy hisobotlar nashri</li>
+                    <li><i class="fas fa-check"></i> {% translate "Byudjet rejalashtirish va monitoring" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Grant va investitsiya jalb qilish" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Stipendiya va ijtimoiy qo‘llab-quvvatlash" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Yillik moliyaviy hisobotlar nashri" %}</li>
                 </ul>
             </div>
         </div>
@@ -62,40 +64,40 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-coins"></i> Yo‘nalishlar</div>
-            <h2 class="fl-h2">Moliyaviy boshqaruv yo‘nalishlari</h2>
-            <p class="fl-sub">Mablag‘lar qayerga yo‘naltiriladi va qanday nazorat qilinadi.</p>
+            <div class="fl-tag"><i class="fas fa-coins"></i> {% translate "Yo‘nalishlar" %}</div>
+            <h2 class="fl-h2">{% translate "Moliyaviy boshqaruv yo‘nalishlari" %}</h2>
+            <p class="fl-sub">{% translate "Mablag‘lar qayerga yo‘naltiriladi va qanday nazorat qilinadi." %}</p>
         </div>
         <div class="fl-cards">
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-book"></i></div>
-                <h3>Ta’lim moliyasi</h3>
-                <p>O‘quv jarayoni, laboratoriyalar va o‘quv materiallarini moliyalashtirish.</p>
+                <h3>{% translate "Ta’lim moliyasi" %}</h3>
+                <p>{% translate "O‘quv jarayoni, laboratoriyalar va o‘quv materiallarini moliyalashtirish." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-flask"></i></div>
-                <h3>Ilmiy grantlar</h3>
-                <p>Tadqiqot loyihalari, patentlar va xalqaro hamkorlikni qo‘llab-quvvatlash.</p>
+                <h3>{% translate "Ilmiy grantlar" %}</h3>
+                <p>{% translate "Tadqiqot loyihalari, patentlar va xalqaro hamkorlikni qo‘llab-quvvatlash." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-user-graduate"></i></div>
-                <h3>Stipendiyalar</h3>
-                <p>Iqtidorli va ehtiyojmand talabalar uchun moliyaviy yordam dasturlari.</p>
+                <h3>{% translate "Stipendiyalar" %}</h3>
+                <p>{% translate "Iqtidorli va ehtiyojmand talabalar uchun moliyaviy yordam dasturlari." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-building"></i></div>
-                <h3>Infratuzilma</h3>
-                <p>Binolar, sport majmuasi va raqamli infratuzilmani rivojlantirish.</p>
+                <h3>{% translate "Infratuzilma" %}</h3>
+                <p>{% translate "Binolar, sport majmuasi va raqamli infratuzilmani rivojlantirish." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-search-dollar"></i></div>
-                <h3>Ichki audit</h3>
-                <p>Xarajatlarning maqsadliligi va qonuniyligini doimiy nazorat.</p>
+                <h3>{% translate "Ichki audit" %}</h3>
+                <p>{% translate "Xarajatlarning maqsadliligi va qonuniyligini doimiy nazorat." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-chart-bar"></i></div>
-                <h3>Hisobotlilik</h3>
-                <p>Ochiq moliyaviy ma’lumotlar va jamoatchilik uchun yillik hisobot.</p>
+                <h3>{% translate "Hisobotlilik" %}</h3>
+                <p>{% translate "Ochiq moliyaviy ma’lumotlar va jamoatchilik uchun yillik hisobot." %}</p>
             </article>
         </div>
     </div>
@@ -104,32 +106,32 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-folder-open"></i> Hujjatlar</div>
-            <h2 class="fl-h2">Moliyaviy hujjatlar va hisobotlar</h2>
-            <p class="fl-sub">Asosiy hujjatlar to‘plami (namuna bo‘limlari).</p>
+            <div class="fl-tag"><i class="fas fa-folder-open"></i> {% translate "Hujjatlar" %}</div>
+            <h2 class="fl-h2">{% translate "Moliyaviy hujjatlar va hisobotlar" %}</h2>
+            <p class="fl-sub">{% translate "Asosiy hujjatlar to‘plami (namuna bo‘limlari)." %}</p>
         </div>
         <div class="fl-docs">
             <a href="{% url 'main:normativ_hujjatlar' %}" class="fl-doc">
                 <i class="fas fa-file-pdf"></i>
                 <div>
-                    <strong>Yillik moliyaviy hisobot</strong>
-                    <span>Byudjet ijrosi va asosiy ko‘rsatkichlar</span>
+                    <strong>{% translate "Yillik moliyaviy hisobot" %}</strong>
+                    <span>{% translate "Byudjet ijrosi va asosiy ko‘rsatkichlar" %}</span>
                 </div>
                 <i class="fas fa-arrow-right"></i>
             </a>
             <a href="{% url 'main:normativ_hujjatlar' %}" class="fl-doc">
                 <i class="fas fa-file-pdf"></i>
                 <div>
-                    <strong>Xaridlar rejasining ochiqligi</strong>
-                    <span>Davlat xaridlari va tender ma’lumotlari</span>
+                    <strong>{% translate "Xaridlar rejasining ochiqligi" %}</strong>
+                    <span>{% translate "Davlat xaridlari va tender ma’lumotlari" %}</span>
                 </div>
                 <i class="fas fa-arrow-right"></i>
             </a>
             <a href="{% url 'main:normativ_hujjatlar' %}" class="fl-doc">
                 <i class="fas fa-file-pdf"></i>
                 <div>
-                    <strong>Stipendiya nizomi</strong>
-                    <span>Talabalarni moliyaviy qo‘llab-quvvatlash tartibi</span>
+                    <strong>{% translate "Stipendiya nizomi" %}</strong>
+                    <span>{% translate "Talabalarni moliyaviy qo‘llab-quvvatlash tartibi" %}</span>
                 </div>
                 <i class="fas fa-arrow-right"></i>
             </a>
@@ -141,10 +143,10 @@
     <div class="fl-container">
         <div class="fl-cta-box">
             <div>
-                <h2>Moliyaviy bo‘lim bilan bog‘laning</h2>
-                <p>Hisobotlar, to‘lovlar yoki stipendiyalar bo‘yicha savollaringiz bo‘lsa murojaat qiling.</p>
+                <h2>{% translate "Moliyaviy bo‘lim bilan bog‘laning" %}</h2>
+                <p>{% translate "Hisobotlar, to‘lovlar yoki stipendiyalar bo‘yicha savollaringiz bo‘lsa murojaat qiling." %}</p>
             </div>
-            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-phone"></i> Aloqa</a>
+            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-phone"></i> {% translate "Aloqa" %}</a>
         </div>
     </div>
 </section>

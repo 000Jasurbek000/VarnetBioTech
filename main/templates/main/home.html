@@ -1,7 +1,7 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Varnet Biotech University - Bosh sahifa{% endblock %}
+{% block title %}{% translate "Varnet Biotech University - Bosh sahifa" %}{% endblock %}
 
 {% block content %}
 
@@ -9,7 +9,7 @@
 <section class="hero" id="bosh">
     <div class="container">
         <div class="hero-content">
-            <h2>Kelajak uchun Bilim, Innovatsiya, Biotexnologiya!</h2>
+            <h2>{% translate "Kelajak uchun Bilim, Innovatsiya, Biotexnologiya!" %}</h2>
             <p class="typing-slogan">
                 <span id="typed-text"></span>
                 <span class="cursor">|</span>
@@ -21,26 +21,26 @@
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-content">
-                        <h3>Zamonaviy ta'lim</h3>
-                        <p>Dunyo standartlariga mos ta'lim dasturlari va zamonaviy pedagogik texnologiyalar</p>
+                        <h3>{% translate "Zamonaviy ta'lim" %}</h3>
+                        <p>{% translate "Dunyo standartlariga mos ta'lim dasturlari va zamonaviy pedagogik texnologiyalar" %}</p>
                     </div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-content">
-                        <h3>Ilmiy tadqiqot</h3>
-                        <p>Zamonaviy laboratoriyalar va ilmiy markazlarda amaliy tadqiqotlar</p>
+                        <h3>{% translate "Ilmiy tadqiqot" %}</h3>
+                        <p>{% translate "Zamonaviy laboratoriyalar va ilmiy markazlarda amaliy tadqiqotlar" %}</p>
                     </div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-content">
-                        <h3>Yashil kelajak</h3>
-                        <p>Biotexnologiya va ekologiya yo'nalishida barqaror rivojlanish loyihalari</p>
+                        <h3>{% translate "Yashil kelajak" %}</h3>
+                        <p>{% translate "Biotexnologiya va ekologiya yo'nalishida barqaror rivojlanish loyihalari" %}</p>
                     </div>
                 </div>
                 <div class="feature-card">
                     <div class="feature-content">
-                        <h3>Global imkoniyatlar</h3>
-                        <p>Jahon universitetlari bilan hamkorlik va xalqaro almashinuv dasturlari</p>
+                        <h3>{% translate "Global imkoniyatlar" %}</h3>
+                        <p>{% translate "Jahon universitetlari bilan hamkorlik va xalqaro almashinuv dasturlari" %}</p>
                     </div>
                 </div>
             </div>
@@ -55,32 +55,32 @@
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-user-graduate"></i></div>
                 <div class="hm-stat-num" data-target="5420">5 420</div>
-                <div class="hm-stat-lbl">Faol talabalar</div>
+                <div class="hm-stat-lbl">{% translate "Faol talabalar" %}</div>
             </div>
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-chalkboard-teacher"></i></div>
                 <div class="hm-stat-num">320+</div>
-                <div class="hm-stat-lbl">Professor-o'qituvchilar</div>
+                <div class="hm-stat-lbl">{% translate "Professor-o'qituvchilar" %}</div>
             </div>
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-book-open"></i></div>
                 <div class="hm-stat-num">45</div>
-                <div class="hm-stat-lbl">Ta'lim yo'nalishlari</div>
+                <div class="hm-stat-lbl">{% translate "Ta'lim yo'nalishlari" %}</div>
             </div>
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-globe-asia"></i></div>
                 <div class="hm-stat-num">18</div>
-                <div class="hm-stat-lbl">Xalqaro hamkorlar</div>
+                <div class="hm-stat-lbl">{% translate "Xalqaro hamkorlar" %}</div>
             </div>
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-flask"></i></div>
                 <div class="hm-stat-num">12</div>
-                <div class="hm-stat-lbl">Ilmiy laboratoriyalar</div>
+                <div class="hm-stat-lbl">{% translate "Ilmiy laboratoriyalar" %}</div>
             </div>
             <div class="hm-stat-item">
                 <div class="hm-stat-icon"><i class="fas fa-briefcase"></i></div>
                 <div class="hm-stat-num">92%</div>
-                <div class="hm-stat-lbl">Bandlik darajasi</div>
+                <div class="hm-stat-lbl">{% translate "Bandlik darajasi" %}</div>
             </div>
         </div>
     </div>
@@ -93,34 +93,31 @@
             <div class="hm-about-img-side">
                 <div class="hm-about-img-wrap">
                     <img src="https://images.unsplash.com/photo-1532094349884-543bc11b234d?w=900&q=80"
-                         alt="Laboratoriya"
+                         alt="{% translate 'Laboratoriya' %}"
                          onerror="this.src='https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=900'" loading="lazy" decoding="async">
                     <div class="hm-about-float-badge">
                         <strong>2018</strong>
-                        <span>yildan beri</span>
+                        <span>{% translate "yildan beri" %}</span>
                     </div>
                 </div>
             </div>
             <div class="hm-about-text-side">
-                <div class="hm-section-tag"><i class="fas fa-university"></i> Biz haqimizda</div>
-                <h2 class="hm-section-h2">Biotexnologiya sohasida <em>yetakchi</em> ta'lim maskani</h2>
+                <div class="hm-section-tag"><i class="fas fa-university"></i> {% translate "Biz haqimizda" %}</div>
+                <h2 class="hm-section-h2">{% blocktranslate %}Biotexnologiya sohasida <em>yetakchi</em> ta'lim maskani{% endblocktranslate %}</h2>
                 <p class="hm-about-p">
-                    <strong style="color:#059669;">Varnet Biotexnologiyalar Universiteti</strong> — zamonaviy
-                    biotexnologiya, ekologiya va innovatsiyalar sohasida yuqori malakali
-                    mutaxassislar tayyorlaydigan yetakchi oliy ta'lim muassasasi.
+                    <strong style="color:#059669;">{% translate "Varnet Biotexnologiyalar Universiteti" %}</strong> {% translate "— zamonaviy biotexnologiya, ekologiya va innovatsiyalar sohasida yuqori malakali mutaxassislar tayyorlaydigan yetakchi oliy ta'lim muassasasi." %}
                 </p>
                 <p class="hm-about-p">
-                    Har bir bitiruvchimiz kelajakka tayyor, global standartlarga mos
-                    bilim va amaliy ko'nikmalar bilan qurollangan holda chiqadi.
+                    {% translate "Har bir bitiruvchimiz kelajakka tayyor, global standartlarga mos bilim va amaliy ko'nikmalar bilan qurollangan holda chiqadi." %}
                 </p>
                 <ul class="hm-check-list">
-                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> Xalqaro andozalarga mos o'quv dasturlari</li>
-                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> 12 ta zamonaviy ilmiy laboratoriya</li>
-                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> 18 ta xalqaro universitetlar bilan hamkorlik</li>
-                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> Bitiruvchilarning 92% ish bilan ta'minlangan</li>
+                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> {% translate "Xalqaro andozalarga mos o'quv dasturlari" %}</li>
+                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> {% translate "12 ta zamonaviy ilmiy laboratoriya" %}</li>
+                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> {% translate "18 ta xalqaro universitetlar bilan hamkorlik" %}</li>
+                    <li><span class="hm-check-ico"><i class="fas fa-check"></i></span> {% translate "Bitiruvchilarning 92% ish bilan ta'minlangan" %}</li>
                 </ul>
                 <a href="{% url 'main:universitet_haqida' %}" class="hm-btn-green">
-                    <i class="fas fa-arrow-right"></i> Batafsil o'qish
+                    <i class="fas fa-arrow-right"></i> {% translate "Batafsil o'qish" %}
                 </a>
             </div>
         </div>
@@ -131,87 +128,87 @@
 <section class="hm-fak-section">
     <div class="hm-container">
         <div class="hm-section-head">
-            <div class="hm-section-tag"><i class="fas fa-building"></i> Fakultetlar</div>
-            <h2 class="hm-section-h2">Bizning <em>fakultetlar</em></h2>
-            <p class="hm-section-sub">Har bir fakultet zamonaviy asbob-uskunalar va tajribali o'qituvchilar bilan jihozlangan.</p>
+            <div class="hm-section-tag"><i class="fas fa-building"></i> {% translate "Fakultetlar" %}</div>
+            <h2 class="hm-section-h2">{% blocktranslate %}Bizning <em>fakultetlar</em>{% endblocktranslate %}</h2>
+            <p class="hm-section-sub">{% translate "Har bir fakultet zamonaviy asbob-uskunalar va tajribali o'qituvchilar bilan jihozlangan." %}</p>
         </div>
         <div class="hm-fak-grid">
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&q=80" alt="Biotexnologiya" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1576086213369-97a306d36557?w=600&q=80" alt="{% translate 'Biotexnologiya' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-dna"></i></div>
-                    <h3 class="hm-fak-name">Biotexnologiya fakulteti</h3>
-                    <p class="hm-fak-desc">Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida chuqur bilim.</p>
-                    <span class="hm-fak-badge">12 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Biotexnologiya fakulteti" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida chuqur bilim." %}</p>
+                    <span class="hm-fak-badge">{% translate "12 yo'nalish" %}</span>
                 </div>
             </div>
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80" alt="Ekologiya" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&q=80" alt="{% translate 'Ekologiya' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-leaf"></i></div>
-                    <h3 class="hm-fak-name">Ekologiya va atrof-muhit</h3>
-                    <p class="hm-fak-desc">Tabiatni muhofaza qilish, ekologik monitoring va barqaror rivojlanish mutaxassislari.</p>
-                    <span class="hm-fak-badge">8 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Ekologiya va atrof-muhit" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Tabiatni muhofaza qilish, ekologik monitoring va barqaror rivojlanish mutaxassislari." %}</p>
+                    <span class="hm-fak-badge">{% translate "8 yo'nalish" %}</span>
                 </div>
             </div>
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="IT" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&q=80" alt="{% translate 'IT' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-microchip"></i></div>
-                    <h3 class="hm-fak-name">Innovatsion texnologiyalar</h3>
-                    <p class="hm-fak-desc">Sun'iy intellekt, raqamli texnologiyalar va bioxilma-xillik sohasida ta'lim.</p>
-                    <span class="hm-fak-badge">15 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Innovatsion texnologiyalar" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Sun'iy intellekt, raqamli texnologiyalar va bioxilma-xillik sohasida ta'lim." %}</p>
+                    <span class="hm-fak-badge">{% translate "15 yo'nalish" %}</span>
                 </div>
             </div>
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1563213126-a4273aed2016?w=600&q=80" alt="Kimyo" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1563213126-a4273aed2016?w=600&q=80" alt="{% translate 'Kimyo' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-flask"></i></div>
-                    <h3 class="hm-fak-name">Kimyo va farmatsevtika</h3>
-                    <p class="hm-fak-desc">Organik kimyo, dori-darmon ishlab chiqarish va farmatsevtik texnologiyalar.</p>
-                    <span class="hm-fak-badge">10 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Kimyo va farmatsevtika" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Organik kimyo, dori-darmon ishlab chiqarish va farmatsevtik texnologiyalar." %}</p>
+                    <span class="hm-fak-badge">{% translate "10 yo'nalish" %}</span>
                 </div>
             </div>
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80" alt="Agro" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=600&q=80" alt="{% translate 'Agro' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-seedling"></i></div>
-                    <h3 class="hm-fak-name">Agrobiotexnologiya</h3>
-                    <p class="hm-fak-desc">Qishloq xo'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy seleksiya.</p>
-                    <span class="hm-fak-badge">7 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Agrobiotexnologiya" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Qishloq xo'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy seleksiya." %}</p>
+                    <span class="hm-fak-badge">{% translate "7 yo'nalish" %}</span>
                 </div>
             </div>
             <div class="hm-fak-card">
                 <div class="hm-fak-img-wrap">
-                    <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80" alt="Tibbiy" loading="lazy" decoding="async">
+                    <img src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?w=600&q=80" alt="{% translate 'Tibbiy' %}" loading="lazy" decoding="async">
                     <div class="hm-fak-overlay"></div>
                 </div>
                 <div class="hm-fak-body">
                     <div class="hm-fak-ico"><i class="fas fa-heartbeat"></i></div>
-                    <h3 class="hm-fak-name">Tibbiy biotexnologiya</h3>
-                    <p class="hm-fak-desc">Tibbiyot maqsadlarida biologik texnologiyalar, tashxis va davolash tizimlari.</p>
-                    <span class="hm-fak-badge">9 yo'nalish</span>
+                    <h3 class="hm-fak-name">{% translate "Tibbiy biotexnologiya" %}</h3>
+                    <p class="hm-fak-desc">{% translate "Tibbiyot maqsadlarida biologik texnologiyalar, tashxis va davolash tizimlari." %}</p>
+                    <span class="hm-fak-badge">{% translate "9 yo'nalish" %}</span>
                 </div>
             </div>
         </div>
         <div class="hm-center-btn">
             <a href="{% url 'main:universitet_haqida' %}" class="hm-btn-outline">
-                <i class="fas fa-th-large"></i> Barcha yo'nalishlar
+                <i class="fas fa-th-large"></i> {% translate "Barcha yo'nalishlar" %}
             </a>
         </div>
     </div>
@@ -222,56 +219,56 @@
     <div class="hm-container">
         <div class="hm-section-head-row">
             <div>
-                <div class="hm-section-tag"><i class="fas fa-newspaper"></i> Yangiliklar</div>
-                <h2 class="hm-section-h2">So'nggi <em>yangiliklar</em></h2>
+                <div class="hm-section-tag"><i class="fas fa-newspaper"></i> {% translate "Yangiliklar" %}</div>
+                <h2 class="hm-section-h2">{% blocktranslate %}So'nggi <em>yangiliklar</em>{% endblocktranslate %}</h2>
             </div>
             <a href="{% url 'main:yangiliklar' %}" class="hm-btn-outline-sm">
-                Barchasini ko'rish <i class="fas fa-arrow-right"></i>
+                {% translate "Barchasini ko'rish" %} <i class="fas fa-arrow-right"></i>
             </a>
         </div>
         <div class="hm-news-grid">
             <!-- Katta karta -->
             <a href="{% url 'main:yangilik_detail' 1 %}" class="hm-news-card hm-news-card--big">
                 <div class="hm-news-img">
-                    <img src="https://picsum.photos/seed/news1/800/440" alt="Yangilik" loading="lazy" decoding="async">
-                    <div class="hm-news-cat">Universitetda</div>
+                    <img src="https://picsum.photos/seed/news1/800/440" alt="{% translate 'Yangilik' %}" loading="lazy" decoding="async">
+                    <div class="hm-news-cat">{% translate "Universitetda" %}</div>
                 </div>
                 <div class="hm-news-body">
                     <div class="hm-news-meta"><i class="fas fa-calendar-alt"></i> 25.04.2026 &nbsp;&bull;&nbsp; <i class="fas fa-eye"></i> 317</div>
-                    <h3 class="hm-news-title">Varnet Biotech universitetida xalqaro hamkorlik shartnomasi imzolandi</h3>
-                    <p class="hm-news-desc">Universitetimiz Yevropa va Osiyo universitetlari bilan yangi ilmiy hamkorlik shartnomalari imzoladi. Bu bitiruvchilarimiz uchun yangi imkoniyatlar ochadi.</p>
+                    <h3 class="hm-news-title">{% translate "Varnet Biotech universitetida xalqaro hamkorlik shartnomasi imzolandi" %}</h3>
+                    <p class="hm-news-desc">{% translate "Universitetimiz Yevropa va Osiyo universitetlari bilan yangi ilmiy hamkorlik shartnomalari imzoladi. Bu bitiruvchilarimiz uchun yangi imkoniyatlar ochadi." %}</p>
                 </div>
             </a>
             <!-- Kichik kartalar -->
             <div class="hm-news-side">
                 <a href="{% url 'main:yangilik_detail' 2 %}" class="hm-news-card hm-news-card--sm">
                     <div class="hm-news-img">
-                        <img src="https://picsum.photos/seed/news2/400/220" alt="Yangilik" loading="lazy" decoding="async">
-                        <div class="hm-news-cat">Tadbirlar</div>
+                        <img src="https://picsum.photos/seed/news2/400/220" alt="{% translate 'Yangilik' %}" loading="lazy" decoding="async">
+                        <div class="hm-news-cat">{% translate "Tadbirlar" %}</div>
                     </div>
                     <div class="hm-news-body">
                         <div class="hm-news-meta"><i class="fas fa-calendar-alt"></i> 25.04.2026</div>
-                        <h3 class="hm-news-title">2026-yil xalqaro ilmiy konferensiya muvaffaqiyatli o'tkazildi</h3>
+                        <h3 class="hm-news-title">{% translate "2026-yil xalqaro ilmiy konferensiya muvaffaqiyatli o'tkazildi" %}</h3>
                     </div>
                 </a>
                 <a href="{% url 'main:yangilik_detail' 3 %}" class="hm-news-card hm-news-card--sm">
                     <div class="hm-news-img">
-                        <img src="https://picsum.photos/seed/news3/400/220" alt="Yangilik" loading="lazy" decoding="async">
-                        <div class="hm-news-cat">Fan va texnologiya</div>
+                        <img src="https://picsum.photos/seed/news3/400/220" alt="{% translate 'Yangilik' %}" loading="lazy" decoding="async">
+                        <div class="hm-news-cat">{% translate "Fan va texnologiya" %}</div>
                     </div>
                     <div class="hm-news-body">
                         <div class="hm-news-meta"><i class="fas fa-calendar-alt"></i> 24.04.2026</div>
-                        <h3 class="hm-news-title">Biotexnologiya laboratoriyasi yangi uskunalar bilan jihozlandi</h3>
+                        <h3 class="hm-news-title">{% translate "Biotexnologiya laboratoriyasi yangi uskunalar bilan jihozlandi" %}</h3>
                     </div>
                 </a>
                 <a href="{% url 'main:elonlar' %}" class="hm-news-card hm-news-card--sm">
                     <div class="hm-news-img">
-                        <img src="https://picsum.photos/seed/news4/400/220" alt="E'lon" loading="lazy" decoding="async">
-                        <div class="hm-news-cat hm-news-cat--elon">E'lon</div>
+                        <img src="https://picsum.photos/seed/news4/400/220" alt="{% translate "E'lon" %}" loading="lazy" decoding="async">
+                        <div class="hm-news-cat hm-news-cat--elon">{% translate "E'lon" %}</div>
                     </div>
                     <div class="hm-news-body">
                         <div class="hm-news-meta"><i class="fas fa-calendar-alt"></i> 29.04.2026</div>
-                        <h3 class="hm-news-title">2026-2027 o'quv yiliga qabul hujjatlarini topshirish boshlandi</h3>
+                        <h3 class="hm-news-title">{% translate "2026-2027 o'quv yiliga qabul hujjatlarini topshirish boshlandi" %}</h3>
                     </div>
                 </a>
             </div>
@@ -284,60 +281,60 @@
     <div class="hm-container">
         <div class="hm-section-head-row">
             <div>
-                <div class="hm-section-tag"><i class="fas fa-user-tie"></i> Rahbariyat</div>
-                <h2 class="hm-section-h2">Universitet <em>rahbariyati</em></h2>
+                <div class="hm-section-tag"><i class="fas fa-user-tie"></i> {% translate "Rahbariyat" %}</div>
+                <h2 class="hm-section-h2">{% blocktranslate %}Universitet <em>rahbariyati</em>{% endblocktranslate %}</h2>
             </div>
             <a href="{% url 'main:rahbariyat' %}" class="hm-btn-outline-sm">
-                Barchasini ko'rish <i class="fas fa-arrow-right"></i>
+                {% translate "Barchasini ko'rish" %} <i class="fas fa-arrow-right"></i>
             </a>
         </div>
         <div class="hm-rh-grid">
             <a href="{% url 'main:rahbariyat_detail' 1 %}" class="hm-rh-card hm-rh-card--rektor">
                 <div class="hm-rh-img-wrap">
-                    <img src="https://picsum.photos/seed/rektor9/400/480" alt="Rektor" loading="lazy" decoding="async">
+                    <img src="https://picsum.photos/seed/rektor9/400/480" alt="{% translate 'Rektor' %}" loading="lazy" decoding="async">
                     <div class="hm-rh-overlay"></div>
-                    <span class="hm-rh-role-badge">Rektor</span>
+                    <span class="hm-rh-role-badge">{% translate "Rektor" %}</span>
                 </div>
                 <div class="hm-rh-body">
-                    <h3 class="hm-rh-name">Xamidov Obidjon Xafizovich</h3>
-                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> Iqtisod fanlari doktori</p>
-                    <p class="hm-rh-email"><i class="far fa-envelope"></i> buxdu_rektor@buxdu.uz</p>
+                    <h3 class="hm-rh-name">{% translate "Xamidov Obidjon Xafizovich" %}</h3>
+                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> {% translate "Iqtisod fanlari doktori" %}</p>
+                    <p class="hm-rh-email"><i class="far fa-envelope"></i> {% translate "buxdu_rektor@buxdu.uz" %}</p>
                 </div>
             </a>
             <a href="{% url 'main:rahbariyat_detail' 2 %}" class="hm-rh-card">
                 <div class="hm-rh-img-wrap">
-                    <img src="https://picsum.photos/seed/pror1b/400/480" alt="Prorektor" loading="lazy" decoding="async">
+                    <img src="https://picsum.photos/seed/pror1b/400/480" alt="{% translate 'Prorektor' %}" loading="lazy" decoding="async">
                     <div class="hm-rh-overlay"></div>
-                    <span class="hm-rh-role-badge">Birinchi prorektor</span>
+                    <span class="hm-rh-role-badge">{% translate "Birinchi prorektor" %}</span>
                 </div>
                 <div class="hm-rh-body">
-                    <h3 class="hm-rh-name">Qodirov Sherzod Baxtiyorovich</h3>
-                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> Pedagogika fanlari nomzodi</p>
-                    <p class="hm-rh-email"><i class="far fa-envelope"></i> qodirov@varnet.uz</p>
+                    <h3 class="hm-rh-name">{% translate "Qodirov Sherzod Baxtiyorovich" %}</h3>
+                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> {% translate "Pedagogika fanlari nomzodi" %}</p>
+                    <p class="hm-rh-email"><i class="far fa-envelope"></i> {% translate "qodirov@varnet.uz" %}</p>
                 </div>
             </a>
             <a href="{% url 'main:rahbariyat_detail' 3 %}" class="hm-rh-card">
                 <div class="hm-rh-img-wrap">
-                    <img src="https://picsum.photos/seed/pror2b/400/480" alt="Prorektor" loading="lazy" decoding="async">
+                    <img src="https://picsum.photos/seed/pror2b/400/480" alt="{% translate 'Prorektor' %}" loading="lazy" decoding="async">
                     <div class="hm-rh-overlay"></div>
-                    <span class="hm-rh-role-badge">Prorektor</span>
+                    <span class="hm-rh-role-badge">{% translate "Prorektor" %}</span>
                 </div>
                 <div class="hm-rh-body">
-                    <h3 class="hm-rh-name">Toshmatov Otabek Nematovich</h3>
-                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> Fizika-matematika fanlari nomzodi</p>
-                    <p class="hm-rh-email"><i class="far fa-envelope"></i> toshmatov@varnet.uz</p>
+                    <h3 class="hm-rh-name">{% translate "Toshmatov Otabek Nematovich" %}</h3>
+                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> {% translate "Fizika-matematika fanlari nomzodi" %}</p>
+                    <p class="hm-rh-email"><i class="far fa-envelope"></i> {% translate "toshmatov@varnet.uz" %}</p>
                 </div>
             </a>
             <a href="{% url 'main:rahbariyat_detail' 4 %}" class="hm-rh-card">
                 <div class="hm-rh-img-wrap">
-                    <img src="https://picsum.photos/seed/pror3g/400/480" alt="Prorektor" loading="lazy" decoding="async">
+                    <img src="https://picsum.photos/seed/pror3g/400/480" alt="{% translate 'Prorektor' %}" loading="lazy" decoding="async">
                     <div class="hm-rh-overlay"></div>
-                    <span class="hm-rh-role-badge">Prorektor</span>
+                    <span class="hm-rh-role-badge">{% translate "Prorektor" %}</span>
                 </div>
                 <div class="hm-rh-body">
-                    <h3 class="hm-rh-name">Yusupova Nilufar Akbarovna</h3>
-                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> Biologiya fanlari doktori</p>
-                    <p class="hm-rh-email"><i class="far fa-envelope"></i> yusupova@varnet.uz</p>
+                    <h3 class="hm-rh-name">{% translate "Yusupova Nilufar Akbarovna" %}</h3>
+                    <p class="hm-rh-degree"><i class="fas fa-graduation-cap"></i> {% translate "Biologiya fanlari doktori" %}</p>
+                    <p class="hm-rh-email"><i class="far fa-envelope"></i> {% translate "yusupova@varnet.uz" %}</p>
                 </div>
             </a>
         </div>
@@ -353,30 +350,30 @@
                 <div class="hm-cta-ring"></div>
             </div>
             <div class="hm-cta-left">
-                <div class="hm-cta-badge"><i class="fas fa-star"></i> Qabul 2026</div>
-                <h2 class="hm-cta-title">Kelajagingizni biz bilan quring!</h2>
-                <p class="hm-cta-sub">Hujjat topshiring va o'z sohangizdagi eng yaxshi mutaxassisga aylanish yo'lida birinchi qadamni qo'ying.</p>
+                <div class="hm-cta-badge"><i class="fas fa-star"></i> {% translate "Qabul 2026" %}</div>
+                <h2 class="hm-cta-title">{% translate "Kelajagingizni biz bilan quring!" %}</h2>
+                <p class="hm-cta-sub">{% translate "Hujjat topshiring va o'z sohangizdagi eng yaxshi mutaxassisga aylanish yo'lida birinchi qadamni qo'ying." %}</p>
                 <div class="hm-cta-btns">
                     <a href="{% url 'main:hujjat_topshirish' %}" class="hm-cta-btn-white">
-                        <i class="fas fa-file-alt"></i> Hujjat topshirish
+                        <i class="fas fa-file-alt"></i> {% translate "Hujjat topshirish" %}
                     </a>
                     <a href="{% url 'main:topshiriladigan_hujjatlar' %}" class="hm-cta-btn-ghost">
-                        <i class="fas fa-folder-open"></i> Kerakli hujjatlar
+                        <i class="fas fa-folder-open"></i> {% translate "Kerakli hujjatlar" %}
                     </a>
                 </div>
             </div>
             <div class="hm-cta-stats">
                 <div class="hm-cta-stat">
-                    <div class="hm-cta-stat-n">5 iyun</div>
-                    <div class="hm-cta-stat-l">Qabul boshlanishi</div>
+                    <div class="hm-cta-stat-n">{% translate "5 iyun" %}</div>
+                    <div class="hm-cta-stat-l">{% translate "Qabul boshlanishi" %}</div>
                 </div>
                 <div class="hm-cta-stat">
-                    <div class="hm-cta-stat-n">25 iyun</div>
-                    <div class="hm-cta-stat-l">Oxirgi muddat</div>
+                    <div class="hm-cta-stat-n">{% translate "25 iyun" %}</div>
+                    <div class="hm-cta-stat-l">{% translate "Oxirgi muddat" %}</div>
                 </div>
                 <div class="hm-cta-stat">
                     <div class="hm-cta-stat-n">45</div>
-                    <div class="hm-cta-stat-l">Ta'lim yo'nalishlari</div>
+                    <div class="hm-cta-stat-l">{% translate "Ta'lim yo'nalishlari" %}</div>
                 </div>
             </div>
         </div>
@@ -390,29 +387,29 @@
             <a href="tel:+998952601112" class="hm-contact-item">
                 <div class="hm-contact-ico"><i class="fas fa-phone-alt"></i></div>
                 <div>
-                    <div class="hm-contact-label">Call markaz</div>
+                    <div class="hm-contact-label">{% translate "Call markaz" %}</div>
                     <div class="hm-contact-val">+998 95 260-11-12</div>
                 </div>
             </a>
             <a href="mailto:info@varnet.uz" class="hm-contact-item">
                 <div class="hm-contact-ico"><i class="fas fa-envelope"></i></div>
                 <div>
-                    <div class="hm-contact-label">Email</div>
+                    <div class="hm-contact-label">{% translate "Email" %}</div>
                     <div class="hm-contact-val">info@varnet.uz</div>
                 </div>
             </a>
             <div class="hm-contact-item">
                 <div class="hm-contact-ico"><i class="fas fa-map-marker-alt"></i></div>
                 <div>
-                    <div class="hm-contact-label">Manzil</div>
-                    <div class="hm-contact-val">Buxoro viloyati, Sufiko'rg'ar MFY</div>
+                    <div class="hm-contact-label">{% translate "Manzil" %}</div>
+                    <div class="hm-contact-val">{% translate "Buxoro viloyati, Sufiko'rg'ar MFY" %}</div>
                 </div>
             </div>
             <a href="{% url 'main:aloqa' %}" class="hm-contact-item hm-contact-item--link">
                 <div class="hm-contact-ico"><i class="fas fa-arrow-right"></i></div>
                 <div>
-                    <div class="hm-contact-label">Batafsil</div>
-                    <div class="hm-contact-val">Aloqa sahifasi</div>
+                    <div class="hm-contact-label">{% translate "Batafsil" %}</div>
+                    <div class="hm-contact-val">{% translate "Aloqa sahifasi" %}</div>
                 </div>
             </a>
         </div>

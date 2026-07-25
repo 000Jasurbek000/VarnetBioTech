@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Ekofaol talabalar — Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Ekofaol talabalar — Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/subheader/talaba-ekofaol-hero.jpg' badge_icon='fa-seedling' badge='Talabalarga' title='Ekofaol talabalar' desc='Yashil tashabbuslar, volontyorlik va barqaror kampus — talabalar ekologik harakatining markazi.' crumb='Ekofaol talabalar' %}
+{% translate "Talabalarga" as sh_badge %}
+{% translate "Ekofaol talabalar" as sh_title %}
+{% translate "Yashil tashabbuslar, volontyorlik va barqaror kampus — talabalar ekologik harakatining markazi." as sh_desc %}
+{% translate "Ekofaol talabalar" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/talaba-ekofaol-hero.jpg' badge_icon='fa-seedling' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="fl-stats">
     <div class="fl-container">
@@ -13,22 +17,22 @@
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-users"></i></div>
                 <div class="fl-stat-n">800+</div>
-                <div class="fl-stat-l">Ekofaol a’zolar</div>
+                <div class="fl-stat-l">{% translate "Ekofaol a’zolar" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-tree"></i></div>
                 <div class="fl-stat-n">2 500+</div>
-                <div class="fl-stat-l">Ekilib o‘tqazilgan ko‘chat</div>
+                <div class="fl-stat-l">{% translate "Ekilib o‘tqazilgan ko‘chat" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-recycle"></i></div>
                 <div class="fl-stat-n">40+</div>
-                <div class="fl-stat-l">Yillik ekotadbir</div>
+                <div class="fl-stat-l">{% translate "Yillik ekotadbir" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-hands-helping"></i></div>
                 <div class="fl-stat-n">12</div>
-                <div class="fl-stat-l">Volontyor klub</div>
+                <div class="fl-stat-l">{% translate "Volontyor klub" %}</div>
             </div>
         </div>
     </div>
@@ -37,28 +41,27 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-leaf"></i> Harakat</div>
-            <h2 class="fl-h2">Kimlar ekofaol talaba?</h2>
+            <div class="fl-tag"><i class="fas fa-leaf"></i> {% translate "Harakat" %}</div>
+            <h2 class="fl-h2">{% translate "Kimlar ekofaol talaba?" %}</h2>
             <p class="fl-sub">
-                Ekofaol talabalar — kampus va jamiyatda ekologik madaniyatni
-                rivojlantiruvchi, yashil loyihalarda ishtirok etuvchi faol yoshlar.
+                {% translate "Ekofaol talabalar — kampus va jamiyatda ekologik madaniyatni rivojlantiruvchi, yashil loyihalarda ishtirok etuvchi faol yoshlar." %}
             </p>
         </div>
         <div class="fl-cards">
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-seedling"></i></div>
-                <h3>Yashillashtirish</h3>
-                <p>Daraxt ekish, bog‘ zonalarini parvarish qilish va kampusni ko‘kalamzorlashtirish.</p>
+                <h3>{% translate "Yashillashtirish" %}</h3>
+                <p>{% translate "Daraxt ekish, bog‘ zonalarini parvarish qilish va kampusni ko‘kalamzorlashtirish." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-recycle"></i></div>
-                <h3>Chiqindi kamaytirish</h3>
-                <p>Qayta ishlash, plastiksiz kunlar va chiqindilarni ajratish tashabbuslari.</p>
+                <h3>{% translate "Chiqindi kamaytirish" %}</h3>
+                <p>{% translate "Qayta ishlash, plastiksiz kunlar va chiqindilarni ajratish tashabbuslari." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-bullhorn"></i></div>
-                <h3>Ekota’lim</h3>
-                <p>Seminarlar, aksiyalar va maktab o‘quvchilari uchun ekologik tadbirlar.</p>
+                <h3>{% translate "Ekota’lim" %}</h3>
+                <p>{% translate "Seminarlar, aksiyalar va maktab o‘quvchilari uchun ekologik tadbirlar." %}</p>
             </article>
         </div>
     </div>
@@ -67,29 +70,29 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-calendar-check"></i> Loyihalar</div>
-            <h2 class="fl-h2">Asosiy tashabbuslar</h2>
+            <div class="fl-tag"><i class="fas fa-calendar-check"></i> {% translate "Loyihalar" %}</div>
+            <h2 class="fl-h2">{% translate "Asosiy tashabbuslar" %}</h2>
         </div>
         <div class="fl-timeline">
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Har bahor</div>
+                <div class="fl-tl-year">{% translate "Har bahor" %}</div>
                 <div class="fl-tl-body">
-                    <h3>«Yashil kampus» ekish kuni</h3>
-                    <p>Fakultetlar o‘rtasida ko‘chat ekish musobaqasi va bog‘ zonalarini yangilash.</p>
+                    <h3>{% translate "«Yashil kampus» ekish kuni" %}</h3>
+                    <p>{% translate "Fakultetlar o‘rtasida ko‘chat ekish musobaqasi va bog‘ zonalarini yangilash." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Har oy</div>
+                <div class="fl-tl-year">{% translate "Har oy" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Plastiksiz kun</h3>
-                    <p>Bir martalik plastikka qarshi kampaniya va alternativ yechimlarni targ‘ib qilish.</p>
+                    <h3>{% translate "Plastiksiz kun" %}</h3>
+                    <p>{% translate "Bir martalik plastikka qarshi kampaniya va alternativ yechimlarni targ‘ib qilish." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Doimiy</div>
+                <div class="fl-tl-year">{% translate "Doimiy" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Ekovolontyorlik</h3>
-                    <p>Mahalliy tozalash aksiyalari, suv resurslarini muhofaza va monitoring.</p>
+                    <h3>{% translate "Ekovolontyorlik" %}</h3>
+                    <p>{% translate "Mahalliy tozalash aksiyalari, suv resurslarini muhofaza va monitoring." %}</p>
                 </div>
             </div>
         </div>
@@ -99,18 +102,18 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-handshake"></i> Qo‘shiling</div>
-            <h2 class="fl-h2">Qanday a’zo bo‘lish mumkin?</h2>
+            <div class="fl-tag"><i class="fas fa-handshake"></i> {% translate "Qo‘shiling" %}</div>
+            <h2 class="fl-h2">{% translate "Qanday a’zo bo‘lish mumkin?" %}</h2>
         </div>
         <ul class="fl-check">
-            <li><i class="fas fa-check"></i> Universitetning istalgan fakulteti talabasi bo‘lish</li>
-            <li><i class="fas fa-check"></i> Ekoklubga onlayn yoki oflayn ariza topshirish</li>
-            <li><i class="fas fa-check"></i> Kamida bitta yashil tadbirda ishtirok etish</li>
-            <li><i class="fas fa-check"></i> Volontyorlik sertifikati va portfolio imkoniyati</li>
+            <li><i class="fas fa-check"></i> {% translate "Universitetning istalgan fakulteti talabasi bo‘lish" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "Ekoklubga onlayn yoki oflayn ariza topshirish" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "Kamida bitta yashil tadbirda ishtirok etish" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "Volontyorlik sertifikati va portfolio imkoniyati" %}</li>
         </ul>
         <div class="qb-links">
-            <a href="{% url 'main:barqaror_rivojlanish' %}" class="hm-btn-outline"><i class="fas fa-leaf"></i> Barqaror rivojlanish</a>
-            <a href="{% url 'main:aloqa' %}" class="hm-btn-green"><i class="fas fa-user-plus"></i> Klubga yozilish</a>
+            <a href="{% url 'main:barqaror_rivojlanish' %}" class="hm-btn-outline"><i class="fas fa-leaf"></i> {% translate "Barqaror rivojlanish" %}</a>
+            <a href="{% url 'main:aloqa' %}" class="hm-btn-green"><i class="fas fa-user-plus"></i> {% translate "Klubga yozilish" %}</a>
         </div>
     </div>
 </section>
@@ -119,10 +122,10 @@
     <div class="fl-container">
         <div class="fl-cta-box">
             <div>
-                <h2>Yashil jamiyatga qo‘shiling</h2>
-                <p>Bugunoq ekofaol talabalar harakatida o‘z o‘rningizni toping.</p>
+                <h2>{% translate "Yashil jamiyatga qo‘shiling" %}</h2>
+                <p>{% translate "Bugunoq ekofaol talabalar harakatida o‘z o‘rningizni toping." %}</p>
             </div>
-            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-seedling"></i> Qo‘shilish</a>
+            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-seedling"></i> {% translate "Qo‘shilish" %}</a>
         </div>
     </div>
 </section>

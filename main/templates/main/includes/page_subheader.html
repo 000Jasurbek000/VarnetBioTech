@@ -1,4 +1,4 @@
-{% load static %}
+{% load static i18n %}
 {# Bir xil rasmli subheader — barcha ichki sahifalar uchun #}
 <section class="fl-hero">
     <div class="fl-hero-bg" style="background-image:url('{% static image %}')"></div>
@@ -6,7 +6,7 @@
     <div class="fl-container">
         <div class="fl-hero-content">
             <div class="fl-breadcrumb">
-                <a href="{% url 'main:home' %}">Bosh sahifa</a>
+                <a href="{% url 'main:home' %}">{% translate "Bosh sahifa" %}</a>
                 {% if parent_url and parent_label %}
                 <span>/</span>
                 <a href="{{ parent_url }}">{{ parent_label }}</a>

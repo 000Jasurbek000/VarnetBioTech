@@ -1,0 +1,4485 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Varnet Biotech University\n"
+"POT-Creation-Date: 2026-07-25 20:03+0000\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: aloqa.html
+msgid "Bog'lanish - Varnet Biotech University"
+msgstr "Контакты — Varnet Biotech University"
+
+#: aloqa.html base.html moliyaviy_faoliyat.html
+msgid "Aloqa"
+msgstr "Контакты"
+
+#: aloqa.html
+msgid "Biz bilan <em>bog'laning</em>"
+msgstr "<em>Свяжитесь</em> с нами"
+
+#: aloqa.html
+msgid "Savollaringiz bormi? Biz doim yordam berishga tayyormiz."
+msgstr "Есть вопросы? Мы всегда готовы помочь."
+
+#: aloqa.html
+msgid "Bog'lanish"
+msgstr "Связаться"
+
+#: aloqa.html
+msgid "Aloqa ma'lumotlari"
+msgstr "Контактная информация"
+
+#: aloqa.html base.html home.html
+msgid "Manzil"
+msgstr "Адрес"
+
+#: aloqa.html
+msgid "Buxoro shahri,"
+msgstr "г. Бухара,"
+
+#: aloqa.html
+msgid "Akademik Ibrohim Mo'minov ko'chasi 28/2"
+msgstr "ул. Академика Ибрахима Муминова, 28/2"
+
+#: aloqa.html hujjat_topshirish.html
+msgid "Telefon"
+msgstr "Телефон"
+
+#: aloqa.html
+msgid "Elektron pochta"
+msgstr "Электронная почта"
+
+#: aloqa.html
+msgid "lifelonglearning@gmail.com"
+msgstr ""
+
+#: aloqa.html
+msgid "Ish vaqti"
+msgstr "Часы работы"
+
+#: aloqa.html
+msgid "Dushanba - Juma: 9:00 - 18:00"
+msgstr "Понедельник – пятница: 9:00 – 18:00"
+
+#: aloqa.html
+msgid "Shanba - Yakshanba: Dam olish"
+msgstr "Суббота – воскресенье: выходной"
+
+#: aloqa.html
+msgid "Ijtimoiy tarmoqlar"
+msgstr "Социальные сети"
+
+#: aloqa.html base.html
+msgid "Facebook"
+msgstr "Facebook"
+
+#: aloqa.html base.html
+msgid "Telegram"
+msgstr "Telegram"
+
+#: aloqa.html base.html
+msgid "Instagram"
+msgstr "Instagram"
+
+#: aloqa.html
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: aloqa.html
+msgid "Xabar yuborish"
+msgstr "Отправить сообщение"
+
+#: aloqa.html
+msgid "Ism-familiya *"
+msgstr "Имя и фамилия *"
+
+#: aloqa.html
+msgid "Ismingiz va familiyangiz"
+msgstr "Ваше имя и фамилия"
+
+#: aloqa.html
+msgid "Elektron pochta *"
+msgstr "Электронная почта *"
+
+#: aloqa.html
+msgid "email@example.com"
+msgstr "email@example.com"
+
+#: aloqa.html
+msgid "Telefon raqami"
+msgstr "Номер телефона"
+
+#: aloqa.html
+msgid "Mavzu *"
+msgstr "Тема *"
+
+#: aloqa.html
+msgid "Tanlang"
+msgstr "Выберите"
+
+#: aloqa.html
+msgid "Qabul bo'limi"
+msgstr "Приёмная комиссия"
+
+#: aloqa.html
+msgid "Ma'lumot olish"
+msgstr "Получение информации"
+
+#: aloqa.html
+msgid "Hamkorlik"
+msgstr "Сотрудничество"
+
+#: aloqa.html
+msgid "Boshqa"
+msgstr "Другое"
+
+#: aloqa.html
+msgid "Xabar *"
+msgstr "Сообщение *"
+
+#: aloqa.html
+msgid "Xabaringizni bu yerga yozing..."
+msgstr "Напишите ваше сообщение здесь…"
+
+#: aloqa.html
+msgid "Bizning joylashuvimiz"
+msgstr "Наше расположение"
+
+#: bakalavr_qabuli.html
+msgid "Bakalavr qabuli — Varnet Biotech University"
+msgstr "Приём в бакалавриат — Varnet Biotech University"
+
+#: bakalavr_qabuli.html
+msgid "Qabul 2026/2027"
+msgstr "Приём 2026/2027"
+
+#: bakalavr_qabuli.html
+msgid "Bakalavr <em>qabuli</em>"
+msgstr "Приём в <em>бакалавриат</em>"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Davlat qabul tartibi asosida — «avval test, keyin tanlov» tamoyili bo‘yicha "
+"bakalavriatga hujjat topshirish."
+msgstr ""
+"Подача документов в бакалавриат в соответствии с государственным порядком "
+"приёма — по принципу «сначала тест, затем выбор»."
+
+#: bakalavr_qabuli.html base.html kvota_va_ballar.html
+msgid "Bakalavr qabuli"
+msgstr "Приём в бакалавриат"
+
+#: bakalavr_qabuli.html
+msgid "Iyun — ro‘yxatdan o‘tish"
+msgstr "Июнь — регистрация"
+
+#: bakalavr_qabuli.html
+msgid "Maksimal DTM balli"
+msgstr "Максимальный балл ГЦТ"
+
+#: bakalavr_qabuli.html
+msgid "Test fanlari"
+msgstr "Предметов на тесте"
+
+#: bakalavr_qabuli.html
+msgid "Kun — OTM tanlash"
+msgstr "Дней на выбор вуза"
+
+#: bakalavr_qabuli.html magistr_qabuli.html
+msgid "Umumiy ma’lumot"
+msgstr "Общая информация"
+
+#: bakalavr_qabuli.html
+msgid "Bakalavriatga qabul tartibi"
+msgstr "Порядок приёма в бакалавриат"
+
+#: bakalavr_qabuli.html
+msgid ""
+"O‘zbekiston Respublikasida 2024/2025 o‘quv yilidan joriy etilgan «avval test"
+" — keyin tanlov» tizimi asosida amalga oshiriladi. Rasmiy platforma:"
+msgstr ""
+"Осуществляется по системе «сначала тест — затем выбор», введённой в "
+"Республике Узбекистан с 2024/2025 учебного года. Официальная платформа:"
+
+#: bakalavr_qabuli.html topshiriladigan_hujjatlar.html
+msgid "my.uzbmb.uz"
+msgstr "my.uzbmb.uz"
+
+#: bakalavr_qabuli.html sport_va_hordiq.html
+msgid "Ro‘yxatdan o‘tish"
+msgstr "Регистрация"
+
+#: bakalavr_qabuli.html
+msgid ""
+"my.uzbmb.uz da pasport, JSHSHIR va telefon orqali ariza. Fan bloki, ta’lim "
+"tili va test hududi tanlanadi."
+msgstr ""
+"Заявка на my.uzbmb.uz по паспорту, ПИНФЛ и номеру телефона. Выбираются блок "
+"предметов, язык обучения и регион тестирования."
+
+#: bakalavr_qabuli.html
+msgid "Kirish testi (DTM)"
+msgstr "Вступительный тест (ГЦТ)"
+
+#: bakalavr_qabuli.html
+msgid ""
+"5 ta fan: 3 majburiy + 2 profil. 90 ta savol, maksimal 189 ball. Natija "
+"shaxsiy kabinetda e’lon qilinadi."
+msgstr ""
+"5 предметов: 3 обязательных + 2 профильных. 90 вопросов, максимум 189 "
+"баллов. Результат публикуется в личном кабинете."
+
+#: bakalavr_qabuli.html
+msgid "OTM va yo‘nalish tanlash"
+msgstr "Выбор вуза и направления"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Ball e’lonidan keyin 15 kun ichida universitet, yo‘nalish va ta’lim shakli "
+"(grant / kontrakt) tanlanadi."
+msgstr ""
+"В течение 15 дней после объявления баллов выбираются университет, "
+"направление и форма обучения (грант / контракт)."
+
+#: bakalavr_qabuli.html
+msgid "Bosqichlar"
+msgstr "Этапы"
+
+#: bakalavr_qabuli.html
+msgid "2026/2027 qabul kalendari"
+msgstr "Календарь приёма 2026/2027"
+
+#: bakalavr_qabuli.html
+msgid "Davlat OTMlari bakalavriati uchun asosiy muddatlar."
+msgstr "Основные сроки для бакалавриата государственных вузов."
+
+#: bakalavr_qabuli.html
+msgid "5–25 iyun"
+msgstr "5–25 июня"
+
+#: bakalavr_qabuli.html
+msgid "Onlayn ro‘yxatdan o‘tish"
+msgstr "Онлайн-регистрация"
+
+#: bakalavr_qabuli.html
+msgid ""
+"my.uzbmb.uz portali orqali ariza topshirish. Maktab, litsey va kollej "
+"bitiruvchilari odatda to‘lovdan ozod."
+msgstr ""
+"Подача заявки через портал my.uzbmb.uz. Выпускники школ, лицеев и колледжей,"
+" как правило, освобождены от оплаты."
+
+#: bakalavr_qabuli.html
+msgid "Iyul–avgust"
+msgstr "Июль–август"
+
+#: bakalavr_qabuli.html
+msgid "Test sinovlari"
+msgstr "Тестовые испытания"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Belgilangan maydonchalarda DTM testlari. Sana va vaqt shaxsiy kabinetda "
+"ko‘rsatiladi."
+msgstr ""
+"Тесты ГЦТ на определённых площадках. Дата и время указываются в личном "
+"кабинете."
+
+#: bakalavr_qabuli.html
+msgid "15 kun"
+msgstr "15 дней"
+
+#: bakalavr_qabuli.html
+msgid "Varnet va yo‘nalishni tanlash"
+msgstr "Выбор Varnet и направления"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Ballingizga qarab biotexnologiya, ekologiya va boshqa yo‘nalishlarga ariza "
+"berasiz."
+msgstr ""
+"В зависимости от набранных баллов вы подаёте заявку на биотехнологию, "
+"экологию и другие направления."
+
+#: bakalavr_qabuli.html barqaror_rivojlanish.html ilmiy_faoliyat.html
+#: moliyaviy_faoliyat.html
+msgid "Yo‘nalishlar"
+msgstr "Направления"
+
+#: bakalavr_qabuli.html
+msgid "Universitetimizdagi bakalavriat yo‘nalishlari"
+msgstr "Направления бакалавриата в нашем университете"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida "
+"yangilanadi."
+msgstr ""
+"Основные направления обучения (примеры). Полный перечень обновляется в "
+"объявлении о приёме."
+
+#: bakalavr_qabuli.html kvota_va_ballar.html
+msgid "Yo‘nalish"
+msgstr "Направление"
+
+#: bakalavr_qabuli.html magistr_qabuli.html malaka_oshirish.html
+msgid "Muddat"
+msgstr "Срок"
+
+#: bakalavr_qabuli.html magistr_qabuli.html
+msgid "Shakl"
+msgstr "Форма"
+
+#: bakalavr_qabuli.html
+msgid "Profil fanlar (namuna)"
+msgstr "Профильные предметы (примеры)"
+
+#: bakalavr_qabuli.html home.html kvota_va_ballar.html universitet_haqida.html
+msgid "Biotexnologiya"
+msgstr "Биотехнология"
+
+#: bakalavr_qabuli.html
+msgid "4 yil"
+msgstr "4 года"
+
+#: bakalavr_qabuli.html hujjat_topshirish.html kvota_va_ballar.html
+#: magistr_qabuli.html malaka_oshirish.html
+msgid "Kunduzgi"
+msgstr "Очно"
+
+#: bakalavr_qabuli.html
+msgid "Biologiya, Kimyo"
+msgstr "Биология, химия"
+
+#: bakalavr_qabuli.html
+msgid "Ekologiya va atrof-muhit muhofazasi"
+msgstr "Экология и охрана окружающей среды"
+
+#: bakalavr_qabuli.html
+msgid "Kunduzgi / Part-time"
+msgstr "Очно / Неполная нагрузка"
+
+#: bakalavr_qabuli.html
+msgid "Biologiya, Geografiya"
+msgstr "Биология, география"
+
+#: bakalavr_qabuli.html kvota_va_ballar.html
+msgid "Farmatsevtika biotexnologiyasi"
+msgstr "Фармацевтическая биотехнология"
+
+#: bakalavr_qabuli.html
+msgid "Kimyo, Biologiya"
+msgstr "Химия, биология"
+
+#: bakalavr_qabuli.html home.html ilmiy_faoliyat.html kvota_va_ballar.html
+#: magistr_qabuli.html universitet_haqida.html
+msgid "Agrobiotexnologiya"
+msgstr "Агробиотехнология"
+
+#: bakalavr_qabuli.html ilmiy_faoliyat.html kvota_va_ballar.html
+#: universitet_haqida.html
+msgid "Bioinformatika"
+msgstr "Биоинформатика"
+
+#: bakalavr_qabuli.html
+msgid "Matematika, Informatika"
+msgstr "Математика, информатика"
+
+#: bakalavr_qabuli.html
+msgid "Talablar"
+msgstr "Требования"
+
+#: bakalavr_qabuli.html
+msgid "Kimlar hujjat topshirishi mumkin?"
+msgstr "Кто может подать документы?"
+
+#: bakalavr_qabuli.html
+msgid "Umumiy o‘rta yoki o‘rta maxsus, kasb-hunar ta’limini tugatganlar"
+msgstr ""
+"Лица, окончившие общее среднее либо среднее специальное или профессиональное"
+" образование"
+
+#: bakalavr_qabuli.html
+msgid "DTM testida minimal o‘tish balliga erishganlar"
+msgstr "Набравшие минимальный проходной балл на тесте ГЦТ"
+
+#: bakalavr_qabuli.html
+msgid "Chet tili sertifikati (IELTS/GCT B1+) — til fanida imtiyoz beradi"
+msgstr ""
+"Сертификат по иностранному языку (IELTS/GCT B1+) даёт льготу по языковому "
+"предмету"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Imtiyozli toifalar (olimpiada g‘oliblari, nogironligi bo‘lgan shaxslar va "
+"boshqalar) — alohida tartibda"
+msgstr ""
+"Льготные категории (победители олимпиад, лица с инвалидностью и другие) — в "
+"особом порядке"
+
+#: bakalavr_qabuli.html base.html magistr_qabuli.html
+#: topshiriladigan_hujjatlar.html
+msgid "Topshiriladigan hujjatlar"
+msgstr "Необходимые документы"
+
+#: bakalavr_qabuli.html base.html kvota_va_ballar.html magistr_qabuli.html
+msgid "Kvota va ballar"
+msgstr "Квоты и проходные баллы"
+
+#: bakalavr_qabuli.html
+msgid "Hujjat topshirishni boshlang"
+msgstr "Начните подачу документов"
+
+#: bakalavr_qabuli.html
+msgid "Onlayn ariza qoldiring yoki qabul bo‘limi bilan bog‘laning."
+msgstr "Оставьте онлайн-заявку или свяжитесь с приёмной комиссией."
+
+#: bakalavr_qabuli.html home.html kvota_va_ballar.html
+#: topshiriladigan_hujjatlar.html universitet_haqida.html
+msgid "Hujjat topshirish"
+msgstr "Подать документы"
+
+#: bakalavr_qabuli.html
+msgid ""
+"Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi. Aniq blokni <a "
+"href=\"https://my.uzbmb.uz\" target=\"_blank\" "
+"rel=\"noopener\">my.uzbmb.uz</a> portalidan tekshiring."
+msgstr ""
+"Профильные предметы ежегодно утверждаются Министерством. Точный блок "
+"уточняйте на портале <a href=\"https://my.uzbmb.uz\" target=\"_blank\" "
+"rel=\"noopener\">my.uzbmb.uz</a>."
+
+#: barqaror_rivojlanish.html
+msgid "Barqaror rivojlanish — Varnet Biotech University"
+msgstr "Устойчивое развитие — Varnet Biotech University"
+
+#: barqaror_rivojlanish.html
+msgid "Yashil kampus"
+msgstr "Зелёный кампус"
+
+#: barqaror_rivojlanish.html base.html ekofaol_talabalar.html
+msgid "Barqaror rivojlanish"
+msgstr "Устойчивое развитие"
+
+#: barqaror_rivojlanish.html
+msgid ""
+"Ekologiya, qayta tiklanuvchi energiya va yashil ta’lim — kelajak avlodlar "
+"uchun mas’uliyatli universitet siyosati."
+msgstr ""
+"Экология, возобновляемая энергетика и зелёное образование — ответственная "
+"политика университета для будущих поколений."
+
+#: barqaror_rivojlanish.html
+msgid "Yashil energiya ulushi"
+msgstr "Доля зелёной энергии"
+
+#: barqaror_rivojlanish.html
+msgid "Ekologik daraxtlar"
+msgstr "Высаженных деревьев"
+
+#: barqaror_rivojlanish.html
+msgid "Chiqindilarni qayta ishlash"
+msgstr "Переработка отходов"
+
+#: barqaror_rivojlanish.html base.html ekofaol_talabalar.html
+msgid "Ekofaol talabalar"
+msgstr "Экоактивные студенты"
+
+#: barqaror_rivojlanish.html
+msgid "BMT maqsadlari"
+msgstr "Целей ООН"
+
+#: barqaror_rivojlanish.html
+msgid "Barqaror kelajak uchun harakat"
+msgstr "Действуем ради устойчивого будущего"
+
+#: barqaror_rivojlanish.html
+msgid ""
+"Universitet BMT Barqaror rivojlanish maqsadlariga (SDG) mos strategiyani "
+"amalga oshiradi: energiya tejash, ekologik ta’lim va yashil infratuzilma."
+msgstr ""
+"Университет реализует стратегию, соответствующую Целям устойчивого развития "
+"ООН (ЦУР): энергосбережение, экологическое образование и зелёная "
+"инфраструктура."
+
+#: barqaror_rivojlanish.html
+msgid "Quyosh panellari va energiya monitoringi"
+msgstr "Солнечные панели и мониторинг энергопотребления"
+
+#: barqaror_rivojlanish.html
+msgid "Suv resurslarini tejamkor boshqarish"
+msgstr "Бережное управление водными ресурсами"
+
+#: barqaror_rivojlanish.html
+msgid "Plastiksiz kampus tashabbusi"
+msgstr "Инициатива «кампус без пластика»"
+
+#: barqaror_rivojlanish.html
+msgid "Ekologik ta’lim dasturlari"
+msgstr "Программы экологического образования"
+
+#: barqaror_rivojlanish.html
+msgid "Yashil energiya"
+msgstr "Зелёная энергия"
+
+#: barqaror_rivojlanish.html
+msgid "Barqarorlik dasturlari"
+msgstr "Программы устойчивого развития"
+
+#: barqaror_rivojlanish.html
+msgid "Kampus, ta’lim va jamiyatdagi yashil tashabbuslar."
+msgstr "Зелёные инициативы в кампусе, образовании и обществе."
+
+#: barqaror_rivojlanish.html
+msgid "Quyosh elektr stansiyasi va energiya samaradorligi loyihalari."
+msgstr "Солнечная электростанция и проекты энергоэффективности."
+
+#: barqaror_rivojlanish.html
+msgid "Suvni muhofaza"
+msgstr "Охрана воды"
+
+#: barqaror_rivojlanish.html
+msgid "Tomchilatib sug‘orish, yomg‘ir suvini yig‘ish va monitoring."
+msgstr "Капельное орошение, сбор дождевой воды и мониторинг."
+
+#: barqaror_rivojlanish.html
+msgid "Nol chiqindi"
+msgstr "Ноль отходов"
+
+#: barqaror_rivojlanish.html
+msgid "Chiqindilarni ajratish, qayta ishlash va kompostlash tizimi."
+msgstr "Система сортировки, переработки и компостирования отходов."
+
+#: barqaror_rivojlanish.html ekofaol_talabalar.html
+msgid "Ekota’lim"
+msgstr "Экообразование"
+
+#: barqaror_rivojlanish.html
+msgid "O‘quv dasturlariga barqarorlik mavzularini integratsiya qilish."
+msgstr "Интеграция тем устойчивого развития в учебные программы."
+
+#: barqaror_rivojlanish.html
+msgid "Jamiyat bilan ishlash"
+msgstr "Работа с обществом"
+
+#: barqaror_rivojlanish.html
+msgid "Mahalliy ekologik aksiyalar va yoshlar tashabbuslari."
+msgstr "Местные экологические акции и молодёжные инициативы."
+
+#: barqaror_rivojlanish.html moliyaviy_faoliyat.html
+msgid "Hisobotlilik"
+msgstr "Отчётность"
+
+#: barqaror_rivojlanish.html
+msgid "Yillik barqarorlik hisobotlari va ochiq ma’lumotlar."
+msgstr "Ежегодные отчёты об устойчивом развитии и открытые данные."
+
+#: barqaror_rivojlanish.html
+msgid "Maqsadlar"
+msgstr "Цели"
+
+#: barqaror_rivojlanish.html
+msgid "2030 yilgacha ustuvor vazifalar"
+msgstr "Приоритетные задачи до 2030 года"
+
+#: barqaror_rivojlanish.html
+msgid "Universitetning barqaror rivojlanish strategiyasi."
+msgstr "Стратегия устойчивого развития университета."
+
+#: barqaror_rivojlanish.html
+msgid "Kampusni yashillashtirish"
+msgstr "Озеленение кампуса"
+
+#: barqaror_rivojlanish.html
+msgid "Yangi bog‘ zonasi va 1 000 ta ko‘chat ekish dasturi."
+msgstr "Новая парковая зона и программа посадки 1 000 саженцев."
+
+#: barqaror_rivojlanish.html
+msgid "Energiya mustaqilligi"
+msgstr "Энергетическая независимость"
+
+#: barqaror_rivojlanish.html
+msgid "Qayta tiklanuvchi energiya ulushini 60% ga yetkazish."
+msgstr "Увеличение доли возобновляемой энергии до 60%."
+
+#: barqaror_rivojlanish.html
+msgid "Karbon neytral kampus"
+msgstr "Углеродно-нейтральный кампус"
+
+#: barqaror_rivojlanish.html
+msgid "CO₂ izini kamaytirish va to‘liq yashil sertifikatlash."
+msgstr "Сокращение углеродного следа и полная зелёная сертификация."
+
+#: barqaror_rivojlanish.html
+msgid "Ekofaol jamiyatga qo‘shiling"
+msgstr "Присоединяйтесь к экоактивному сообществу"
+
+#: barqaror_rivojlanish.html
+msgid ""
+"Yashil tashabbuslar, volontyorlik va ekologik loyihalarda ishtirok eting."
+msgstr ""
+"Участвуйте в зелёных инициативах, волонтёрстве и экологических проектах."
+
+#: barqaror_rivojlanish.html ekofaol_talabalar.html
+msgid "Qo‘shilish"
+msgstr "Присоединиться"
+
+#: base.html hujjat_topshirish.html
+msgid "Varnet Biotech University"
+msgstr "Varnet Biotech University"
+
+#: base.html
+msgid ""
+"Varnet Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va "
+"innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi."
+msgstr ""
+"Университет биотехнологий Varnet — ведущее высшее учебное заведение в "
+"области биотехнологий, экологии и инноваций."
+
+#: base.html home.html hujjat_topshirish.html universitet_haqida.html
+msgid "Varnet Biotexnologiyalar Universiteti"
+msgstr "Университет биотехнологий Varnet"
+
+#: base.html
+msgid ""
+"Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi."
+msgstr "Ведущее высшее учебное заведение в области биотехнологий и инноваций."
+
+#: base.html
+msgid "Asosiy kontentga o'tish"
+msgstr "Перейти к основному содержанию"
+
+#: base.html home.html
+msgid "Call markaz"
+msgstr "Call-центр"
+
+#: base.html
+msgid "Murojaat uchun email"
+msgstr "Электронная почта для обращений"
+
+#: base.html
+msgid "O'zbekiston Respublikasi hukumat portali"
+msgstr "Правительственный портал Республики Узбекистан"
+
+#: base.html
+msgid "Davlat test markazi"
+msgstr "Государственный центр тестирования"
+
+#: base.html
+msgid "Yoshlar daftari"
+msgstr "Реестр молодёжи"
+
+#: base.html
+msgid "YouTube"
+msgstr "YouTube"
+
+#: base.html
+msgid "Asosiy navigatsiya"
+msgstr "Основная навигация"
+
+#: base.html page_subheader.html
+msgid "Bosh sahifa"
+msgstr "Главная"
+
+#: base.html
+msgid "Menyuni ochish"
+msgstr "Открыть меню"
+
+#: base.html
+msgid "Menyuni yopish"
+msgstr "Закрыть меню"
+
+#: base.html kvota_va_ballar.html
+msgid "Universitet"
+msgstr "Университет"
+
+#: base.html universitet_haqida.html
+msgid "Universitet haqida"
+msgstr "Об университете"
+
+#: base.html structure.html
+msgid "Tuzilma"
+msgstr "Структура"
+
+#: base.html home.html rahbariyat.html rahbariyat_detail.html
+msgid "Rahbariyat"
+msgstr "Руководство"
+
+#: base.html
+msgid "Faoliyat"
+msgstr "Деятельность"
+
+#: base.html ilmiy_faoliyat.html
+msgid "Ilmiy faoliyat"
+msgstr "Научная деятельность"
+
+#: base.html moliyaviy_faoliyat.html
+msgid "Moliyaviy faoliyat"
+msgstr "Финансовая деятельность"
+
+#: base.html sport_va_hordiq.html
+msgid "Sport va hordiq"
+msgstr "Спорт и отдых"
+
+#: base.html ekofaol_talabalar.html malaka_oshirish.html
+msgid "Talabalarga"
+msgstr "Студентам"
+
+#: base.html hujjat_topshirish.html malaka_oshirish.html
+#: rahbariyat_detail.html
+msgid "Malaka oshirish"
+msgstr "Повышение квалификации"
+
+#: base.html elon_detail.html elonlar.html
+msgid "Qabul"
+msgstr "Приём"
+
+#: base.html kvota_va_ballar.html magistr_qabuli.html
+msgid "Magistr qabuli"
+msgstr "Приём в магистратуру"
+
+#: base.html magistr_qabuli.html moliyaviy_faoliyat.html
+#: topshiriladigan_hujjatlar.html
+msgid "Hujjatlar"
+msgstr "Документы"
+
+#: base.html normativ_hujjatlar.html
+msgid "Normativ hujjatlar"
+msgstr "Нормативные документы"
+
+#: base.html
+msgid "Kutubxona"
+msgstr "Библиотека"
+
+#: base.html home.html yangilik_detail.html yangiliklar.html
+msgid "Yangiliklar"
+msgstr "Новости"
+
+#: base.html elon_detail.html elonlar.html yangiliklar.html
+msgid "E'lonlar"
+msgstr "Объявления"
+
+#: base.html
+msgid "Hujjat Topshirish"
+msgstr "Подать документы"
+
+#: base.html
+msgid ""
+"Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi"
+msgstr "Ведущее высшее учебное заведение в области биотехнологий и инноваций"
+
+#: base.html
+msgid "Buxoro viloyati, Buxoro tumani, Sufiko'rg'ar MFY"
+msgstr "Бухарская область, Бухарский район, СГМ Суфикургар"
+
+#: base.html
+msgid "Dam olish kuni: Yakshanba"
+msgstr "Выходной день: воскресенье"
+
+#: base.html
+msgid "Universitet joylashuvi xaritada"
+msgstr "Расположение университета на карте"
+
+#: ekofaol_talabalar.html
+msgid "Ekofaol talabalar — Varnet Biotech University"
+msgstr "Экоактивные студенты — Varnet Biotech University"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Yashil tashabbuslar, volontyorlik va barqaror kampus — talabalar ekologik "
+"harakatining markazi."
+msgstr ""
+"Зелёные инициативы, волонтёрство и устойчивый кампус — центр студенческого "
+"экологического движения."
+
+#: ekofaol_talabalar.html
+msgid "Ekofaol a’zolar"
+msgstr "Экоактивных участников"
+
+#: ekofaol_talabalar.html
+msgid "Ekilib o‘tqazilgan ko‘chat"
+msgstr "Высаженных саженцев"
+
+#: ekofaol_talabalar.html
+msgid "Yillik ekotadbir"
+msgstr "Экомероприятий в год"
+
+#: ekofaol_talabalar.html
+msgid "Volontyor klub"
+msgstr "Волонтёрских клубов"
+
+#: ekofaol_talabalar.html
+msgid "Harakat"
+msgstr "Движение"
+
+#: ekofaol_talabalar.html
+msgid "Kimlar ekofaol talaba?"
+msgstr "Кто такие экоактивные студенты?"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Ekofaol talabalar — kampus va jamiyatda ekologik madaniyatni "
+"rivojlantiruvchi, yashil loyihalarda ishtirok etuvchi faol yoshlar."
+msgstr ""
+"Экоактивные студенты — это активная молодёжь, которая развивает "
+"экологическую культуру в кампусе и обществе и участвует в зелёных проектах."
+
+#: ekofaol_talabalar.html
+msgid "Yashillashtirish"
+msgstr "Озеленение"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Daraxt ekish, bog‘ zonalarini parvarish qilish va kampusni "
+"ko‘kalamzorlashtirish."
+msgstr "Посадка деревьев, уход за парковыми зонами и озеленение кампуса."
+
+#: ekofaol_talabalar.html
+msgid "Chiqindi kamaytirish"
+msgstr "Сокращение отходов"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Qayta ishlash, plastiksiz kunlar va chiqindilarni ajratish tashabbuslari."
+msgstr ""
+"Инициативы по переработке, дни без пластика и раздельный сбор отходов."
+
+#: ekofaol_talabalar.html
+msgid "Seminarlar, aksiyalar va maktab o‘quvchilari uchun ekologik tadbirlar."
+msgstr "Семинары, акции и экологические мероприятия для школьников."
+
+#: ekofaol_talabalar.html
+msgid "Loyihalar"
+msgstr "Проекты"
+
+#: ekofaol_talabalar.html
+msgid "Asosiy tashabbuslar"
+msgstr "Основные инициативы"
+
+#: ekofaol_talabalar.html
+msgid "Har bahor"
+msgstr "Каждую весну"
+
+#: ekofaol_talabalar.html
+msgid "«Yashil kampus» ekish kuni"
+msgstr "День посадки «Зелёный кампус»"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Fakultetlar o‘rtasida ko‘chat ekish musobaqasi va bog‘ zonalarini yangilash."
+msgstr ""
+"Соревнование между факультетами по посадке саженцев и обновление парковых "
+"зон."
+
+#: ekofaol_talabalar.html
+msgid "Har oy"
+msgstr "Каждый месяц"
+
+#: ekofaol_talabalar.html
+msgid "Plastiksiz kun"
+msgstr "День без пластика"
+
+#: ekofaol_talabalar.html
+msgid ""
+"Bir martalik plastikka qarshi kampaniya va alternativ yechimlarni targ‘ib "
+"qilish."
+msgstr ""
+"Кампания против одноразового пластика и продвижение альтернативных решений."
+
+#: ekofaol_talabalar.html ilmiy_faoliyat.html
+msgid "Doimiy"
+msgstr "Постоянно"
+
+#: ekofaol_talabalar.html
+msgid "Ekovolontyorlik"
+msgstr "Эковолонтёрство"
+
+#: ekofaol_talabalar.html
+msgid "Mahalliy tozalash aksiyalari, suv resurslarini muhofaza va monitoring."
+msgstr "Местные акции по уборке, охрана водных ресурсов и мониторинг."
+
+#: ekofaol_talabalar.html
+msgid "Qo‘shiling"
+msgstr "Присоединяйтесь"
+
+#: ekofaol_talabalar.html
+msgid "Qanday a’zo bo‘lish mumkin?"
+msgstr "Как стать участником?"
+
+#: ekofaol_talabalar.html
+msgid "Universitetning istalgan fakulteti talabasi bo‘lish"
+msgstr "Быть студентом любого факультета университета"
+
+#: ekofaol_talabalar.html
+msgid "Ekoklubga onlayn yoki oflayn ariza topshirish"
+msgstr "Подать заявку в экоклуб онлайн или лично"
+
+#: ekofaol_talabalar.html
+msgid "Kamida bitta yashil tadbirda ishtirok etish"
+msgstr "Принять участие хотя бы в одном зелёном мероприятии"
+
+#: ekofaol_talabalar.html
+msgid "Volontyorlik sertifikati va portfolio imkoniyati"
+msgstr "Сертификат волонтёра и возможность пополнить портфолио"
+
+#: ekofaol_talabalar.html
+msgid "Klubga yozilish"
+msgstr "Записаться в клуб"
+
+#: ekofaol_talabalar.html
+msgid "Yashil jamiyatga qo‘shiling"
+msgstr "Присоединяйтесь к зелёному сообществу"
+
+#: ekofaol_talabalar.html
+msgid "Bugunoq ekofaol talabalar harakatida o‘z o‘rningizni toping."
+msgstr "Найдите своё место в движении экоактивных студентов уже сегодня."
+
+#: elon_detail.html
+msgid "E'lon - Varnet Biotech University"
+msgstr "Объявление — Varnet Biotech University"
+
+#: elon_detail.html
+msgid ""
+"2026-2027 o'quv yiliga bakalavr yo'nalishlariga <em>hujjat qabul qilish "
+"boshlandi</em>"
+msgstr ""
+
+#: elon_detail.html home.html yangilik_detail.html
+msgid "Batafsil"
+msgstr "Подробнее"
+
+#: elon_detail.html
+msgid "Faol"
+msgstr "Активно"
+
+#: elon_detail.html
+msgid "E'lon rasmi"
+msgstr "Изображение объявления"
+
+#: elon_detail.html
+msgid "Chop etildi: 01.05.2026"
+msgstr "Опубликовано: 01.05.2026"
+
+#: elon_detail.html
+msgid "Muddat:"
+msgstr "Срок:"
+
+#: elon_detail.html
+msgid "gacha"
+msgstr "до"
+
+#: elon_detail.html elonlar.html
+msgid ""
+"2026-2027 o'quv yiliga bakalavr yo'nalishlariga hujjat qabul qilish "
+"boshlandi"
+msgstr ""
+
+#: elon_detail.html
+msgid ""
+"Varnet Biotexnologiyalar Universiteti 2026-2027 o'quv yili uchun bakalavr "
+"ta'lim yo'nalishlariga yangi talabalar qabulini e'lon qiladi. Qabul jarayoni"
+" 2026-yil 1-may kunidan boshlanib, 2026-yil 1-iyungacha davom etadi."
+msgstr ""
+
+#: elon_detail.html
+msgid "Quyidagi ta'lim yo'nalishlari bo'yicha hujjat qabul qilinadi:"
+msgstr ""
+
+#: elon_detail.html
+msgid "Biotexnologiya (60 ta o'rin)"
+msgstr ""
+
+#: elon_detail.html
+msgid "Ekologiya va atrof-muhit muhofazasi (40 ta o'rin)"
+msgstr ""
+
+#: elon_detail.html
+msgid "Molekulyar biologiya (30 ta o'rin)"
+msgstr ""
+
+#: elon_detail.html
+msgid "Kimyoviy texnologiya (50 ta o'rin)"
+msgstr ""
+
+#: elon_detail.html
+msgid "Axborot texnologiyalari (45 ta o'rin)"
+msgstr ""
+
+#: elon_detail.html
+msgid ""
+"Hujjat topshirish uchun quyidagi materiallar talab qilinadi: umumiy o'rta "
+"yoki o'rta maxsus ta'lim attestati (nusxasi), pasport (nusxasi), 3×4 "
+"formatdagi 6 ta rasm, tibbiy ma'lumotnoma (086-shakl) va davlat boji to'lovi"
+" cheki."
+msgstr ""
+
+#: elon_detail.html
+msgid ""
+"Ariza va hujjatlar universitetting qabul komissiyasiga bevosita "
+"topshirilishi yoki elektron pochta orqali yuborilishi mumkin. Batafsil "
+"ma'lumot uchun qabul komissiyasiga murojaat qiling."
+msgstr ""
+
+#: elon_detail.html
+msgid "Qabul komissiyasi:"
+msgstr "Приёмная комиссия:"
+
+#: elon_detail.html
+msgid "qabul@varnet.uz"
+msgstr ""
+
+#: elon_detail.html
+msgid "Varnet Biotech Qabul komissiyasi"
+msgstr ""
+
+#: elon_detail.html
+msgid "E'lonlarga qaytish"
+msgstr "Вернуться к объявлениям"
+
+#: elon_detail.html
+msgid "Oxirgi e'lonlar"
+msgstr "Последние объявления"
+
+#: elon_detail.html elonlar.html
+msgid ""
+"Yosh tadqiqotchilar orasida grant tanloviga ariza topshirish muddati "
+"uzaytirildi"
+msgstr ""
+
+#: elon_detail.html elonlar.html
+msgid "15.05.2026 gacha"
+msgstr ""
+
+#: elon_detail.html elonlar.html
+msgid "Biotexnologiya laboratoriyasiga laborant va kichik ilmiy xodim kerak"
+msgstr ""
+
+#: elon_detail.html elonlar.html
+msgid "20.05.2026 gacha"
+msgstr ""
+
+#: elon_detail.html elonlar.html
+msgid "2026-yil may oyida o'tkaziladigan imtihon jadvali e'lon qilindi"
+msgstr ""
+
+#: elon_detail.html elonlar.html
+msgid "10.05.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid "E'lonlar - Varnet Biotech University"
+msgstr "Объявления — Varnet Biotech University"
+
+#: elonlar.html
+msgid "Rasmiy <em>e'lonlar</em>"
+msgstr "Официальные <em>объявления</em>"
+
+#: elonlar.html
+msgid "Universitetimizning barcha rasmiy e'lonlari va muhim xabarlari."
+msgstr "Все официальные объявления и важные сообщения нашего университета."
+
+#: elonlar.html yangiliklar.html
+msgid "Barchasi"
+msgstr "Все"
+
+#: elonlar.html
+msgid "Tadqiqot"
+msgstr "Исследования"
+
+#: elonlar.html
+msgid "Konkurs"
+msgstr "Конкурс"
+
+#: elonlar.html
+msgid "Umumiy"
+msgstr "Общее"
+
+#: elonlar.html
+msgid "E'lon 1"
+msgstr "Объявление 1"
+
+#: elonlar.html
+msgid "01.06.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid "E'lon 2"
+msgstr "Объявление 2"
+
+#: elonlar.html
+msgid "E'lon 3"
+msgstr "Объявление 3"
+
+#: elonlar.html
+msgid "E'lon 4"
+msgstr "Объявление 4"
+
+#: elonlar.html
+msgid "E'lon 5"
+msgstr "Объявление 5"
+
+#: elonlar.html
+msgid "01.07.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid ""
+"Magistratura dasturiga qabul: talablar va topshiriladigan hujjatlar ro'yxati"
+msgstr ""
+
+#: elonlar.html
+msgid "E'lon 6"
+msgstr "Объявление 6"
+
+#: elonlar.html
+msgid "25.05.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid "\"Eng yaxshi ilmiy maqola\" tanloviga maqola topshirish muddati belgilandi"
+msgstr ""
+
+#: elonlar.html
+msgid "E'lon 7"
+msgstr "Объявление 7"
+
+#: elonlar.html
+msgid "30.05.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid ""
+"Xalqaro ilmiy hamkorlik loyihasida ishtirok etish uchun ariza qabul "
+"boshlanadi"
+msgstr ""
+
+#: elonlar.html
+msgid "E'lon 8"
+msgstr "Объявление 8"
+
+#: elonlar.html
+msgid "12.05.2026 gacha"
+msgstr ""
+
+#: elonlar.html
+msgid "Kutubxonaning yangi elektron resurslari foydalanishga topshirildi"
+msgstr ""
+
+#: home.html
+msgid "Varnet Biotech University - Bosh sahifa"
+msgstr "Varnet Biotech University — Главная"
+
+#: home.html
+msgid "Kelajak uchun Bilim, Innovatsiya, Biotexnologiya!"
+msgstr "Знания, инновации и биотехнологии для будущего!"
+
+#: home.html
+msgid "Zamonaviy ta'lim"
+msgstr "Современное образование"
+
+#: home.html
+msgid ""
+"Dunyo standartlariga mos ta'lim dasturlari va zamonaviy pedagogik "
+"texnologiyalar"
+msgstr ""
+"Образовательные программы мирового уровня и современные педагогические "
+"технологии"
+
+#: home.html normativ_hujjatlar.html
+msgid "Ilmiy tadqiqot"
+msgstr "Научные исследования"
+
+#: home.html
+msgid "Zamonaviy laboratoriyalar va ilmiy markazlarda amaliy tadqiqotlar"
+msgstr "Прикладные исследования в современных лабораториях и научных центрах"
+
+#: home.html
+msgid "Yashil kelajak"
+msgstr "Зелёное будущее"
+
+#: home.html
+msgid ""
+"Biotexnologiya va ekologiya yo'nalishida barqaror rivojlanish loyihalari"
+msgstr "Проекты устойчивого развития в области биотехнологий и экологии"
+
+#: home.html
+msgid "Global imkoniyatlar"
+msgstr "Глобальные возможности"
+
+#: home.html
+msgid "Jahon universitetlari bilan hamkorlik va xalqaro almashinuv dasturlari"
+msgstr ""
+"Сотрудничество с университетами мира и программы международного обмена"
+
+#: home.html
+msgid "Faol talabalar"
+msgstr "Активных студентов"
+
+#: home.html
+msgid "Professor-o'qituvchilar"
+msgstr "Профессорско-преподавательский состав"
+
+#: home.html universitet_haqida.html
+msgid "Ta'lim yo'nalishlari"
+msgstr "Направлений обучения"
+
+#: home.html
+msgid "Xalqaro hamkorlar"
+msgstr "Международных партнёров"
+
+#: home.html
+msgid "Ilmiy laboratoriyalar"
+msgstr "Научных лабораторий"
+
+#: home.html
+msgid "Bandlik darajasi"
+msgstr "Уровень трудоустройства"
+
+#: home.html universitet_haqida.html
+msgid "Laboratoriya"
+msgstr "Лаборатория"
+
+#: home.html universitet_haqida.html
+msgid "yildan beri"
+msgstr "с 2018 года"
+
+#: home.html
+msgid "Biz haqimizda"
+msgstr "О нас"
+
+#: home.html universitet_haqida.html
+msgid ""
+"— zamonaviy biotexnologiya, ekologiya va innovatsiyalar sohasida yuqori "
+"malakali mutaxassislar tayyorlaydigan yetakchi oliy ta'lim muassasasi."
+msgstr ""
+"— ведущее высшее учебное заведение, которое готовит высококвалифицированных "
+"специалистов в области современной биотехнологии, экологии и инноваций."
+
+#: home.html universitet_haqida.html
+msgid ""
+"Har bir bitiruvchimiz kelajakka tayyor, global standartlarga mos bilim va "
+"amaliy ko'nikmalar bilan qurollangan holda chiqadi."
+msgstr ""
+"Каждый наш выпускник выходит готовым к будущему — со знаниями мирового "
+"уровня и практическими навыками."
+
+#: home.html universitet_haqida.html
+msgid "Xalqaro andozalarga mos o'quv dasturlari"
+msgstr "Учебные программы, соответствующие международным стандартам"
+
+#: home.html universitet_haqida.html
+msgid "12 ta zamonaviy ilmiy laboratoriya"
+msgstr "12 современных научных лабораторий"
+
+#: home.html universitet_haqida.html
+msgid "18 ta xalqaro universitetlar bilan hamkorlik"
+msgstr "Сотрудничество с 18 зарубежными университетами"
+
+#: home.html universitet_haqida.html
+msgid "Bitiruvchilarning 92% ish bilan ta'minlangan"
+msgstr "92% выпускников трудоустроены"
+
+#: home.html
+msgid "Batafsil o'qish"
+msgstr "Читать подробнее"
+
+#: home.html universitet_haqida.html
+msgid "Fakultetlar"
+msgstr "Факультеты"
+
+#: home.html universitet_haqida.html
+msgid ""
+"Har bir fakultet zamonaviy asbob-uskunalar va tajribali o'qituvchilar bilan "
+"jihozlangan."
+msgstr ""
+"Каждый факультет оснащён современным оборудованием и располагает опытным "
+"преподавательским составом."
+
+#: home.html universitet_haqida.html
+msgid "Biotexnologiya fakulteti"
+msgstr "Факультет биотехнологии"
+
+#: home.html
+msgid ""
+"Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida"
+" chuqur bilim."
+msgstr ""
+"Глубокие знания в области современных биологических технологий, генетики и "
+"молекулярной биологии."
+
+#: home.html universitet_haqida.html
+msgid "12 yo'nalish"
+msgstr "12 направлений"
+
+#: home.html kvota_va_ballar.html universitet_haqida.html
+msgid "Ekologiya"
+msgstr "Экология"
+
+#: home.html
+msgid "Ekologiya va atrof-muhit"
+msgstr "Экология и окружающая среда"
+
+#: home.html
+msgid ""
+"Tabiatni muhofaza qilish, ekologik monitoring va barqaror rivojlanish "
+"mutaxassislari."
+msgstr ""
+"Специалисты по охране природы, экологическому мониторингу и устойчивому "
+"развитию."
+
+#: home.html universitet_haqida.html
+msgid "8 yo'nalish"
+msgstr "8 направлений"
+
+#: home.html universitet_haqida.html
+msgid "IT"
+msgstr "IT"
+
+#: home.html
+msgid "Innovatsion texnologiyalar"
+msgstr "Инновационные технологии"
+
+#: home.html
+msgid ""
+"Sun'iy intellekt, raqamli texnologiyalar va bioxilma-xillik sohasida ta'lim."
+msgstr ""
+"Обучение в области искусственного интеллекта, цифровых технологий и "
+"биоразнообразия."
+
+#: home.html universitet_haqida.html
+msgid "15 yo'nalish"
+msgstr "15 направлений"
+
+#: home.html universitet_haqida.html
+msgid "Kimyo"
+msgstr "Химия"
+
+#: home.html
+msgid "Kimyo va farmatsevtika"
+msgstr "Химия и фармацевтика"
+
+#: home.html
+msgid ""
+"Organik kimyo, dori-darmon ishlab chiqarish va farmatsevtik texnologiyalar."
+msgstr ""
+"Органическая химия, производство лекарственных средств и фармацевтические "
+"технологии."
+
+#: home.html universitet_haqida.html
+msgid "10 yo'nalish"
+msgstr "10 направлений"
+
+#: home.html universitet_haqida.html
+msgid "Agro"
+msgstr "Агро"
+
+#: home.html
+msgid ""
+"Qishloq xo'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy seleksiya."
+msgstr ""
+"Сельскохозяйственная биотехнология, генная инженерия и современная селекция."
+
+#: home.html universitet_haqida.html
+msgid "7 yo'nalish"
+msgstr "7 направлений"
+
+#: home.html universitet_haqida.html
+msgid "Tibbiy"
+msgstr "Медицина"
+
+#: home.html
+msgid "Tibbiy biotexnologiya"
+msgstr "Медицинская биотехнология"
+
+#: home.html
+msgid ""
+"Tibbiyot maqsadlarida biologik texnologiyalar, tashxis va davolash "
+"tizimlari."
+msgstr "Биологические технологии для медицины, системы диагностики и лечения."
+
+#: home.html universitet_haqida.html
+msgid "9 yo'nalish"
+msgstr "9 направлений"
+
+#: home.html
+msgid "Barcha yo'nalishlar"
+msgstr "Все направления"
+
+#: home.html
+msgid "Barchasini ko'rish"
+msgstr "Смотреть все"
+
+#: home.html
+msgid "Yangilik"
+msgstr "Новость"
+
+#: home.html yangiliklar.html
+msgid "Universitetda"
+msgstr "В университете"
+
+#: home.html yangilik_detail.html yangiliklar.html
+msgid "Varnet Biotech universitetida xalqaro hamkorlik shartnomasi imzolandi"
+msgstr ""
+
+#: home.html
+msgid ""
+"Universitetimiz Yevropa va Osiyo universitetlari bilan yangi ilmiy hamkorlik"
+" shartnomalari imzoladi. Bu bitiruvchilarimiz uchun yangi imkoniyatlar "
+"ochadi."
+msgstr ""
+
+#: home.html ilmiy_faoliyat.html sport_va_hordiq.html yangiliklar.html
+msgid "Tadbirlar"
+msgstr "Мероприятия"
+
+#: home.html yangilik_detail.html yangiliklar.html
+msgid "2026-yil xalqaro ilmiy konferensiya muvaffaqiyatli o'tkazildi"
+msgstr ""
+
+#: home.html yangiliklar.html
+msgid "Fan va texnologiya"
+msgstr "Наука и технологии"
+
+#: home.html yangilik_detail.html yangiliklar.html
+msgid "Biotexnologiya laboratoriyasi yangi uskunalar bilan jihozlandi"
+msgstr ""
+
+#: home.html
+msgid "E'lon"
+msgstr "Объявление"
+
+#: home.html yangiliklar.html
+msgid "2026-2027 o'quv yiliga qabul hujjatlarini topshirish boshlandi"
+msgstr ""
+
+#: home.html rahbariyat.html structure.html
+msgid "Rektor"
+msgstr "Ректор"
+
+#: home.html rahbariyat.html
+msgid "Xamidov Obidjon Xafizovich"
+msgstr ""
+
+#: home.html
+msgid "Iqtisod fanlari doktori"
+msgstr "Доктор экономических наук"
+
+#: home.html rahbariyat.html
+msgid "buxdu_rektor@buxdu.uz"
+msgstr ""
+
+#: home.html rahbariyat.html
+msgid "Prorektor"
+msgstr "Проректор"
+
+#: home.html
+msgid "Birinchi prorektor"
+msgstr "Первый проректор"
+
+#: home.html rahbariyat.html
+msgid "Qodirov Sherzod Baxtiyorovich"
+msgstr ""
+
+#: home.html
+msgid "Pedagogika fanlari nomzodi"
+msgstr "Кандидат педагогических наук"
+
+#: home.html rahbariyat.html
+msgid "qodirov@varnet.uz"
+msgstr ""
+
+#: home.html rahbariyat.html
+msgid "Toshmatov Otabek Nematovich"
+msgstr ""
+
+#: home.html rahbariyat.html
+msgid "Fizika-matematika fanlari nomzodi"
+msgstr "Кандидат физико-математических наук"
+
+#: home.html rahbariyat.html
+msgid "toshmatov@varnet.uz"
+msgstr ""
+
+#: home.html rahbariyat.html
+msgid "Yusupova Nilufar Akbarovna"
+msgstr ""
+
+#: home.html rahbariyat.html
+msgid "Biologiya fanlari doktori"
+msgstr "Доктор биологических наук"
+
+#: home.html rahbariyat.html
+msgid "yusupova@varnet.uz"
+msgstr ""
+
+#: home.html
+msgid "Qabul 2026"
+msgstr "Приём 2026"
+
+#: home.html universitet_haqida.html
+msgid "Kelajagingizni biz bilan quring!"
+msgstr "Постройте своё будущее вместе с нами!"
+
+#: home.html
+msgid ""
+"Hujjat topshiring va o'z sohangizdagi eng yaxshi mutaxassisga aylanish "
+"yo'lida birinchi qadamni qo'ying."
+msgstr ""
+"Подайте документы и сделайте первый шаг к тому, чтобы стать лучшим "
+"специалистом в своей области."
+
+#: home.html
+msgid "Kerakli hujjatlar"
+msgstr "Необходимые документы"
+
+#: home.html
+msgid "5 iyun"
+msgstr "5 июня"
+
+#: home.html
+msgid "Qabul boshlanishi"
+msgstr "Начало приёма"
+
+#: home.html
+msgid "25 iyun"
+msgstr "25 июня"
+
+#: home.html
+msgid "Oxirgi muddat"
+msgstr "Крайний срок"
+
+#: home.html
+msgid "Email"
+msgstr "Эл. почта"
+
+#: home.html
+msgid "Buxoro viloyati, Sufiko'rg'ar MFY"
+msgstr "Бухарская область, СГМ Суфикургар"
+
+#: home.html
+msgid "Aloqa sahifasi"
+msgstr "Страница контактов"
+
+#: home.html
+msgid "Biotexnologiya sohasida <em>yetakchi</em> ta'lim maskani"
+msgstr "<em>Ведущий</em> образовательный центр в области биотехнологий"
+
+#: home.html
+msgid "Bizning <em>fakultetlar</em>"
+msgstr "Наши <em>факультеты</em>"
+
+#: home.html yangiliklar.html
+msgid "So'nggi <em>yangiliklar</em>"
+msgstr "Последние <em>новости</em>"
+
+#: home.html rahbariyat.html
+msgid "Universitet <em>rahbariyati</em>"
+msgstr "<em>Руководство</em> университета"
+
+#: hujjat_topshirish.html
+msgid "Hujjat Topshirish — Varnet Biotech University"
+msgstr "Подача документов — Varnet Biotech University"
+
+#: hujjat_topshirish.html
+msgid "Hujjat topshirish tizimi"
+msgstr "Система подачи документов"
+
+#: hujjat_topshirish.html
+msgid "Ma'lumotlar"
+msgstr "Данные"
+
+#: hujjat_topshirish.html
+msgid "Tasdiqlash"
+msgstr "Подтверждение"
+
+#: hujjat_topshirish.html
+msgid "Ariza"
+msgstr "Заявка"
+
+#: hujjat_topshirish.html
+msgid "Telefon raqamingizni kiriting"
+msgstr "Введите свой номер телефона"
+
+#: hujjat_topshirish.html
+msgid "Raqamingizni kiriting va ro'yxatdan o'tishni boshlang"
+msgstr "Введите номер и начните регистрацию"
+
+#: hujjat_topshirish.html
+msgid "Mobil telefon raqami"
+msgstr "Номер мобильного телефона"
+
+#: hujjat_topshirish.html
+msgid "UZ"
+msgstr "UZ"
+
+#: hujjat_topshirish.html
+msgid "Iltimos, to'g'ri telefon raqam kiriting (9 raqam)"
+msgstr "Пожалуйста, введите корректный номер телефона (9 цифр)"
+
+#: hujjat_topshirish.html
+msgid "Bu raqam orqali arizangiz holati kuzatiladi. Raqamni aniq kiriting."
+msgstr ""
+"По этому номеру можно отслеживать статус заявки. Указывайте номер "
+"внимательно."
+
+#: hujjat_topshirish.html
+msgid "Davom etish"
+msgstr "Продолжить"
+
+#: hujjat_topshirish.html
+msgid "Bosh sahifaga qaytish"
+msgstr "Вернуться на главную"
+
+#: hujjat_topshirish.html
+msgid "Ma'lumotlaringiz xavfsiz saqlanadi (SSL)"
+msgstr "Ваши данные защищены (SSL)"
+
+#: hujjat_topshirish.html
+msgid "Shaxsiy ma'lumotlar"
+msgstr "Личные данные"
+
+#: hujjat_topshirish.html
+msgid "Barcha majburiy maydonlarni to'ldiring"
+msgstr "Заполните все обязательные поля"
+
+#: hujjat_topshirish.html
+msgid "Telefon:"
+msgstr "Телефон:"
+
+#: hujjat_topshirish.html
+msgid "O'zgartirish"
+msgstr "Изменить"
+
+#: hujjat_topshirish.html
+msgid "Familiya"
+msgstr "Фамилия"
+
+#: hujjat_topshirish.html
+msgid "Ism"
+msgstr "Имя"
+
+#: hujjat_topshirish.html
+msgid "Sharifi"
+msgstr "Отчество"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim bosqichi"
+msgstr "Уровень образования"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim turini tanlang"
+msgstr "Выберите уровень образования"
+
+#: hujjat_topshirish.html
+msgid "Bakalavr"
+msgstr "Бакалавриат"
+
+#: hujjat_topshirish.html
+msgid "Magistr"
+msgstr "Магистратура"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim shakli"
+msgstr "Форма обучения"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim shaklini tanlang"
+msgstr "Выберите форму обучения"
+
+#: hujjat_topshirish.html
+msgid "Sirtqi"
+msgstr "Заочная"
+
+#: hujjat_topshirish.html kvota_va_ballar.html
+msgid "Kechki"
+msgstr "Вечерняя"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim tili"
+msgstr "Язык обучения"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim tilini tanlang"
+msgstr "Выберите язык обучения"
+
+#: hujjat_topshirish.html
+msgid "O'zbekcha"
+msgstr "Узбекский"
+
+#: hujjat_topshirish.html
+msgid "Ruscha"
+msgstr "Русский"
+
+#: hujjat_topshirish.html
+msgid "Inglizcha"
+msgstr "Английский"
+
+#: hujjat_topshirish.html
+msgid "Filial"
+msgstr "Филиал"
+
+#: hujjat_topshirish.html
+msgid "Filialni tanlang"
+msgstr "Выберите филиал"
+
+#: hujjat_topshirish.html
+msgid "Buxoro"
+msgstr "Бухара"
+
+#: hujjat_topshirish.html
+msgid "Toshkent"
+msgstr "Ташкент"
+
+#: hujjat_topshirish.html
+msgid "Samarqand"
+msgstr "Самарканд"
+
+#: hujjat_topshirish.html
+msgid "Qo'shimcha telefon"
+msgstr "Дополнительный телефон"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim yo'nalishi"
+msgstr "Направление обучения"
+
+#: hujjat_topshirish.html
+msgid "Avval ta'lim bosqichini tanlang..."
+msgstr "Сначала выберите уровень образования…"
+
+#: hujjat_topshirish.html
+msgid "Tasdiqlashga o'tish"
+msgstr "Перейти к подтверждению"
+
+#: hujjat_topshirish.html
+msgid "Orqaga"
+msgstr "Назад"
+
+#: hujjat_topshirish.html
+msgid "Ma'lumotlarni tekshiring"
+msgstr "Проверьте данные"
+
+#: hujjat_topshirish.html
+msgid "Quyidagi ma'lumotlar to'g'riligini tekshiring va tasdiqlang"
+msgstr "Проверьте правильность приведённых ниже данных и подтвердите"
+
+#: hujjat_topshirish.html
+msgid "Asosiy telefon"
+msgstr "Основной телефон"
+
+#: hujjat_topshirish.html
+msgid "Ta'lim ma'lumotlari"
+msgstr "Сведения об образовании"
+
+#: hujjat_topshirish.html
+msgid "Yo'nalish"
+msgstr ""
+
+#: hujjat_topshirish.html
+msgid "Tahrirlash"
+msgstr "Редактировать"
+
+#: hujjat_topshirish.html
+msgid "Tasdiqlash va yuborish"
+msgstr "Подтвердить и отправить"
+
+#: hujjat_topshirish.html
+msgid "Arizangiz qabul qilindi!"
+msgstr "Ваша заявка принята!"
+
+#: hujjat_topshirish.html
+msgid "Adminга muvaffaqiyatli yuborildi"
+msgstr ""
+
+#: hujjat_topshirish.html
+msgid "Ko'rib chiqish muddati"
+msgstr "Срок рассмотрения"
+
+#: hujjat_topshirish.html
+msgid "1–3 ish kuni ichida arizangiz ko'rib chiqiladi"
+msgstr "Ваша заявка будет рассмотрена в течение 1–3 рабочих дней"
+
+#: hujjat_topshirish.html
+msgid "Bog'lanish uchun"
+msgstr "Для связи"
+
+#: hujjat_topshirish.html
+msgid "Savollar bo'lsa qo'ng'iroq qiling:"
+msgstr "Если есть вопросы, позвоните:"
+
+#: hujjat_topshirish.html
+msgid "Natija haqida xabar"
+msgstr "Уведомление о результате"
+
+#: hujjat_topshirish.html
+msgid "Ariza natijasi"
+msgstr "Результат заявки"
+
+#: hujjat_topshirish.html
+msgid "raqamiga yuboriladi"
+msgstr "будет отправлен на номер"
+
+#: ilmiy_faoliyat.html
+msgid "Ilmiy faoliyat — Varnet Biotech University"
+msgstr "Научная деятельность — Varnet Biotech University"
+
+#: ilmiy_faoliyat.html
+msgid "Tadqiqot va innovatsiya"
+msgstr "Исследования и инновации"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Biotexnologiya, genetika va ekologiya sohasida chuqur tadqiqotlar, xalqaro "
+"nashrlar va innovatsion loyihalar — kelajak ilmiga yo‘l."
+msgstr ""
+"Фундаментальные исследования в области биотехнологий, генетики и экологии, "
+"международные публикации и инновационные проекты — путь к науке будущего."
+
+#: ilmiy_faoliyat.html
+msgid "Ilmiy laboratoriya"
+msgstr "Научная лаборатория"
+
+#: ilmiy_faoliyat.html
+msgid "Ilmiy maqolalar"
+msgstr "Научные статьи"
+
+#: ilmiy_faoliyat.html
+msgid "Innovatsion loyiha"
+msgstr "Инновационных проектов"
+
+#: ilmiy_faoliyat.html
+msgid "Patent va ixtiro"
+msgstr "Патентов и изобретений"
+
+#: ilmiy_faoliyat.html
+msgid "Tadqiqot markazi"
+msgstr "Научный центр"
+
+#: ilmiy_faoliyat.html
+msgid "Ilm — universitetimizning yuragi"
+msgstr "Наука — сердце нашего университета"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Varnet Biotexnologiyalar Universitetida ilmiy faoliyat "
+"professor-o‘qituvchilar, doktorantlar va talabalar uchun ochiq platforma "
+"hisoblanadi."
+msgstr ""
+"В Университете биотехнологий Varnet научная деятельность является открытой "
+"платформой для преподавателей, докторантов и студентов."
+
+#: ilmiy_faoliyat.html
+msgid "Molekulyar biologiya va genetika tadqiqotlari"
+msgstr "Исследования в молекулярной биологии и генетике"
+
+#: ilmiy_faoliyat.html
+msgid "Farmatsevtik biotexnologiya loyihalari"
+msgstr "Проекты в области фармацевтической биотехнологии"
+
+#: ilmiy_faoliyat.html
+msgid "Xalqaro grantlar va hamkorlik dasturlari"
+msgstr "Международные гранты и программы сотрудничества"
+
+#: ilmiy_faoliyat.html
+msgid "Yosh olimlar uchun mentorlik tizimi"
+msgstr "Система менторства для молодых учёных"
+
+#: ilmiy_faoliyat.html
+msgid "Asosiy ilmiy yo‘nalishlar"
+msgstr "Основные научные направления"
+
+#: ilmiy_faoliyat.html
+msgid "Universitetimizda olib borilayotgan ustuvor tadqiqot sohalari."
+msgstr ""
+"Приоритетные направления исследований, которые ведутся в университете."
+
+#: ilmiy_faoliyat.html
+msgid "Genetika va genomika"
+msgstr "Генетика и геномика"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Genom tahlili, gen muhandisligi va molekulyar diagnostika bo‘yicha "
+"tadqiqotlar."
+msgstr ""
+"Исследования в области анализа генома, генной инженерии и молекулярной "
+"диагностики."
+
+#: ilmiy_faoliyat.html universitet_haqida.html
+msgid "Mikrobiologiya"
+msgstr "Микробиология"
+
+#: ilmiy_faoliyat.html
+msgid "Foydali mikroorganizmlar, biopreparatlar va sanoat fermentatsiyasi."
+msgstr "Полезные микроорганизмы, биопрепараты и промышленная ферментация."
+
+#: ilmiy_faoliyat.html magistr_qabuli.html universitet_haqida.html
+msgid "Biofarmatsevtika"
+msgstr "Биофармацевтика"
+
+#: ilmiy_faoliyat.html
+msgid "Dori vositalari ishlab chiqish, biologik faol birikmalar sintezi."
+msgstr ""
+"Разработка лекарственных средств, синтез биологически активных соединений."
+
+#: ilmiy_faoliyat.html
+msgid "O‘simlik seleksiyasi, chidamli navlar va biohimoya usullari."
+msgstr "Селекция растений, устойчивые сорта и методы биологической защиты."
+
+#: ilmiy_faoliyat.html
+msgid "Ekologik biotexnologiya"
+msgstr "Экологическая биотехнология"
+
+#: ilmiy_faoliyat.html
+msgid "Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar."
+msgstr "Восстановление окружающей среды, биоремедиация и зелёные технологии."
+
+#: ilmiy_faoliyat.html
+msgid "Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari."
+msgstr ""
+"Анализ больших биологических данных и подходы на основе искусственного "
+"интеллекта."
+
+#: ilmiy_faoliyat.html
+msgid "Ilmiy tadbirlar va nashrlar"
+msgstr "Научные мероприятия и публикации"
+
+#: ilmiy_faoliyat.html
+msgid "Konferensiyalar, seminarlar va nashr faoliyati."
+msgstr "Конференции, семинары и издательская деятельность."
+
+#: ilmiy_faoliyat.html
+msgid "Har yili"
+msgstr "Ежегодно"
+
+#: ilmiy_faoliyat.html
+msgid "«BioTech Innovate» xalqaro konferensiyasi"
+msgstr "Международная конференция «BioTech Innovate»"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Dunyo olimlari ishtirokida biotexnologiya yangiliklari muhokama qilinadi."
+msgstr ""
+"Обсуждение новейших достижений биотехнологии с участием учёных из разных "
+"стран."
+
+#: ilmiy_faoliyat.html
+msgid "Har chorak"
+msgstr "Ежеквартально"
+
+#: ilmiy_faoliyat.html
+msgid "Yosh olimlar seminari"
+msgstr "Семинар молодых учёных"
+
+#: ilmiy_faoliyat.html
+msgid "Talaba va doktorantlar o‘z tadqiqot natijalarini taqdim etadi."
+msgstr "Студенты и докторанты представляют результаты своих исследований."
+
+#: ilmiy_faoliyat.html
+msgid "«Varnet Science Journal»"
+msgstr "«Varnet Science Journal»"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Universitet ilmiy jurnali — Scopus indeksatsiyasiga yo‘naltirilgan nashr."
+msgstr ""
+"Научный журнал университета — издание, ориентированное на индексацию в "
+"Scopus."
+
+#: ilmiy_faoliyat.html
+msgid "Ilmiy loyihangizni biz bilan boshlang"
+msgstr "Начните свой научный проект вместе с нами"
+
+#: ilmiy_faoliyat.html
+msgid ""
+"Ilmiy tadqiqot bo‘limi bilan bog‘laning yoki grant imkoniyatlarini "
+"o‘rganing."
+msgstr ""
+"Свяжитесь с отделом научных исследований или узнайте о грантовых "
+"возможностях."
+
+#: ilmiy_faoliyat.html magistr_qabuli.html malaka_oshirish.html
+msgid "Bog‘lanish"
+msgstr "Связаться"
+
+#: kvota_va_ballar.html
+msgid "Kvota va ballar — Varnet Biotech University"
+msgstr "Квоты и проходные баллы — Varnet Biotech University"
+
+#: kvota_va_ballar.html
+msgid "Qabul parametrlari"
+msgstr "Параметры приёма"
+
+#: kvota_va_ballar.html
+msgid "Kvota va <em>ballar</em>"
+msgstr "Квоты и <em>баллы</em>"
+
+#: kvota_va_ballar.html
+msgid ""
+"DTM ball tuzilmasi, o‘tish ballari va 2026/2027 o‘quv yili qabul kvotalari "
+"haqida ma’lumot."
+msgstr ""
+"Информация о структуре баллов ГЦТ, проходных баллах и квотах приёма на "
+"2026/2027 учебный год."
+
+#: kvota_va_ballar.html
+msgid "DTM maksimal ball"
+msgstr "Максимальный балл ГЦТ"
+
+#: kvota_va_ballar.html
+msgid "Bakalavriat (respublika)"
+msgstr "Бакалавриат (по республике)"
+
+#: kvota_va_ballar.html
+msgid "Magistratura kunduzgi"
+msgstr "Магистратура, очно"
+
+#: kvota_va_ballar.html
+msgid "Davlat grant o‘rinlari"
+msgstr "Государственных грантовых мест"
+
+#: kvota_va_ballar.html
+msgid "DTM 2026"
+msgstr "ГЦТ 2026"
+
+#: kvota_va_ballar.html
+msgid "Kirish testi ball tuzilmasi"
+msgstr "Структура баллов вступительного теста"
+
+#: kvota_va_ballar.html
+msgid ""
+"Bakalavriat uchun test 5 ta fan va 90 ta savoldan iborat. Maksimal ball —"
+msgstr ""
+"Тест для бакалавриата состоит из 5 предметов и 90 вопросов. Максимальный "
+"балл —"
+
+#: kvota_va_ballar.html
+msgid "Fan"
+msgstr "Предмет"
+
+#: kvota_va_ballar.html
+msgid "Turi"
+msgstr "Тип"
+
+#: kvota_va_ballar.html
+msgid "Savollar"
+msgstr "Вопросы"
+
+#: kvota_va_ballar.html
+msgid "Ball hisobi"
+msgstr "Начисление баллов"
+
+#: kvota_va_ballar.html
+msgid "Jami"
+msgstr "Всего"
+
+#: kvota_va_ballar.html
+msgid "Ona tili (o‘zbek / rus)"
+msgstr "Родной язык (узбекский / русский)"
+
+#: kvota_va_ballar.html topshiriladigan_hujjatlar.html
+msgid "Majburiy"
+msgstr "Обязательный"
+
+#: kvota_va_ballar.html
+msgid "Matematika"
+msgstr "Математика"
+
+#: kvota_va_ballar.html
+msgid "O‘zbekiston tarixi"
+msgstr "История Узбекистана"
+
+#: kvota_va_ballar.html
+msgid "Profil fan 1"
+msgstr "Профильный предмет 1"
+
+#: kvota_va_ballar.html
+msgid "Profil"
+msgstr "Профильный"
+
+#: kvota_va_ballar.html
+msgid "Profil fan 2"
+msgstr "Профильный предмет 2"
+
+#: kvota_va_ballar.html
+msgid "Maksimal ball"
+msgstr "Максимальный балл"
+
+#: kvota_va_ballar.html
+msgid "Respublika kvotalari"
+msgstr "Республиканские квоты"
+
+#: kvota_va_ballar.html
+msgid "2026/2027 bakalavriat kvotalari"
+msgstr "Квоты бакалавриата на 2026/2027"
+
+#: kvota_va_ballar.html
+msgid "Davlat OTMlari bo‘yicha tasdiqlangan umumiy qabul parametrlari."
+msgstr "Утверждённые общие параметры приёма по государственным вузам."
+
+#: kvota_va_ballar.html
+msgid "Ta’lim shakli"
+msgstr "Форма обучения"
+
+#: kvota_va_ballar.html
+msgid "Qabul o‘rni"
+msgstr "Мест приёма"
+
+#: kvota_va_ballar.html
+msgid "Izoh"
+msgstr "Примечание"
+
+#: kvota_va_ballar.html
+msgid "Asosiy ta’lim shakli"
+msgstr "Основная форма обучения"
+
+#: kvota_va_ballar.html
+msgid "Ishlab turib o‘qish"
+msgstr "Обучение без отрыва от работы"
+
+#: kvota_va_ballar.html
+msgid "Masofaviy"
+msgstr "Дистанционная"
+
+#: kvota_va_ballar.html
+msgid "Masofaviy ta’lim"
+msgstr "Дистанционное обучение"
+
+#: kvota_va_ballar.html
+msgid "Jami bakalavriat"
+msgstr "Всего по бакалавриату"
+
+#: kvota_va_ballar.html
+msgid "Davlat komissiyasi qarori"
+msgstr "Решение государственной комиссии"
+
+#: kvota_va_ballar.html
+msgid "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)"
+msgstr "Varnet — квоты по направлениям (примеры)"
+
+#: kvota_va_ballar.html
+msgid ""
+"Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida"
+" rasmiy tasdiqlanadi."
+msgstr ""
+"Приведённые цифры носят примерный характер. Окончательные квоты официально "
+"утверждаются ежегодно в объявлении о приёме."
+
+#: kvota_va_ballar.html
+msgid "Grant"
+msgstr "Грант"
+
+#: kvota_va_ballar.html
+msgid "Kontrakt"
+msgstr "Контракт"
+
+#: kvota_va_ballar.html
+msgid "O‘tgan yil o‘tish balli*"
+msgstr "Проходной балл прошлого года*"
+
+#: kvota_va_ballar.html
+msgid "Jami (namuna)"
+msgstr "Всего (пример)"
+
+#: kvota_va_ballar.html
+msgid ""
+"* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal "
+"chegaralar Davlat qabul komissiyasi tomonidan belgilanadi."
+msgstr ""
+"* Проходные баллы меняются ежегодно в зависимости от результатов конкурса. "
+"Минимальные пороги устанавливаются Государственной приёмной комиссией."
+
+#: kvota_va_ballar.html
+msgid "Grant va imtiyoz"
+msgstr "Гранты и льготы"
+
+#: kvota_va_ballar.html
+msgid "Grant, kontrakt va imtiyozlar"
+msgstr "Гранты, контракт и льготы"
+
+#: kvota_va_ballar.html
+msgid "Davlat granti"
+msgstr "Государственный грант"
+
+#: kvota_va_ballar.html
+msgid ""
+"Ball konkursi asosida. Grant o‘rinlari yo‘nalish bo‘yicha ball kamayish "
+"tartibida taqsimlanadi."
+msgstr ""
+"На основе конкурса баллов. Грантовые места распределяются по направлениям в "
+"порядке убывания баллов."
+
+#: kvota_va_ballar.html
+msgid "To‘lov-kontrakt"
+msgstr "Платно-контрактная форма"
+
+#: kvota_va_ballar.html
+msgid ""
+"O‘z mablag‘i hisobiga ta’lim. Minimal o‘tish balliga erishganlar uchun "
+"ochiq."
+msgstr ""
+"Обучение за собственный счёт. Доступно для набравших минимальный проходной "
+"балл."
+
+#: kvota_va_ballar.html
+msgid "Superkontrakt"
+msgstr "Суперконтракт"
+
+#: kvota_va_ballar.html
+msgid ""
+"Oddiy kontraktga o‘tmaganlar uchun qo‘shimcha shakl. Rasmiylashtirish: "
+"kontrakt.edu.uz."
+msgstr ""
+"Дополнительная форма для тех, кто не прошёл на обычный контракт. Оформление:"
+" kontrakt.edu.uz."
+
+#: kvota_va_ballar.html
+msgid "Til sertifikati"
+msgstr "Языковой сертификат"
+
+#: kvota_va_ballar.html
+msgid ""
+"IELTS / TOEFL / GCT B1+ — chet tili fanida imtihonsiz maksimal ball "
+"imtiyozi."
+msgstr ""
+"IELTS / TOEFL / GCT B1+ — льгота в виде максимального балла по иностранному "
+"языку без экзамена."
+
+#: kvota_va_ballar.html
+msgid "Olimpiadalar"
+msgstr "Олимпиады"
+
+#: kvota_va_ballar.html
+msgid ""
+"Xalqaro va respublika olimpiada g‘oliblari qo‘shimcha imtiyozlarga ega "
+"bo‘lishi mumkin."
+msgstr ""
+"Победители международных и республиканских олимпиад могут иметь "
+"дополнительные льготы."
+
+#: kvota_va_ballar.html
+msgid "Maxsus kvotalar"
+msgstr "Специальные квоты"
+
+#: kvota_va_ballar.html
+msgid ""
+"Ayollar uchun qo‘shimcha grantlar va boshqa maqsadli kvotalar (respublika "
+"miqyosida)."
+msgstr ""
+"Дополнительные гранты для женщин и другие целевые квоты (в республиканском "
+"масштабе)."
+
+#: kvota_va_ballar.html
+msgid "Rasmiy portal"
+msgstr "Официальный портал"
+
+#: kvota_va_ballar.html
+msgid "Ballaringizni hisoblab, ariza bering"
+msgstr "Рассчитайте свои баллы и подайте заявку"
+
+#: kvota_va_ballar.html
+msgid "Aniq kvota va o‘tish ballari qabul e’lonida yangilanadi."
+msgstr "Точные квоты и проходные баллы обновляются в объявлении о приёме."
+
+#: kvota_va_ballar.html
+msgid ""
+"Biotexnologiya yo‘nalishlari uchun profil fanlar odatda "
+"<strong>Biologiya</strong> va <strong>Kimyo</strong> bo‘ladi. Aniq blokni "
+"my.uzbmb.uz dan tekshiring."
+msgstr ""
+"Для направлений биотехнологии профильными предметами обычно являются "
+"<strong>биология</strong> и <strong>химия</strong>. Точный блок уточняйте на"
+" my.uzbmb.uz."
+
+#: magistr_qabuli.html
+msgid "Magistr qabuli — Varnet Biotech University"
+msgstr "Приём в магистратуру — Varnet Biotech University"
+
+#: magistr_qabuli.html
+msgid "Magistratura 2026/2027"
+msgstr "Магистратура 2026/2027"
+
+#: magistr_qabuli.html
+msgid "Magistr <em>qabuli</em>"
+msgstr "Приём в <em>магистратуру</em>"
+
+#: magistr_qabuli.html
+msgid ""
+"Davlat OTMlari magistratura mutaxassisliklariga onlayn ariza — chet tili "
+"sertifikati asosida."
+msgstr ""
+"Онлайн-заявка на специальности магистратуры государственных вузов — на "
+"основании сертификата по иностранному языку."
+
+#: magistr_qabuli.html
+msgid "Iyul — ariza muddati"
+msgstr "Июль — срок подачи заявок"
+
+#: magistr_qabuli.html malaka_oshirish.html
+msgid "Onlayn"
+msgstr "Онлайн"
+
+#: magistr_qabuli.html
+msgid "my.edu.uz / magistr.edu.uz"
+msgstr "my.edu.uz / magistr.edu.uz"
+
+#: magistr_qabuli.html
+msgid "Til"
+msgstr "Язык"
+
+#: magistr_qabuli.html
+msgid "Chet tili sertifikati"
+msgstr "Сертификат по иностранному языку"
+
+#: magistr_qabuli.html
+msgid "2 yil"
+msgstr "2 года"
+
+#: magistr_qabuli.html
+msgid "Odatdagi o‘qish muddati"
+msgstr "Стандартный срок обучения"
+
+#: magistr_qabuli.html
+msgid "Magistraturaga qabul qanday o‘tadi?"
+msgstr "Как проходит приём в магистратуру?"
+
+#: magistr_qabuli.html
+msgid "Ariza topshirish"
+msgstr "Подача заявки"
+
+#: magistr_qabuli.html
+msgid ""
+"Portalda bakalavr diplomi va shaxsni tasdiqlovchi hujjatlar asosida onlayn "
+"ariza to‘ldiriladi."
+msgstr ""
+"На портале заполняется онлайн-заявка на основании диплома бакалавра и "
+"документов, удостоверяющих личность."
+
+#: magistr_qabuli.html
+msgid ""
+"Tanlovda ishtirok uchun milliy yoki xalqaro chet tili sertifikati talab "
+"etiladi (IELTS, TOEFL, GCT va boshqalar)."
+msgstr ""
+"Для участия в конкурсе требуется национальный или международный сертификат "
+"по иностранному языку (IELTS, TOEFL, GCT и другие)."
+
+#: magistr_qabuli.html
+msgid "Tanlov va joylashish"
+msgstr "Конкурс и распределение"
+
+#: magistr_qabuli.html
+msgid ""
+"Ball, kvota va imtiyozlar asosida grant yoki to‘lov-kontrakt o‘rinlariga "
+"taqsimlanadi."
+msgstr ""
+"Распределение на грантовые или платно-контрактные места производится на "
+"основе баллов, квот и льгот."
+
+#: magistr_qabuli.html
+msgid "Asosiy talablar"
+msgstr "Основные требования"
+
+#: magistr_qabuli.html
+msgid "Magistraturaga ariza uchun odatda quyidagilar talab qilinadi."
+msgstr "Для подачи заявки в магистратуру обычно требуется следующее."
+
+#: magistr_qabuli.html
+msgid "Bakalavr diplomi va ilovasi (yoki ekvivalent hujjat)"
+msgstr "Диплом бакалавра и приложение к нему (или эквивалентный документ)"
+
+#: magistr_qabuli.html
+msgid "Chet tilini bilish sertifikati (majburiy toifalar bundan mustasno)"
+msgstr ""
+"Сертификат о владении иностранным языком (за исключением освобождённых "
+"категорий)"
+
+#: magistr_qabuli.html
+msgid "Pasport / ID-karta va JSHSHIR"
+msgstr "Паспорт / ID-карта и ПИНФЛ"
+
+#: magistr_qabuli.html
+msgid "3×4 fotosurat (portal talabiga mos)"
+msgstr "Фотография 3×4 (в соответствии с требованиями портала)"
+
+#: magistr_qabuli.html
+msgid "Imtiyozli toifa uchun tasdiqlovchi hujjatlar (agar mavjud bo‘lsa)"
+msgstr "Подтверждающие документы для льготной категории (при наличии)"
+
+#: magistr_qabuli.html
+msgid ""
+"Quyidagi toifalar ayrim hollarda chet tili sertifikatidan ozod etilishi "
+"mumkin: Prezident / nomli stipendiyalar sohiblari, davlat mukofoti "
+"sovrindorlari, respublika fan olimpiadalari g‘oliblari; ko‘rish, eshitish "
+"yoki nutq nuqsoni bo‘yicha nogironlik ma’lumotnomasi egalar; bakalavriatni "
+"xorijiy tilda tugatganlar."
+msgstr ""
+"В отдельных случаях от сертификата по иностранному языку могут быть "
+"освобождены: обладатели Президентской и именных стипендий, лауреаты "
+"государственных премий, победители республиканских предметных олимпиад; лица"
+" со справкой об инвалидности по зрению, слуху или речи; выпускники "
+"бакалавриата, обучавшиеся на иностранном языке."
+
+#: magistr_qabuli.html
+msgid "Mutaxassisliklar"
+msgstr "Специальности"
+
+#: magistr_qabuli.html
+msgid "Magistratura yo‘nalishlari (namuna)"
+msgstr "Направления магистратуры (примеры)"
+
+#: magistr_qabuli.html
+msgid ""
+"Varnet Biotexnologiyalar Universitetidagi asosiy magistratura dasturlari."
+msgstr "Основные программы магистратуры Университета биотехнологий Varnet."
+
+#: magistr_qabuli.html
+msgid "Mutaxassislik"
+msgstr "Специальность"
+
+#: magistr_qabuli.html
+msgid "Asos"
+msgstr "Основа"
+
+#: magistr_qabuli.html
+msgid "Molekulyar biologiya va biotexnologiya"
+msgstr "Молекулярная биология и биотехнология"
+
+#: magistr_qabuli.html
+msgid "Grant / Kontrakt"
+msgstr "Грант / Контракт"
+
+#: magistr_qabuli.html
+msgid "Ekologiya va barqaror rivojlanish"
+msgstr "Экология и устойчивое развитие"
+
+#: magistr_qabuli.html
+msgid "Kunduzgi / Kechki"
+msgstr "Очно / Вечерне"
+
+#: magistr_qabuli.html
+msgid "Bioinformatika va raqamli biologiya"
+msgstr "Биоинформатика и цифровая биология"
+
+#: magistr_qabuli.html
+msgid "Respublika kvotasi"
+msgstr "Республиканская квота"
+
+#: magistr_qabuli.html
+msgid "2026/2027 magistratura (respublika)"
+msgstr "Магистратура 2026/2027 (по республике)"
+
+#: magistr_qabuli.html
+msgid "Davlat komissiyasi tomonidan tasdiqlangan umumiy parametrlar."
+msgstr "Общие параметры, утверждённые государственной комиссией."
+
+#: magistr_qabuli.html
+msgid "Kunduzgi magistratura o‘rinlari (jami)."
+msgstr "Мест в очной магистратуре (всего)."
+
+#: magistr_qabuli.html
+msgid "Davlat granti o‘rinlari (kunduzgi)."
+msgstr "Государственных грантовых мест (очно)."
+
+#: magistr_qabuli.html
+msgid "To‘lov-kontrakt o‘rinlari (kunduzgi)."
+msgstr "Платно-контрактных мест (очно)."
+
+#: magistr_qabuli.html
+msgid "my.edu.uz"
+msgstr ""
+
+#: magistr_qabuli.html
+msgid "Magistraturaga ariza bering"
+msgstr "Подайте заявку в магистратуру"
+
+#: magistr_qabuli.html
+msgid "Savollaringiz bo‘lsa, qabul bo‘limiga murojaat qiling."
+msgstr "Если у вас есть вопросы, обратитесь в приёмную комиссию."
+
+#: magistr_qabuli.html
+msgid ""
+"2026/2027 o‘quv yili uchun davlat OTMlari magistraturasiga hujjatlar "
+"<strong>1–30 iyul</strong> oralig‘ida onlayn qabul qilinadi. Asosiy "
+"platforma: <strong>my.edu.uz</strong> (magistratura moduli)."
+msgstr ""
+"Документы в магистратуру государственных вузов на 2026/2027 учебный год "
+"принимаются онлайн <strong>с 1 по 30 июля</strong>. Основная платформа: "
+"<strong>my.edu.uz</strong> (модуль магистратуры)."
+
+#: malaka_oshirish.html
+msgid "Malaka oshirish — Varnet Biotech University"
+msgstr "Повышение квалификации — Varnet Biotech University"
+
+#: malaka_oshirish.html
+msgid ""
+"Mutaxassislar va bitiruvchilar uchun qisqa muddatli kurslar, sertifikat "
+"dasturlari va professional rivojlanish."
+msgstr ""
+"Краткосрочные курсы, сертификационные программы и профессиональное развитие "
+"для специалистов и выпускников."
+
+#: malaka_oshirish.html
+msgid "Kurs va modul"
+msgstr "Курсов и модулей"
+
+#: malaka_oshirish.html
+msgid "Haftalik dasturlar"
+msgstr "Недельных программ"
+
+#: malaka_oshirish.html
+msgid "Yillik tinglovchilar"
+msgstr "Слушателей в год"
+
+#: malaka_oshirish.html
+msgid "Sertifikat"
+msgstr "Сертификат"
+
+#: malaka_oshirish.html
+msgid "Rasmiy tasdiqlash"
+msgstr "Официальное подтверждение"
+
+#: malaka_oshirish.html
+msgid "Dasturlar"
+msgstr "Программы"
+
+#: malaka_oshirish.html
+msgid "Malaka oshirish nima uchun?"
+msgstr "Зачем повышать квалификацию?"
+
+#: malaka_oshirish.html
+msgid ""
+"Biotexnologiya, ekologiya va raqamli texnologiyalar sohasida bilimni "
+"yangilash, kasbiy ko‘nikmalarni mustahkamlash va sertifikat olish."
+msgstr ""
+"Чтобы обновить знания в области биотехнологий, экологии и цифровых "
+"технологий, укрепить профессиональные навыки и получить сертификат."
+
+#: malaka_oshirish.html
+msgid "Laborator amaliyot"
+msgstr "Лабораторная практика"
+
+#: malaka_oshirish.html
+msgid ""
+"Zamonaviy uskunalar bilan ishlash, namunaviy protokol va xavfsizlik "
+"standartlari."
+msgstr ""
+"Работа с современным оборудованием, типовые протоколы и стандарты "
+"безопасности."
+
+#: malaka_oshirish.html
+msgid "Ekologik monitoring"
+msgstr "Экологический мониторинг"
+
+#: malaka_oshirish.html
+msgid ""
+"Atrof-muhit tahlili, yashil texnologiyalar va barqaror boshqaruv asoslari."
+msgstr ""
+"Анализ окружающей среды, зелёные технологии и основы устойчивого управления."
+
+#: malaka_oshirish.html
+msgid "Raqamli ko‘nikmalar"
+msgstr "Цифровые навыки"
+
+#: malaka_oshirish.html
+msgid ""
+"Bioinformatika asoslari, ma’lumotlar tahlili va zamonaviy dasturiy "
+"vositalar."
+msgstr ""
+"Основы биоинформатики, анализ данных и современные программные средства."
+
+#: malaka_oshirish.html
+msgid "Kurslar"
+msgstr "Курсы"
+
+#: malaka_oshirish.html
+msgid "Mavjud yo‘nalishlar (namuna)"
+msgstr "Доступные направления (примеры)"
+
+#: malaka_oshirish.html
+msgid "Kurs nomi"
+msgstr "Название курса"
+
+#: malaka_oshirish.html
+msgid "Format"
+msgstr "Формат"
+
+#: malaka_oshirish.html
+msgid "Natija"
+msgstr "Результат"
+
+#: malaka_oshirish.html
+msgid "Laboratoriya xavfsizligi va GLP"
+msgstr "Лабораторная безопасность и GLP"
+
+#: malaka_oshirish.html
+msgid "2 hafta"
+msgstr "2 недели"
+
+#: malaka_oshirish.html
+msgid "Mikrobiologiya amaliyoti"
+msgstr "Практикум по микробиологии"
+
+#: malaka_oshirish.html
+msgid "4 hafta"
+msgstr "4 недели"
+
+#: malaka_oshirish.html
+msgid "Ekologik monitoring asoslari"
+msgstr "Основы экологического мониторинга"
+
+#: malaka_oshirish.html
+msgid "3 hafta"
+msgstr "3 недели"
+
+#: malaka_oshirish.html
+msgid "Kunduzgi / Onlayn"
+msgstr "Очно / Онлайн"
+
+#: malaka_oshirish.html
+msgid "Bioinformatikaga kirish"
+msgstr "Введение в биоинформатику"
+
+#: malaka_oshirish.html
+msgid "6 hafta"
+msgstr "6 недель"
+
+#: malaka_oshirish.html
+msgid "Qishloq xo‘jaligi biotexnologiyasi"
+msgstr "Сельскохозяйственная биотехнология"
+
+#: malaka_oshirish.html
+msgid "Bitiruvchilar, mutaxassislar va tashkilot xodimlari uchun ochiq"
+msgstr "Открыто для выпускников, специалистов и сотрудников организаций"
+
+#: malaka_oshirish.html
+msgid "Guruh va individual shaklda tashkil etilishi mumkin"
+msgstr "Возможны групповые и индивидуальные форматы обучения"
+
+#: malaka_oshirish.html
+msgid "Muvaffaqiyatli tugatganlarga universitet sertifikati beriladi"
+msgstr "Успешно завершившим выдаётся сертификат университета"
+
+#: malaka_oshirish.html
+msgid "Kursga yozilish"
+msgstr "Записаться на курс"
+
+#: malaka_oshirish.html
+msgid "E’lonlar"
+msgstr "Объявления"
+
+#: malaka_oshirish.html
+msgid "Kasbiy malakangizni oshiring"
+msgstr "Повышайте свою профессиональную квалификацию"
+
+#: malaka_oshirish.html
+msgid "Keyingi kurs jadvali va narxlar haqida qabul bo‘limidan bilib oling."
+msgstr ""
+"Узнайте о расписании следующих курсов и стоимости в приёмной комиссии."
+
+#: moliyaviy_faoliyat.html
+msgid "Moliyaviy faoliyat — Varnet Biotech University"
+msgstr "Финансовая деятельность — Varnet Biotech University"
+
+#: moliyaviy_faoliyat.html
+msgid "Shaffof boshqaruv"
+msgstr "Прозрачное управление"
+
+#: moliyaviy_faoliyat.html
+msgid ""
+"Byudjetning samarali boshqaruvi, ochiq hisobotlilik va ta’lim sifatini "
+"qo‘llab-quvvatlovchi moliyaviy siyosat."
+msgstr ""
+"Эффективное управление бюджетом, открытая отчётность и финансовая политика, "
+"поддерживающая качество образования."
+
+#: moliyaviy_faoliyat.html
+msgid "Yillik audit"
+msgstr "Ежегодный аудит"
+
+#: moliyaviy_faoliyat.html
+msgid "Ilmga ajratilgan mablag‘"
+msgstr "Средства на науку"
+
+#: moliyaviy_faoliyat.html
+msgid "Stipendiya oluvchilar"
+msgstr "Получателей стипендий"
+
+#: moliyaviy_faoliyat.html
+msgid "Ochiq hisobotlar"
+msgstr "Открытых отчётов"
+
+#: moliyaviy_faoliyat.html
+msgid "Moliyaviy tahlil"
+msgstr "Финансовый анализ"
+
+#: moliyaviy_faoliyat.html
+msgid "Moliya siyosati"
+msgstr "Финансовая политика"
+
+#: moliyaviy_faoliyat.html
+msgid "Shaffof va maqsadli xarajatlar"
+msgstr "Прозрачные и целевые расходы"
+
+#: moliyaviy_faoliyat.html
+msgid ""
+"Universitet moliyaviy faoliyati qonunchilikka mos, ichki nazorat va tashqi "
+"audit asosida yuritiladi. Asosiy e’tibor — ta’lim, ilm-fan va talabalar "
+"farovonligi."
+msgstr ""
+"Финансовая деятельность университета ведётся в соответствии с "
+"законодательством, на основе внутреннего контроля и внешнего аудита. "
+"Основной приоритет — образование, наука и благополучие студентов."
+
+#: moliyaviy_faoliyat.html
+msgid "Byudjet rejalashtirish va monitoring"
+msgstr "Планирование и мониторинг бюджета"
+
+#: moliyaviy_faoliyat.html
+msgid "Grant va investitsiya jalb qilish"
+msgstr "Привлечение грантов и инвестиций"
+
+#: moliyaviy_faoliyat.html
+msgid "Stipendiya va ijtimoiy qo‘llab-quvvatlash"
+msgstr "Стипендии и социальная поддержка"
+
+#: moliyaviy_faoliyat.html
+msgid "Yillik moliyaviy hisobotlar nashri"
+msgstr "Публикация ежегодных финансовых отчётов"
+
+#: moliyaviy_faoliyat.html
+msgid "Moliyaviy boshqaruv yo‘nalishlari"
+msgstr "Направления финансового управления"
+
+#: moliyaviy_faoliyat.html
+msgid "Mablag‘lar qayerga yo‘naltiriladi va qanday nazorat qilinadi."
+msgstr "Куда направляются средства и как осуществляется контроль."
+
+#: moliyaviy_faoliyat.html
+msgid "Ta’lim moliyasi"
+msgstr "Финансирование образования"
+
+#: moliyaviy_faoliyat.html
+msgid ""
+"O‘quv jarayoni, laboratoriyalar va o‘quv materiallarini moliyalashtirish."
+msgstr "Финансирование учебного процесса, лабораторий и учебных материалов."
+
+#: moliyaviy_faoliyat.html
+msgid "Ilmiy grantlar"
+msgstr "Научные гранты"
+
+#: moliyaviy_faoliyat.html
+msgid ""
+"Tadqiqot loyihalari, patentlar va xalqaro hamkorlikni qo‘llab-quvvatlash."
+msgstr ""
+"Поддержка исследовательских проектов, патентов и международного "
+"сотрудничества."
+
+#: moliyaviy_faoliyat.html
+msgid "Stipendiyalar"
+msgstr "Стипендии"
+
+#: moliyaviy_faoliyat.html
+msgid "Iqtidorli va ehtiyojmand talabalar uchun moliyaviy yordam dasturlari."
+msgstr "Программы финансовой помощи для талантливых и нуждающихся студентов."
+
+#: moliyaviy_faoliyat.html
+msgid "Infratuzilma"
+msgstr "Инфраструктура"
+
+#: moliyaviy_faoliyat.html
+msgid "Binolar, sport majmuasi va raqamli infratuzilmani rivojlantirish."
+msgstr "Развитие зданий, спортивного комплекса и цифровой инфраструктуры."
+
+#: moliyaviy_faoliyat.html
+msgid "Ichki audit"
+msgstr "Внутренний аудит"
+
+#: moliyaviy_faoliyat.html
+msgid "Xarajatlarning maqsadliligi va qonuniyligini doimiy nazorat."
+msgstr "Постоянный контроль целевого и законного использования средств."
+
+#: moliyaviy_faoliyat.html
+msgid "Ochiq moliyaviy ma’lumotlar va jamoatchilik uchun yillik hisobot."
+msgstr "Открытые финансовые данные и ежегодный отчёт для общественности."
+
+#: moliyaviy_faoliyat.html
+msgid "Moliyaviy hujjatlar va hisobotlar"
+msgstr "Финансовые документы и отчёты"
+
+#: moliyaviy_faoliyat.html
+msgid "Asosiy hujjatlar to‘plami (namuna bo‘limlari)."
+msgstr "Комплект основных документов (примерные разделы)."
+
+#: moliyaviy_faoliyat.html
+msgid "Yillik moliyaviy hisobot"
+msgstr "Годовой финансовый отчёт"
+
+#: moliyaviy_faoliyat.html
+msgid "Byudjet ijrosi va asosiy ko‘rsatkichlar"
+msgstr "Исполнение бюджета и основные показатели"
+
+#: moliyaviy_faoliyat.html
+msgid "Xaridlar rejasining ochiqligi"
+msgstr "Прозрачность плана закупок"
+
+#: moliyaviy_faoliyat.html
+msgid "Davlat xaridlari va tender ma’lumotlari"
+msgstr "Данные о государственных закупках и тендерах"
+
+#: moliyaviy_faoliyat.html
+msgid "Stipendiya nizomi"
+msgstr "Положение о стипендиях"
+
+#: moliyaviy_faoliyat.html
+msgid "Talabalarni moliyaviy qo‘llab-quvvatlash tartibi"
+msgstr "Порядок финансовой поддержки студентов"
+
+#: moliyaviy_faoliyat.html
+msgid "Moliyaviy bo‘lim bilan bog‘laning"
+msgstr "Свяжитесь с финансовым отделом"
+
+#: moliyaviy_faoliyat.html
+msgid ""
+"Hisobotlar, to‘lovlar yoki stipendiyalar bo‘yicha savollaringiz bo‘lsa "
+"murojaat qiling."
+msgstr ""
+"Обращайтесь, если у вас есть вопросы по отчётам, оплате или стипендиям."
+
+#: normativ_hujjatlar.html
+msgid "Normativ hujjatlar — Varnet Biotech University"
+msgstr "Нормативные документы — Varnet Biotech University"
+
+#: normativ_hujjatlar.html
+msgid "Huquqiy asoslar"
+msgstr "Правовые основы"
+
+#: normativ_hujjatlar.html
+msgid "Normativ <em>hujjatlar</em>"
+msgstr "Нормативные <em>документы</em>"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Universitetimiz faoliyatini tartibga soluvchi qonunlar, qarorlar va nizomlar"
+" to'plami."
+msgstr ""
+"Свод законов, постановлений и положений, регулирующих деятельность нашего "
+"университета."
+
+#: normativ_hujjatlar.html
+msgid "Kategoriyalar"
+msgstr "Категории"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasi qonunlari"
+msgstr "Законы Республики Узбекистан"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasi Mehnat kodeksi"
+msgstr "Трудовой кодекс Республики Узбекистан"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasi Prezidentining qarorlari"
+msgstr "Постановления Президента Республики Узбекистан"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasi Vazirlar Mahkamasining qarorlari"
+msgstr "Постановления Кабинета Министров Республики Узбекистан"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Oliy ta'lim muassasalariga o'qishga qabul qilish, talabalar o'qishini "
+"ko'chirish, qayta tiklash va o'qishdan chetlashtirish tartibi to'g'risidagi "
+"nizomlar"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Axborot texnologiyalari, ta'lim va aloqaga oid asosiy qonunlar"
+msgstr ""
+"Основные законы в сфере информационных технологий, образования и связи"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasining"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "&quot;Axborotlashtirish to'g'risida&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "gi Qonuni"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Axborot texnologiyalari"
+msgstr "Информационные технологии"
+
+#: normativ_hujjatlar.html
+msgid "&quot;Elektron hukumat to'g'risida&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Raqamli davlat xizmatlari"
+msgstr "Цифровые государственные услуги"
+
+#: normativ_hujjatlar.html
+msgid "&quot;Elektron hujjat aylanishi to'g'risida&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Raqamli hujjat yuritish"
+msgstr "Электронный документооборот"
+
+#: normativ_hujjatlar.html
+msgid "&quot;Telekommunikatsiyalar to'g'risida&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Telekommunikatsiya"
+msgstr "Телекоммуникации"
+
+#: normativ_hujjatlar.html
+msgid "&quot;Aloqa to'g'risida&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Aloqa va kommunikatsiya"
+msgstr "Связь и коммуникации"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat munosabatlarini tartibga soluvchi asosiy hujjat"
+msgstr "Основной документ, регулирующий трудовые отношения"
+
+#: normativ_hujjatlar.html
+msgid "O'zbekiston Respublikasi"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Mehnat kodeksi"
+msgstr "Трудовой кодекс"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat munosabatlari"
+msgstr "Трудовые отношения"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat shartnomalari va ish beruvchilar majburiyatlariga oid qoidalar"
+msgstr "Нормы о трудовых договорах и обязанностях работодателей"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat shartnomasi"
+msgstr "Трудовой договор"
+
+#: normativ_hujjatlar.html
+msgid "Xodimlarning ish vaqti, dam olish va ta'til huquqlari"
+msgstr "Права работников на рабочее время, отдых и отпуск"
+
+#: normativ_hujjatlar.html
+msgid "Ish vaqti va ta'til"
+msgstr "Рабочее время и отпуск"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat nizolarini hal etish tartibi va mehnat muhofazasi"
+msgstr "Порядок разрешения трудовых споров и охрана труда"
+
+#: normativ_hujjatlar.html
+msgid "Mehnat muhofazasi"
+msgstr "Охрана труда"
+
+#: normativ_hujjatlar.html
+msgid "Ta'lim va raqamlashtirish sohasidagi asosiy prezident qarorlari"
+msgstr "Основные постановления Президента в сфере образования и цифровизации"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Zamonaviy axborot-kommunikatsiya texnologiylarini yanada joriy etish va "
+"rivojlantirish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "2012 yil 21 mart"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "PQ-1730-son"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid ""
+"Mamlakatimizning dasturiy ta'minot vositalari ishlab chiquvchilarini "
+"rag'batlantirishni yanada kuchaytirish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "2013 yil 20 sentyabr"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "PQ-2042-son"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid ""
+"O'zbekiston Respublikasi Qurolli Kuchlari safida muddatli harbiy xizmatni "
+"o'tab bo'lgan fuqarolarga imtiyozlar tizimini takomillashtirishga oid "
+"qo'shimcha chora-tadbirlar to'g'risidagi qarorga o'zgartirishlar kiritish "
+"to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "2012 yil 31 may"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "PQ-1765-son"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid ""
+"Axborot texnologiyalari sohasida ta'lim tizimini yanada takomillashtirish, "
+"ilmiy tadqiqotlarni rivojlantirish va ularni IT-industriya bilan "
+"integratsiya qilish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "IT ta'lim integratsiyasi"
+msgstr "Интеграция IT-образования"
+
+#: normativ_hujjatlar.html
+msgid "&quot;Raqamli O'zbekiston — 2030&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid ""
+"strategiyasini tasdiqlash va uni samarali amalga oshirish chora-tadbirlari "
+"to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Raqamli strategiya"
+msgstr "Цифровая стратегия"
+
+#: normativ_hujjatlar.html
+msgid ""
+"2022–2023-yillarda axborot-kommunikatsiya texnologiyalari sohasini yangi "
+"bosqichga olib chiqish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "AKT rivojlantirish"
+msgstr "Развитие ИКТ"
+
+#: normativ_hujjatlar.html
+msgid "&quot;O'zbekiston — 2030&quot;"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid ""
+"strategiyasini 2023-yilda sifatli va o'z vaqtida amalga oshirish chora-"
+"tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Milliy strategiya"
+msgstr "Национальная стратегия"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Raqamli xizmatlar qamrovi va sifatini oshirish hamda soha, tarmoq va "
+"hududlarni raqamli transformatsiya qilish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Raqamli transformatsiya"
+msgstr "Цифровая трансформация"
+
+#: normativ_hujjatlar.html
+msgid "Ta'lim va texnologiya sohasidagi hukumat qarorlari"
+msgstr "Постановления правительства в сфере образования и технологий"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Oliy ta'lim muassasalarida kredit-modul tizimini joriy etish to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "O'quv jarayoni"
+msgstr "Учебный процесс"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Oliy ta'lim muassasalarida masofaviy ta'lim tizimini joriy etish va "
+"rivojlantirish chora-tadbirlari to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Masofaviy ta'lim"
+msgstr "Дистанционное обучение"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Davlat oliy ta'lim muassasalariga o'qishga qabul qilish jarayonlarini "
+"tashkil etish to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Qabul jarayoni"
+msgstr "Процесс приёма"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Ta'lim muassasalarida axborot xavfsizligini ta'minlash tartibi to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Axborot xavfsizligi"
+msgstr "Информационная безопасность"
+
+#: normativ_hujjatlar.html
+msgid ""
+"Oliy ta'lim muassasalarida ilmiy-tadqiqot ishlarini moliyalashtirish va "
+"boshqarish tartibi to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Qabul, ko'chirish, tiklash va chetlashtirish nizomlar"
+msgstr "Положения о приёме, переводе, восстановлении и отчислении"
+
+#: normativ_hujjatlar.html
+msgid "Oliy ta'lim muassasalarida o'quv jarayoniga"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "kredit-modul tizimini joriy etish tartibi"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "to'g'risida NIZOM"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Kredit-modul tizimi"
+msgstr "Кредитно-модульная система"
+
+#: normativ_hujjatlar.html
+msgid "Oliy ta'lim muassasalarining"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "bakalavriatiga talabalarni o'qishga qabul qilish tartibi"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Bakalavriat qabuli"
+msgstr "Приём в бакалавриат"
+
+#: normativ_hujjatlar.html
+msgid "Oliy ta'lim muassasalariga o'qishga qabul qilish, talabalar o'qishini"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "ko'chirish, qayta tiklash va o'qishdan chetlashtirish tartibi"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "to'g'risidagi nizom"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Ko'chirish va tiklash tartibi"
+msgstr "Порядок перевода и восстановления"
+
+#: normativ_hujjatlar.html
+msgid "Davlat oliy ta'lim muassasalariga o'qishga qabul qilish jarayonlarini"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "tashkil etish"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "to'g'risida"
+msgstr ""
+
+#: normativ_hujjatlar.html
+msgid "Qabul tashkiloti"
+msgstr "Организация приёма"
+
+#: rahbariyat.html
+msgid "Rahbariyat - Varnet Biotech University"
+msgstr "Руководство — Varnet Biotech University"
+
+#: rahbariyat.html
+msgid ""
+"Universitetimiz rahbariyati, rektorati va mas'ul xodimlar bilan tanishing."
+msgstr ""
+"Познакомьтесь с руководством, ректоратом и ответственными сотрудниками "
+"университета."
+
+#: rahbariyat.html
+msgid "iqtisod fanlari doktori"
+msgstr "доктор экономических наук"
+
+#: rahbariyat.html
+msgid "Buxoro shahri, M.Iqbol ko'chasi 11 uy"
+msgstr ""
+
+#: rahbariyat.html
+msgid ""
+"Chorshanba 15:00 dan 17:00 gacha &nbsp;&nbsp; Juma 15:00 dan 17:00 gacha"
+msgstr "Среда с 15:00 до 17:00 &nbsp;&nbsp; Пятница с 15:00 до 17:00"
+
+#: rahbariyat.html
+msgid "Prorektorlar"
+msgstr "Проректоры"
+
+#: rahbariyat.html structure.html
+msgid ""
+"Yoshlar masalalari va ma'naviy-ma'rifiy ishlar bo'yicha birinchi prorektor"
+msgstr "Первый проректор по делам молодёжи и духовно-просветительской работе"
+
+#: rahbariyat.html
+msgid "Pedagogika fanlari nomzodi, dotsent"
+msgstr "Кандидат педагогических наук, доцент"
+
+#: rahbariyat.html
+msgid "Seshanba, Payshanba 14:00 dan 16:00 gacha"
+msgstr "Вторник, четверг с 14:00 до 16:00"
+
+#: rahbariyat.html structure.html
+msgid "O'quv ishlari bo'yicha prorektor"
+msgstr "Проректор по учебной работе"
+
+#: rahbariyat.html
+msgid "Dushanba, Chorshanba 14:00 dan 16:00 gacha"
+msgstr "Понедельник, среда с 14:00 до 16:00"
+
+#: rahbariyat.html structure.html
+msgid "Ilmiy ishlar va innovatsiyalar bo'yicha prorektor"
+msgstr "Проректор по научной работе и инновациям"
+
+#: rahbariyat.html
+msgid "Seshanba, Juma 13:00 dan 15:00 gacha"
+msgstr "Вторник, пятница с 13:00 до 15:00"
+
+#: rahbariyat.html
+msgid "Moliya va iqtisod ishlari bo'yicha prorektor"
+msgstr "Проректор по финансово-экономическим вопросам"
+
+#: rahbariyat.html
+msgid "Mirzayev Dilshod Sobirovich"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Iqtisod fanlari nomzodi"
+msgstr "Кандидат экономических наук"
+
+#: rahbariyat.html
+msgid "mirzayev@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Dushanba, Payshanba 15:00 dan 17:00 gacha"
+msgstr "Понедельник, четверг с 15:00 до 17:00"
+
+#: rahbariyat.html
+msgid "Xasanov Bobur Ravshanbek o'g'li"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Yuridik fanlar magistri"
+msgstr "Магистр юридических наук"
+
+#: rahbariyat.html
+msgid "xasanov@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Chorshanba, Juma 14:00 dan 16:00 gacha"
+msgstr "Среда, пятница с 14:00 до 16:00"
+
+#: rahbariyat.html
+msgid "Bo'lim boshliqlar"
+msgstr "Руководители отделов"
+
+#: rahbariyat.html
+msgid "Bo'lim boshlig'i"
+msgstr "Начальник отдела"
+
+#: rahbariyat.html
+msgid "Raximov Alisher Karimovich"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Magistratura bo'limi boshlig'i"
+msgstr "Начальник отдела магистратуры"
+
+#: rahbariyat.html
+msgid "raximov@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Dushanba&ndash;Juma 09:00 dan 17:00 gacha"
+msgstr "Понедельник&ndash;пятница с 09:00 до 17:00"
+
+#: rahbariyat.html
+msgid "Komilov Sanjar Ulmasovich"
+msgstr ""
+
+#: rahbariyat.html
+msgid "O'quv-uslubiy bo'lim boshlig'i"
+msgstr "Начальник учебно-методического отдела"
+
+#: rahbariyat.html
+msgid "komilov@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Nazarova Feruza Hamidovna"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Ilmiy tadqiqot bo'limi boshlig'i"
+msgstr "Начальник отдела научных исследований"
+
+#: rahbariyat.html
+msgid "nazarova@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Holiqov Mansur Bekmurodovich"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Moliya bo'limi boshlig'i"
+msgstr "Начальник финансового отдела"
+
+#: rahbariyat.html
+msgid "holiqov@varnet.uz"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Sultanova Maftuna Ilyosovna"
+msgstr ""
+
+#: rahbariyat.html
+msgid "Xalqaro aloqalar bo'limi boshlig'i"
+msgstr "Начальник отдела международных связей"
+
+#: rahbariyat.html
+msgid "sultanova@varnet.uz"
+msgstr ""
+
+#: rahbariyat_detail.html
+msgid "Rahbar haqida batafsil ma'lumot."
+msgstr "Подробная информация о руководителе."
+
+#: rahbariyat_detail.html
+msgid "Rahbariyatga qaytish"
+msgstr "Вернуться к руководству"
+
+#: rahbariyat_detail.html
+msgid "ORCID"
+msgstr "ORCID"
+
+#: rahbariyat_detail.html
+msgid "Mehnat faoliyati"
+msgstr "Трудовая деятельность"
+
+#: rahbariyat_detail.html
+msgid "Yillar"
+msgstr "Годы"
+
+#: rahbariyat_detail.html
+msgid "Tashkilot"
+msgstr "Организация"
+
+#: rahbariyat_detail.html
+msgid "Lavozim"
+msgstr "Должность"
+
+#: rahbariyat_detail.html
+msgid "Yil"
+msgstr "Год"
+
+#: rahbariyat_detail.html
+msgid "Joy"
+msgstr "Место"
+
+#: rahbariyat_detail.html
+msgid "Mavzu"
+msgstr "Тема"
+
+#: rahbariyat_detail.html
+msgid "O'qitadigan fanlari (so'ngi uch o'quv yilida)"
+msgstr "Преподаваемые дисциплины (за последние три учебных года)"
+
+#: rahbariyat_detail.html
+msgid "Ilmiy faoliyati"
+msgstr "Научная деятельность"
+
+#: rahbariyat_detail.html
+msgid "Lavozim vazifalari:"
+msgstr "Должностные обязанности:"
+
+#: sport_va_hordiq.html
+msgid "Sport va hordiq — Varnet Biotech University"
+msgstr "Спорт и отдых — Varnet Biotech University"
+
+#: sport_va_hordiq.html
+msgid "Sog‘lom turmush"
+msgstr "Здоровый образ жизни"
+
+#: sport_va_hordiq.html
+msgid ""
+"Sport majmuasi, klublar va madaniy tadbirlar — talabalarning jismoniy va "
+"ruhiy salomatligini qo‘llab-quvvatlaydi."
+msgstr ""
+"Спортивный комплекс, клубы и культурные мероприятия поддерживают физическое "
+"и психическое здоровье студентов."
+
+#: sport_va_hordiq.html
+msgid "Sport yo‘nalishi"
+msgstr "Видов спорта"
+
+#: sport_va_hordiq.html
+msgid "Musobaqa g‘alabalari"
+msgstr "Побед в соревнованиях"
+
+#: sport_va_hordiq.html
+msgid "Sportchi talabalar"
+msgstr "Студентов-спортсменов"
+
+#: sport_va_hordiq.html
+msgid "Yillik tadbirlar"
+msgstr "Ежегодных мероприятий"
+
+#: sport_va_hordiq.html
+msgid "Sport infratuzilmasi"
+msgstr "Спортивная инфраструктура"
+
+#: sport_va_hordiq.html
+msgid "Faol hayot — sifatli ta’lim"
+msgstr "Активная жизнь — качественное образование"
+
+#: sport_va_hordiq.html
+msgid ""
+"Universitetda zamonaviy sport zali, ochiq maydonlar va klublar faoliyat "
+"yuritadi. Har bir talaba o‘ziga mos sport turini tanlashi mumkin."
+msgstr ""
+"В университете работают современный спортивный зал, открытые площадки и "
+"клубы. Каждый студент может выбрать подходящий ему вид спорта."
+
+#: sport_va_hordiq.html
+msgid "Fitnes va umumjismoniy tayyorgarlik"
+msgstr "Фитнес и общая физическая подготовка"
+
+#: sport_va_hordiq.html
+msgid "Futbol, basketbol, voleybol seksiyalari"
+msgstr "Секции футбола, баскетбола и волейбола"
+
+#: sport_va_hordiq.html
+msgid "Yoshlar festivali va madaniy kechalar"
+msgstr "Молодёжный фестиваль и культурные вечера"
+
+#: sport_va_hordiq.html
+msgid "Professional murabbiylar jamoasi"
+msgstr "Команда профессиональных тренеров"
+
+#: sport_va_hordiq.html
+msgid "Sport majmuasi"
+msgstr "Спортивный комплекс"
+
+#: sport_va_hordiq.html
+msgid "Klublar"
+msgstr "Клубы"
+
+#: sport_va_hordiq.html
+msgid "Sport va hordiq yo‘nalishlari"
+msgstr "Направления спорта и отдыха"
+
+#: sport_va_hordiq.html
+msgid "Talabalar uchun ochiq seksiyalar va to‘garaklar."
+msgstr "Открытые для студентов секции и кружки."
+
+#: sport_va_hordiq.html
+msgid "Futbol"
+msgstr "Футбол"
+
+#: sport_va_hordiq.html
+msgid "Universitet jamoasi va ichki chempionatlar."
+msgstr "Университетская команда и внутренние чемпионаты."
+
+#: sport_va_hordiq.html
+msgid "Basketbol"
+msgstr "Баскетбол"
+
+#: sport_va_hordiq.html
+msgid "Zal mashg‘ulotlari va viloyat musobaqalari."
+msgstr "Тренировки в зале и областные соревнования."
+
+#: sport_va_hordiq.html
+msgid "Voleybol"
+msgstr "Волейбол"
+
+#: sport_va_hordiq.html
+msgid "Qizlar va yigitlar jamoalari uchun mashg‘ulotlar."
+msgstr "Тренировки для женских и мужских команд."
+
+#: sport_va_hordiq.html
+msgid "Yengil atletika"
+msgstr "Легкая атлетика"
+
+#: sport_va_hordiq.html
+msgid "Yugurish, sakrash va chaqqonlik mashg‘ulotlari."
+msgstr "Занятия по бегу, прыжкам и развитию ловкости."
+
+#: sport_va_hordiq.html
+msgid "Shaxmat klubi"
+msgstr "Шахматный клуб"
+
+#: sport_va_hordiq.html
+msgid "Intellektual sport va turnirlar."
+msgstr "Интеллектуальный спорт и турниры."
+
+#: sport_va_hordiq.html
+msgid "Madaniy hordiq"
+msgstr "Культурный отдых"
+
+#: sport_va_hordiq.html
+msgid "Konsertlar, teatr kechalari va ijodiy kechalar."
+msgstr "Концерты, театральные и творческие вечера."
+
+#: sport_va_hordiq.html
+msgid "Yillik sport va madaniy kalendar"
+msgstr "Годовой календарь спортивных и культурных мероприятий"
+
+#: sport_va_hordiq.html
+msgid "Asosiy tadbirlar jadvali."
+msgstr "Расписание основных мероприятий."
+
+#: sport_va_hordiq.html
+msgid "Bahor"
+msgstr "Весна"
+
+#: sport_va_hordiq.html
+msgid "«Universiada» ichki olimpiadasi"
+msgstr "Внутренняя олимпиада «Универсиада»"
+
+#: sport_va_hordiq.html
+msgid "Fakultetlar o‘rtasida ko‘p sport turlari bo‘yicha musobaqa."
+msgstr "Соревнования между факультетами по многим видам спорта."
+
+#: sport_va_hordiq.html
+msgid "Yoz"
+msgstr "Лето"
+
+#: sport_va_hordiq.html
+msgid "Sog‘lom turmush haftaligi"
+msgstr "Неделя здорового образа жизни"
+
+#: sport_va_hordiq.html
+msgid "Ertalabki yugurish, yoga va ochiq havo mashg‘ulotlari."
+msgstr "Утренние пробежки, йога и занятия на свежем воздухе."
+
+#: sport_va_hordiq.html
+msgid "Kuz"
+msgstr "Осень"
+
+#: sport_va_hordiq.html
+msgid "Talabalar festivali"
+msgstr "Студенческий фестиваль"
+
+#: sport_va_hordiq.html
+msgid "Sport, musiqa va ijodiy tanlovlar birlashtirilgan katta tadbir."
+msgstr ""
+"Крупное мероприятие, объединяющее спорт, музыку и творческие конкурсы."
+
+#: sport_va_hordiq.html
+msgid "Sport klubiga a’zo bo‘ling"
+msgstr "Станьте членом спортивного клуба"
+
+#: sport_va_hordiq.html
+msgid "Sevimli sportingizni tanlang va sog‘lom jamiyatga qo‘shiling."
+msgstr ""
+"Выберите любимый вид спорта и присоединяйтесь к сообществу здорового образа "
+"жизни."
+
+#: structure.html
+msgid "Universitet tuzilmasi - Varnet Biotech University"
+msgstr "Структура университета — Varnet Biotech University"
+
+#: structure.html
+msgid "Universitet <em>tuzilmasi</em>"
+msgstr "<em>Структура</em> университета"
+
+#: structure.html
+msgid "Universitetimizning boshqaruv va tashkiliy tuzilmasi bilan tanishing."
+msgstr ""
+"Ознакомьтесь с управленческой и организационной структурой нашего "
+"университета."
+
+#: structure.html
+msgid "Moliya iqtisod ishlari bo'yicha prorektor"
+msgstr "Проректор по финансово-экономическим вопросам"
+
+#: structure.html
+msgid "Xalqaro hamkorlik bo'yicha prorektor"
+msgstr "Проректор по международному сотрудничеству"
+
+#: structure.html
+msgid "Magistratura bo'limi"
+msgstr "Отдел магистратуры"
+
+#: structure.html
+msgid "O'quv-uslubiy bo'lim"
+msgstr "Учебно-методический отдел"
+
+#: structure.html
+msgid "Ilmiy tadqiqot bo'limi"
+msgstr "Отдел научных исследований"
+
+#: structure.html
+msgid "Moliya bo'limi"
+msgstr "Финансовый отдел"
+
+#: structure.html
+msgid "Xalqaro aloqalar bo'limi"
+msgstr "Отдел международных связей"
+
+#: structure.html
+msgid "Fakultet / Kafedra 1"
+msgstr "Факультет / Кафедра 1"
+
+#: structure.html
+msgid "Fakultet / Kafedra 2"
+msgstr "Факультет / Кафедра 2"
+
+#: structure.html
+msgid "Fakultet / Kafedra 3"
+msgstr "Факультет / Кафедра 3"
+
+#: structure.html
+msgid "Fakultet / Kafedra 4"
+msgstr "Факультет / Кафедра 4"
+
+#: structure.html
+msgid "Fakultet / Kafedra 5"
+msgstr "Факультет / Кафедра 5"
+
+#: structure.html
+msgid "Tuzilmani yuklab olish (PDF)"
+msgstr "Скачать структуру (PDF)"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Topshiriladigan hujjatlar — Varnet Biotech University"
+msgstr "Необходимые документы — Varnet Biotech University"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Topshiriladigan <em>hujjatlar</em>"
+msgstr "Необходимые <em>документы</em>"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"O'zbekiston Respublikasi oliy ta'lim muassasalariga kirish uchun talab "
+"etiladigan rasmiy hujjatlar to'plami va ro'yxatdan o'tish tartibi."
+msgstr ""
+"Перечень официальных документов, необходимых для поступления в вузы "
+"Республики Узбекистан, и порядок регистрации."
+
+#: topshiriladigan_hujjatlar.html
+msgid "Zarur hujjatlar"
+msgstr "Необходимые документы"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Yuklash talab etiladigan hujjatlar"
+msgstr "Документы, которые нужно загрузить"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Abituriyentlar doimiy yoki vaqtincha ro'yxatda turgan joyidan qat'i nazar, "
+"quyidagi hujjatlarni"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "saytiga yuklaydi."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Muhim eslatma!"
+msgstr "Важное примечание!"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Barcha hujjatlar"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "saytiga elektron shaklda yuklanadi. Ro'yxatdan o'tish muddati:"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "5-iyundan 25-iyungacha"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "(25-iyun kuni ham kiritiladi)."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Fuqarolik pasporti yoki shaxsiy identifikatsiya ma'lumotnomasi"
+msgstr "Паспорт гражданина или справка о персональной идентификации"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Fuqarolik pasporti"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "yoki"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "ichki ishlar bo'limlari tomonidan berilgan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "09-shakl"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"bo'yicha jismoniy shaxsning shaxsiy identifikatsiya raqami, pasport seriyasi"
+" va raqami ko'rsatilgan ma'lumotnoma."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Tug'ilganlik to'g'risidagi guvohnoma"
+msgstr "Свидетельство о рождении"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Faqat"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "pasport yoshiga yetmagan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"abituriyentlar uchun talab etiladi. Pasport olgan abituriyentlar ushbu "
+"hujjatni taqdim etmaydi."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Yoshga ko'ra"
+msgstr "По возрасту"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ta'lim muassasasini tugatganligi haqidagi hujjat"
+msgstr "Документ об окончании учебного заведения"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Umumiy o'rta ta'lim ("
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "11-sinf"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"negizida) yoki o'rta maxsus, kasb-hunar ta'limi muassasasini tugatganligi "
+"haqidagi hujjat"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "ilovasi bilan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ". Ma'lumotlar"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "tizimda avtomatik tarzda chiqadi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Avtomatik"
+msgstr "Автоматически"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Imtiyoz huquqini tasdiqlovchi hujjat"
+msgstr "Документ, подтверждающий право на льготу"
+
+#: topshiriladigan_hujjatlar.html
+msgid "O'zbekiston Respublikasi Prezidentining hamda Vazirlar Mahkamasining"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"normativ-huquqiy hujjatlarida belgilangan tartibda imtiyozga ega bo'lgan "
+"abituriyentlar uchun. Imtiyozga ega bo'lmagan abituriyentlar bu hujjatni "
+"topshirmaydi."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Imtiyozlilar uchun"
+msgstr "Для льготных категорий"
+
+#: topshiriladigan_hujjatlar.html
+msgid "To'lov varaqasi (kvitansiya)"
+msgstr "Платёжный документ (квитанция)"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Test sinovlari tashkil etilayotgan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "o'quv yilidan avvalgi yillarda"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"ta'lim muassasalarini tugatgan abituriyentlar uchun. Bazaviy hisoblash "
+"miqdorining"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "yarim baravari"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "miqdorida to'lovni amalga oshirganligi to'g'risida kvitansiya."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"(Nogironligi bo'lgan yoki to'liq davlat ta'minotidagi shaxslar bundan "
+"mustasno)"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Oldingi yil bitiruvchilar"
+msgstr "Выпускники прошлых лет"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Jarayon"
+msgstr "Процесс"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ro'yxatdan o'tish qadamlari"
+msgstr "Шаги регистрации"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ariza topshirishdan testgacha bo'lgan to'rt bosqich."
+msgstr "Четыре этапа — от подачи заявки до тестирования."
+
+#: topshiriladigan_hujjatlar.html
+msgid "my.uzbmb.uz saytiga kiring"
+msgstr "Зайдите на сайт my.uzbmb.uz"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Bilim va malakalarni baholash agentligi rasmiy veb-saytini oching va shaxsiy"
+" kabinetga kiring."
+msgstr ""
+"Откройте официальный сайт Агентства по оценке знаний и квалификаций и "
+"войдите в личный кабинет."
+
+#: topshiriladigan_hujjatlar.html
+msgid "Hujjatlarni yuklang"
+msgstr "Загрузите документы"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Yuqoridagi ro'yxatdagi zarur hujjatlarni sifatli rasmda skanerlang va "
+"tizimga yuklang."
+msgstr ""
+"Отсканируйте необходимые документы из приведённого выше перечня в хорошем "
+"качестве и загрузите их в систему."
+
+#: topshiriladigan_hujjatlar.html
+msgid "Fanlar va sharoitni tanlang"
+msgstr "Выберите предметы и условия"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Test topshiriladigan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "fanlar majmuasi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "ta'lim tili"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "va"
+msgstr "и"
+
+#: topshiriladigan_hujjatlar.html
+msgid "test topshirish hududi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "ni tanlang."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Tasdiqlang va kutib turing"
+msgstr "Подтвердите и ожидайте"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Arizani tasdiqlang. Test sinovi jadvalini SMS yoki shaxsiy kabinet orqali "
+"kuzating."
+msgstr ""
+"Подтвердите заявку. Следите за расписанием тестирования по SMS или в личном "
+"кабинете."
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ro'yxatdan o'tish muddati"
+msgstr "Срок регистрации"
+
+#: topshiriladigan_hujjatlar.html
+msgid "ariza qabul qilinadi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"25-iyun kuni ham ariza qabul qilinadi. Muddatni o'tkazib yubormang — kech "
+"qolganlar ro'yxatga kiritilmaydi."
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Iyun"
+msgstr "Июнь"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ro'yxatdan o'tish"
+msgstr "Регистрация"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ariza topshirish va tanlov"
+msgstr "Подача заявки и конкурс"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Ro'yxatdan o'tish va test sinoviga tayyorlanish uchun foydali ma'lumotlar."
+msgstr "Полезная информация для регистрации и подготовки к тестированию."
+
+#: topshiriladigan_hujjatlar.html
+msgid "Online ro'yxatdan o'tish"
+msgstr "Онлайн-регистрация"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Shaxsiy kabinetni oching yoki yangi hisob yarating"
+msgstr "Откройте личный кабинет или создайте новую учётную запись"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Test topshiradigan fanlar majmuasini tanlang"
+msgstr "Выберите блок предметов для тестирования"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ta'lim tilini belgilang (O'zbek / Rus)"
+msgstr "Укажите язык обучения (узбекский / русский)"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Test topshirish hududini tanlang"
+msgstr "Выберите регион сдачи теста"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Hujjatlarni yuklang va arizani yuboring"
+msgstr "Загрузите документы и отправьте заявку"
+
+#: topshiriladigan_hujjatlar.html
+msgid "my.uzbmb.uz ga o'tish"
+msgstr "Перейти на my.uzbmb.uz"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Muhim ma'lumotlar"
+msgstr "Важная информация"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Yashash joyidan"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "qat'i nazar"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "har qanday hududda topshirish mumkin"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Ro'yxat muddati:"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "5 – 25 iyun"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "(shu kuni ham)"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Joriy yil bitiruvchilari uchun to'lov"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "talab etilmaydi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Oldingi yil bitiruvchilari BHM ning"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "½ miqdorida"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "to'lov qiladi"
+msgstr ""
+
+#: topshiriladigan_hujjatlar.html
+msgid "Savollar uchun:"
+msgstr "По вопросам:"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Universitetga hujjat topshirish"
+msgstr "Подача документов в университет"
+
+#: topshiriladigan_hujjatlar.html
+msgid "Hujjatlaringizni tayyorladingizmi?"
+msgstr "Вы подготовили документы?"
+
+#: topshiriladigan_hujjatlar.html
+msgid ""
+"Hoziroq ariza yuboring va kelajak mutaxassisiga aylanish yo'lida birinchi "
+"qadamni qo'ying."
+msgstr ""
+"Отправьте заявку прямо сейчас и сделайте первый шаг к профессии будущего."
+
+#: universitet_haqida.html
+msgid "Universitet haqida — Varnet Biotech University"
+msgstr "Об университете — Varnet Biotech University"
+
+#: universitet_haqida.html
+msgid "Kelajak ilmi — <em>bugun boshlaydi</em>"
+msgstr "Наука будущего — <em>начинается сегодня</em>"
+
+#: universitet_haqida.html
+msgid ""
+"O'zbekistonda biotexnologiya, ekologiya va innovatsion ta'lim sohasida "
+"yetakchi oliy o'quv yurti. Dunyo standarti — mahalliy qadriyatlar."
+msgstr ""
+"Ведущий вуз Узбекистана в области биотехнологий, экологии и инновационного "
+"образования. Мировые стандарты — национальные ценности."
+
+#: universitet_haqida.html
+msgid "Biz kim va nima uchun yaratilganmiz?"
+msgstr "Кто мы и для чего создан наш университет?"
+
+#: universitet_haqida.html
+msgid ""
+"Ilm-fan, innovatsiya va amaliyotni birlashtirgan zamonaviy ta'lim maskani."
+msgstr ""
+"Современный образовательный центр, объединяющий науку, инновации и практику."
+
+#: universitet_haqida.html
+msgid "Amaliy va tadqiqot asosida ta'lim"
+msgstr "Обучение на основе практики и исследований"
+
+#: universitet_haqida.html
+msgid "Bizning fakultetlar"
+msgstr "Наши факультеты"
+
+#: universitet_haqida.html
+msgid ""
+"Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida"
+" chuqur bilim beradi."
+msgstr ""
+"Даёт глубокие знания в области современных биологических технологий, "
+"генетики и молекулярной биологии."
+
+#: universitet_haqida.html
+msgid "Ekologiya va atrof-muhit fakulteti"
+msgstr "Факультет экологии и окружающей среды"
+
+#: universitet_haqida.html
+msgid ""
+"Tabiatni muhofaza qilish, ekologik monitoring va barqaror rivojlanish "
+"mutaxassislarini tayyorlaydi."
+msgstr ""
+"Готовит специалистов по охране природы, экологическому мониторингу и "
+"устойчивому развитию."
+
+#: universitet_haqida.html
+msgid "Innovatsion texnologiyalar fakulteti"
+msgstr "Факультет инновационных технологий"
+
+#: universitet_haqida.html
+msgid ""
+"Sun'iy intellekt, raqamli texnologiyalar va bioxilma-xillik sohasida "
+"zamonaviy mutaxassislar yetishtiradi."
+msgstr ""
+"Готовит современных специалистов в области искусственного интеллекта, "
+"цифровых технологий и биоразнообразия."
+
+#: universitet_haqida.html
+msgid "Kimyo va farmatsevtika fakulteti"
+msgstr "Факультет химии и фармацевтики"
+
+#: universitet_haqida.html
+msgid ""
+"Organik kimyo, dori-darmon ishlab chiqarish va farmatsevtik texnologiyalar "
+"yo'nalishlarida ta'lim beradi."
+msgstr ""
+"Обучает по направлениям органической химии, производства лекарственных "
+"средств и фармацевтических технологий."
+
+#: universitet_haqida.html
+msgid "Agrobiotexnologiya fakulteti"
+msgstr "Факультет агробиотехнологии"
+
+#: universitet_haqida.html
+msgid ""
+"Qishloq xo'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy o'simlik "
+"seleksiyasi yo'nalishlari."
+msgstr ""
+"Направления сельскохозяйственной биотехнологии, генной инженерии и "
+"современной селекции растений."
+
+#: universitet_haqida.html
+msgid "Tibbiy biotexnologiya fakulteti"
+msgstr "Факультет медицинской биотехнологии"
+
+#: universitet_haqida.html
+msgid ""
+"Tibbiyot maqsadlarida biologik texnologiyalardan foydalanish, tashxis va "
+"davolash tizimlari."
+msgstr ""
+"Применение биологических технологий в медицине, системы диагностики и "
+"лечения."
+
+#: universitet_haqida.html
+msgid "Yo'nalishlar"
+msgstr "Направления"
+
+#: universitet_haqida.html
+msgid "Bakalavriat va magistratura dasturlarimiz — 45 ta yo'nalish."
+msgstr "Наши программы бакалавриата и магистратуры — 45 направлений."
+
+#: universitet_haqida.html
+msgid "IT va innovatsiya"
+msgstr "IT и инновации"
+
+#: universitet_haqida.html
+msgid "Molekulyar biologiya"
+msgstr "Молекулярная биология"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi"
+msgstr "4 года &middot; Очно"
+
+#: universitet_haqida.html
+msgid "Bakalavriat"
+msgstr "Бакалавриат"
+
+#: universitet_haqida.html
+msgid "Virusologiya va immunologiya"
+msgstr "Вирусология и иммунология"
+
+#: universitet_haqida.html
+msgid "2 yil &middot; Kunduzgi"
+msgstr "2 года &middot; Очно"
+
+#: universitet_haqida.html
+msgid "Magistratura"
+msgstr "Магистратура"
+
+#: universitet_haqida.html
+msgid "Biotexnologiya va gen muhandisligi"
+msgstr "Биотехнология и генная инженерия"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi / Sirtqi"
+msgstr "4 года &middot; Очно / Заочно"
+
+#: universitet_haqida.html
+msgid "Neyrobiotexnologiya"
+msgstr "Нейробиотехнология"
+
+#: universitet_haqida.html
+msgid "Ekologiya va tabiatni muhofaza qilish"
+msgstr "Экология и охрана природы"
+
+#: universitet_haqida.html
+msgid "Su resurslarini boshqarish"
+msgstr "Управление водными ресурсами"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Sirtqi"
+msgstr "4 года &middot; Заочно"
+
+#: universitet_haqida.html
+msgid "Barqaror energiya tizimlari"
+msgstr "Системы устойчивой энергетики"
+
+#: universitet_haqida.html
+msgid "Iqlim o'zgarishi va monitoring"
+msgstr "Изменение климата и мониторинг"
+
+#: universitet_haqida.html
+msgid "Sun'iy intellekt va bioinformatika"
+msgstr "Искусственный интеллект и биоинформатика"
+
+#: universitet_haqida.html
+msgid "Biosensorlar va nanotexnologiya"
+msgstr "Биосенсоры и нанотехнологии"
+
+#: universitet_haqida.html
+msgid "Genomik ma'lumotlar tahlili"
+msgstr "Анализ геномных данных"
+
+#: universitet_haqida.html
+msgid "Raqamli biologiya"
+msgstr "Цифровая биология"
+
+#: universitet_haqida.html
+msgid "Organik kimyo"
+msgstr "Органическая химия"
+
+#: universitet_haqida.html
+msgid "Farmatsevtik kimyo"
+msgstr "Фармацевтическая химия"
+
+#: universitet_haqida.html
+msgid "Analitik kimyo"
+msgstr "Аналитическая химия"
+
+#: universitet_haqida.html
+msgid "O'simlik biotexnologiyasi"
+msgstr "Биотехнология растений"
+
+#: universitet_haqida.html
+msgid "Agrobiotexnologiya va seleksiya"
+msgstr "Агробиотехнология и селекция"
+
+#: universitet_haqida.html
+msgid "Biologik usulda himoya"
+msgstr "Биологическая защита растений"
+
+#: universitet_haqida.html
+msgid "O'quv dasturi"
+msgstr "Учебная программа"
+
+#: universitet_haqida.html
+msgid "O'qitiladigan fanlar"
+msgstr "Изучаемые дисциплины"
+
+#: universitet_haqida.html
+msgid "Barcha yo'nalishlarda o'qitiladigan asosiy fanlardan namunalar."
+msgstr "Примеры основных дисциплин, изучаемых на всех направлениях."
+
+#: universitet_haqida.html
+msgid "Genetika asoslari"
+msgstr "Основы генетики"
+
+#: universitet_haqida.html
+msgid "1–2 kurs"
+msgstr "1–2 курс"
+
+#: universitet_haqida.html
+msgid "Biokimyo"
+msgstr "Биохимия"
+
+#: universitet_haqida.html
+msgid "2–3 kurs"
+msgstr "2–3 курс"
+
+#: universitet_haqida.html
+msgid "1–3 kurs"
+msgstr "1–3 курс"
+
+#: universitet_haqida.html
+msgid "3–4 kurs"
+msgstr "3–4 курс"
+
+#: universitet_haqida.html
+msgid "Statistik tahlil"
+msgstr "Статистический анализ"
+
+#: universitet_haqida.html
+msgid "Tibbiy biologiya"
+msgstr "Медицинская биология"
+
+#: universitet_haqida.html
+msgid "O'simlik fiziologiyasi"
+msgstr "Физиология растений"
+
+#: universitet_haqida.html
+msgid "2–4 kurs"
+msgstr "2–4 курс"
+
+#: universitet_haqida.html
+msgid "Sanoat biotexnologiyasi"
+msgstr "Промышленная биотехнология"
+
+#: universitet_haqida.html
+msgid "Xalqaro ilmiy muloqot"
+msgstr "Международная научная коммуникация"
+
+#: universitet_haqida.html
+msgid "1–4 kurs"
+msgstr "1–4 курс"
+
+#: universitet_haqida.html
+msgid ""
+"Hujjat topshiring va o'z sohangizdagi eng yaxshi mutaxassisga aylaning."
+msgstr "Подайте документы и станьте лучшим специалистом в своей области."
+
+#: yangilik_detail.html
+msgid "Yangilik - Varnet Biotech University"
+msgstr "Новость — Varnet Biotech University"
+
+#: yangilik_detail.html
+msgid ""
+"BuxDU rektori <em>\"Aqlli tuman\"</em> situatsion markazi faoliyati bilan "
+"tanishdi"
+msgstr ""
+
+#: yangilik_detail.html
+msgid "Rasm 1"
+msgstr "Изображение 1"
+
+#: yangilik_detail.html
+msgid "Rasm 2"
+msgstr "Изображение 2"
+
+#: yangilik_detail.html
+msgid "Rasm 3"
+msgstr "Изображение 3"
+
+#: yangilik_detail.html
+msgid "Rasm 4"
+msgstr "Изображение 4"
+
+#: yangilik_detail.html
+msgid "BuxDU rektori \"Aqlli tuman\" situatsion markazi faoliyati bilan tanishdi"
+msgstr ""
+
+#: yangilik_detail.html
+msgid ""
+"Buxoro davlat universiteti rektori Obidjon Xamidov Toshkent shahrining Mirzo"
+" Ulug'bek tumanida sun'iy intellekt asosida faoliyat yuritayotgan situatsion"
+" markaz — &quot;Aqlli tuman&quot; loyihasi doirasida tashkil etilgan "
+"zamonaviy boshqaruv tizimi faoliyati bilan yaqindan tanishdi."
+msgstr ""
+
+#: yangilik_detail.html
+msgid ""
+"Tashrif davomida mazkur markazning real vaqt rejimida kommunal muammolar, "
+"xavfsizlik masalalari hamda shahar infratuzilmasini nazorat qilish bo'yicha "
+"imkoniyatlari haqida batafsil ma'lumot berildi."
+msgstr ""
+
+#: yangilik_detail.html
+msgid ""
+"Shuningdek, markaz orqali tuman hokimligi va mutasaddi tashkilotlar "
+"faoliyatini raqamli boshqarish, tahlil qilish, aholi murojaatlari bilan "
+"ishlash samaradorligini oshirish, muammolarni tezkor aniqlash va bartaraf "
+"etish mexanizmlari bilan tanishildi."
+msgstr ""
+
+#: yangilik_detail.html
+msgid ""
+"Mazkur loyiha doirasida aholi punktlari va bozorlardagi vaziyatni kuzatish, "
+"xavfsizlikni sun'iy intellekt yordamida nazorat qilish, shuningdek, shahar "
+"boshqaruvida zamonaviy raqamli yondashuvlarni keng joriy etish borasidagi "
+"tajribalar alohida qiziqish uyg'otdi."
+msgstr ""
+
+#: yangilik_detail.html
+msgid ""
+"Ushbu tashrif ilg'or raqamli boshqaruv tajribalarini o'rganish, ularni "
+"ta'lim va boshqaruv jarayonlariga tatbiq etish hamda zamonaviy "
+"texnologiyalar asosida samaradorlikni oshirish nuqtai nazaridan muhim "
+"ahamiyat kasb etdi."
+msgstr ""
+
+#: yangilik_detail.html
+msgid "Varnet Biotech Axborot xizmati"
+msgstr ""
+
+#: yangilik_detail.html
+msgid "Yangiliklarga qaytish"
+msgstr "Вернуться к новостям"
+
+#: yangilik_detail.html
+msgid "Eng ko'p ko'rilgan"
+msgstr "Самое читаемое"
+
+#: yangiliklar.html
+msgid "Yangiliklar - Varnet Biotech University"
+msgstr "Новости — Varnet Biotech University"
+
+#: yangiliklar.html
+msgid ""
+"Universitetimiz hayotidagi eng so'nggi voqea va yangiliklardan xabardor "
+"bo'ling."
+msgstr ""
+"Будьте в курсе последних событий и новостей жизни нашего университета."
+
+#: yangiliklar.html
+msgid "Yangilik 1"
+msgstr "Новость 1"
+
+#: yangiliklar.html
+msgid "Yangilik 2"
+msgstr "Новость 2"
+
+#: yangiliklar.html
+msgid "Yangilik 3"
+msgstr "Новость 3"
+
+#: yangiliklar.html
+msgid "Yangilik 4"
+msgstr "Новость 4"
+
+#: yangiliklar.html
+msgid "Yangilik 5"
+msgstr "Новость 5"
+
+#: yangiliklar.html
+msgid "Talabalar o'rtasida sport musobaqasi o'tkazildi"
+msgstr ""
+
+#: yangiliklar.html
+msgid "Yangilik 6"
+msgstr "Новость 6"
+
+#: yangiliklar.html
+msgid "Ochiq dars va seminar dasturlari e'lon qilindi"
+msgstr ""
+
+#: yangiliklar.html
+msgid "Yangilik 7"
+msgstr "Новость 7"
+
+#: yangiliklar.html
+msgid "Professor-o'qituvchilar tarkibi xalqaro treningda qatnashdi"
+msgstr ""
+
+#: yangiliklar.html
+msgid "Yangilik 8"
+msgstr "Новость 8"
+
+#: yangiliklar.html
+msgid "Ilmiy jurnal yangi son uchun maqolalar qabul qilinmoqda"
+msgstr ""

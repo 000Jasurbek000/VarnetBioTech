@@ -13,6 +13,7 @@ e'lonlar va onlayn hujjat topshirish tizimi.
 | Frontend | Server tomonda render qilinadigan shablonlar, mustaqil CSS/JS (framework yo'q) |
 | Statik fayllar | WhiteNoise (siqilgan, manifest bilan) |
 | PDF | ReportLab (universitet tuzilmasini yuklab olish) |
+| Ko'p tillilik | Django i18n + polib (o'zbek, rus, ingliz, turk) |
 
 ## O'rnatish
 
@@ -90,10 +91,18 @@ varnet/              Django sozlamalari, URL va WSGI
 main/                Asosiy ilova
   views.py           Sahifa ko'rinishlari va tuzilma PDF generatori
   urls.py            URL marshrutlari
+  templatetags/      Shablon filtrlari (til bayroqlari)
+  management/commands/
+    buildmessages.py Tarjima kataloglarini yig'uvchi buyruq
   templates/main/    Sahifa shablonlari
     base.html        Umumiy karkas (navigatsiya, footer, SEO meta)
     includes/
       page_subheader.html   Barcha ichki sahifalar uchun yagona subheader
+locale/
+  translations/      Tarjimalar manbasi (til bo'yicha JSON lug'atlar)
+  msgids.json        Shablonlardan ajratilgan matnlar
+  notranslate.json   Ataylab tarjima qilinmaydigan matnlar
+  <til>/LC_MESSAGES/ Yaratilgan .po va .mo fayllari
 static/
   css/style.css      Saytning barcha uslublari
   js/main.js         Barcha interaktiv qismlar (modulli, xavfsiz tekshiruvlar bilan)
@@ -116,6 +125,55 @@ static/
 
 4. `base.html` navigatsiyasiga havola qo'shing.
 
+## Ko'p tillilik (i18n)
+
+Sayt to'rt tilda ishlaydi: **o'zbek** (asosiy), **rus**, **ingliz**, **turk**.
+Tarjima faqat o'zgarmas interfeys matnlariga tegishli — menyular, sarlavhalar,
+tugmalar, forma yorliqlari va bo'lim nomlari. Yangilik va e'lon matnlari,
+ism-familiyalar hamda rasmiy hujjat nomlari o'zbek tilida qoladi
+(ular `locale/notranslate.json` ro'yxatida).
+
+URL manzillari: o'zbek tili prefikssiz (`/aloqa/`), qolgan tillar prefiks bilan
+(`/ru/aloqa/`, `/en/aloqa/`, `/tr/aloqa/`). Tanlangan til bir yil davomida
+cookie'da saqlanadi.
+
+### Tarjimalarni tahrirlash
+
+GNU gettext (`xgettext`, `msgfmt`) o'rnatilishi shart emas — `.po` va `.mo`
+fayllari `polib` yordamida yaratiladi.
+
+1. Shablonda matnni belgilang:
+
+   ```django
+   {% load i18n %}
+   {% translate "Yangi yorliq" %}
+
+   {# HTML saqlanishi kerak bo'lsa: #}
+   {% blocktranslate %}Universitet <em>tuzilmasi</em>{% endblocktranslate %}
+   ```
+
+2. Tarjimani mos JSON faylga qo'shing, masalan `locale/translations/ru/A_base.json`:
+
+   ```json
+   { "Yangi yorliq": "Новая метка" }
+   ```
+
+   Bir til uchun bir nechta JSON fayl bo'lishi mumkin — ular birlashtiriladi.
+
+3. Katalogni qayta yig'ing:
+
+   ```bash
+   python manage.py buildmessages          # .po va .mo fayllarini yozadi
+   python manage.py buildmessages --check  # faqat yetishmayotganlarni ko'rsatadi
+   ```
+
+4. Serverni qayta ishga tushiring — Django `.mo` fayllarini faqat start vaqtida
+   o'qiydi.
+
+Yangi til qo'shish uchun `varnet/settings.py` dagi `LANGUAGES` ro'yxatiga kod
+qo'shing, `main/templatetags/varnet_extras.py` da bayroq kodini ko'rsating va
+`locale/translations/<til>/` katalogini yarating.
+
 ## Xususiyatlar
 
 - Barcha ichki sahifalarda yagona, rasmli subheader dizayni
@@ -124,3 +182,4 @@ static/
 - Klaviatura bilan boshqarish, `skip-link`, ARIA atributlari, `prefers-reduced-motion` qo'llab-quvvatlashi
 - SEO meta teglar, Open Graph, favicon
 - Rasmlar `loading="lazy"` bilan yuklanadi
+- To'rt tilli interfeys va ishlaydigan til almashtirgich

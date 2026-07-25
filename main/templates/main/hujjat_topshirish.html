@@ -1,10 +1,10 @@
-{% load static %}
+{% load static i18n %}
 <!DOCTYPE html>
-<html lang="uz">
+<html lang="{{ LANGUAGE_CODE }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hujjat Topshirish — Varnet Biotech University</title>
+    <title>{% translate "Hujjat Topshirish — Varnet Biotech University" %}</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="{% static 'css/style.css' %}">
 </head>
@@ -17,48 +17,48 @@
 
         <!-- Logo -->
         <div class="ht-logo-wrap">
-            <img src="{% static 'images/logo.png' %}" alt="Varnet Biotech University" onerror="this.style.display='none'">
-            <div class="ht-logo-name">Varnet Biotexnologiyalar Universiteti</div>
-            <div class="ht-logo-sub">Hujjat topshirish tizimi</div>
+            <img src="{% static 'images/logo.png' %}" alt="{% translate 'Varnet Biotech University' %}" onerror="this.style.display='none'">
+            <div class="ht-logo-name">{% translate "Varnet Biotexnologiyalar Universiteti" %}</div>
+            <div class="ht-logo-sub">{% translate "Hujjat topshirish tizimi" %}</div>
         </div>
 
         <!-- Steps bar -->
         <div class="ht-steps">
             <div class="ht-step active" id="s1">
                 <div class="ht-step-circle">1</div>
-                <div class="ht-step-label">Telefon</div>
+                <div class="ht-step-label">{% translate "Telefon" %}</div>
             </div>
             <div class="ht-step-line" id="line1"></div>
             <div class="ht-step pending" id="s2">
                 <div class="ht-step-circle">2</div>
-                <div class="ht-step-label">Ma'lumotlar</div>
+                <div class="ht-step-label">{% translate "Ma'lumotlar" %}</div>
             </div>
             <div class="ht-step-line" id="line2"></div>
             <div class="ht-step pending" id="s3">
                 <div class="ht-step-circle">3</div>
-                <div class="ht-step-label">Tasdiqlash</div>
+                <div class="ht-step-label">{% translate "Tasdiqlash" %}</div>
             </div>
             <div class="ht-step-line" id="line3"></div>
             <div class="ht-step pending" id="s4">
                 <div class="ht-step-circle">4</div>
-                <div class="ht-step-label">Ariza</div>
+                <div class="ht-step-label">{% translate "Ariza" %}</div>
             </div>
         </div>
 
         <!-- ═══ STEP 1: Telefon ═══ -->
         <div class="ht-panel active" id="panel1">
-            <h2 class="ht-title">Telefon raqamingizni kiriting</h2>
-            <p class="ht-subtitle">Raqamingizni kiriting va ro'yxatdan o'tishni boshlang</p>
+            <h2 class="ht-title">{% translate "Telefon raqamingizni kiriting" %}</h2>
+            <p class="ht-subtitle">{% translate "Raqamingizni kiriting va ro'yxatdan o'tishni boshlang" %}</p>
 
             <form id="phoneForm" onsubmit="submitPhone(event)">
                 <div class="ht-input-group">
                     <label class="ht-label" for="phoneInput">
                         <i class="fas fa-phone" style="margin-right:5px;color:#059669;"></i>
-                        Mobil telefon raqami
+                        {% translate "Mobil telefon raqami" %}
                     </label>
                     <div class="ht-phone-wrap" id="phoneWrap">
                         <div class="ht-phone-prefix">
-                            <img src="https://flagcdn.com/w20/uz.png" alt="UZ">
+                            <img src="https://flagcdn.com/w20/uz.png" alt="{% translate 'UZ' %}">
                             +998
                         </div>
                         <input type="tel" id="phoneInput" class="ht-phone-input"
@@ -67,39 +67,39 @@
                     </div>
                     <div class="ht-error" id="phoneError">
                         <i class="fas fa-exclamation-circle"></i>
-                        Iltimos, to'g'ri telefon raqam kiriting (9 raqam)
+                        {% translate "Iltimos, to'g'ri telefon raqam kiriting (9 raqam)" %}
                     </div>
                 </div>
 
                 <div class="ht-hint">
                     <i class="fas fa-info-circle"></i>
-                    <p>Bu raqam orqali arizangiz holati kuzatiladi. Raqamni aniq kiriting.</p>
+                    <p>{% translate "Bu raqam orqali arizangiz holati kuzatiladi. Raqamni aniq kiriting." %}</p>
                 </div>
 
                 <button type="submit" class="ht-btn">
-                    <span>Davom etish</span>
+                    <span>{% translate "Davom etish" %}</span>
                     <i class="fas fa-arrow-right"></i>
                 </button>
             </form>
 
             <a href="{% url 'main:home' %}" class="ht-back">
-                <i class="fas fa-arrow-left"></i> Bosh sahifaga qaytish
+                <i class="fas fa-arrow-left"></i> {% translate "Bosh sahifaga qaytish" %}
             </a>
             <div class="ht-security">
                 <i class="fas fa-shield-alt"></i>
-                <span>Ma'lumotlaringiz xavfsiz saqlanadi (SSL)</span>
+                <span>{% translate "Ma'lumotlaringiz xavfsiz saqlanadi (SSL)" %}</span>
             </div>
         </div>
 
         <!-- ═══ STEP 2: Ma'lumotlar ═══ -->
         <div class="ht-panel" id="panel2">
-            <h2 class="ht-title">Shaxsiy ma'lumotlar</h2>
-            <p class="ht-subtitle">Barcha majburiy maydonlarni to'ldiring</p>
+            <h2 class="ht-title">{% translate "Shaxsiy ma'lumotlar" %}</h2>
+            <p class="ht-subtitle">{% translate "Barcha majburiy maydonlarni to'ldiring" %}</p>
 
             <div class="ht-phone-badge">
                 <i class="fas fa-phone-alt"></i>
-                <span>Telefon: <strong id="displayPhone"></strong></span>
-                <button type="button" onclick="goBack()" title="O'zgartirish">
+                <span>{% translate "Telefon:" %} <strong id="displayPhone"></strong></span>
+                <button type="button" onclick="goBack()" title="{% translate "O'zgartirish" %}">
                     <i class="fas fa-edit"></i>
                 </button>
             </div>
@@ -107,61 +107,61 @@
             <form id="regForm" onsubmit="submitReg(event)">
                 <div class="ht-row">
                     <div class="ht-field">
-                        <label>Familiya <span style="color:#e53e3e">*</span></label>
-                        <input type="text" id="familiya" placeholder="Familiya" required>
+                        <label>{% translate "Familiya" %} <span style="color:#e53e3e">*</span></label>
+                        <input type="text" id="familiya" placeholder="{% translate 'Familiya' %}" required>
                     </div>
                     <div class="ht-field">
-                        <label>Ism <span style="color:#e53e3e">*</span></label>
-                        <input type="text" id="ism" placeholder="Ism" required>
+                        <label>{% translate "Ism" %} <span style="color:#e53e3e">*</span></label>
+                        <input type="text" id="ism" placeholder="{% translate 'Ism' %}" required>
                     </div>
                     <div class="ht-field">
-                        <label>Sharifi <span style="color:#e53e3e">*</span></label>
-                        <input type="text" id="sharifi" placeholder="Sharifi" required>
+                        <label>{% translate "Sharifi" %} <span style="color:#e53e3e">*</span></label>
+                        <input type="text" id="sharifi" placeholder="{% translate 'Sharifi' %}" required>
                     </div>
                 </div>
 
                 <div class="ht-row-2">
                     <div class="ht-field">
-                        <label>Ta'lim bosqichi <span style="color:#e53e3e">*</span></label>
+                        <label>{% translate "Ta'lim bosqichi" %} <span style="color:#e53e3e">*</span></label>
                         <select id="bosqich" required onchange="updateYonalish()">
-                            <option value="">Ta'lim turini tanlang</option>
-                            <option value="bakalavr">Bakalavr</option>
-                            <option value="magistr">Magistr</option>
-                            <option value="malaka">Malaka oshirish</option>
+                            <option value="">{% translate "Ta'lim turini tanlang" %}</option>
+                            <option value="bakalavr">{% translate "Bakalavr" %}</option>
+                            <option value="magistr">{% translate "Magistr" %}</option>
+                            <option value="malaka">{% translate "Malaka oshirish" %}</option>
                         </select>
                     </div>
                     <div class="ht-field">
-                        <label>Ta'lim shakli <span style="color:#e53e3e">*</span></label>
+                        <label>{% translate "Ta'lim shakli" %} <span style="color:#e53e3e">*</span></label>
                         <select id="shakl" required>
-                            <option value="">Ta'lim shaklini tanlang</option>
-                            <option value="kunduzgi">Kunduzgi</option>
-                            <option value="sirtqi">Sirtqi</option>
-                            <option value="kechki">Kechki</option>
+                            <option value="">{% translate "Ta'lim shaklini tanlang" %}</option>
+                            <option value="kunduzgi">{% translate "Kunduzgi" %}</option>
+                            <option value="sirtqi">{% translate "Sirtqi" %}</option>
+                            <option value="kechki">{% translate "Kechki" %}</option>
                         </select>
                     </div>
                 </div>
 
                 <div class="ht-row">
                     <div class="ht-field">
-                        <label>Ta'lim tili <span style="color:#e53e3e">*</span></label>
+                        <label>{% translate "Ta'lim tili" %} <span style="color:#e53e3e">*</span></label>
                         <select id="til" required>
-                            <option value="">Ta'lim tilini tanlang</option>
-                            <option value="uz">O'zbekcha</option>
-                            <option value="ru">Ruscha</option>
-                            <option value="en">Inglizcha</option>
+                            <option value="">{% translate "Ta'lim tilini tanlang" %}</option>
+                            <option value="uz">{% translate "O'zbekcha" %}</option>
+                            <option value="ru">{% translate "Ruscha" %}</option>
+                            <option value="en">{% translate "Inglizcha" %}</option>
                         </select>
                     </div>
                     <div class="ht-field">
-                        <label>Filial <span style="color:#e53e3e">*</span></label>
+                        <label>{% translate "Filial" %} <span style="color:#e53e3e">*</span></label>
                         <select id="filial" required>
-                            <option value="">Filialni tanlang</option>
-                            <option value="buxoro">Buxoro</option>
-                            <option value="toshkent">Toshkent</option>
-                            <option value="samarqand">Samarqand</option>
+                            <option value="">{% translate "Filialni tanlang" %}</option>
+                            <option value="buxoro">{% translate "Buxoro" %}</option>
+                            <option value="toshkent">{% translate "Toshkent" %}</option>
+                            <option value="samarqand">{% translate "Samarqand" %}</option>
                         </select>
                     </div>
                     <div class="ht-field">
-                        <label>Qo'shimcha telefon</label>
+                        <label>{% translate "Qo'shimcha telefon" %}</label>
                         <div class="ht-phone-small">
                             <span class="pfix">+998</span>
                             <input type="tel" id="phone2" placeholder="__ ___ __ __" maxlength="12" inputmode="numeric">
@@ -171,57 +171,57 @@
 
                 <div class="ht-row-full">
                     <div class="ht-field">
-                        <label>Ta'lim yo'nalishi <span style="color:#e53e3e">*</span></label>
+                        <label>{% translate "Ta'lim yo'nalishi" %} <span style="color:#e53e3e">*</span></label>
                         <select id="yonalish" required>
-                            <option value="">Avval ta'lim bosqichini tanlang...</option>
+                            <option value="">{% translate "Avval ta'lim bosqichini tanlang..." %}</option>
                         </select>
                     </div>
                 </div>
 
                 <button type="submit" class="ht-btn" id="submitBtn2">
-                    <span>Tasdiqlashga o'tish</span>
+                    <span>{% translate "Tasdiqlashga o'tish" %}</span>
                     <i class="fas fa-arrow-right"></i>
                 </button>
             </form>
 
             <button class="ht-back" onclick="goBack()">
-                <i class="fas fa-arrow-left"></i> Orqaga
+                <i class="fas fa-arrow-left"></i> {% translate "Orqaga" %}
             </button>
         </div>
 
         <!-- ═══ STEP 3: Tasdiqlash ═══ -->
         <div class="ht-panel" id="panel3">
-            <h2 class="ht-title">Ma'lumotlarni tekshiring</h2>
-            <p class="ht-subtitle">Quyidagi ma'lumotlar to'g'riligini tekshiring va tasdiqlang</p>
+            <h2 class="ht-title">{% translate "Ma'lumotlarni tekshiring" %}</h2>
+            <p class="ht-subtitle">{% translate "Quyidagi ma'lumotlar to'g'riligini tekshiring va tasdiqlang" %}</p>
 
             <div class="rv-card">
-                <div class="rv-section-title"><i class="fas fa-user"></i> Shaxsiy ma'lumotlar</div>
+                <div class="rv-section-title"><i class="fas fa-user"></i> {% translate "Shaxsiy ma'lumotlar" %}</div>
                 <div class="rv-grid">
-                    <div class="rv-item"><span class="rv-label">Familiya</span><span class="rv-val" id="rv-familiya"></span></div>
-                    <div class="rv-item"><span class="rv-label">Ism</span><span class="rv-val" id="rv-ism"></span></div>
-                    <div class="rv-item"><span class="rv-label">Sharifi</span><span class="rv-val" id="rv-sharifi"></span></div>
-                    <div class="rv-item"><span class="rv-label">Asosiy telefon</span><span class="rv-val" id="rv-phone"></span></div>
-                    <div class="rv-item"><span class="rv-label">Qo'shimcha telefon</span><span class="rv-val" id="rv-phone2"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Familiya" %}</span><span class="rv-val" id="rv-familiya"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Ism" %}</span><span class="rv-val" id="rv-ism"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Sharifi" %}</span><span class="rv-val" id="rv-sharifi"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Asosiy telefon" %}</span><span class="rv-val" id="rv-phone"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Qo'shimcha telefon" %}</span><span class="rv-val" id="rv-phone2"></span></div>
                 </div>
                 <div class="rv-divider"></div>
-                <div class="rv-section-title"><i class="fas fa-graduation-cap"></i> Ta'lim ma'lumotlari</div>
+                <div class="rv-section-title"><i class="fas fa-graduation-cap"></i> {% translate "Ta'lim ma'lumotlari" %}</div>
                 <div class="rv-grid">
-                    <div class="rv-item"><span class="rv-label">Ta'lim bosqichi</span><span class="rv-val" id="rv-bosqich"></span></div>
-                    <div class="rv-item"><span class="rv-label">Ta'lim shakli</span><span class="rv-val" id="rv-shakl"></span></div>
-                    <div class="rv-item"><span class="rv-label">Ta'lim tili</span><span class="rv-val" id="rv-til"></span></div>
-                    <div class="rv-item"><span class="rv-label">Filial</span><span class="rv-val" id="rv-filial"></span></div>
-                    <div class="rv-item rv-item-full"><span class="rv-label">Yo'nalish</span><span class="rv-val" id="rv-yonalish"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Ta'lim bosqichi" %}</span><span class="rv-val" id="rv-bosqich"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Ta'lim shakli" %}</span><span class="rv-val" id="rv-shakl"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Ta'lim tili" %}</span><span class="rv-val" id="rv-til"></span></div>
+                    <div class="rv-item"><span class="rv-label">{% translate "Filial" %}</span><span class="rv-val" id="rv-filial"></span></div>
+                    <div class="rv-item rv-item-full"><span class="rv-label">{% translate "Yo'nalish" %}</span><span class="rv-val" id="rv-yonalish"></span></div>
                 </div>
             </div>
 
             <div class="rv-actions">
                 <button class="ht-btn ht-btn-outline" onclick="showPanel(2)">
                     <i class="fas fa-edit"></i>
-                    <span>Tahrirlash</span>
+                    <span>{% translate "Tahrirlash" %}</span>
                 </button>
                 <button class="ht-btn" onclick="submitFinal()">
                     <i class="fas fa-paper-plane"></i>
-                    <span>Tasdiqlash va yuborish</span>
+                    <span>{% translate "Tasdiqlash va yuborish" %}</span>
                 </button>
             </div>
         </div>
@@ -233,37 +233,37 @@
                     <i class="fas fa-check"></i>
                 </div>
             </div>
-            <h2 class="ht-title" style="margin-top:16px;">Arizangiz qabul qilindi!</h2>
-            <p class="ht-subtitle">Adminга muvaffaqiyatli yuborildi</p>
+            <h2 class="ht-title" style="margin-top:16px;">{% translate "Arizangiz qabul qilindi!" %}</h2>
+            <p class="ht-subtitle">{% translate "Adminга muvaffaqiyatli yuborildi" %}</p>
 
             <div class="success-info">
                 <div class="success-info-row">
                     <div class="si-icon"><i class="fas fa-clock"></i></div>
                     <div class="si-text">
-                        <strong>Ko'rib chiqish muddati</strong>
-                        <span>1–3 ish kuni ichida arizangiz ko'rib chiqiladi</span>
+                        <strong>{% translate "Ko'rib chiqish muddati" %}</strong>
+                        <span>{% translate "1–3 ish kuni ichida arizangiz ko'rib chiqiladi" %}</span>
                     </div>
                 </div>
                 <div class="success-info-row">
                     <div class="si-icon"><i class="fas fa-phone-alt"></i></div>
                     <div class="si-text">
-                        <strong>Bog'lanish uchun</strong>
-                        <span>Savollar bo'lsa qo'ng'iroq qiling:</span>
+                        <strong>{% translate "Bog'lanish uchun" %}</strong>
+                        <span>{% translate "Savollar bo'lsa qo'ng'iroq qiling:" %}</span>
                         <a href="tel:+998952601112" class="si-phone">+998 95 260-11-12</a>
                     </div>
                 </div>
                 <div class="success-info-row">
                     <div class="si-icon"><i class="fas fa-sms"></i></div>
                     <div class="si-text">
-                        <strong>Natija haqida xabar</strong>
-                        <span>Ariza natijasi <strong id="rv-phone-final"></strong> raqamiga yuboriladi</span>
+                        <strong>{% translate "Natija haqida xabar" %}</strong>
+                        <span>{% translate "Ariza natijasi" %} <strong id="rv-phone-final"></strong> {% translate "raqamiga yuboriladi" %}</span>
                     </div>
                 </div>
             </div>
 
             <a href="{% url 'main:home' %}" class="ht-btn" style="margin-top:20px; text-decoration:none; justify-content:center;">
                 <i class="fas fa-home"></i>
-                <span>Bosh sahifaga qaytish</span>
+                <span>{% translate "Bosh sahifaga qaytish" %}</span>
             </a>
         </div>
 

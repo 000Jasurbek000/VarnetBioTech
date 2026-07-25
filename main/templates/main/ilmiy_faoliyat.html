@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Ilmiy faoliyat — Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Ilmiy faoliyat — Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/faoliyat/ilmiy-faoliyat-hero.jpg' badge_icon='fa-flask' badge='Tadqiqot va innovatsiya' title='Ilmiy faoliyat' desc='Biotexnologiya, genetika va ekologiya sohasida chuqur tadqiqotlar, xalqaro nashrlar va innovatsion loyihalar — kelajak ilmiga yo‘l.' crumb='Ilmiy faoliyat' %}
+{% translate "Tadqiqot va innovatsiya" as sh_badge %}
+{% translate "Ilmiy faoliyat" as sh_title %}
+{% translate "Biotexnologiya, genetika va ekologiya sohasida chuqur tadqiqotlar, xalqaro nashrlar va innovatsion loyihalar — kelajak ilmiga yo‘l." as sh_desc %}
+{% translate "Ilmiy faoliyat" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/faoliyat/ilmiy-faoliyat-hero.jpg' badge_icon='fa-flask' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="fl-stats">
     <div class="fl-container">
@@ -13,22 +17,22 @@
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-microscope"></i></div>
                 <div class="fl-stat-n">12</div>
-                <div class="fl-stat-l">Ilmiy laboratoriya</div>
+                <div class="fl-stat-l">{% translate "Ilmiy laboratoriya" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-file-alt"></i></div>
                 <div class="fl-stat-n">180+</div>
-                <div class="fl-stat-l">Ilmiy maqolalar</div>
+                <div class="fl-stat-l">{% translate "Ilmiy maqolalar" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-lightbulb"></i></div>
                 <div class="fl-stat-n">24</div>
-                <div class="fl-stat-l">Innovatsion loyiha</div>
+                <div class="fl-stat-l">{% translate "Innovatsion loyiha" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-certificate"></i></div>
                 <div class="fl-stat-n">15</div>
-                <div class="fl-stat-l">Patent va ixtiro</div>
+                <div class="fl-stat-l">{% translate "Patent va ixtiro" %}</div>
             </div>
         </div>
     </div>
@@ -38,20 +42,19 @@
     <div class="fl-container">
         <div class="fl-split">
             <div class="fl-split-img">
-                <img src="{% static 'images/faoliyat/ilmiy-lab.jpg' %}" alt="Ilmiy laboratoriya" loading="lazy" decoding="async">
+                <img src="{% static 'images/faoliyat/ilmiy-lab.jpg' %}" alt="{% translate 'Ilmiy laboratoriya' %}" loading="lazy" decoding="async">
             </div>
             <div class="fl-split-text">
-                <div class="fl-tag"><i class="fas fa-dna"></i> Tadqiqot markazi</div>
-                <h2 class="fl-h2">Ilm — universitetimizning yuragi</h2>
+                <div class="fl-tag"><i class="fas fa-dna"></i> {% translate "Tadqiqot markazi" %}</div>
+                <h2 class="fl-h2">{% translate "Ilm — universitetimizning yuragi" %}</h2>
                 <p class="fl-lead">
-                    Varnet Biotexnologiyalar Universitetida ilmiy faoliyat professor-o‘qituvchilar,
-                    doktorantlar va talabalar uchun ochiq platforma hisoblanadi.
+                    {% translate "Varnet Biotexnologiyalar Universitetida ilmiy faoliyat professor-o‘qituvchilar, doktorantlar va talabalar uchun ochiq platforma hisoblanadi." %}
                 </p>
                 <ul class="fl-check">
-                    <li><i class="fas fa-check"></i> Molekulyar biologiya va genetika tadqiqotlari</li>
-                    <li><i class="fas fa-check"></i> Farmatsevtik biotexnologiya loyihalari</li>
-                    <li><i class="fas fa-check"></i> Xalqaro grantlar va hamkorlik dasturlari</li>
-                    <li><i class="fas fa-check"></i> Yosh olimlar uchun mentorlik tizimi</li>
+                    <li><i class="fas fa-check"></i> {% translate "Molekulyar biologiya va genetika tadqiqotlari" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Farmatsevtik biotexnologiya loyihalari" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Xalqaro grantlar va hamkorlik dasturlari" %}</li>
+                    <li><i class="fas fa-check"></i> {% translate "Yosh olimlar uchun mentorlik tizimi" %}</li>
                 </ul>
             </div>
         </div>
@@ -61,40 +64,40 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-flask"></i> Yo‘nalishlar</div>
-            <h2 class="fl-h2">Asosiy ilmiy yo‘nalishlar</h2>
-            <p class="fl-sub">Universitetimizda olib borilayotgan ustuvor tadqiqot sohalari.</p>
+            <div class="fl-tag"><i class="fas fa-flask"></i> {% translate "Yo‘nalishlar" %}</div>
+            <h2 class="fl-h2">{% translate "Asosiy ilmiy yo‘nalishlar" %}</h2>
+            <p class="fl-sub">{% translate "Universitetimizda olib borilayotgan ustuvor tadqiqot sohalari." %}</p>
         </div>
         <div class="fl-cards">
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-dna"></i></div>
-                <h3>Genetika va genomika</h3>
-                <p>Genom tahlili, gen muhandisligi va molekulyar diagnostika bo‘yicha tadqiqotlar.</p>
+                <h3>{% translate "Genetika va genomika" %}</h3>
+                <p>{% translate "Genom tahlili, gen muhandisligi va molekulyar diagnostika bo‘yicha tadqiqotlar." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-virus"></i></div>
-                <h3>Mikrobiologiya</h3>
-                <p>Foydali mikroorganizmlar, biopreparatlar va sanoat fermentatsiyasi.</p>
+                <h3>{% translate "Mikrobiologiya" %}</h3>
+                <p>{% translate "Foydali mikroorganizmlar, biopreparatlar va sanoat fermentatsiyasi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-pills"></i></div>
-                <h3>Biofarmatsevtika</h3>
-                <p>Dori vositalari ishlab chiqish, biologik faol birikmalar sintezi.</p>
+                <h3>{% translate "Biofarmatsevtika" %}</h3>
+                <p>{% translate "Dori vositalari ishlab chiqish, biologik faol birikmalar sintezi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-seedling"></i></div>
-                <h3>Agrobiotexnologiya</h3>
-                <p>O‘simlik seleksiyasi, chidamli navlar va biohimoya usullari.</p>
+                <h3>{% translate "Agrobiotexnologiya" %}</h3>
+                <p>{% translate "O‘simlik seleksiyasi, chidamli navlar va biohimoya usullari." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-leaf"></i></div>
-                <h3>Ekologik biotexnologiya</h3>
-                <p>Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar.</p>
+                <h3>{% translate "Ekologik biotexnologiya" %}</h3>
+                <p>{% translate "Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-robot"></i></div>
-                <h3>Bioinformatika</h3>
-                <p>Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari.</p>
+                <h3>{% translate "Bioinformatika" %}</h3>
+                <p>{% translate "Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari." %}</p>
             </article>
         </div>
     </div>
@@ -103,30 +106,30 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-calendar-check"></i> Tadbirlar</div>
-            <h2 class="fl-h2">Ilmiy tadbirlar va nashrlar</h2>
-            <p class="fl-sub">Konferensiyalar, seminarlar va nashr faoliyati.</p>
+            <div class="fl-tag"><i class="fas fa-calendar-check"></i> {% translate "Tadbirlar" %}</div>
+            <h2 class="fl-h2">{% translate "Ilmiy tadbirlar va nashrlar" %}</h2>
+            <p class="fl-sub">{% translate "Konferensiyalar, seminarlar va nashr faoliyati." %}</p>
         </div>
         <div class="fl-timeline">
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Har yili</div>
+                <div class="fl-tl-year">{% translate "Har yili" %}</div>
                 <div class="fl-tl-body">
-                    <h3>«BioTech Innovate» xalqaro konferensiyasi</h3>
-                    <p>Dunyo olimlari ishtirokida biotexnologiya yangiliklari muhokama qilinadi.</p>
+                    <h3>{% translate "«BioTech Innovate» xalqaro konferensiyasi" %}</h3>
+                    <p>{% translate "Dunyo olimlari ishtirokida biotexnologiya yangiliklari muhokama qilinadi." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Har chorak</div>
+                <div class="fl-tl-year">{% translate "Har chorak" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Yosh olimlar seminari</h3>
-                    <p>Talaba va doktorantlar o‘z tadqiqot natijalarini taqdim etadi.</p>
+                    <h3>{% translate "Yosh olimlar seminari" %}</h3>
+                    <p>{% translate "Talaba va doktorantlar o‘z tadqiqot natijalarini taqdim etadi." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Doimiy</div>
+                <div class="fl-tl-year">{% translate "Doimiy" %}</div>
                 <div class="fl-tl-body">
-                    <h3>«Varnet Science Journal»</h3>
-                    <p>Universitet ilmiy jurnali — Scopus indeksatsiyasiga yo‘naltirilgan nashr.</p>
+                    <h3>{% translate "«Varnet Science Journal»" %}</h3>
+                    <p>{% translate "Universitet ilmiy jurnali — Scopus indeksatsiyasiga yo‘naltirilgan nashr." %}</p>
                 </div>
             </div>
         </div>
@@ -137,10 +140,10 @@
     <div class="fl-container">
         <div class="fl-cta-box">
             <div>
-                <h2>Ilmiy loyihangizni biz bilan boshlang</h2>
-                <p>Ilmiy tadqiqot bo‘limi bilan bog‘laning yoki grant imkoniyatlarini o‘rganing.</p>
+                <h2>{% translate "Ilmiy loyihangizni biz bilan boshlang" %}</h2>
+                <p>{% translate "Ilmiy tadqiqot bo‘limi bilan bog‘laning yoki grant imkoniyatlarini o‘rganing." %}</p>
             </div>
-            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-envelope"></i> Bog‘lanish</a>
+            <a href="{% url 'main:aloqa' %}" class="fl-cta-btn"><i class="fas fa-envelope"></i> {% translate "Bog‘lanish" %}</a>
         </div>
     </div>
 </section>

@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Kvota va ballar — Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Kvota va ballar — Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/subheader/kvota-va-ballar-hero.jpg' badge_icon='fa-list-ol' badge='Qabul parametrlari' title='Kvota va <em>ballar</em>' desc="DTM ball tuzilmasi, o‘tish ballari va 2026/2027 o‘quv yili qabul kvotalari haqida ma’lumot." crumb='Kvota va ballar' %}
+{% translate "Qabul parametrlari" as sh_badge %}
+{% translate "Kvota va <em>ballar</em>" as sh_title %}
+{% translate "DTM ball tuzilmasi, o‘tish ballari va 2026/2027 o‘quv yili qabul kvotalari haqida ma’lumot." as sh_desc %}
+{% translate "Kvota va ballar" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/kvota-va-ballar-hero.jpg' badge_icon='fa-list-ol' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="fl-stats">
     <div class="fl-container">
@@ -13,22 +17,22 @@
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-trophy"></i></div>
                 <div class="fl-stat-n">189</div>
-                <div class="fl-stat-l">DTM maksimal ball</div>
+                <div class="fl-stat-l">{% translate "DTM maksimal ball" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-user-graduate"></i></div>
                 <div class="fl-stat-n">205 604</div>
-                <div class="fl-stat-l">Bakalavriat (respublika)</div>
+                <div class="fl-stat-l">{% translate "Bakalavriat (respublika)" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-user-tie"></i></div>
                 <div class="fl-stat-n">22 050</div>
-                <div class="fl-stat-l">Magistratura kunduzgi</div>
+                <div class="fl-stat-l">{% translate "Magistratura kunduzgi" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-gift"></i></div>
                 <div class="fl-stat-n">46 000+</div>
-                <div class="fl-stat-l">Davlat grant o‘rinlari</div>
+                <div class="fl-stat-l">{% translate "Davlat grant o‘rinlari" %}</div>
             </div>
         </div>
     </div>
@@ -37,62 +41,61 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-calculator"></i> DTM 2026</div>
-            <h2 class="fl-h2">Kirish testi ball tuzilmasi</h2>
+            <div class="fl-tag"><i class="fas fa-calculator"></i> {% translate "DTM 2026" %}</div>
+            <h2 class="fl-h2">{% translate "Kirish testi ball tuzilmasi" %}</h2>
             <p class="fl-sub">
-                Bakalavriat uchun test 5 ta fan va 90 ta savoldan iborat.
-                Maksimal ball — <strong>189</strong>.
+                {% translate "Bakalavriat uchun test 5 ta fan va 90 ta savoldan iborat. Maksimal ball —" %} <strong>189</strong>.
             </p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
-                        <th>Fan</th>
-                        <th>Turi</th>
-                        <th>Savollar</th>
-                        <th>Ball hisobi</th>
-                        <th>Jami</th>
+                        <th>{% translate "Fan" %}</th>
+                        <th>{% translate "Turi" %}</th>
+                        <th>{% translate "Savollar" %}</th>
+                        <th>{% translate "Ball hisobi" %}</th>
+                        <th>{% translate "Jami" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Ona tili (o‘zbek / rus)</td>
-                        <td>Majburiy</td>
+                        <td>{% translate "Ona tili (o‘zbek / rus)" %}</td>
+                        <td>{% translate "Majburiy" %}</td>
                         <td>10</td>
                         <td>10 × 1,1</td>
                         <td><strong>11</strong></td>
                     </tr>
                     <tr>
-                        <td>Matematika</td>
-                        <td>Majburiy</td>
+                        <td>{% translate "Matematika" %}</td>
+                        <td>{% translate "Majburiy" %}</td>
                         <td>10</td>
                         <td>10 × 1,1</td>
                         <td><strong>11</strong></td>
                     </tr>
                     <tr>
-                        <td>O‘zbekiston tarixi</td>
-                        <td>Majburiy</td>
+                        <td>{% translate "O‘zbekiston tarixi" %}</td>
+                        <td>{% translate "Majburiy" %}</td>
                         <td>10</td>
                         <td>10 × 1,1</td>
                         <td><strong>11</strong></td>
                     </tr>
                     <tr>
-                        <td>Profil fan 1</td>
-                        <td>Profil</td>
+                        <td>{% translate "Profil fan 1" %}</td>
+                        <td>{% translate "Profil" %}</td>
                         <td>30</td>
                         <td>30 × 3,1</td>
                         <td><strong>93</strong></td>
                     </tr>
                     <tr>
-                        <td>Profil fan 2</td>
-                        <td>Profil</td>
+                        <td>{% translate "Profil fan 2" %}</td>
+                        <td>{% translate "Profil" %}</td>
                         <td>30</td>
                         <td>30 × 2,1</td>
                         <td><strong>63</strong></td>
                     </tr>
                     <tr class="qb-total">
-                        <td colspan="4">Maksimal ball</td>
+                        <td colspan="4">{% translate "Maksimal ball" %}</td>
                         <td><strong>189</strong></td>
                     </tr>
                 </tbody>
@@ -100,9 +103,9 @@
         </div>
         <p class="qb-note">
             <i class="fas fa-info-circle"></i>
-            Biotexnologiya yo‘nalishlari uchun profil fanlar odatda
+            {% blocktranslate trimmed %}Biotexnologiya yo‘nalishlari uchun profil fanlar odatda
             <strong>Biologiya</strong> va <strong>Kimyo</strong> bo‘ladi.
-            Aniq blogni my.uzbmb.uz dan tekshiring.
+            Aniq blokni my.uzbmb.uz dan tekshiring.{% endblocktranslate %}
         </p>
     </div>
 </section>
@@ -110,39 +113,39 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-chart-bar"></i> Respublika kvotalari</div>
-            <h2 class="fl-h2">2026/2027 bakalavriat kvotalari</h2>
-            <p class="fl-sub">Davlat OTMlari bo‘yicha tasdiqlangan umumiy qabul parametrlari.</p>
+            <div class="fl-tag"><i class="fas fa-chart-bar"></i> {% translate "Respublika kvotalari" %}</div>
+            <h2 class="fl-h2">{% translate "2026/2027 bakalavriat kvotalari" %}</h2>
+            <p class="fl-sub">{% translate "Davlat OTMlari bo‘yicha tasdiqlangan umumiy qabul parametrlari." %}</p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
-                        <th>Ta’lim shakli</th>
-                        <th>Qabul o‘rni</th>
-                        <th>Izoh</th>
+                        <th>{% translate "Ta’lim shakli" %}</th>
+                        <th>{% translate "Qabul o‘rni" %}</th>
+                        <th>{% translate "Izoh" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Kunduzgi</td>
+                        <td>{% translate "Kunduzgi" %}</td>
                         <td><strong>155 852</strong></td>
-                        <td>Asosiy ta’lim shakli</td>
+                        <td>{% translate "Asosiy ta’lim shakli" %}</td>
                     </tr>
                     <tr>
-                        <td>Kechki</td>
+                        <td>{% translate "Kechki" %}</td>
                         <td><strong>28 942</strong></td>
-                        <td>Ishlab turib o‘qish</td>
+                        <td>{% translate "Ishlab turib o‘qish" %}</td>
                     </tr>
                     <tr>
-                        <td>Masofaviy</td>
+                        <td>{% translate "Masofaviy" %}</td>
                         <td><strong>20 810</strong></td>
-                        <td>Masofaviy ta’lim</td>
+                        <td>{% translate "Masofaviy ta’lim" %}</td>
                     </tr>
                     <tr class="qb-total">
-                        <td>Jami bakalavriat</td>
+                        <td>{% translate "Jami bakalavriat" %}</td>
                         <td><strong>205 604</strong></td>
-                        <td>Davlat komissiyasi qarori</td>
+                        <td>{% translate "Davlat komissiyasi qarori" %}</td>
                     </tr>
                 </tbody>
             </table>
@@ -153,62 +156,61 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-university"></i> Universitet</div>
-            <h2 class="fl-h2">Varnet — yo‘nalishlar bo‘yicha kvota (namuna)</h2>
+            <div class="fl-tag"><i class="fas fa-university"></i> {% translate "Universitet" %}</div>
+            <h2 class="fl-h2">{% translate "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)" %}</h2>
             <p class="fl-sub">
-                Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili
-                qabul e’lonida rasmiy tasdiqlanadi.
+                {% translate "Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida rasmiy tasdiqlanadi." %}
             </p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
-                        <th>Yo‘nalish</th>
-                        <th>Grant</th>
-                        <th>Kontrakt</th>
-                        <th>Jami</th>
-                        <th>O‘tgan yil o‘tish balli*</th>
+                        <th>{% translate "Yo‘nalish" %}</th>
+                        <th>{% translate "Grant" %}</th>
+                        <th>{% translate "Kontrakt" %}</th>
+                        <th>{% translate "Jami" %}</th>
+                        <th>{% translate "O‘tgan yil o‘tish balli*" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Biotexnologiya</td>
+                        <td>{% translate "Biotexnologiya" %}</td>
                         <td>25</td>
                         <td>55</td>
                         <td>80</td>
                         <td>98,5</td>
                     </tr>
                     <tr>
-                        <td>Ekologiya</td>
+                        <td>{% translate "Ekologiya" %}</td>
                         <td>20</td>
                         <td>45</td>
                         <td>65</td>
                         <td>86,2</td>
                     </tr>
                     <tr>
-                        <td>Farmatsevtika biotexnologiyasi</td>
+                        <td>{% translate "Farmatsevtika biotexnologiyasi" %}</td>
                         <td>15</td>
                         <td>40</td>
                         <td>55</td>
                         <td>102,1</td>
                     </tr>
                     <tr>
-                        <td>Agrobiotexnologiya</td>
+                        <td>{% translate "Agrobiotexnologiya" %}</td>
                         <td>18</td>
                         <td>42</td>
                         <td>60</td>
                         <td>84,7</td>
                     </tr>
                     <tr>
-                        <td>Bioinformatika</td>
+                        <td>{% translate "Bioinformatika" %}</td>
                         <td>12</td>
                         <td>38</td>
                         <td>50</td>
                         <td>110,4</td>
                     </tr>
                     <tr class="qb-total">
-                        <td>Jami (namuna)</td>
+                        <td>{% translate "Jami (namuna)" %}</td>
                         <td>90</td>
                         <td>220</td>
                         <td>310</td>
@@ -219,8 +221,7 @@
         </div>
         <p class="qb-note">
             <i class="fas fa-exclamation-circle"></i>
-            * O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi.
-            Minimal chegaralar Davlat qabul komissiyasi tomonidan belgilanadi.
+            {% translate "* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal chegaralar Davlat qabul komissiyasi tomonidan belgilanadi." %}
         </p>
     </div>
 </section>
@@ -228,45 +229,45 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-gift"></i> Grant va imtiyoz</div>
-            <h2 class="fl-h2">Grant, kontrakt va imtiyozlar</h2>
+            <div class="fl-tag"><i class="fas fa-gift"></i> {% translate "Grant va imtiyoz" %}</div>
+            <h2 class="fl-h2">{% translate "Grant, kontrakt va imtiyozlar" %}</h2>
         </div>
         <div class="fl-cards">
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-medal"></i></div>
-                <h3>Davlat granti</h3>
-                <p>Ball konkursi asosida. Grant o‘rinlari yo‘nalish bo‘yicha ball kamayish tartibida taqsimlanadi.</p>
+                <h3>{% translate "Davlat granti" %}</h3>
+                <p>{% translate "Ball konkursi asosida. Grant o‘rinlari yo‘nalish bo‘yicha ball kamayish tartibida taqsimlanadi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-file-contract"></i></div>
-                <h3>To‘lov-kontrakt</h3>
-                <p>O‘z mablag‘i hisobiga ta’lim. Minimal o‘tish balliga erishganlar uchun ochiq.</p>
+                <h3>{% translate "To‘lov-kontrakt" %}</h3>
+                <p>{% translate "O‘z mablag‘i hisobiga ta’lim. Minimal o‘tish balliga erishganlar uchun ochiq." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-star"></i></div>
-                <h3>Superkontrakt</h3>
-                <p>Oddiy kontraktga o‘tmaganlar uchun qo‘shimcha shakl. Rasmiylashtirish: kontrakt.edu.uz.</p>
+                <h3>{% translate "Superkontrakt" %}</h3>
+                <p>{% translate "Oddiy kontraktga o‘tmaganlar uchun qo‘shimcha shakl. Rasmiylashtirish: kontrakt.edu.uz." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-language"></i></div>
-                <h3>Til sertifikati</h3>
-                <p>IELTS / TOEFL / GCT B1+ — chet tili fanida imtihonsiz maksimal ball imtiyozi.</p>
+                <h3>{% translate "Til sertifikati" %}</h3>
+                <p>{% translate "IELTS / TOEFL / GCT B1+ — chet tili fanida imtihonsiz maksimal ball imtiyozi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-award"></i></div>
-                <h3>Olimpiadalar</h3>
-                <p>Xalqaro va respublika olimpiada g‘oliblari qo‘shimcha imtiyozlarga ega bo‘lishi mumkin.</p>
+                <h3>{% translate "Olimpiadalar" %}</h3>
+                <p>{% translate "Xalqaro va respublika olimpiada g‘oliblari qo‘shimcha imtiyozlarga ega bo‘lishi mumkin." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><i class="fas fa-female"></i></div>
-                <h3>Maxsus kvotalar</h3>
-                <p>Ayollar uchun qo‘shimcha grantlar va boshqa maqsadli kvotalar (respublika miqyosida).</p>
+                <h3>{% translate "Maxsus kvotalar" %}</h3>
+                <p>{% translate "Ayollar uchun qo‘shimcha grantlar va boshqa maqsadli kvotalar (respublika miqyosida)." %}</p>
             </article>
         </div>
         <div class="qb-links">
-            <a href="{% url 'main:bakalavr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-plus"></i> Bakalavr qabuli</a>
-            <a href="{% url 'main:magistr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-graduate"></i> Magistr qabuli</a>
-            <a href="https://my.uzbmb.uz" target="_blank" rel="noopener" class="hm-btn-green"><i class="fas fa-external-link-alt"></i> Rasmiy portal</a>
+            <a href="{% url 'main:bakalavr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-plus"></i> {% translate "Bakalavr qabuli" %}</a>
+            <a href="{% url 'main:magistr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-graduate"></i> {% translate "Magistr qabuli" %}</a>
+            <a href="https://my.uzbmb.uz" target="_blank" rel="noopener" class="hm-btn-green"><i class="fas fa-external-link-alt"></i> {% translate "Rasmiy portal" %}</a>
         </div>
     </div>
 </section>
@@ -275,10 +276,10 @@
     <div class="fl-container">
         <div class="fl-cta-box">
             <div>
-                <h2>Ballaringizni hisoblab, ariza bering</h2>
-                <p>Aniq kvota va o‘tish ballari qabul e’lonida yangilanadi.</p>
+                <h2>{% translate "Ballaringizni hisoblab, ariza bering" %}</h2>
+                <p>{% translate "Aniq kvota va o‘tish ballari qabul e’lonida yangilanadi." %}</p>
             </div>
-            <a href="{% url 'main:hujjat_topshirish' %}" class="fl-cta-btn"><i class="fas fa-file-alt"></i> Hujjat topshirish</a>
+            <a href="{% url 'main:hujjat_topshirish' %}" class="fl-cta-btn"><i class="fas fa-file-alt"></i> {% translate "Hujjat topshirish" %}</a>
         </div>
     </div>
 </section>

@@ -1,11 +1,14 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}E'lon - Varnet Biotech University{% endblock %}
+{% block title %}{% translate "E'lon - Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 {% url 'main:elonlar' as elonlar_url %}
-{% include 'main/includes/page_subheader.html' with image='images/subheader/elonlar-hero.jpg' badge_icon='fa-bullhorn' badge="E'lonlar" title="2026-2027 o'quv yiliga bakalavr yo'nalishlariga <em>hujjat qabul qilish boshlandi</em>" parent_url=elonlar_url parent_label="E'lonlar" crumb='Batafsil' %}
+{% translate "E'lonlar" as sh_badge %}
+{% translate "2026-2027 o'quv yiliga bakalavr yo'nalishlariga <em>hujjat qabul qilish boshlandi</em>" as sh_title %}
+{% translate "Batafsil" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/elonlar-hero.jpg' badge_icon='fa-bullhorn' badge=sh_badge title=sh_title parent_url=elonlar_url parent_label="E'lonlar" crumb=sh_crumb %}
 
     <!-- E'lon Detail -->
     <section class="news-detail-section">
@@ -18,61 +21,61 @@
 
                         <!-- E'lon Header Badge -->
                         <div class="elon-detail-header">
-                            <span class="elon-detail-tag">Qabul</span>
+                            <span class="elon-detail-tag">{% translate "Qabul" %}</span>
                             <span class="elon-detail-status active-status">
-                                <i class="fas fa-circle"></i> Faol
+                                <i class="fas fa-circle"></i> {% translate "Faol" %}
                             </span>
                         </div>
 
                         <!-- E'lon Image -->
                         <div class="elon-detail-img">
-                            <img src="https://picsum.photos/seed/elon1/900/400" alt="E'lon rasmi" loading="lazy" decoding="async">
+                            <img src="https://picsum.photos/seed/elon1/900/400" alt="{% translate "E'lon rasmi" %}" loading="lazy" decoding="async">
                         </div>
 
                         <!-- Article Body -->
                         <div class="nd-body">
                             <div class="elon-detail-meta-row">
                                 <span class="nd-date">
-                                    <i class="fas fa-calendar-alt"></i> Chop etildi: 01.05.2026
+                                    <i class="fas fa-calendar-alt"></i> {% translate "Chop etildi: 01.05.2026" %}
                                 </span>
                                 <span class="elon-deadline-badge">
-                                    <i class="fas fa-clock"></i> Muddat: <strong>01.06.2026</strong> gacha
+                                    <i class="fas fa-clock"></i> {% translate "Muddat:" %} <strong>01.06.2026</strong> {% translate "gacha" %}
                                 </span>
                             </div>
 
-                            <h1 class="nd-title">2026-2027 o'quv yiliga bakalavr yo'nalishlariga hujjat qabul qilish boshlandi</h1>
+                            <h1 class="nd-title">{% translate "2026-2027 o'quv yiliga bakalavr yo'nalishlariga hujjat qabul qilish boshlandi" %}</h1>
 
                             <div class="nd-content">
-                                <p>Varnet Biotexnologiyalar Universiteti 2026-2027 o'quv yili uchun bakalavr ta'lim yo'nalishlariga yangi talabalar qabulini e'lon qiladi. Qabul jarayoni 2026-yil 1-may kunidan boshlanib, 2026-yil 1-iyungacha davom etadi.</p>
+                                <p>{% translate "Varnet Biotexnologiyalar Universiteti 2026-2027 o'quv yili uchun bakalavr ta'lim yo'nalishlariga yangi talabalar qabulini e'lon qiladi. Qabul jarayoni 2026-yil 1-may kunidan boshlanib, 2026-yil 1-iyungacha davom etadi." %}</p>
 
-                                <p>Quyidagi ta'lim yo'nalishlari bo'yicha hujjat qabul qilinadi:</p>
+                                <p>{% translate "Quyidagi ta'lim yo'nalishlari bo'yicha hujjat qabul qilinadi:" %}</p>
 
                                 <ul class="elon-list">
-                                    <li><i class="fas fa-check-circle"></i> Biotexnologiya (60 ta o'rin)</li>
-                                    <li><i class="fas fa-check-circle"></i> Ekologiya va atrof-muhit muhofazasi (40 ta o'rin)</li>
-                                    <li><i class="fas fa-check-circle"></i> Molekulyar biologiya (30 ta o'rin)</li>
-                                    <li><i class="fas fa-check-circle"></i> Kimyoviy texnologiya (50 ta o'rin)</li>
-                                    <li><i class="fas fa-check-circle"></i> Axborot texnologiyalari (45 ta o'rin)</li>
+                                    <li><i class="fas fa-check-circle"></i> {% translate "Biotexnologiya (60 ta o'rin)" %}</li>
+                                    <li><i class="fas fa-check-circle"></i> {% translate "Ekologiya va atrof-muhit muhofazasi (40 ta o'rin)" %}</li>
+                                    <li><i class="fas fa-check-circle"></i> {% translate "Molekulyar biologiya (30 ta o'rin)" %}</li>
+                                    <li><i class="fas fa-check-circle"></i> {% translate "Kimyoviy texnologiya (50 ta o'rin)" %}</li>
+                                    <li><i class="fas fa-check-circle"></i> {% translate "Axborot texnologiyalari (45 ta o'rin)" %}</li>
                                 </ul>
 
-                                <p>Hujjat topshirish uchun quyidagi materiallar talab qilinadi: umumiy o'rta yoki o'rta maxsus ta'lim attestati (nusxasi), pasport (nusxasi), 3×4 formatdagi 6 ta rasm, tibbiy ma'lumotnoma (086-shakl) va davlat boji to'lovi cheki.</p>
+                                <p>{% translate "Hujjat topshirish uchun quyidagi materiallar talab qilinadi: umumiy o'rta yoki o'rta maxsus ta'lim attestati (nusxasi), pasport (nusxasi), 3×4 formatdagi 6 ta rasm, tibbiy ma'lumotnoma (086-shakl) va davlat boji to'lovi cheki." %}</p>
 
-                                <p>Ariza va hujjatlar universitetting qabul komissiyasiga bevosita topshirilishi yoki elektron pochta orqali yuborilishi mumkin. Batafsil ma'lumot uchun qabul komissiyasiga murojaat qiling.</p>
+                                <p>{% translate "Ariza va hujjatlar universitetting qabul komissiyasiga bevosita topshirilishi yoki elektron pochta orqali yuborilishi mumkin. Batafsil ma'lumot uchun qabul komissiyasiga murojaat qiling." %}</p>
 
                                 <div class="elon-contact-block">
-                                    <h4><i class="fas fa-phone-alt"></i> Qabul komissiyasi:</h4>
+                                    <h4><i class="fas fa-phone-alt"></i> {% translate "Qabul komissiyasi:" %}</h4>
                                     <p><a href="tel:+998952601112">+998 95 260-11-12</a></p>
-                                    <p><a href="mailto:qabul@varnet.uz">qabul@varnet.uz</a></p>
+                                    <p><a href="mailto:qabul@varnet.uz">{% translate "qabul@varnet.uz" %}</a></p>
                                 </div>
 
-                                <p class="nd-author"><strong>Varnet Biotech Qabul komissiyasi</strong></p>
+                                <p class="nd-author"><strong>{% translate "Varnet Biotech Qabul komissiyasi" %}</strong></p>
                             </div>
                         </div>
 
                         <!-- Back Button -->
                         <div class="nd-back">
                             <a href="{% url 'main:elonlar' %}" class="nd-back-btn">
-                                <i class="fas fa-arrow-left"></i> E'lonlarga qaytish
+                                <i class="fas fa-arrow-left"></i> {% translate "E'lonlarga qaytish" %}
                             </a>
                         </div>
 
@@ -83,7 +86,7 @@
                 <aside class="nd-sidebar">
                     <div class="nd-sidebar-box">
                         <div class="nd-sidebar-title">
-                            <i class="fas fa-bullhorn"></i> Oxirgi e'lonlar
+                            <i class="fas fa-bullhorn"></i> {% translate "Oxirgi e'lonlar" %}
                         </div>
 
                         <a href="{% url 'main:elon_detail' 2 %}" class="nd-popular-card">
@@ -91,9 +94,9 @@
                                 <img src="https://picsum.photos/seed/elon2/400/240" alt="" loading="lazy" decoding="async">
                             </div>
                             <div class="nd-popular-info">
-                                <p>Yosh tadqiqotchilar orasida grant tanloviga ariza topshirish muddati uzaytirildi</p>
+                                <p>{% translate "Yosh tadqiqotchilar orasida grant tanloviga ariza topshirish muddati uzaytirildi" %}</p>
                                 <div class="nd-popular-meta">
-                                    <span><i class="fas fa-clock"></i> 15.05.2026 gacha</span>
+                                    <span><i class="fas fa-clock"></i> {% translate "15.05.2026 gacha" %}</span>
                                 </div>
                             </div>
                         </a>
@@ -103,9 +106,9 @@
                                 <img src="https://picsum.photos/seed/elon3/400/240" alt="" loading="lazy" decoding="async">
                             </div>
                             <div class="nd-popular-info">
-                                <p>Biotexnologiya laboratoriyasiga laborant va kichik ilmiy xodim kerak</p>
+                                <p>{% translate "Biotexnologiya laboratoriyasiga laborant va kichik ilmiy xodim kerak" %}</p>
                                 <div class="nd-popular-meta">
-                                    <span><i class="fas fa-clock"></i> 20.05.2026 gacha</span>
+                                    <span><i class="fas fa-clock"></i> {% translate "20.05.2026 gacha" %}</span>
                                 </div>
                             </div>
                         </a>
@@ -115,9 +118,9 @@
                                 <img src="https://picsum.photos/seed/elon4/400/240" alt="" loading="lazy" decoding="async">
                             </div>
                             <div class="nd-popular-info">
-                                <p>2026-yil may oyida o'tkaziladigan imtihon jadvali e'lon qilindi</p>
+                                <p>{% translate "2026-yil may oyida o'tkaziladigan imtihon jadvali e'lon qilindi" %}</p>
                                 <div class="nd-popular-meta">
-                                    <span><i class="fas fa-clock"></i> 10.05.2026 gacha</span>
+                                    <span><i class="fas fa-clock"></i> {% translate "10.05.2026 gacha" %}</span>
                                 </div>
                             </div>
                         </a>

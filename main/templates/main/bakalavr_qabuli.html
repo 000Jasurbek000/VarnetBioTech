@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Bakalavr qabuli — Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Bakalavr qabuli — Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/subheader/bakalavr-qabuli-hero.jpg' badge_icon='fa-user-plus' badge='Qabul 2026/2027' title='Bakalavr <em>qabuli</em>' desc="Davlat qabul tartibi asosida — «avval test, keyin tanlov» tamoyili bo‘yicha bakalavriatga hujjat topshirish." crumb='Bakalavr qabuli' %}
+{% translate "Qabul 2026/2027" as sh_badge %}
+{% translate "Bakalavr <em>qabuli</em>" as sh_title %}
+{% translate "Davlat qabul tartibi asosida — «avval test, keyin tanlov» tamoyili bo‘yicha bakalavriatga hujjat topshirish." as sh_desc %}
+{% translate "Bakalavr qabuli" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/bakalavr-qabuli-hero.jpg' badge_icon='fa-user-plus' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="fl-stats">
     <div class="fl-container">
@@ -13,22 +17,22 @@
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-calendar-alt"></i></div>
                 <div class="fl-stat-n">5–25</div>
-                <div class="fl-stat-l">Iyun — ro‘yxatdan o‘tish</div>
+                <div class="fl-stat-l">{% translate "Iyun — ro‘yxatdan o‘tish" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-clipboard-list"></i></div>
                 <div class="fl-stat-n">189</div>
-                <div class="fl-stat-l">Maksimal DTM balli</div>
+                <div class="fl-stat-l">{% translate "Maksimal DTM balli" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-book"></i></div>
                 <div class="fl-stat-n">5</div>
-                <div class="fl-stat-l">Test fanlari</div>
+                <div class="fl-stat-l">{% translate "Test fanlari" %}</div>
             </div>
             <div class="fl-stat">
                 <div class="fl-stat-ico"><i class="fas fa-globe"></i></div>
                 <div class="fl-stat-n">15</div>
-                <div class="fl-stat-l">Kun — OTM tanlash</div>
+                <div class="fl-stat-l">{% translate "Kun — OTM tanlash" %}</div>
             </div>
         </div>
     </div>
@@ -37,29 +41,27 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-info-circle"></i> Umumiy ma’lumot</div>
-            <h2 class="fl-h2">Bakalavriatga qabul tartibi</h2>
+            <div class="fl-tag"><i class="fas fa-info-circle"></i> {% translate "Umumiy ma’lumot" %}</div>
+            <h2 class="fl-h2">{% translate "Bakalavriatga qabul tartibi" %}</h2>
             <p class="fl-sub">
-                O‘zbekiston Respublikasida 2024/2025 o‘quv yilidan joriy etilgan
-                «avval test — keyin tanlov» tizimi asosida amalga oshiriladi.
-                Rasmiy platforma: <strong>my.uzbmb.uz</strong>.
+                {% translate "O‘zbekiston Respublikasida 2024/2025 o‘quv yilidan joriy etilgan «avval test — keyin tanlov» tizimi asosida amalga oshiriladi. Rasmiy platforma:" %} <strong>{% translate "my.uzbmb.uz" %}</strong>.
             </p>
         </div>
         <div class="fl-cards">
             <article class="fl-card">
                 <div class="fl-card-ico"><span class="fl-num">1</span></div>
-                <h3>Ro‘yxatdan o‘tish</h3>
-                <p>my.uzbmb.uz da pasport, JSHSHIR va telefon orqali ariza. Fan bloki, ta’lim tili va test hududi tanlanadi.</p>
+                <h3>{% translate "Ro‘yxatdan o‘tish" %}</h3>
+                <p>{% translate "my.uzbmb.uz da pasport, JSHSHIR va telefon orqali ariza. Fan bloki, ta’lim tili va test hududi tanlanadi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><span class="fl-num">2</span></div>
-                <h3>Kirish testi (DTM)</h3>
-                <p>5 ta fan: 3 majburiy + 2 profil. 90 ta savol, maksimal 189 ball. Natija shaxsiy kabinetda e’lon qilinadi.</p>
+                <h3>{% translate "Kirish testi (DTM)" %}</h3>
+                <p>{% translate "5 ta fan: 3 majburiy + 2 profil. 90 ta savol, maksimal 189 ball. Natija shaxsiy kabinetda e’lon qilinadi." %}</p>
             </article>
             <article class="fl-card">
                 <div class="fl-card-ico"><span class="fl-num">3</span></div>
-                <h3>OTM va yo‘nalish tanlash</h3>
-                <p>Ball e’lonidan keyin 15 kun ichida universitet, yo‘nalish va ta’lim shakli (grant / kontrakt) tanlanadi.</p>
+                <h3>{% translate "OTM va yo‘nalish tanlash" %}</h3>
+                <p>{% translate "Ball e’lonidan keyin 15 kun ichida universitet, yo‘nalish va ta’lim shakli (grant / kontrakt) tanlanadi." %}</p>
             </article>
         </div>
     </div>
@@ -68,30 +70,30 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-route"></i> Bosqichlar</div>
-            <h2 class="fl-h2">2026/2027 qabul kalendari</h2>
-            <p class="fl-sub">Davlat OTMlari bakalavriati uchun asosiy muddatlar.</p>
+            <div class="fl-tag"><i class="fas fa-route"></i> {% translate "Bosqichlar" %}</div>
+            <h2 class="fl-h2">{% translate "2026/2027 qabul kalendari" %}</h2>
+            <p class="fl-sub">{% translate "Davlat OTMlari bakalavriati uchun asosiy muddatlar." %}</p>
         </div>
         <div class="fl-timeline">
             <div class="fl-tl-item">
-                <div class="fl-tl-year">5–25 iyun</div>
+                <div class="fl-tl-year">{% translate "5–25 iyun" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Onlayn ro‘yxatdan o‘tish</h3>
-                    <p>my.uzbmb.uz portali orqali ariza topshirish. Maktab, litsey va kollej bitiruvchilari odatda to‘lovdan ozod.</p>
+                    <h3>{% translate "Onlayn ro‘yxatdan o‘tish" %}</h3>
+                    <p>{% translate "my.uzbmb.uz portali orqali ariza topshirish. Maktab, litsey va kollej bitiruvchilari odatda to‘lovdan ozod." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">Iyul–avgust</div>
+                <div class="fl-tl-year">{% translate "Iyul–avgust" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Test sinovlari</h3>
-                    <p>Belgilangan maydonchalarda DTM testlari. Sana va vaqt shaxsiy kabinetda ko‘rsatiladi.</p>
+                    <h3>{% translate "Test sinovlari" %}</h3>
+                    <p>{% translate "Belgilangan maydonchalarda DTM testlari. Sana va vaqt shaxsiy kabinetda ko‘rsatiladi." %}</p>
                 </div>
             </div>
             <div class="fl-tl-item">
-                <div class="fl-tl-year">15 kun</div>
+                <div class="fl-tl-year">{% translate "15 kun" %}</div>
                 <div class="fl-tl-body">
-                    <h3>Varnet va yo‘nalishni tanlash</h3>
-                    <p>Ballingizga qarab biotexnologiya, ekologiya va boshqa yo‘nalishlarga ariza berasiz.</p>
+                    <h3>{% translate "Varnet va yo‘nalishni tanlash" %}</h3>
+                    <p>{% translate "Ballingizga qarab biotexnologiya, ekologiya va boshqa yo‘nalishlarga ariza berasiz." %}</p>
                 </div>
             </div>
         </div>
@@ -101,58 +103,59 @@
 <section class="fl-section">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-graduation-cap"></i> Yo‘nalishlar</div>
-            <h2 class="fl-h2">Universitetimizdagi bakalavriat yo‘nalishlari</h2>
-            <p class="fl-sub">Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida yangilanadi.</p>
+            <div class="fl-tag"><i class="fas fa-graduation-cap"></i> {% translate "Yo‘nalishlar" %}</div>
+            <h2 class="fl-h2">{% translate "Universitetimizdagi bakalavriat yo‘nalishlari" %}</h2>
+            <p class="fl-sub">{% translate "Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida yangilanadi." %}</p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
-                        <th>Yo‘nalish</th>
-                        <th>Muddat</th>
-                        <th>Shakl</th>
-                        <th>Profil fanlar (namuna)</th>
+                        <th>{% translate "Yo‘nalish" %}</th>
+                        <th>{% translate "Muddat" %}</th>
+                        <th>{% translate "Shakl" %}</th>
+                        <th>{% translate "Profil fanlar (namuna)" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Biotexnologiya</td>
-                        <td>4 yil</td>
-                        <td>Kunduzgi</td>
-                        <td>Biologiya, Kimyo</td>
+                        <td>{% translate "Biotexnologiya" %}</td>
+                        <td>{% translate "4 yil" %}</td>
+                        <td>{% translate "Kunduzgi" %}</td>
+                        <td>{% translate "Biologiya, Kimyo" %}</td>
                     </tr>
                     <tr>
-                        <td>Ekologiya va atrof-muhit muhofazasi</td>
-                        <td>4 yil</td>
-                        <td>Kunduzgi / Part-time</td>
-                        <td>Biologiya, Geografiya</td>
+                        <td>{% translate "Ekologiya va atrof-muhit muhofazasi" %}</td>
+                        <td>{% translate "4 yil" %}</td>
+                        <td>{% translate "Kunduzgi / Part-time" %}</td>
+                        <td>{% translate "Biologiya, Geografiya" %}</td>
                     </tr>
                     <tr>
-                        <td>Farmatsevtika biotexnologiyasi</td>
-                        <td>4 yil</td>
-                        <td>Kunduzgi</td>
-                        <td>Kimyo, Biologiya</td>
+                        <td>{% translate "Farmatsevtika biotexnologiyasi" %}</td>
+                        <td>{% translate "4 yil" %}</td>
+                        <td>{% translate "Kunduzgi" %}</td>
+                        <td>{% translate "Kimyo, Biologiya" %}</td>
                     </tr>
                     <tr>
-                        <td>Agrobiotexnologiya</td>
-                        <td>4 yil</td>
-                        <td>Kunduzgi</td>
-                        <td>Biologiya, Kimyo</td>
+                        <td>{% translate "Agrobiotexnologiya" %}</td>
+                        <td>{% translate "4 yil" %}</td>
+                        <td>{% translate "Kunduzgi" %}</td>
+                        <td>{% translate "Biologiya, Kimyo" %}</td>
                     </tr>
                     <tr>
-                        <td>Bioinformatika</td>
-                        <td>4 yil</td>
-                        <td>Kunduzgi</td>
-                        <td>Matematika, Informatika</td>
+                        <td>{% translate "Bioinformatika" %}</td>
+                        <td>{% translate "4 yil" %}</td>
+                        <td>{% translate "Kunduzgi" %}</td>
+                        <td>{% translate "Matematika, Informatika" %}</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <p class="qb-note">
             <i class="fas fa-exclamation-circle"></i>
-            Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi. Aniq blogni
-            <a href="https://my.uzbmb.uz" target="_blank" rel="noopener">my.uzbmb.uz</a> dan tekshiring.
+            {% blocktranslate trimmed %}Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi.
+            Aniq blokni <a href="https://my.uzbmb.uz" target="_blank" rel="noopener">my.uzbmb.uz</a>
+            portalidan tekshiring.{% endblocktranslate %}
         </p>
     </div>
 </section>
@@ -160,19 +163,19 @@
 <section class="fl-section fl-section--gray">
     <div class="fl-container">
         <div class="fl-head">
-            <div class="fl-tag"><i class="fas fa-check-double"></i> Talablar</div>
-            <h2 class="fl-h2">Kimlar hujjat topshirishi mumkin?</h2>
+            <div class="fl-tag"><i class="fas fa-check-double"></i> {% translate "Talablar" %}</div>
+            <h2 class="fl-h2">{% translate "Kimlar hujjat topshirishi mumkin?" %}</h2>
         </div>
         <ul class="fl-check">
-            <li><i class="fas fa-check"></i> Umumiy o‘rta yoki o‘rta maxsus, kasb-hunar ta’limini tugatganlar</li>
-            <li><i class="fas fa-check"></i> DTM testida minimal o‘tish balliga erishganlar</li>
-            <li><i class="fas fa-check"></i> Chet tili sertifikati (IELTS/GCT B1+) — til fanida imtiyoz beradi</li>
-            <li><i class="fas fa-check"></i> Imtiyozli toifalar (olimpiada g‘oliblari, nogironligi bo‘lgan shaxslar va boshqalar) — alohida tartibda</li>
+            <li><i class="fas fa-check"></i> {% translate "Umumiy o‘rta yoki o‘rta maxsus, kasb-hunar ta’limini tugatganlar" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "DTM testida minimal o‘tish balliga erishganlar" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "Chet tili sertifikati (IELTS/GCT B1+) — til fanida imtiyoz beradi" %}</li>
+            <li><i class="fas fa-check"></i> {% translate "Imtiyozli toifalar (olimpiada g‘oliblari, nogironligi bo‘lgan shaxslar va boshqalar) — alohida tartibda" %}</li>
         </ul>
         <div class="qb-links">
-            <a href="{% url 'main:topshiriladigan_hujjatlar' %}" class="hm-btn-outline"><i class="fas fa-folder"></i> Topshiriladigan hujjatlar</a>
-            <a href="{% url 'main:kvota_va_ballar' %}" class="hm-btn-outline"><i class="fas fa-list-ol"></i> Kvota va ballar</a>
-            <a href="https://my.uzbmb.uz" target="_blank" rel="noopener" class="hm-btn-green"><i class="fas fa-external-link-alt"></i> my.uzbmb.uz</a>
+            <a href="{% url 'main:topshiriladigan_hujjatlar' %}" class="hm-btn-outline"><i class="fas fa-folder"></i> {% translate "Topshiriladigan hujjatlar" %}</a>
+            <a href="{% url 'main:kvota_va_ballar' %}" class="hm-btn-outline"><i class="fas fa-list-ol"></i> {% translate "Kvota va ballar" %}</a>
+            <a href="https://my.uzbmb.uz" target="_blank" rel="noopener" class="hm-btn-green"><i class="fas fa-external-link-alt"></i> {% translate "my.uzbmb.uz" %}</a>
         </div>
     </div>
 </section>
@@ -181,10 +184,10 @@
     <div class="fl-container">
         <div class="fl-cta-box">
             <div>
-                <h2>Hujjat topshirishni boshlang</h2>
-                <p>Onlayn ariza qoldiring yoki qabul bo‘limi bilan bog‘laning.</p>
+                <h2>{% translate "Hujjat topshirishni boshlang" %}</h2>
+                <p>{% translate "Onlayn ariza qoldiring yoki qabul bo‘limi bilan bog‘laning." %}</p>
             </div>
-            <a href="{% url 'main:hujjat_topshirish' %}" class="fl-cta-btn"><i class="fas fa-file-alt"></i> Hujjat topshirish</a>
+            <a href="{% url 'main:hujjat_topshirish' %}" class="fl-cta-btn"><i class="fas fa-file-alt"></i> {% translate "Hujjat topshirish" %}</a>
         </div>
     </div>
 </section>

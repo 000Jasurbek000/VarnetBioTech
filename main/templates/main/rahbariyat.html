@@ -1,11 +1,15 @@
 {% extends 'main/base.html' %}
-{% load static %}
+{% load static i18n %}
 
-{% block title %}Rahbariyat - Varnet Biotech University{% endblock %}
+{% block title %}{% translate "Rahbariyat - Varnet Biotech University" %}{% endblock %}
 
 {% block content %}
 
-{% include 'main/includes/page_subheader.html' with image='images/subheader/rahbariyat-hero.jpg' badge_icon='fa-user-tie' badge='Rahbariyat' title='Universitet <em>rahbariyati</em>' desc="Universitetimiz rahbariyati, rektorati va mas'ul xodimlar bilan tanishing." crumb='Rahbariyat' %}
+{% translate "Rahbariyat" as sh_badge %}
+{% translate "Universitet <em>rahbariyati</em>" as sh_title %}
+{% translate "Universitetimiz rahbariyati, rektorati va mas'ul xodimlar bilan tanishing." as sh_desc %}
+{% translate "Rahbariyat" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/rahbariyat-hero.jpg' badge_icon='fa-user-tie' badge=sh_badge title=sh_title desc=sh_desc crumb=sh_crumb %}
 
 <section class="rh2-page">
     <div class="container">
@@ -13,34 +17,34 @@
         <!-- REKTOR -->
         <a href="{% url 'main:rahbariyat_detail' 1 %}" class="rh2-person-card rh2-rector rh2-card-link">
             <div class="rh2-photo-wrap">
-                <img src="https://picsum.photos/seed/rektor9/300/360" alt="Rektor" loading="lazy" decoding="async">
+                <img src="https://picsum.photos/seed/rektor9/300/360" alt="{% translate 'Rektor' %}" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">Rektor</span>
-                <h2 class="rh2-name">Xamidov Obidjon Xafizovich</h2>
+                <span class="rh2-badge">{% translate "Rektor" %}</span>
+                <h2 class="rh2-name">{% translate "Xamidov Obidjon Xafizovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> iqtisod fanlari doktori</li>
-                    <li><i class="far fa-map"></i> Buxoro shahri, M.Iqbol ko'chasi 11 uy</li>
-                    <li><i class="far fa-envelope"></i> buxdu_rektor@buxdu.uz</li>
-                    <li><i class="far fa-clock"></i> Chorshanba 15:00 dan 17:00 gacha &nbsp;&nbsp; Juma 15:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "iqtisod fanlari doktori" %}</li>
+                    <li><i class="far fa-map"></i> {% translate "Buxoro shahri, M.Iqbol ko'chasi 11 uy" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "buxdu_rektor@buxdu.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Chorshanba 15:00 dan 17:00 gacha &nbsp;&nbsp; Juma 15:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </a>
 
         <!-- PROREKTORLAR -->
-        <h3 class="rh2-section-head">Prorektorlar</h3>
+        <h3 class="rh2-section-head">{% translate "Prorektorlar" %}</h3>
 
         <a href="{% url 'main:rahbariyat_detail' 2 %}" class="rh2-person-card rh2-card-link">
             <div class="rh2-photo-wrap">
                 <img src="https://picsum.photos/seed/pror1b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">Yoshlar masalalari va ma'naviy-ma'rifiy ishlar bo'yicha birinchi prorektor</span>
-                <h2 class="rh2-name">Qodirov Sherzod Baxtiyorovich</h2>
+                <span class="rh2-badge">{% translate "Yoshlar masalalari va ma'naviy-ma'rifiy ishlar bo'yicha birinchi prorektor" %}</span>
+                <h2 class="rh2-name">{% translate "Qodirov Sherzod Baxtiyorovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> Pedagogika fanlari nomzodi, dotsent</li>
-                    <li><i class="far fa-envelope"></i> qodirov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Seshanba, Payshanba 14:00 dan 16:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "Pedagogika fanlari nomzodi, dotsent" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "qodirov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Seshanba, Payshanba 14:00 dan 16:00 gacha" %}</li>
                 </ul>
             </div>
         </a>
@@ -50,12 +54,12 @@
                 <img src="https://picsum.photos/seed/pror2b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">O'quv ishlari bo'yicha prorektor</span>
-                <h2 class="rh2-name">Toshmatov Otabek Nematovich</h2>
+                <span class="rh2-badge">{% translate "O'quv ishlari bo'yicha prorektor" %}</span>
+                <h2 class="rh2-name">{% translate "Toshmatov Otabek Nematovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> Fizika-matematika fanlari nomzodi</li>
-                    <li><i class="far fa-envelope"></i> toshmatov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba, Chorshanba 14:00 dan 16:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "Fizika-matematika fanlari nomzodi" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "toshmatov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba, Chorshanba 14:00 dan 16:00 gacha" %}</li>
                 </ul>
             </div>
         </a>
@@ -65,12 +69,12 @@
                 <img src="https://picsum.photos/seed/pror3g/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">Ilmiy ishlar va innovatsiyalar bo'yicha prorektor</span>
-                <h2 class="rh2-name">Yusupova Nilufar Akbarovna</h2>
+                <span class="rh2-badge">{% translate "Ilmiy ishlar va innovatsiyalar bo'yicha prorektor" %}</span>
+                <h2 class="rh2-name">{% translate "Yusupova Nilufar Akbarovna" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> Biologiya fanlari doktori</li>
-                    <li><i class="far fa-envelope"></i> yusupova@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Seshanba, Juma 13:00 dan 15:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "Biologiya fanlari doktori" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "yusupova@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Seshanba, Juma 13:00 dan 15:00 gacha" %}</li>
                 </ul>
             </div>
         </a>
@@ -80,12 +84,12 @@
                 <img src="https://picsum.photos/seed/pror4b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">Moliya va iqtisod ishlari bo'yicha prorektor</span>
-                <h2 class="rh2-name">Mirzayev Dilshod Sobirovich</h2>
+                <span class="rh2-badge">{% translate "Moliya va iqtisod ishlari bo'yicha prorektor" %}</span>
+                <h2 class="rh2-name">{% translate "Mirzayev Dilshod Sobirovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> Iqtisod fanlari nomzodi</li>
-                    <li><i class="far fa-envelope"></i> mirzayev@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba, Payshanba 15:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "Iqtisod fanlari nomzodi" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "mirzayev@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba, Payshanba 15:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </a>
@@ -95,30 +99,30 @@
                 <img src="https://picsum.photos/seed/pror5b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge">Prorektor</span>
-                <h2 class="rh2-name">Xasanov Bobur Ravshanbek o'g'li</h2>
+                <span class="rh2-badge">{% translate "Prorektor" %}</span>
+                <h2 class="rh2-name">{% translate "Xasanov Bobur Ravshanbek o'g'li" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-graduation-cap"></i> Yuridik fanlar magistri</li>
-                    <li><i class="far fa-envelope"></i> xasanov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Chorshanba, Juma 14:00 dan 16:00 gacha</li>
+                    <li><i class="fas fa-graduation-cap"></i> {% translate "Yuridik fanlar magistri" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "xasanov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Chorshanba, Juma 14:00 dan 16:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
 
         <!-- BO'LIM BOSHLIQLAR -->
-        <h3 class="rh2-section-head">Bo'lim boshliqlar</h3>
+        <h3 class="rh2-section-head">{% translate "Bo'lim boshliqlar" %}</h3>
 
         <div class="rh2-person-card">
             <div class="rh2-photo-wrap">
                 <img src="https://picsum.photos/seed/bosh1b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge rh2-badge-sm">Bo'lim boshlig'i</span>
-                <h2 class="rh2-name">Raximov Alisher Karimovich</h2>
+                <span class="rh2-badge rh2-badge-sm">{% translate "Bo'lim boshlig'i" %}</span>
+                <h2 class="rh2-name">{% translate "Raximov Alisher Karimovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-briefcase"></i> Magistratura bo'limi boshlig'i</li>
-                    <li><i class="far fa-envelope"></i> raximov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba&ndash;Juma 09:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-briefcase"></i> {% translate "Magistratura bo'limi boshlig'i" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "raximov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba&ndash;Juma 09:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
@@ -128,12 +132,12 @@
                 <img src="https://picsum.photos/seed/bosh2b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge rh2-badge-sm">Bo'lim boshlig'i</span>
-                <h2 class="rh2-name">Komilov Sanjar Ulmasovich</h2>
+                <span class="rh2-badge rh2-badge-sm">{% translate "Bo'lim boshlig'i" %}</span>
+                <h2 class="rh2-name">{% translate "Komilov Sanjar Ulmasovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-briefcase"></i> O'quv-uslubiy bo'lim boshlig'i</li>
-                    <li><i class="far fa-envelope"></i> komilov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba&ndash;Juma 09:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-briefcase"></i> {% translate "O'quv-uslubiy bo'lim boshlig'i" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "komilov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba&ndash;Juma 09:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
@@ -143,12 +147,12 @@
                 <img src="https://picsum.photos/seed/bosh3g/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge rh2-badge-sm">Bo'lim boshlig'i</span>
-                <h2 class="rh2-name">Nazarova Feruza Hamidovna</h2>
+                <span class="rh2-badge rh2-badge-sm">{% translate "Bo'lim boshlig'i" %}</span>
+                <h2 class="rh2-name">{% translate "Nazarova Feruza Hamidovna" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-briefcase"></i> Ilmiy tadqiqot bo'limi boshlig'i</li>
-                    <li><i class="far fa-envelope"></i> nazarova@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba&ndash;Juma 09:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-briefcase"></i> {% translate "Ilmiy tadqiqot bo'limi boshlig'i" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "nazarova@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba&ndash;Juma 09:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
@@ -158,12 +162,12 @@
                 <img src="https://picsum.photos/seed/bosh4b/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge rh2-badge-sm">Bo'lim boshlig'i</span>
-                <h2 class="rh2-name">Holiqov Mansur Bekmurodovich</h2>
+                <span class="rh2-badge rh2-badge-sm">{% translate "Bo'lim boshlig'i" %}</span>
+                <h2 class="rh2-name">{% translate "Holiqov Mansur Bekmurodovich" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-briefcase"></i> Moliya bo'limi boshlig'i</li>
-                    <li><i class="far fa-envelope"></i> holiqov@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba&ndash;Juma 09:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-briefcase"></i> {% translate "Moliya bo'limi boshlig'i" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "holiqov@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba&ndash;Juma 09:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
@@ -173,12 +177,12 @@
                 <img src="https://picsum.photos/seed/bosh5g/300/360" alt="" loading="lazy" decoding="async">
             </div>
             <div class="rh2-info">
-                <span class="rh2-badge rh2-badge-sm">Bo'lim boshlig'i</span>
-                <h2 class="rh2-name">Sultanova Maftuna Ilyosovna</h2>
+                <span class="rh2-badge rh2-badge-sm">{% translate "Bo'lim boshlig'i" %}</span>
+                <h2 class="rh2-name">{% translate "Sultanova Maftuna Ilyosovna" %}</h2>
                 <ul class="rh2-list">
-                    <li><i class="fas fa-briefcase"></i> Xalqaro aloqalar bo'limi boshlig'i</li>
-                    <li><i class="far fa-envelope"></i> sultanova@varnet.uz</li>
-                    <li><i class="far fa-clock"></i> Dushanba&ndash;Juma 09:00 dan 17:00 gacha</li>
+                    <li><i class="fas fa-briefcase"></i> {% translate "Xalqaro aloqalar bo'limi boshlig'i" %}</li>
+                    <li><i class="far fa-envelope"></i> {% translate "sultanova@varnet.uz" %}</li>
+                    <li><i class="far fa-clock"></i> {% translate "Dushanba&ndash;Juma 09:00 dan 17:00 gacha" %}</li>
                 </ul>
             </div>
         </div>
