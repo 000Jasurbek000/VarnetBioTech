@@ -1,0 +1,184 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+
+{% block title %}{{ fakultet.nom }} — Varnet International Biotechnology University{% endblock %}
+
+{% block meta_description %}{{ fakultet.tavsif }}{% endblock %}
+
+{% block content %}
+
+{% url 'main:fakultetlar' as fakultetlar_url %}
+{% translate "Fakultetlar" as sh_parent %}
+{% translate "Fakultetlar" as sh_badge %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/fakultetlar-hero.jpg' badge_icon='fa-building' badge=sh_badge title=fakultet.nom desc=fakultet.tavsif parent_url=fakultetlar_url parent_label=sh_parent crumb=fakultet.nom %}
+
+<section class="fd-page">
+    <div class="container">
+
+        <div class="fd-back-wrap">
+            <a href="{% url 'main:fakultetlar' %}" class="fd-back-btn">
+                <i class="fas fa-arrow-left"></i> {% translate "Barcha fakultetlar" %}
+            </a>
+        </div>
+
+        <!-- DEKAN -->
+        <div class="fd-dean-card">
+            <div class="fd-dean-photo">
+                {% if fakultet.dekan.rasm %}
+                <img src="{{ fakultet.dekan.rasm }}" alt="{{ fakultet.dekan.ism }}" loading="lazy" decoding="async">
+                {% else %}
+                <div class="fd-dean-avatar" aria-hidden="true"><i class="fas fa-user-tie"></i></div>
+                {% endif %}
+                <span class="fd-dean-badge">{% translate "Dekan" %}</span>
+            </div>
+            <div class="fd-dean-info">
+                <h2 class="fd-dean-name">{{ fakultet.dekan.ism }}</h2>
+                <ul class="fd-dean-list">
+                    <li><i class="fas fa-graduation-cap"></i> {{ fakultet.dekan.ilmiy_daraja }}</li>
+                    <li><i class="fas fa-building"></i> {{ fakultet.nom }}</li>
+                    <li><i class="far fa-envelope"></i> <a href="mailto:{{ fakultet.dekan.email }}">{{ fakultet.dekan.email }}</a></li>
+                    <li><i class="far fa-clock"></i> {% translate "Qabul vaqti" %}: {{ fakultet.dekan.qabul_vaqti }}</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- RAQAMLARDA -->
+        <div class="fd-stats">
+            <div class="fd-stat">
+                <strong>{{ fakultet.tashkil_yili }}</strong>
+                <span>{% translate "Tashkil etilgan" %}</span>
+            </div>
+            <div class="fd-stat">
+                <strong>{{ fakultet.yonalishlar_soni }}</strong>
+                <span>{% translate "Ta'lim yo'nalishi" %}</span>
+            </div>
+            <div class="fd-stat">
+                <strong>{{ fakultet.kafedralar|length }}</strong>
+                <span>{% translate "Kafedra" %}</span>
+            </div>
+            <div class="fd-stat">
+                <strong>{{ fakultet.talabalar_soni }}</strong>
+                <span>{% translate "Talaba" %}</span>
+            </div>
+            <div class="fd-stat">
+                <strong>{{ fakultet.oqituvchilar_soni }}</strong>
+                <span>{% translate "Professor-o'qituvchi" %}</span>
+            </div>
+            <div class="fd-stat">
+                <strong>{{ fakultet.laboratoriyalar_soni }}</strong>
+                <span>{% translate "Laboratoriya" %}</span>
+            </div>
+        </div>
+
+        <!-- FAKULTET TARIXI -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-landmark"></i> {% translate "Fakultet tarixi" %}</h2>
+            {% for xatboshi in fakultet.tarix %}
+            <p class="fd-text">{{ xatboshi }}</p>
+            {% endfor %}
+        </div>
+
+        <!-- KAFEDRALAR -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-sitemap"></i> {% translate "Kafedralar" %}</h2>
+            <div class="fd-kafedra-grid">
+                {% for kafedra in fakultet.kafedralar %}
+                <div class="fd-kafedra">
+                    <h3>{{ kafedra.nom }}</h3>
+                    <p><i class="fas fa-user"></i> {% translate "Kafedra mudiri" %}: {{ kafedra.mudir }}</p>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- TA'LIM YO'NALISHLARI -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-book-open"></i> {% translate "Ta'lim yo'nalishlari" %}</h2>
+            <div class="fd-two-col">
+                <div class="fd-col">
+                    <h3 class="fd-col-title">{% translate "Bakalavriat" %}</h3>
+                    <ul class="fd-list">
+                        {% for yonalish in fakultet.bakalavr %}
+                        <li><i class="fas fa-check"></i> {{ yonalish }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="fd-col">
+                    <h3 class="fd-col-title">{% translate "Magistratura" %}</h3>
+                    <ul class="fd-list">
+                        {% for yonalish in fakultet.magistratura %}
+                        <li><i class="fas fa-check"></i> {{ yonalish }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- LABORATORIYALAR -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-flask"></i> {% translate "Ilmiy laboratoriyalar" %}</h2>
+            <ul class="fd-list fd-list-inline">
+                {% for laboratoriya in fakultet.laboratoriyalar %}
+                <li><i class="fas fa-vial"></i> {{ laboratoriya }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <!-- HAMKORLIK -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-handshake"></i> {% translate "Hamkorlik" %}</h2>
+            <div class="fd-two-col">
+                <div class="fd-col">
+                    <h3 class="fd-col-title">{% translate "Respublika hamkorlari" %}</h3>
+                    <ul class="fd-list">
+                        {% for hamkor in fakultet.hamkorlar_mahalliy %}
+                        <li><i class="fas fa-university"></i> {{ hamkor }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="fd-col">
+                    <h3 class="fd-col-title">{% translate "Xalqaro hamkorlar" %}</h3>
+                    <ul class="fd-list">
+                        {% for hamkor in fakultet.hamkorlar_xalqaro %}
+                        <li><i class="fas fa-globe"></i> {{ hamkor }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- YUTUQLAR -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-trophy"></i> {% translate "Erishilgan yutuqlar" %}</h2>
+            {% for yutuq in fakultet.yutuqlar %}
+            <p class="fd-text">{{ yutuq }}</p>
+            {% endfor %}
+        </div>
+
+        <!-- ALOQA -->
+        <div class="fd-block fd-contact">
+            <h2 class="fd-block-title"><i class="fas fa-address-book"></i> {% translate "Fakultet bilan bog'lanish" %}</h2>
+            <ul class="fd-contact-list">
+                <li><i class="far fa-envelope"></i> <a href="mailto:{{ fakultet.email }}">{{ fakultet.email }}</a></li>
+                <li><i class="fas fa-phone"></i> <a href="tel:{{ fakultet.telefon|cut:' ' }}">{{ fakultet.telefon }}</a></li>
+                <li><i class="fas fa-map-marker-alt"></i> {{ fakultet.manzil }}</li>
+            </ul>
+        </div>
+
+        <!-- BOSHQA FAKULTETLAR -->
+        <div class="fd-block">
+            <h2 class="fd-block-title"><i class="fas fa-th-large"></i> {% translate "Boshqa fakultetlar" %}</h2>
+            <div class="fd-other-grid">
+                {% for boshqa in boshqalar %}
+                <a href="{% url 'main:fakultet_detail' boshqa.id %}" class="fd-other">
+                    <i class="fas {{ boshqa.icon }}"></i>
+                    <span>{{ boshqa.nom }}</span>
+                </a>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

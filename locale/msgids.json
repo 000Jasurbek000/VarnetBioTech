@@ -98,7 +98,8 @@
   "aloqa.html"
  ],
  "Hamkorlik": [
-  "aloqa.html"
+  "aloqa.html",
+  "fakultet_detail.html"
  ],
  "Boshqa": [
   "aloqa.html"
@@ -527,7 +528,15 @@
  ],
  "Tuzilma": [
   "base.html",
+  "fakultetlar.html",
   "structure.html"
+ ],
+ "Fakultetlar": [
+  "base.html",
+  "fakultet_detail.html",
+  "fakultetlar.html",
+  "home.html",
+  "universitet_haqida.html"
  ],
  "Rahbariyat": [
   "base.html",
@@ -722,6 +731,7 @@
  ],
  "Batafsil": [
   "elon_detail.html",
+  "fakultetlar.html",
   "home.html",
   "yangilik_detail.html"
  ],
@@ -883,6 +893,113 @@
  "Kutubxonaning yangi elektron resurslari foydalanishga topshirildi": [
   "elonlar.html"
  ],
+ "Barcha fakultetlar": [
+  "fakultet_detail.html"
+ ],
+ "Dekan": [
+  "fakultet_detail.html",
+  "fakultetlar.html"
+ ],
+ "Qabul vaqti": [
+  "fakultet_detail.html"
+ ],
+ "Tashkil etilgan": [
+  "fakultet_detail.html"
+ ],
+ "Ta'lim yo'nalishi": [
+  "fakultet_detail.html",
+  "hujjat_topshirish.html"
+ ],
+ "Kafedra": [
+  "fakultet_detail.html",
+  "fakultetlar.html"
+ ],
+ "Talaba": [
+  "fakultet_detail.html",
+  "fakultetlar.html"
+ ],
+ "Professor-o'qituvchi": [
+  "fakultet_detail.html",
+  "fakultetlar.html"
+ ],
+ "Laboratoriya": [
+  "fakultet_detail.html",
+  "home.html",
+  "universitet_haqida.html"
+ ],
+ "Fakultet tarixi": [
+  "fakultet_detail.html"
+ ],
+ "Kafedralar": [
+  "fakultet_detail.html"
+ ],
+ "Kafedra mudiri": [
+  "fakultet_detail.html"
+ ],
+ "Ta'lim yo'nalishlari": [
+  "fakultet_detail.html",
+  "home.html",
+  "universitet_haqida.html"
+ ],
+ "Bakalavriat": [
+  "fakultet_detail.html",
+  "universitet_haqida.html"
+ ],
+ "Magistratura": [
+  "fakultet_detail.html",
+  "universitet_haqida.html"
+ ],
+ "Ilmiy laboratoriyalar": [
+  "fakultet_detail.html",
+  "home.html"
+ ],
+ "Respublika hamkorlari": [
+  "fakultet_detail.html"
+ ],
+ "Xalqaro hamkorlar": [
+  "fakultet_detail.html",
+  "home.html"
+ ],
+ "Erishilgan yutuqlar": [
+  "fakultet_detail.html"
+ ],
+ "Fakultet bilan bog'lanish": [
+  "fakultet_detail.html"
+ ],
+ "Boshqa fakultetlar": [
+  "fakultet_detail.html"
+ ],
+ "Fakultetlar — Varnet International Biotechnology University": [
+  "fakultetlar.html"
+ ],
+ "Varnet Xalqaro Biotexnologiyalar Universiteti fakultetlari, ularning kafedralari, ta'lim yo'nalishlari va rahbariyati.": [
+  "fakultetlar.html"
+ ],
+ "Universitet <em>fakultetlari</em>": [
+  "fakultetlar.html"
+ ],
+ "Oltita fakultet, ularning kafedralari va ta'lim yo'nalishlari bilan tanishing.": [
+  "fakultetlar.html"
+ ],
+ "Fakultet": [
+  "fakultetlar.html"
+ ],
+ "Ilmiy laboratoriya": [
+  "fakultetlar.html",
+  "ilmiy_faoliyat.html"
+ ],
+ "yo'nalish": [
+  "fakultetlar.html"
+ ],
+ "talaba": [
+  "fakultetlar.html"
+ ],
+ "kafedra": [
+  "fakultetlar.html"
+ ],
+ "Universitet tuzilmasi": [
+  "fakultetlar.html"
+ ],
  "Varnet International Biotechnology University - Bosh sahifa": [
   "home.html"
  ],
@@ -920,22 +1037,8 @@
  "Professor-o'qituvchilar": [
   "home.html"
  ],
- "Ta'lim yo'nalishlari": [
-  "home.html",
-  "universitet_haqida.html"
- ],
- "Xalqaro hamkorlar": [
-  "home.html"
- ],
- "Ilmiy laboratoriyalar": [
-  "home.html"
- ],
  "Bandlik darajasi": [
   "home.html"
- ],
- "Laboratoriya": [
-  "home.html",
-  "universitet_haqida.html"
  ],
  "yildan beri": [
   "home.html",
@@ -970,10 +1073,6 @@
  ],
  "Batafsil o'qish": [
   "home.html"
- ],
- "Fakultetlar": [
-  "home.html",
-  "universitet_haqida.html"
  ],
  "Har bir fakultet zamonaviy asbob-uskunalar va tajribali o'qituvchilar bilan jihozlangan.": [
   "home.html",
@@ -1333,9 +1432,6 @@
  "Qo'shimcha telefon": [
   "hujjat_topshirish.html"
  ],
- "Ta'lim yo'nalishi": [
-  "hujjat_topshirish.html"
- ],
  "Avval ta'lim bosqichini tanlang...": [
   "hujjat_topshirish.html"
  ],
@@ -1400,9 +1496,6 @@
   "ilmiy_faoliyat.html"
  ],
  "Biotexnologiya, genetika va ekologiya sohasida chuqur tadqiqotlar, xalqaro nashrlar va innovatsion loyihalar — kelajak ilmiga yo‘l.": [
-  "ilmiy_faoliyat.html"
- ],
- "Ilmiy laboratoriya": [
   "ilmiy_faoliyat.html"
  ],
  "Ilmiy maqolalar": [
@@ -2627,19 +2720,7 @@
  "Xalqaro aloqalar bo'limi": [
   "structure.html"
  ],
- "Fakultet / Kafedra 1": [
-  "structure.html"
- ],
- "Fakultet / Kafedra 2": [
-  "structure.html"
- ],
- "Fakultet / Kafedra 3": [
-  "structure.html"
- ],
- "Fakultet / Kafedra 4": [
-  "structure.html"
- ],
- "Fakultet / Kafedra 5": [
+ "Fakultetlar bilan tanishish": [
   "structure.html"
  ],
  "Tuzilmani yuklab olish (PDF)": [
@@ -2981,16 +3062,10 @@
  "4 yil &middot; Kunduzgi": [
   "universitet_haqida.html"
  ],
- "Bakalavriat": [
-  "universitet_haqida.html"
- ],
  "Virusologiya va immunologiya": [
   "universitet_haqida.html"
  ],
  "2 yil &middot; Kunduzgi": [
-  "universitet_haqida.html"
- ],
- "Magistratura": [
   "universitet_haqida.html"
  ],
  "Biotexnologiya va gen muhandisligi": [

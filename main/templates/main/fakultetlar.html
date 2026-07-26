@@ -1,0 +1,87 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+
+{% block title %}{% translate "Fakultetlar — Varnet International Biotechnology University" %}{% endblock %}
+
+{% block meta_description %}{% translate "Varnet Xalqaro Biotexnologiyalar Universiteti fakultetlari, ularning kafedralari, ta'lim yo'nalishlari va rahbariyati." %}{% endblock %}
+
+{% block content %}
+
+{% url 'main:structure' as structure_url %}
+{% translate "Tuzilma" as sh_parent %}
+{% translate "Fakultetlar" as sh_badge %}
+{% translate "Universitet <em>fakultetlari</em>" as sh_title %}
+{% translate "Oltita fakultet, ularning kafedralari va ta'lim yo'nalishlari bilan tanishing." as sh_desc %}
+{% translate "Fakultetlar" as sh_crumb %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/fakultetlar-hero.jpg' badge_icon='fa-building' badge=sh_badge title=sh_title desc=sh_desc parent_url=structure_url parent_label=sh_parent crumb=sh_crumb %}
+
+<section class="fk-page">
+    <div class="container">
+
+        <!-- UMUMIY RAQAMLAR -->
+        <div class="fk-stats">
+            <div class="fk-stat">
+                <i class="fas fa-building"></i>
+                <strong>6</strong>
+                <span>{% translate "Fakultet" %}</span>
+            </div>
+            <div class="fk-stat">
+                <i class="fas fa-sitemap"></i>
+                <strong>20</strong>
+                <span>{% translate "Kafedra" %}</span>
+            </div>
+            <div class="fk-stat">
+                <i class="fas fa-user-graduate"></i>
+                <strong>5 420</strong>
+                <span>{% translate "Talaba" %}</span>
+            </div>
+            <div class="fk-stat">
+                <i class="fas fa-chalkboard-teacher"></i>
+                <strong>320</strong>
+                <span>{% translate "Professor-o'qituvchi" %}</span>
+            </div>
+            <div class="fk-stat">
+                <i class="fas fa-flask"></i>
+                <strong>12</strong>
+                <span>{% translate "Ilmiy laboratoriya" %}</span>
+            </div>
+        </div>
+
+        <!-- FAKULTETLAR RO'YXATI -->
+        <div class="fk-grid">
+            {% for fakultet in fakultetlar %}
+            <a href="{% url 'main:fakultet_detail' fakultet.id %}" class="fk-card">
+                <div class="fk-card-img">
+                    <img src="{% static fakultet.rasm %}" alt="{{ fakultet.nom }}" loading="lazy" decoding="async"
+                         width="900" height="600">
+                    <span class="fk-card-ico"><i class="fas {{ fakultet.icon }}"></i></span>
+                </div>
+                <div class="fk-card-body">
+                    <h2 class="fk-card-name">{{ fakultet.nom }}</h2>
+                    <p class="fk-card-desc">{{ fakultet.tavsif }}</p>
+                    <ul class="fk-card-meta">
+                        <li><i class="fas fa-book-open"></i> {{ fakultet.yonalishlar_soni }} {% translate "yo'nalish" %}</li>
+                        <li><i class="fas fa-users"></i> {{ fakultet.talabalar_soni }} {% translate "talaba" %}</li>
+                        <li><i class="fas fa-sitemap"></i> {{ fakultet.kafedralar|length }} {% translate "kafedra" %}</li>
+                    </ul>
+                    <div class="fk-card-dean">
+                        <i class="fas fa-user-tie"></i>
+                        <span>{% translate "Dekan" %}: <strong>{{ fakultet.dekan.ism }}</strong></span>
+                    </div>
+                    <span class="fk-card-link">{% translate "Batafsil" %} <i class="fas fa-arrow-right"></i></span>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
+
+        <!-- TUZILMAGA QAYTISH -->
+        <div class="fk-back-wrap">
+            <a href="{% url 'main:structure' %}" class="fk-back-btn">
+                <i class="fas fa-sitemap"></i> {% translate "Universitet tuzilmasi" %}
+            </a>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

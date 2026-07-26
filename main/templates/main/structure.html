@@ -83,37 +83,35 @@
                 </div>
             </div>
 
-            <div class="connector-row">
+            <div class="org-section-label">{% translate "Fakultetlar" %}</div>
+
+            <div class="connector-row connector-row-6">
                 <div class="h-bar"></div>
                 <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
                 <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
                 <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
                 <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
                 <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
+                <div class="v-drop"><div class="v-line" style="height:50px;"></div></div>
             </div>
 
-            <div class="row-5">
-                <div class="col-5">
-                    <div class="box standard">{% translate "Fakultet / Kafedra 1" %}</div>
+            <div class="row-6">
+                {% for fakultet in fakultetlar %}
+                <div class="col-6">
+                    <a href="{% url 'main:fakultet_detail' fakultet.id %}" class="box box-fakultet box-link">
+                        <span>{{ fakultet.nom }}</span>
+                    </a>
                 </div>
-                <div class="col-5">
-                    <div class="box standard">{% translate "Fakultet / Kafedra 2" %}</div>
-                </div>
-                <div class="col-5">
-                    <div class="box standard">{% translate "Fakultet / Kafedra 3" %}</div>
-                </div>
-                <div class="col-5">
-                    <div class="box standard">{% translate "Fakultet / Kafedra 4" %}</div>
-                </div>
-                <div class="col-5">
-                    <div class="box standard">{% translate "Fakultet / Kafedra 5" %}</div>
-                </div>
+                {% endfor %}
             </div>
 
         </div>
         </div> <!-- pdf-content end -->
 
         <div class="download-wrap">
+            <a href="{% url 'main:fakultetlar' %}" class="download-btn download-btn-alt">
+                <i class="fas fa-building"></i> {% translate "Fakultetlar bilan tanishish" %}
+            </a>
             <a href="{% url 'main:structure_pdf' %}" class="download-btn">
                 <i class="fas fa-file-pdf"></i> {% translate "Tuzilmani yuklab olish (PDF)" %}
             </a>

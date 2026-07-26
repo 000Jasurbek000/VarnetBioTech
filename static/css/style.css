@@ -1417,18 +1417,30 @@ html {
     align-items: center;
 }
 
-.row-5 {
+.row-5,
+.row-6 {
     display: flex;
     width: 100%;
     align-items: flex-start;
 }
 
-.col-5 {
+.col-5,
+.col-6 {
     flex: 1;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 0 10px;
+}
+
+.org-section-label {
+    text-align: center;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #22804F;
+    margin: 8px 0 18px;
 }
 
 .download-wrap {
@@ -4581,6 +4593,559 @@ body.nav-locked {
     }
     .fl-hero-title {
         font-size: 24px;
+    }
+}
+
+/* ══════════════════════════════════════════════════════════════════
+   FAKULTETLAR
+   ══════════════════════════════════════════════════════════════════ */
+
+/* ── Tuzilma sxemasidagi fakultet qutilari ── */
+.box-fakultet {
+    width: 150px;
+    min-height: 96px;
+    height: auto;
+    padding: 12px 10px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-color: #9bc4ad;
+    background: #f7fbf8;
+}
+.box-fakultet span {
+    display: block;
+}
+.box-link {
+    text-decoration: none;
+    cursor: pointer;
+    transition: border-color .2s ease, box-shadow .2s ease, transform .2s ease;
+}
+.box-link:hover,
+.box-link:focus-visible {
+    border-color: #22804F;
+    box-shadow: 0 6px 18px rgba(34, 128, 79, 0.18);
+    transform: translateY(-2px);
+}
+.download-btn-alt {
+    background: #fff;
+    color: #22804F;
+    border: 1.5px solid #22804F;
+    margin-right: 12px;
+}
+.download-btn-alt:hover {
+    background: #e0f2e9;
+}
+
+/* ── Fakultetlar ro'yxati sahifasi ── */
+.fk-page {
+    padding: 60px 0 80px;
+    background: #f7faf9;
+}
+.fk-stats {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-bottom: 46px;
+}
+.fk-stat {
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 12px;
+    padding: 22px 14px;
+    text-align: center;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+}
+.fk-stat i {
+    font-size: 20px;
+    color: #22804F;
+    margin-bottom: 10px;
+    display: block;
+}
+.fk-stat strong {
+    display: block;
+    font-size: 26px;
+    font-weight: 800;
+    color: #0d2d5e;
+    line-height: 1.2;
+}
+.fk-stat span {
+    font-size: 13px;
+    color: #64748b;
+}
+.fk-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 26px;
+}
+.fk-card {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    transition: transform .25s ease, box-shadow .25s ease;
+}
+.fk-card:hover,
+.fk-card:focus-visible {
+    transform: translateY(-5px);
+    box-shadow: 0 14px 34px rgba(0,0,0,0.10);
+}
+.fk-card-img {
+    position: relative;
+    aspect-ratio: 3 / 2;
+    overflow: hidden;
+}
+.fk-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform .4s ease;
+}
+.fk-card:hover .fk-card-img img {
+    transform: scale(1.05);
+}
+.fk-card-ico {
+    position: absolute;
+    left: 18px;
+    bottom: -22px;
+    width: 46px;
+    height: 46px;
+    border-radius: 12px;
+    background: #22804F;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    box-shadow: 0 6px 16px rgba(34, 128, 79, 0.35);
+}
+.fk-card-body {
+    padding: 34px 22px 22px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.fk-card-name {
+    font-size: 18px;
+    font-weight: 800;
+    color: #0d2d5e;
+    line-height: 1.35;
+    margin-bottom: 10px;
+}
+.fk-card-desc {
+    font-size: 14px;
+    line-height: 1.65;
+    color: #64748b;
+    margin-bottom: 16px;
+}
+.fk-card-meta {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 14px;
+    padding: 0;
+}
+.fk-card-meta li {
+    font-size: 12px;
+    font-weight: 600;
+    color: #22804F;
+    background: #e0f2e9;
+    border-radius: 100px;
+    padding: 5px 12px;
+}
+.fk-card-dean {
+    font-size: 13px;
+    color: #475569;
+    padding-top: 14px;
+    border-top: 1px dashed #e2e8f0;
+    margin-top: auto;
+}
+.fk-card-dean i {
+    color: #22804F;
+    margin-right: 6px;
+}
+.fk-card-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #22804F;
+}
+.fk-card:hover .fk-card-link i {
+    transform: translateX(4px);
+}
+.fk-card-link i {
+    transition: transform .2s ease;
+}
+.fk-back-wrap {
+    text-align: center;
+    margin-top: 46px;
+}
+.fk-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    background: #fff;
+    border: 1.5px solid #22804F;
+    color: #22804F;
+    border-radius: 8px;
+    padding: 12px 26px;
+    font-size: 15px;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background .2s ease;
+}
+.fk-back-btn:hover {
+    background: #e0f2e9;
+}
+
+/* ── Bitta fakultet sahifasi ── */
+.fd-page {
+    padding: 40px 0 80px;
+    background: #f7faf9;
+}
+.fd-back-wrap {
+    margin-bottom: 24px;
+}
+.fd-back-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: #22804F;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.fd-back-btn:hover {
+    text-decoration: underline;
+}
+.fd-dean-card {
+    display: flex;
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.06);
+    margin-bottom: 26px;
+}
+.fd-dean-photo {
+    position: relative;
+    flex: 0 0 220px;
+}
+.fd-dean-photo img {
+    width: 100%;
+    height: 100%;
+    min-height: 240px;
+    object-fit: cover;
+    display: block;
+}
+.fd-dean-avatar {
+    width: 100%;
+    height: 100%;
+    min-height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(160deg, #e0f2e9 0%, #cfe9dd 100%);
+    color: #22804F;
+    font-size: 62px;
+}
+.fd-dean-badge {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #22804F;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    padding: 7px 16px;
+    border-top-right-radius: 10px;
+}
+.fd-dean-info {
+    padding: 26px 28px;
+}
+.fd-dean-name {
+    font-size: 24px;
+    font-weight: 800;
+    color: #0d2d5e;
+    margin-bottom: 16px;
+}
+.fd-dean-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+.fd-dean-list li {
+    font-size: 14px;
+    color: #475569;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+.fd-dean-list i {
+    color: #22804F;
+    margin-top: 3px;
+}
+.fd-dean-list a {
+    color: #22804F;
+    text-decoration: none;
+}
+.fd-dean-list a:hover {
+    text-decoration: underline;
+}
+.fd-stats {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 14px;
+    margin-bottom: 30px;
+}
+.fd-stat {
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 12px;
+    padding: 18px 10px;
+    text-align: center;
+}
+.fd-stat strong {
+    display: block;
+    font-size: 22px;
+    font-weight: 800;
+    color: #22804F;
+}
+.fd-stat span {
+    font-size: 12px;
+    color: #64748b;
+}
+.fd-block {
+    background: #fff;
+    border: 1px solid #e8edf3;
+    border-radius: 14px;
+    padding: 28px 30px;
+    margin-bottom: 22px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.04);
+}
+.fd-block-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 19px;
+    font-weight: 800;
+    color: #0d2d5e;
+    padding-bottom: 14px;
+    margin-bottom: 18px;
+    border-bottom: 2px solid #e0f2e9;
+}
+.fd-block-title i {
+    color: #22804F;
+}
+.fd-text {
+    font-size: 15px;
+    line-height: 1.85;
+    color: #475569;
+    margin-bottom: 14px;
+}
+.fd-text:last-child {
+    margin-bottom: 0;
+}
+.fd-kafedra-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+}
+.fd-kafedra {
+    background: #f7faf9;
+    border: 1px solid #e8f5f0;
+    border-left: 3px solid #22804F;
+    border-radius: 10px;
+    padding: 16px 18px;
+}
+.fd-kafedra h3 {
+    font-size: 15px;
+    font-weight: 700;
+    color: #0d2d5e;
+    margin-bottom: 8px;
+    line-height: 1.45;
+}
+.fd-kafedra p {
+    font-size: 13px;
+    color: #64748b;
+}
+.fd-kafedra i {
+    color: #22804F;
+    margin-right: 5px;
+}
+.fd-two-col {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 26px;
+}
+.fd-col-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: .6px;
+    color: #22804F;
+    margin-bottom: 12px;
+}
+.fd-list {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    gap: 10px;
+}
+.fd-list li {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 14.5px;
+    line-height: 1.6;
+    color: #475569;
+}
+.fd-list i {
+    color: #22804F;
+    font-size: 13px;
+    margin-top: 4px;
+}
+.fd-list-inline {
+    grid-template-columns: repeat(2, 1fr);
+}
+.fd-contact-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px 34px;
+}
+.fd-contact-list li {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 14.5px;
+    color: #475569;
+}
+.fd-contact-list i {
+    color: #22804F;
+}
+.fd-contact-list a {
+    color: #22804F;
+    text-decoration: none;
+}
+.fd-contact-list a:hover {
+    text-decoration: underline;
+}
+.fd-other-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+}
+.fd-other {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    background: #f7faf9;
+    border: 1px solid #e8f5f0;
+    border-radius: 10px;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: #0d2d5e;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4;
+    transition: border-color .2s ease, background .2s ease;
+}
+.fd-other:hover {
+    border-color: #22804F;
+    background: #e0f2e9;
+}
+.fd-other i {
+    color: #22804F;
+    font-size: 17px;
+    flex: 0 0 auto;
+}
+
+@media (max-width: 1100px) {
+    .fk-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .fk-stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fd-stats {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .fd-other-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 1100px) {
+    .row-6 {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px 0;
+    }
+    .row-6 .col-6 {
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+
+@media (max-width: 760px) {
+    .fk-page,
+    .fd-page {
+        padding: 34px 0 60px;
+    }
+    .fk-grid,
+    .fd-kafedra-grid,
+    .fd-two-col,
+    .fd-list-inline,
+    .fd-other-grid {
+        grid-template-columns: 1fr;
+    }
+    .fk-stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .row-6 .col-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .connector-row-6 {
+        display: none;
+    }
+    .fd-dean-card {
+        flex-direction: column;
+    }
+    .fd-dean-photo {
+        flex: none;
+    }
+    .fd-dean-photo img {
+        min-height: 0;
+        height: 260px;
+    }
+    .fd-block {
+        padding: 22px 18px;
+    }
+    .download-btn-alt {
+        margin-right: 0;
+        margin-bottom: 12px;
+    }
+}
+
+@media (max-width: 460px) {
+    .fd-stats {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 

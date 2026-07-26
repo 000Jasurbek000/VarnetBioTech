@@ -73,7 +73,7 @@ def ekofaol_talabalar(request):
 
 def structure(request):
     """University structure page view"""
-    return render(request, 'main/structure.html')
+    return render(request, 'main/structure.html', {'fakultetlar': FAKULTETLAR_DATA.values()})
 
 
 def aloqa(request):
@@ -277,6 +277,425 @@ def rahbariyat_detail(request, pk):
     return render(request, 'main/rahbariyat_detail.html', {'person': person})
 
 
+FAKULTETLAR_DATA = {
+    1: {
+        'id': 1,
+        'nom': 'Biotexnologiya fakulteti',
+        'qisqa_nom': 'Biotexnologiya',
+        'icon': 'fa-dna',
+        'rasm': 'images/fakultet/biotexnologiya.jpg',
+        'tavsif': 'Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida '
+                  'chuqur nazariy bilim hamda amaliy ko\'nikma beradi.',
+        'tashkil_yili': '2018',
+        'yonalishlar_soni': 12,
+        'talabalar_soni': 1240,
+        'oqituvchilar_soni': 78,
+        'laboratoriyalar_soni': 3,
+        'email': 'biotex@varnet.uz',
+        'telefon': '+998 95 260-11-21',
+        'manzil': '1-o\'quv binosi, 2-qavat',
+        'dekan': {
+            'ism': 'Rahmonov Jasur Alisherovich',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Biologiya fanlari doktori, professor',
+            'email': 'j.rahmonov@varnet.uz',
+            'qabul_vaqti': 'Dushanba, Chorshanba 14:00–16:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet universitet tashkil etilgan 2018-yilda birinchilardan bo\'lib faoliyat '
+            'boshlagan va bugungi kunda universitetning yetakchi o\'quv-ilmiy bo\'linmasi hisoblanadi.',
+            'Fakultet faoliyati sanoat, oziq-ovqat va tibbiy biotexnologiya sohalari uchun yuqori '
+            'malakali mutaxassislar tayyorlashga qaratilgan. O\'quv jarayoni xalqaro ta\'lim '
+            'dasturlari asosida tashkil etilgan bo\'lib, talabalar birinchi kursdanoq ilmiy '
+            'laboratoriyalarda amaliy tadqiqot ishlarida ishtirok etadilar.',
+        ],
+        'kafedralar': [
+            {'nom': 'Sanoat biotexnologiyasi kafedrasi', 'mudir': 'Yo\'ldoshev Aziz Nematovich'},
+            {'nom': 'Molekulyar biologiya va genetika kafedrasi', 'mudir': 'Tursunova Zilola Baxodirovna'},
+            {'nom': 'Mikrobiologiya va biokimyo kafedrasi', 'mudir': 'Qosimov Ulug\'bek Rustamovich'},
+            {'nom': 'Oziq-ovqat biotexnologiyasi kafedrasi', 'mudir': 'Ashurova Dilnoza Sobirovna'},
+        ],
+        'bakalavr': [
+            'Biotexnologiya (tarmoqlar bo\'yicha)',
+            'Sanoat biotexnologiyasi',
+            'Oziq-ovqat biotexnologiyasi',
+            'Molekulyar biologiya',
+        ],
+        'magistratura': [
+            'Sanoat biotexnologiyasi',
+            'Molekulyar biotexnologiya va gen muhandisligi',
+        ],
+        'laboratoriyalar': [
+            'Fermentatsiya va bioreaktorlar laboratoriyasi',
+            'Molekulyar genetika laboratoriyasi',
+            'Mikrobiologik tahlil laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'O\'zbekiston Milliy universiteti',
+            'O\'zR FA Genetika va o\'simliklar eksperimental biologiyasi instituti',
+            'O\'zR FA Mikrobiologiya instituti',
+            'Buxoro muhandislik-texnologiya instituti',
+        ],
+        'hamkorlar_xalqaro': [
+            'Wageningen universiteti (Niderlandiya)',
+            'Seul milliy universiteti (Janubiy Koreya)',
+            'Ankara universiteti (Turkiya)',
+        ],
+        'yutuqlar': [
+            'So\'nggi uch yilda fakultet professor-o\'qituvchilari tomonidan 2 ta darslik, '
+            '4 ta o\'quv qo\'llanma va 60 dan ortiq ilmiy maqola chop etildi, shulardan 14 tasi '
+            'impakt-faktorga ega xorijiy jurnallarda nashr qilindi.',
+            'Fakultet talabalari respublika fan olimpiadalari va startap tanlovlarida muntazam '
+            'sovrinli o\'rinlarni egallab kelmoqda.',
+        ],
+    },
+    2: {
+        'id': 2,
+        'nom': 'Ekologiya va atrof-muhit fakulteti',
+        'qisqa_nom': 'Ekologiya',
+        'icon': 'fa-leaf',
+        'rasm': 'images/fakultet/ekologiya.jpg',
+        'tavsif': 'Tabiatni muhofaza qilish, ekologik monitoring va barqaror rivojlanish '
+                  'yo\'nalishlarida mutaxassislar tayyorlaydi.',
+        'tashkil_yili': '2018',
+        'yonalishlar_soni': 8,
+        'talabalar_soni': 720,
+        'oqituvchilar_soni': 42,
+        'laboratoriyalar_soni': 2,
+        'email': 'ekologiya@varnet.uz',
+        'telefon': '+998 95 260-11-22',
+        'manzil': '2-o\'quv binosi, 1-qavat',
+        'dekan': {
+            'ism': 'Ergasheva Nodira Baxtiyorovna',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Biologiya fanlari nomzodi, dotsent',
+            'email': 'n.ergasheva@varnet.uz',
+            'qabul_vaqti': 'Seshanba, Payshanba 14:00–16:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet 2018-yilda universitet tarkibida tashkil etilgan bo\'lib, mintaqada '
+            'ekologik xavfsizlik va suv resurslarini boshqarish muammolarini hal etishga '
+            'yo\'naltirilgan kadrlar tayyorlaydi.',
+            'Fakultet Barqaror rivojlanish maqsadlari (BRM) doirasidagi universitet strategiyasini '
+            'amalga oshirishda yetakchi bo\'linma hisoblanadi va "Yashil universitet" tashabbusini '
+            'muvofiqlashtiradi.',
+        ],
+        'kafedralar': [
+            {'nom': 'Ekologiya va atrof-muhit muhofazasi kafedrasi', 'mudir': 'Xolmurodov Sanjar Ilhomovich'},
+            {'nom': 'Ekologik monitoring kafedrasi', 'mudir': 'Rasulova Shahnoza Anvarovna'},
+            {'nom': 'Suv resurslari va tuproqshunoslik kafedrasi', 'mudir': 'Bekmurodov Otabek Zafarovich'},
+        ],
+        'bakalavr': [
+            'Ekologiya va atrof-muhit muhofazasi',
+            'Ekologik monitoring va ekspertiza',
+            'Suv resurslarini boshqarish',
+        ],
+        'magistratura': [
+            'Atrof-muhit muhofazasi va barqaror rivojlanish',
+            'Ekologik xavfsizlik',
+        ],
+        'laboratoriyalar': [
+            'Atrof-muhit tahlili laboratoriyasi',
+            'Suv va tuproq sifati laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'Ekologiya, atrof-muhitni muhofaza qilish va iqlim o\'zgarishi vazirligi',
+            'O\'zgidromet markazi',
+            'Buxoro viloyati ekologiya boshqarmasi',
+        ],
+        'hamkorlar_xalqaro': [
+            'Bern universiteti (Shveytsariya)',
+            'Uppsala universiteti (Shvetsiya)',
+            'Qozog\'iston milliy agrar universiteti (Qozog\'iston)',
+        ],
+        'yutuqlar': [
+            'Fakultet tashabbusi bilan universitet hududida quyosh panellari o\'rnatildi va '
+            'yog\'in suvlarini qayta ishlatish tizimi joriy etildi.',
+            'Talabalarning "Ekofaol talabalar" harakati har yili mintaqada 5 mingdan ortiq '
+            'ko\'chat ekish aksiyalarini tashkil qiladi.',
+        ],
+    },
+    3: {
+        'id': 3,
+        'nom': 'Innovatsion texnologiyalar fakulteti',
+        'qisqa_nom': 'Innovatsion texnologiyalar',
+        'icon': 'fa-microchip',
+        'rasm': 'images/fakultet/innovatsion.jpg',
+        'tavsif': 'Bioinformatika, sun\'iy intellekt va raqamli texnologiyalarni biologiya '
+                  'bilan bog\'laydigan zamonaviy yo\'nalishlar.',
+        'tashkil_yili': '2019',
+        'yonalishlar_soni': 15,
+        'talabalar_soni': 1150,
+        'oqituvchilar_soni': 65,
+        'laboratoriyalar_soni': 2,
+        'email': 'innovatsiya@varnet.uz',
+        'telefon': '+998 95 260-11-23',
+        'manzil': '3-o\'quv binosi, 3-qavat',
+        'dekan': {
+            'ism': 'Umarov Sardor G\'ayratovich',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Texnika fanlari nomzodi, dotsent',
+            'email': 's.umarov@varnet.uz',
+            'qabul_vaqti': 'Dushanba, Juma 15:00–17:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet 2019-yilda biologiya va axborot texnologiyalari kesishmasidagi yangi '
+            'kasblarga bo\'lgan ehtiyojni qondirish maqsadida tashkil etilgan.',
+            'Bugungi kunda fakultet universitetning barcha ilmiy bo\'linmalari uchun ma\'lumotlarni '
+            'tahlil qilish, modellashtirish va raqamli infratuzilma bo\'yicha xizmat ko\'rsatadi.',
+        ],
+        'kafedralar': [
+            {'nom': 'Bioinformatika kafedrasi', 'mudir': 'Nazarov Jahongir Farhodovich'},
+            {'nom': 'Sun\'iy intellekt va ma\'lumotlar tahlili kafedrasi', 'mudir': 'Sattorova Kamola Erkinovna'},
+            {'nom': 'Raqamli texnologiyalar kafedrasi', 'mudir': 'Xudoyberdiyev Rustam Olimovich'},
+            {'nom': 'Biotexnik tizimlar kafedrasi', 'mudir': 'Mahmudova Sevara Qahramonovna'},
+        ],
+        'bakalavr': [
+            'Bioinformatika',
+            'Kompyuter injiniringi (biotexnik tizimlar)',
+            'Axborot tizimlari va texnologiyalari',
+            'Sun\'iy intellekt',
+        ],
+        'magistratura': [
+            'Bioinformatika va hisoblash biologiyasi',
+            'Ma\'lumotlar fani',
+        ],
+        'laboratoriyalar': [
+            'Hisoblash biologiyasi laboratoriyasi',
+            'Sun\'iy intellekt va robototexnika laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'Muhammad al-Xorazmiy nomidagi TATU',
+            'IT Park O\'zbekiston',
+            'O\'zR FA Kibernetika instituti',
+        ],
+        'hamkorlar_xalqaro': [
+            'Tallinn texnika universiteti (Estoniya)',
+            'Istanbul texnika universiteti (Turkiya)',
+            'Varshava texnologiya universiteti (Polsha)',
+        ],
+        'yutuqlar': [
+            'Fakultet talabalari jamoasi xalqaro hackathon va dasturlash musobaqalarida '
+            'muntazam ishtirok etib, so\'nggi ikki yilda 6 ta sovrinli o\'rinni qo\'lga kiritdi.',
+            'Fakultetda universitet ilmiy ma\'lumotlar omborini boshqaruvchi raqamli platforma '
+            'ishlab chiqildi va amaliyotga joriy etildi.',
+        ],
+    },
+    4: {
+        'id': 4,
+        'nom': 'Kimyo va farmatsevtika fakulteti',
+        'qisqa_nom': 'Kimyo va farmatsevtika',
+        'icon': 'fa-flask',
+        'rasm': 'images/fakultet/farmatsevtika.jpg',
+        'tavsif': 'Organik kimyo, dori vositalari ishlab chiqarish va farmatsevtik '
+                  'texnologiyalar yo\'nalishlarida ta\'lim beradi.',
+        'tashkil_yili': '2018',
+        'yonalishlar_soni': 10,
+        'talabalar_soni': 890,
+        'oqituvchilar_soni': 51,
+        'laboratoriyalar_soni': 2,
+        'email': 'farmatsevtika@varnet.uz',
+        'telefon': '+998 95 260-11-24',
+        'manzil': '2-o\'quv binosi, 3-qavat',
+        'dekan': {
+            'ism': 'Saidova Gulnora Rustamovna',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Kimyo fanlari doktori, professor',
+            'email': 'g.saidova@varnet.uz',
+            'qabul_vaqti': 'Chorshanba, Juma 14:00–16:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet universitet tashkil etilgan yildan buyon faoliyat yuritadi va farmatsevtika '
+            'sanoati uchun kimyogar-texnolog kadrlar tayyorlaydi.',
+            'O\'quv jarayonida GMP (Good Manufacturing Practice) standartlariga asoslangan amaliy '
+            'mashg\'ulotlarga alohida e\'tibor qaratiladi.',
+        ],
+        'kafedralar': [
+            {'nom': 'Organik va analitik kimyo kafedrasi', 'mudir': 'Jo\'rayev Alisher Baxtiyorovich'},
+            {'nom': 'Farmatsevtika texnologiyasi kafedrasi', 'mudir': 'Islomova Nigora Davronovna'},
+            {'nom': 'Farmakognoziya kafedrasi', 'mudir': 'Karimov Doniyor Shuhratovich'},
+        ],
+        'bakalavr': [
+            'Farmatsevtika (tayyor dori vositalari texnologiyasi)',
+            'Kimyoviy texnologiya',
+            'Analitik kimyo',
+        ],
+        'magistratura': [
+            'Farmatsevtika biotexnologiyasi',
+            'Dori vositalari standartlashtirish va sifat nazorati',
+        ],
+        'laboratoriyalar': [
+            'Analitik kimyo laboratoriyasi',
+            'Farmatsevtik texnologiya laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'Toshkent farmatsevtika instituti',
+            'O\'zbekiston farmatsevtika sanoati assotsiatsiyasi',
+            'O\'zR FA O\'simlik moddalari kimyosi instituti',
+        ],
+        'hamkorlar_xalqaro': [
+            'Hacettepe universiteti (Turkiya)',
+            'Kaunas tibbiyot universiteti (Litva)',
+            'Qozon federal universiteti (Rossiya)',
+        ],
+        'yutuqlar': [
+            'Fakultet olimlari mahalliy o\'simlik xomashyosi asosida biologik faol qo\'shimchalar '
+            'ishlab chiqish bo\'yicha 3 ta patent oldi.',
+            'Fakultet farmatsevtika korxonalari bilan hamkorlikda talabalarni ishlab chiqarish '
+            'amaliyoti bilan to\'liq ta\'minlaydi.',
+        ],
+    },
+    5: {
+        'id': 5,
+        'nom': 'Agrobiotexnologiya fakulteti',
+        'qisqa_nom': 'Agrobiotexnologiya',
+        'icon': 'fa-seedling',
+        'rasm': 'images/fakultet/agrobiotexnologiya.jpg',
+        'tavsif': 'Qishloq xo\'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy '
+                  'o\'simlik seleksiyasi yo\'nalishlari.',
+        'tashkil_yili': '2019',
+        'yonalishlar_soni': 7,
+        'talabalar_soni': 610,
+        'oqituvchilar_soni': 38,
+        'laboratoriyalar_soni': 1,
+        'email': 'agro@varnet.uz',
+        'telefon': '+998 95 260-11-25',
+        'manzil': '4-o\'quv binosi, 1-qavat',
+        'dekan': {
+            'ism': 'Norqulov Bekzod Shavkatovich',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Qishloq xo\'jaligi fanlari nomzodi, dotsent',
+            'email': 'b.norqulov@varnet.uz',
+            'qabul_vaqti': 'Seshanba, Juma 13:00–15:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet 2019-yilda mintaqa qishloq xo\'jaligini zamonaviy biotexnologiya yutuqlari '
+            'bilan ta\'minlash maqsadida tashkil etilgan.',
+            'Universitetning tajriba maydoni va issiqxona majmuasi fakultet ixtiyorida bo\'lib, '
+            'talabalar sho\'r va qurg\'oqchilikka chidamli navlarni sinovdan o\'tkazishda '
+            'bevosita ishtirok etadilar.',
+        ],
+        'kafedralar': [
+            {'nom': 'O\'simliklar biotexnologiyasi va seleksiya kafedrasi', 'mudir': 'Ochilov Sherzod Tolibovich'},
+            {'nom': 'Agrokimyo va tuproqshunoslik kafedrasi', 'mudir': 'Yusupova Dilbar Nurullayevna'},
+            {'nom': 'Chorvachilik biotexnologiyasi kafedrasi', 'mudir': 'Toshpo\'latov Jamshid Baxtiyorovich'},
+        ],
+        'bakalavr': [
+            'Agrobiotexnologiya',
+            'O\'simliklarni himoya qilish va karantin',
+            'Tuproqshunoslik va agrokimyo',
+        ],
+        'magistratura': [
+            'O\'simliklar biotexnologiyasi va seleksiya',
+            'Chorvachilik biotexnologiyasi',
+        ],
+        'laboratoriyalar': [
+            'O\'simlik to\'qimalari kulturasi laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'Toshkent davlat agrar universiteti',
+            'O\'simlikshunoslik ilmiy-tadqiqot instituti',
+            'Buxoro viloyati fermerlar kengashi',
+        ],
+        'hamkorlar_xalqaro': [
+            'ICARDA xalqaro markazi',
+            'Chexiya hayot fanlari universiteti (Chexiya)',
+            'Selchuk universiteti (Turkiya)',
+        ],
+        'yutuqlar': [
+            'Fakultet olimlari sho\'rlangan tuproqlarda o\'stirishga mo\'ljallangan ikkita '
+            'bug\'doy navini sinovdan o\'tkazmoqda.',
+            'Tajriba issiqxonasida to\'qima kulturasi usulida ko\'paytirilgan ko\'chatlar '
+            'mintaqa fermer xo\'jaliklariga yetkazib berilmoqda.',
+        ],
+    },
+    6: {
+        'id': 6,
+        'nom': 'Tibbiy biotexnologiya fakulteti',
+        'qisqa_nom': 'Tibbiy biotexnologiya',
+        'icon': 'fa-heartbeat',
+        'rasm': 'images/fakultet/tibbiy.jpg',
+        'tavsif': 'Tibbiyot maqsadlarida biologik texnologiyalardan foydalanish, tashxis '
+                  'va davolash tizimlari.',
+        'tashkil_yili': '2020',
+        'yonalishlar_soni': 9,
+        'talabalar_soni': 810,
+        'oqituvchilar_soni': 46,
+        'laboratoriyalar_soni': 2,
+        'email': 'tibbiy@varnet.uz',
+        'telefon': '+998 95 260-11-26',
+        'manzil': '1-o\'quv binosi, 4-qavat',
+        'dekan': {
+            'ism': 'Aliyeva Malika Farhodovna',
+            'lavozim': 'Fakultet dekani',
+            'ilmiy_daraja': 'Tibbiyot fanlari doktori, professor',
+            'email': 'm.aliyeva@varnet.uz',
+            'qabul_vaqti': 'Dushanba, Payshanba 14:00–16:00',
+            'rasm': '',
+        },
+        'tarix': [
+            'Fakultet 2020-yilda tibbiy diagnostika va biopreparatlar sohasidagi kadrlarga '
+            'bo\'lgan ehtiyojni qondirish maqsadida ochilgan.',
+            'Fakultet mintaqadagi klinika va diagnostika markazlari bilan hamkorlikda '
+            'talabalarning klinik amaliyotini tashkil etadi.',
+        ],
+        'kafedralar': [
+            {'nom': 'Tibbiy biologiya kafedrasi', 'mudir': 'Sobirov Nodirbek Ilhomjonovich'},
+            {'nom': 'Immunologiya va biotexnologiya kafedrasi', 'mudir': 'Qurbonova Ziyoda Akmalovna'},
+            {'nom': 'Klinik laboratoriya diagnostikasi kafedrasi', 'mudir': 'Hamroyev Bunyod Sanjarovich'},
+        ],
+        'bakalavr': [
+            'Tibbiy biotexnologiya',
+            'Klinik laboratoriya diagnostikasi',
+            'Biotibbiyot muhandisligi',
+        ],
+        'magistratura': [
+            'Tibbiy biotexnologiya',
+            'Immunobiotexnologiya',
+        ],
+        'laboratoriyalar': [
+            'Hujayra kulturasi laboratoriyasi',
+            'Klinik diagnostika laboratoriyasi',
+        ],
+        'hamkorlar_mahalliy': [
+            'Toshkent tibbiyot akademiyasi',
+            'Buxoro davlat tibbiyot instituti',
+            'Respublika ixtisoslashtirilgan immunologiya markazi',
+        ],
+        'hamkorlar_xalqaro': [
+            'Ege universiteti (Turkiya)',
+            'Lyublyana universiteti (Sloveniya)',
+            'Seul milliy universiteti (Janubiy Koreya)',
+        ],
+        'yutuqlar': [
+            'Fakultet bazasida tez tashxis test tizimlarini ishlab chiqish bo\'yicha ilmiy '
+            'guruh faoliyat yuritmoqda.',
+            'Talabalar xalqaro tibbiyot konferensiyalarida ma\'ruzalar bilan qatnashib, '
+            'so\'nggi yilda 4 ta ilmiy maqola chop etdi.',
+        ],
+    },
+}
+
+
+def fakultetlar(request):
+    """Faculties overview page"""
+    return render(request, 'main/fakultetlar.html', {'fakultetlar': FAKULTETLAR_DATA.values()})
+
+
+def fakultet_detail(request, pk):
+    """Single faculty page"""
+    fakultet = FAKULTETLAR_DATA.get(pk)
+    if not fakultet:
+        raise Http404("Fakultet topilmadi")
+    boshqalar = [item for item in FAKULTETLAR_DATA.values() if item['id'] != pk]
+    return render(request, 'main/fakultet_detail.html', {'fakultet': fakultet, 'boshqalar': boshqalar})
+
+
 def download_structure_pdf(request):
     """Download the university structure as a PDF file."""
     buffer = BytesIO()
@@ -394,13 +813,15 @@ def _build_structure_pdf(buffer):
         "Moliya bo'limi",
         "Xalqaro aloqalar bo'limi",
     ]
-    row3_labels = [
-        'Fakultet / Kafedra 1',
-        'Fakultet / Kafedra 2',
-        'Fakultet / Kafedra 3',
-        'Fakultet / Kafedra 4',
-        'Fakultet / Kafedra 5',
+    # Fakultetlar qatori kengroq — oltita quti sig'ishi uchun alohida hisoblanadi.
+    fakultet_labels = [fakultet['nom'] for fakultet in FAKULTETLAR_DATA.values()]
+    fakultet_box_width = 165
+    fakultet_gap = (chart_width - fakultet_box_width * len(fakultet_labels)) / (len(fakultet_labels) - 1)
+    fakultet_x_positions = [
+        chart_left + index * (fakultet_box_width + fakultet_gap) for index in range(len(fakultet_labels))
     ]
+    fakultet_centers = [position + fakultet_box_width / 2 for position in fakultet_x_positions]
+    fakultet_style = ParagraphStyle('StructureFakultet', parent=box_style, fontSize=11, leading=14)
 
     _draw_connector_row(canvas, center_x, rektor_y, rektor_height, centers, row1_y, line_color)
     _draw_box_row(canvas, x_positions, row1_y, row_box_width, row_box_height, row1_labels, box_style, border_color)
@@ -408,8 +829,19 @@ def _build_structure_pdf(buffer):
     _draw_connector_row(canvas, centers[2], row1_y, row_box_height, centers, row2_y, line_color, branch_width=220)
     _draw_box_row(canvas, x_positions, row2_y, row_box_width, row_box_height, row2_labels, box_style, border_color)
 
-    _draw_connector_row(canvas, centers[2], row2_y, row_box_height, centers, row3_y, line_color, branch_width=220)
-    _draw_box_row(canvas, x_positions, row3_y, row_box_width, row_box_height, row3_labels, box_style, border_color)
+    _draw_connector_row(
+        canvas, centers[2], row2_y, row_box_height, fakultet_centers, row3_y, line_color, branch_width=220
+    )
+    _draw_box_row(
+        canvas,
+        fakultet_x_positions,
+        row3_y,
+        fakultet_box_width,
+        row_box_height,
+        fakultet_labels,
+        fakultet_style,
+        border_color,
+    )
 
     canvas.showPage()
     canvas.save()

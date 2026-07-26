@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Varnet International Biotechnology University\n"
-"POT-Creation-Date: 2026-07-26 14:15+0000\n"
+"POT-Creation-Date: 2026-07-26 14:57+0000\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -128,7 +128,7 @@ msgstr "Admissions office"
 msgid "Ma'lumot olish"
 msgstr "General enquiry"
 
-#: aloqa.html
+#: aloqa.html fakultet_detail.html
 msgid "Hamkorlik"
 msgstr "Partnership"
 
@@ -705,9 +705,14 @@ msgstr "University"
 msgid "Universitet haqida"
 msgstr "About the University"
 
-#: base.html structure.html
+#: base.html fakultetlar.html structure.html
 msgid "Tuzilma"
 msgstr "Structure"
+
+#: base.html fakultet_detail.html fakultetlar.html home.html
+#: universitet_haqida.html
+msgid "Fakultetlar"
+msgstr "Faculties"
 
 #: base.html home.html rahbariyat.html rahbariyat_detail.html
 msgid "Rahbariyat"
@@ -951,7 +956,7 @@ msgid ""
 "boshlandi</em>"
 msgstr ""
 
-#: elon_detail.html home.html yangilik_detail.html
+#: elon_detail.html fakultetlar.html home.html yangilik_detail.html
 msgid "Batafsil"
 msgstr "Read more"
 
@@ -1173,6 +1178,136 @@ msgstr ""
 msgid "Kutubxonaning yangi elektron resurslari foydalanishga topshirildi"
 msgstr ""
 
+#: fakultet_detail.html
+msgid "Barcha fakultetlar"
+msgstr "All faculties"
+
+#: fakultet_detail.html fakultetlar.html
+msgid "Dekan"
+msgstr "Dean"
+
+#: fakultet_detail.html
+msgid "Qabul vaqti"
+msgstr "Office hours"
+
+#: fakultet_detail.html
+msgid "Tashkil etilgan"
+msgstr "Established"
+
+#: fakultet_detail.html hujjat_topshirish.html
+msgid "Ta'lim yo'nalishi"
+msgstr "Programme"
+
+#: fakultet_detail.html fakultetlar.html
+msgid "Kafedra"
+msgstr "Departments"
+
+#: fakultet_detail.html fakultetlar.html
+msgid "Talaba"
+msgstr "Students"
+
+#: fakultet_detail.html fakultetlar.html
+msgid "Professor-o'qituvchi"
+msgstr "Faculty members"
+
+#: fakultet_detail.html home.html universitet_haqida.html
+msgid "Laboratoriya"
+msgstr "Laboratory"
+
+#: fakultet_detail.html
+msgid "Fakultet tarixi"
+msgstr "Faculty history"
+
+#: fakultet_detail.html
+msgid "Kafedralar"
+msgstr "Departments"
+
+#: fakultet_detail.html
+msgid "Kafedra mudiri"
+msgstr "Head of department"
+
+#: fakultet_detail.html home.html universitet_haqida.html
+msgid "Ta'lim yo'nalishlari"
+msgstr "Degree programmes"
+
+#: fakultet_detail.html universitet_haqida.html
+msgid "Bakalavriat"
+msgstr "Bachelor's"
+
+#: fakultet_detail.html universitet_haqida.html
+msgid "Magistratura"
+msgstr "Master's"
+
+#: fakultet_detail.html home.html
+msgid "Ilmiy laboratoriyalar"
+msgstr "Research laboratories"
+
+#: fakultet_detail.html
+msgid "Respublika hamkorlari"
+msgstr "National partners"
+
+#: fakultet_detail.html home.html
+msgid "Xalqaro hamkorlar"
+msgstr "International partners"
+
+#: fakultet_detail.html
+msgid "Erishilgan yutuqlar"
+msgstr "Achievements"
+
+#: fakultet_detail.html
+msgid "Fakultet bilan bog'lanish"
+msgstr "Contact the faculty"
+
+#: fakultet_detail.html
+msgid "Boshqa fakultetlar"
+msgstr "Other faculties"
+
+#: fakultetlar.html
+msgid "Fakultetlar — Varnet International Biotechnology University"
+msgstr "Faculties — Varnet International Biotechnology University"
+
+#: fakultetlar.html
+msgid ""
+"Varnet Xalqaro Biotexnologiyalar Universiteti fakultetlari, ularning "
+"kafedralari, ta'lim yo'nalishlari va rahbariyati."
+msgstr ""
+"The faculties of Varnet International Biotechnology University, their "
+"departments, degree programmes and leadership."
+
+#: fakultetlar.html
+msgid "Universitet <em>fakultetlari</em>"
+msgstr "University <em>faculties</em>"
+
+#: fakultetlar.html
+msgid ""
+"Oltita fakultet, ularning kafedralari va ta'lim yo'nalishlari bilan "
+"tanishing."
+msgstr "Explore our six faculties, their departments and degree programmes."
+
+#: fakultetlar.html
+msgid "Fakultet"
+msgstr "Faculties"
+
+#: fakultetlar.html ilmiy_faoliyat.html
+msgid "Ilmiy laboratoriya"
+msgstr "Research laboratory"
+
+#: fakultetlar.html
+msgid "yo'nalish"
+msgstr "programmes"
+
+#: fakultetlar.html
+msgid "talaba"
+msgstr "students"
+
+#: fakultetlar.html
+msgid "kafedra"
+msgstr "departments"
+
+#: fakultetlar.html
+msgid "Universitet tuzilmasi"
+msgstr "University structure"
+
 #: home.html
 msgid "Varnet International Biotechnology University - Bosh sahifa"
 msgstr "Varnet International Biotechnology University — Home"
@@ -1226,25 +1361,9 @@ msgstr "Active students"
 msgid "Professor-o'qituvchilar"
 msgstr "Academic staff"
 
-#: home.html universitet_haqida.html
-msgid "Ta'lim yo'nalishlari"
-msgstr "Degree programmes"
-
-#: home.html
-msgid "Xalqaro hamkorlar"
-msgstr "International partners"
-
-#: home.html
-msgid "Ilmiy laboratoriyalar"
-msgstr "Research laboratories"
-
 #: home.html
 msgid "Bandlik darajasi"
 msgstr "Employment rate"
-
-#: home.html universitet_haqida.html
-msgid "Laboratoriya"
-msgstr "Laboratory"
 
 #: home.html universitet_haqida.html
 msgid "yildan beri"
@@ -1289,10 +1408,6 @@ msgstr "92% of graduates are employed"
 #: home.html
 msgid "Batafsil o'qish"
 msgstr "Read more"
-
-#: home.html universitet_haqida.html
-msgid "Fakultetlar"
-msgstr "Faculties"
 
 #: home.html universitet_haqida.html
 msgid ""
@@ -1747,10 +1862,6 @@ msgid "Qo'shimcha telefon"
 msgstr "Additional phone"
 
 #: hujjat_topshirish.html
-msgid "Ta'lim yo'nalishi"
-msgstr "Programme"
-
-#: hujjat_topshirish.html
 msgid "Avval ta'lim bosqichini tanlang..."
 msgstr "Please choose a level of study first…"
 
@@ -1842,10 +1953,6 @@ msgstr ""
 "In-depth research in biotechnology, genetics and ecology, international "
 "publications and innovative projects — the path to the science of the "
 "future."
-
-#: ilmiy_faoliyat.html
-msgid "Ilmiy laboratoriya"
-msgstr "Research laboratory"
 
 #: ilmiy_faoliyat.html
 msgid "Ilmiy maqolalar"
@@ -3649,24 +3756,8 @@ msgid "Xalqaro aloqalar bo'limi"
 msgstr "International Relations Department"
 
 #: structure.html
-msgid "Fakultet / Kafedra 1"
-msgstr "Faculty / Department 1"
-
-#: structure.html
-msgid "Fakultet / Kafedra 2"
-msgstr "Faculty / Department 2"
-
-#: structure.html
-msgid "Fakultet / Kafedra 3"
-msgstr "Faculty / Department 3"
-
-#: structure.html
-msgid "Fakultet / Kafedra 4"
-msgstr "Faculty / Department 4"
-
-#: structure.html
-msgid "Fakultet / Kafedra 5"
-msgstr "Faculty / Department 5"
+msgid "Fakultetlar bilan tanishish"
+msgstr "Explore the faculties"
 
 #: structure.html
 msgid "Tuzilmani yuklab olish (PDF)"
@@ -4190,20 +4281,12 @@ msgid "4 yil &middot; Kunduzgi"
 msgstr "4 years &middot; Full-time"
 
 #: universitet_haqida.html
-msgid "Bakalavriat"
-msgstr "Bachelor's"
-
-#: universitet_haqida.html
 msgid "Virusologiya va immunologiya"
 msgstr "Virology and Immunology"
 
 #: universitet_haqida.html
 msgid "2 yil &middot; Kunduzgi"
 msgstr "2 years &middot; Full-time"
-
-#: universitet_haqida.html
-msgid "Magistratura"
-msgstr "Master's"
 
 #: universitet_haqida.html
 msgid "Biotexnologiya va gen muhandisligi"
