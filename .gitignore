@@ -33,6 +33,11 @@ Thumbs.db
 .env
 .env.local
 
+# Har bir muhitning o'z sozlamalari (namuna: varnet/settings.example.py)
+varnet/settings.py
+varnet/local_settings.py
+deploy.conf
+
 # Vaqtinchalik fayllar
 _shots/
 *.bak

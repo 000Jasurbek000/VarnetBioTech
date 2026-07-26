@@ -1,16 +1,16 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Varnet Biotech University\n"
-"POT-Creation-Date: 2026-07-25 20:03+0000\n"
+"Project-Id-Version: Varnet International Biotechnology University\n"
+"POT-Creation-Date: 2026-07-26 14:15+0000\n"
 "Language: en\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: aloqa.html
-msgid "Bog'lanish - Varnet Biotech University"
-msgstr "Contact — Varnet Biotech University"
+msgid "Bog'lanish - Varnet International Biotechnology University"
+msgstr "Contact — Varnet International Biotechnology University"
 
 #: aloqa.html base.html moliyaviy_faoliyat.html
 msgid "Aloqa"
@@ -149,8 +149,8 @@ msgid "Bizning joylashuvimiz"
 msgstr "Our location"
 
 #: bakalavr_qabuli.html
-msgid "Bakalavr qabuli — Varnet Biotech University"
-msgstr "Bachelor's Admission — Varnet Biotech University"
+msgid "Bakalavr qabuli — Varnet International Biotechnology University"
+msgstr "Bachelor's Admission — Varnet International Biotechnology University"
 
 #: bakalavr_qabuli.html
 msgid "Qabul 2026/2027"
@@ -455,8 +455,9 @@ msgstr ""
 "rel=\"noopener\">my.uzbmb.uz</a> portal."
 
 #: barqaror_rivojlanish.html
-msgid "Barqaror rivojlanish — Varnet Biotech University"
-msgstr "Sustainable Development — Varnet Biotech University"
+msgid "Barqaror rivojlanish — Varnet International Biotechnology University"
+msgstr ""
+"Sustainable Development — Varnet International Biotechnology University"
 
 #: barqaror_rivojlanish.html
 msgid "Yashil kampus"
@@ -631,20 +632,20 @@ msgid "Qo‘shilish"
 msgstr "Join us"
 
 #: base.html hujjat_topshirish.html
-msgid "Varnet Biotech University"
-msgstr "Varnet Biotech University"
+msgid "Varnet International Biotechnology University"
+msgstr "Varnet International Biotechnology University"
 
 #: base.html
 msgid ""
-"Varnet Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va "
-"innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi."
+"Varnet Xalqaro Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va"
+" innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi."
 msgstr ""
-"Varnet Biotechnology University — a leading higher education institution in "
-"biotechnology, ecology and innovation."
+"Varnet International Biotechnology University — a leading higher education "
+"institution in biotechnology, ecology and innovation."
 
 #: base.html home.html hujjat_topshirish.html universitet_haqida.html
-msgid "Varnet Biotexnologiyalar Universiteti"
-msgstr "Varnet Biotechnology University"
+msgid "Varnet Xalqaro Biotexnologiyalar Universiteti"
+msgstr "Varnet International Biotechnology University"
 
 #: base.html
 msgid ""
@@ -789,8 +790,8 @@ msgid "Universitet joylashuvi xaritada"
 msgstr "University location on the map"
 
 #: ekofaol_talabalar.html
-msgid "Ekofaol talabalar — Varnet Biotech University"
-msgstr "Eco-Active Students — Varnet Biotech University"
+msgid "Ekofaol talabalar — Varnet International Biotechnology University"
+msgstr "Eco-Active Students — Varnet International Biotechnology University"
 
 #: ekofaol_talabalar.html
 msgid ""
@@ -941,8 +942,8 @@ msgid "Bugunoq ekofaol talabalar harakatida o‘z o‘rningizni toping."
 msgstr "Find your place in the eco-active student movement today."
 
 #: elon_detail.html
-msgid "E'lon - Varnet Biotech University"
-msgstr "Announcement — Varnet Biotech University"
+msgid "E'lon - Varnet International Biotechnology University"
+msgstr "Announcement — Varnet International Biotechnology University"
 
 #: elon_detail.html
 msgid ""
@@ -982,9 +983,10 @@ msgstr ""
 
 #: elon_detail.html
 msgid ""
-"Varnet Biotexnologiyalar Universiteti 2026-2027 o'quv yili uchun bakalavr "
-"ta'lim yo'nalishlariga yangi talabalar qabulini e'lon qiladi. Qabul jarayoni"
-" 2026-yil 1-may kunidan boshlanib, 2026-yil 1-iyungacha davom etadi."
+"Varnet Xalqaro Biotexnologiyalar Universiteti 2026-2027 o'quv yili uchun "
+"bakalavr ta'lim yo'nalishlariga yangi talabalar qabulini e'lon qiladi. Qabul"
+" jarayoni 2026-yil 1-may kunidan boshlanib, 2026-yil 1-iyungacha davom "
+"etadi."
 msgstr ""
 
 #: elon_detail.html
@@ -1073,8 +1075,8 @@ msgid "10.05.2026 gacha"
 msgstr ""
 
 #: elonlar.html
-msgid "E'lonlar - Varnet Biotech University"
-msgstr "Announcements — Varnet Biotech University"
+msgid "E'lonlar - Varnet International Biotechnology University"
+msgstr "Announcements — Varnet International Biotechnology University"
 
 #: elonlar.html
 msgid "Rasmiy <em>e'lonlar</em>"
@@ -1172,8 +1174,8 @@ msgid "Kutubxonaning yangi elektron resurslari foydalanishga topshirildi"
 msgstr ""
 
 #: home.html
-msgid "Varnet Biotech University - Bosh sahifa"
-msgstr "Varnet Biotech University — Home"
+msgid "Varnet International Biotechnology University - Bosh sahifa"
+msgstr "Varnet International Biotechnology University — Home"
 
 #: home.html
 msgid "Kelajak uchun Bilim, Innovatsiya, Biotexnologiya!"
@@ -1422,7 +1424,9 @@ msgid "Universitetda"
 msgstr "At the university"
 
 #: home.html yangilik_detail.html yangiliklar.html
-msgid "Varnet Biotech universitetida xalqaro hamkorlik shartnomasi imzolandi"
+msgid ""
+"Varnet Xalqaro Biotexnologiyalar Universitetida xalqaro hamkorlik "
+"shartnomasi imzolandi"
 msgstr ""
 
 #: home.html
@@ -1581,8 +1585,8 @@ msgid "Universitet <em>rahbariyati</em>"
 msgstr "University <em>leadership</em>"
 
 #: hujjat_topshirish.html
-msgid "Hujjat Topshirish — Varnet Biotech University"
-msgstr "Apply Now — Varnet Biotech University"
+msgid "Hujjat Topshirish — Varnet International Biotechnology University"
+msgstr "Apply Now — Varnet International Biotechnology University"
 
 #: hujjat_topshirish.html
 msgid "Hujjat topshirish tizimi"
@@ -1823,8 +1827,8 @@ msgid "raqamiga yuboriladi"
 msgstr "will be sent to the number"
 
 #: ilmiy_faoliyat.html
-msgid "Ilmiy faoliyat — Varnet Biotech University"
-msgstr "Research — Varnet Biotech University"
+msgid "Ilmiy faoliyat — Varnet International Biotechnology University"
+msgstr "Research — Varnet International Biotechnology University"
 
 #: ilmiy_faoliyat.html
 msgid "Tadqiqot va innovatsiya"
@@ -1865,12 +1869,12 @@ msgstr "Research is the heart of our university"
 
 #: ilmiy_faoliyat.html
 msgid ""
-"Varnet Biotexnologiyalar Universitetida ilmiy faoliyat "
+"Varnet Xalqaro Biotexnologiyalar Universitetida ilmiy faoliyat "
 "professor-o‘qituvchilar, doktorantlar va talabalar uchun ochiq platforma "
 "hisoblanadi."
 msgstr ""
-"At Varnet Biotechnology University, research is an open platform for "
-"academic staff, doctoral candidates and students alike."
+"At Varnet International Biotechnology University, research is an open "
+"platform for academic staff, doctoral candidates and students alike."
 
 #: ilmiy_faoliyat.html
 msgid "Molekulyar biologiya va genetika tadqiqotlari"
@@ -2005,8 +2009,8 @@ msgid "Bog‘lanish"
 msgstr "Get in touch"
 
 #: kvota_va_ballar.html
-msgid "Kvota va ballar — Varnet Biotech University"
-msgstr "Quotas and Scores — Varnet Biotech University"
+msgid "Kvota va ballar — Varnet International Biotechnology University"
+msgstr "Quotas and Scores — Varnet International Biotechnology University"
 
 #: kvota_va_ballar.html
 msgid "Qabul parametrlari"
@@ -2293,8 +2297,8 @@ msgstr ""
 "subject block on my.uzbmb.uz."
 
 #: magistr_qabuli.html
-msgid "Magistr qabuli — Varnet Biotech University"
-msgstr "Master's Admission — Varnet Biotech University"
+msgid "Magistr qabuli — Varnet International Biotechnology University"
+msgstr "Master's Admission — Varnet International Biotechnology University"
 
 #: magistr_qabuli.html
 msgid "Magistratura 2026/2027"
@@ -2431,8 +2435,11 @@ msgstr "Master's programmes (examples)"
 
 #: magistr_qabuli.html
 msgid ""
-"Varnet Biotexnologiyalar Universitetidagi asosiy magistratura dasturlari."
-msgstr "The main master's programmes at Varnet Biotechnology University."
+"Varnet Xalqaro Biotexnologiyalar Universitetidagi asosiy magistratura "
+"dasturlari."
+msgstr ""
+"The main master's programmes at Varnet International Biotechnology "
+"University."
 
 #: magistr_qabuli.html
 msgid "Mutaxassislik"
@@ -2509,8 +2516,9 @@ msgstr ""
 "main platform is <strong>my.edu.uz</strong> (master's module)."
 
 #: malaka_oshirish.html
-msgid "Malaka oshirish — Varnet Biotech University"
-msgstr "Professional Development — Varnet Biotech University"
+msgid "Malaka oshirish — Varnet International Biotechnology University"
+msgstr ""
+"Professional Development — Varnet International Biotechnology University"
 
 #: malaka_oshirish.html
 msgid ""
@@ -2678,8 +2686,8 @@ msgid "Keyingi kurs jadvali va narxlar haqida qabul bo‘limidan bilib oling."
 msgstr "Contact the admissions office for the next course dates and fees."
 
 #: moliyaviy_faoliyat.html
-msgid "Moliyaviy faoliyat — Varnet Biotech University"
-msgstr "Financial Activities — Varnet Biotech University"
+msgid "Moliyaviy faoliyat — Varnet International Biotechnology University"
+msgstr "Financial Activities — Varnet International Biotechnology University"
 
 #: moliyaviy_faoliyat.html
 msgid "Shaffof boshqaruv"
@@ -2845,8 +2853,8 @@ msgstr ""
 "Get in touch if you have questions about reports, payments or scholarships."
 
 #: normativ_hujjatlar.html
-msgid "Normativ hujjatlar — Varnet Biotech University"
-msgstr "Regulatory Documents — Varnet Biotech University"
+msgid "Normativ hujjatlar — Varnet International Biotechnology University"
+msgstr "Regulatory Documents — Varnet International Biotechnology University"
 
 #: normativ_hujjatlar.html
 msgid "Huquqiy asoslar"
@@ -3203,8 +3211,8 @@ msgid "Qabul tashkiloti"
 msgstr "Organisation of admissions"
 
 #: rahbariyat.html
-msgid "Rahbariyat - Varnet Biotech University"
-msgstr "Leadership — Varnet Biotech University"
+msgid "Rahbariyat - Varnet International Biotechnology University"
+msgstr "Leadership — Varnet International Biotechnology University"
 
 #: rahbariyat.html
 msgid ""
@@ -3420,8 +3428,8 @@ msgid "Lavozim vazifalari:"
 msgstr "Duties and responsibilities:"
 
 #: sport_va_hordiq.html
-msgid "Sport va hordiq — Varnet Biotech University"
-msgstr "Sport and Recreation — Varnet Biotech University"
+msgid "Sport va hordiq — Varnet International Biotechnology University"
+msgstr "Sport and Recreation — Varnet International Biotechnology University"
 
 #: sport_va_hordiq.html
 msgid "Sog‘lom turmush"
@@ -3600,8 +3608,8 @@ msgid "Sevimli sportingizni tanlang va sog‘lom jamiyatga qo‘shiling."
 msgstr "Choose your favourite sport and join our healthy-living community."
 
 #: structure.html
-msgid "Universitet tuzilmasi - Varnet Biotech University"
-msgstr "University Structure — Varnet Biotech University"
+msgid "Universitet tuzilmasi - Varnet International Biotechnology University"
+msgstr "University Structure — Varnet International Biotechnology University"
 
 #: structure.html
 msgid "Universitet <em>tuzilmasi</em>"
@@ -3665,8 +3673,9 @@ msgid "Tuzilmani yuklab olish (PDF)"
 msgstr "Download the structure (PDF)"
 
 #: topshiriladigan_hujjatlar.html
-msgid "Topshiriladigan hujjatlar — Varnet Biotech University"
-msgstr "Required Documents — Varnet Biotech University"
+msgid ""
+"Topshiriladigan hujjatlar — Varnet International Biotechnology University"
+msgstr "Required Documents — Varnet International Biotechnology University"
 
 #: topshiriladigan_hujjatlar.html
 msgid "Topshiriladigan <em>hujjatlar</em>"
@@ -4059,8 +4068,8 @@ msgstr ""
 "future."
 
 #: universitet_haqida.html
-msgid "Universitet haqida — Varnet Biotech University"
-msgstr "About the University — Varnet Biotech University"
+msgid "Universitet haqida — Varnet International Biotechnology University"
+msgstr "About the University — Varnet International Biotechnology University"
 
 #: universitet_haqida.html
 msgid "Kelajak ilmi — <em>bugun boshlaydi</em>"
@@ -4338,8 +4347,8 @@ msgid ""
 msgstr "Apply now and become a leading specialist in your field."
 
 #: yangilik_detail.html
-msgid "Yangilik - Varnet Biotech University"
-msgstr "News — Varnet Biotech University"
+msgid "Yangilik - Varnet International Biotechnology University"
+msgstr "News — Varnet International Biotechnology University"
 
 #: yangilik_detail.html
 msgid ""
@@ -4419,8 +4428,8 @@ msgid "Eng ko'p ko'rilgan"
 msgstr "Most read"
 
 #: yangiliklar.html
-msgid "Yangiliklar - Varnet Biotech University"
-msgstr "News — Varnet Biotech University"
+msgid "Yangiliklar - Varnet International Biotechnology University"
+msgstr "News — Varnet International Biotechnology University"
 
 #: yangiliklar.html
 msgid ""

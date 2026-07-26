@@ -1,4 +1,4 @@
-/* Varnet Biotech University — umumiy skriptlar.
+/* Varnet International Biotechnology University — umumiy skriptlar.
    Har bir blok o'ziga tegishli element mavjudligini tekshiradi, shuning uchun
    bitta fayl barcha sahifalarda xavfsiz ishlaydi. */
 

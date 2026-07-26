@@ -1,4 +1,4 @@
-# Varnet Biotexnologiyalar Universiteti — veb-sayt
+# Varnet Xalqaro Biotexnologiyalar Universiteti — veb-sayt
 
 Django asosida qurilgan universitet veb-sayti: universitet haqida ma'lumot,
 tuzilma, rahbariyat, ilmiy va moliyaviy faoliyat, qabul jarayoni, yangiliklar,
@@ -30,9 +30,11 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Muhit o'zgaruvchilarini sozlang:
+Sozlama fayllarini tayyorlang. `varnet/settings.py` va `.env` git'da
+saqlanmaydi — har bir kompyuter va server o'z nusxasini yuritadi:
 
 ```bash
+cp varnet/settings.example.py varnet/settings.py
 cp .env.example .env
 ```
 
@@ -84,10 +86,42 @@ Sayt <http://127.0.0.1:8000> manzilida ochiladi.
 yo'naltirish, HSTS (1 yil, subdomenlar bilan), `Secure` cookie'lar,
 manifest bilan siqilgan statik fayllar.
 
+## Serverni yangilash (deploy)
+
+Sayt allaqachon ishlab turgan serverda yangilanishni o'rnatish uchun bitta
+buyruq yetarli:
+
+```bash
+cd ~/varnet && ./deploy.sh
+```
+
+`deploy.sh` ketma-ket bajaradi: sozlama fayllarini zaxiralaydi, GitHub'dan
+kodni oladi (`git fetch` + `reset --hard`), sozlamalarni joyiga qaytaradi,
+`pip install -r requirements.txt`, `migrate`, `buildmessages`,
+`collectstatic` va nihoyat saytni qayta ishga tushiradi.
+
+`varnet/settings.py` va `.env` git'da yo'q, ustiga skript ularni har safar
+zaxiralab, pull'dan keyin tiklaydi — serverdagi sozlamalar hech qachon
+o'zgarmaydi.
+
+Birinchi marta ishga tushirishdan oldin (bir marta):
+
+```bash
+chmod +x deploy.sh
+cp deploy.conf.example deploy.conf   # faqat kerak bo'lsa sozlang
+```
+
+`deploy.conf` orqali `PYTHON_BIN` (virtualenv Python'i), `BRANCH`,
+`RESTART_CMD` va `SKIP_PIP` ni belgilash mumkin. Hech narsa sozlanmasa,
+skript virtualenv'ni o'zi topadi va Passenger uchun `tmp/restart.txt`
+faylini yangilaydi.
+
 ## Loyiha tuzilishi
 
 ```
+deploy.sh            Serverga yangilanish o'rnatish skripti
 varnet/              Django sozlamalari, URL va WSGI
+  settings.example.py  Sozlamalar namunasi (settings.py git'da saqlanmaydi)
 main/                Asosiy ilova
   views.py           Sahifa ko'rinishlari va tuzilma PDF generatori
   urls.py            URL marshrutlari

@@ -1,0 +1,10 @@
+# Shell skriptlari Linux serverda ishlaydi — qator oxiri doim LF bo'lsin.
+*.sh text eol=lf
+
+# Ikkilik fayllar
+*.png binary
+*.jpg binary
+*.webp binary
+*.mo binary
+*.docx binary
+*.pdf binary

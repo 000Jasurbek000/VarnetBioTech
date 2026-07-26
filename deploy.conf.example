@@ -1,0 +1,23 @@
+# deploy.sh uchun serverga xos sozlamalar.
+#
+#     cp deploy.conf.example deploy.conf
+#
+# `deploy.conf` git'ga yuklanmaydi, shuning uchun har bir serverda o'ziniki
+# bo'ladi. Hech narsa sozlanmasa ham deploy.sh standart qiymatlar bilan
+# ishlaydi — quyidagilar faqat kerak bo'lganda ochiladi.
+
+# Git tarmog'i va manbasi
+# REMOTE=origin
+# BRANCH=main
+
+# Virtualenv Python'i. cPanel "Setup Python App" odatda shu yerga joylaydi:
+#   ~/virtualenv/<loyiha papkasi>/<versiya>/bin/python
+# Skript uni o'zi topishga harakat qiladi; topolmasa shu yerda ko'rsating.
+# PYTHON_BIN="$HOME/virtualenv/varnet/3.11/bin/python"
+
+# Qayta ishga tushirish usuli. Bo'sh bo'lsa `tmp/restart.txt` yangilanadi
+# (Passenger / cPanel uchun to'g'ri usul).
+# RESTART_CMD="systemctl restart varnet"
+
+# Kutubxonalar o'zgarmagan bo'lsa, pip bosqichini tashlab ketish
+# SKIP_PIP=1

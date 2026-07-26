@@ -137,7 +137,7 @@ RAHBARIYAT_DATA = {
             'Universitet kollegial boshqaruv organlarining qarorlarini bajarish;',
         ],
         'mehnat_faoliyati': [
-            {'yil': '2020 – hozir', 'joy': 'Varnet Biotech University', 'lavozim': 'Rektor'},
+            {'yil': '2020 – hozir', 'joy': 'Varnet International Biotechnology University', 'lavozim': 'Rektor'},
             {'yil': '2015 – 2020', 'joy': 'Buxoro davlat universiteti', 'lavozim': 'Prorektor'},
             {'yil': '2010 – 2015', 'joy': 'Buxoro davlat universiteti', 'lavozim': 'Iqtisodiyot kafedrasi mudiri'},
         ],
@@ -172,7 +172,7 @@ RAHBARIYAT_DATA = {
             'Talabalarning bo\'sh vaqtini mazmunli o\'tkazishni tashkil qilish;',
         ],
         'mehnat_faoliyati': [
-            {'yil': '2021 – hozir', 'joy': 'Varnet Biotech University', 'lavozim': 'Birinchi prorektor'},
+            {'yil': '2021 – hozir', 'joy': 'Varnet International Biotechnology University', 'lavozim': 'Birinchi prorektor'},
             {'yil': '2016 – 2021', 'joy': 'Buxoro davlat universiteti', 'lavozim': 'Dekan'},
             {'yil': '2012 – 2016', 'joy': 'Buxoro davlat universiteti', 'lavozim': 'Katta o\'qituvchi'},
         ],
@@ -204,7 +204,7 @@ RAHBARIYAT_DATA = {
             'Yangi ta\'lim texnologiyalarini joriy etish;',
         ],
         'mehnat_faoliyati': [
-            {'yil': '2020 – hozir', 'joy': 'Varnet Biotech University', 'lavozim': 'Prorektor'},
+            {'yil': '2020 – hozir', 'joy': 'Varnet International Biotechnology University', 'lavozim': 'Prorektor'},
             {'yil': '2015 – 2020', 'joy': 'Buxoro davlat universiteti', 'lavozim': 'Kafedra mudiri'},
         ],
         'malaka_oshirish': [
@@ -231,7 +231,7 @@ RAHBARIYAT_DATA = {
             'Xalqaro ilmiy anjumanlar va seminarlarda ishtirok etish;',
         ],
         'mehnat_faoliyati': [
-            {'yil': '2021 – hozir', 'joy': 'Varnet Biotech University', 'lavozim': 'Prorektor'},
+            {'yil': '2021 – hozir', 'joy': 'Varnet International Biotechnology University', 'lavozim': 'Prorektor'},
             {'yil': '2014 – 2021', 'joy': 'Biologiya instituti', 'lavozim': 'Katta ilmiy xodim'},
         ],
         'malaka_oshirish': [
@@ -257,7 +257,7 @@ RAHBARIYAT_DATA = {
             'Moddiy-texnik ta\'minot va xo\'jalik masalalarini hal etish;',
         ],
         'mehnat_faoliyati': [
-            {'yil': '2020 – hozir', 'joy': 'Varnet Biotech University', 'lavozim': 'Prorektor'},
+            {'yil': '2020 – hozir', 'joy': 'Varnet International Biotechnology University', 'lavozim': 'Prorektor'},
             {'yil': '2013 – 2020', 'joy': 'Moliya vazirligi', 'lavozim': 'Bosh mutaxassis'},
         ],
         'malaka_oshirish': [
@@ -342,7 +342,7 @@ def _build_structure_pdf(buffer):
     _draw_centered_paragraph(canvas, 'Universitet tuzilmasi', title_style, 0, title_y - 16, page_width, 40)
     _draw_centered_paragraph(
         canvas,
-        'Varnet Biotexnologiyalar Universiteti tashkiliy tuzilmasi',
+        'Varnet Xalqaro Biotexnologiyalar Universiteti tashkiliy tuzilmasi',
         subtitle_style,
         0,
         title_y - 45,

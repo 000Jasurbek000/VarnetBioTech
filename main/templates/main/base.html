@@ -4,19 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% block title %}{% translate "Varnet Biotech University" %}{% endblock %}</title>
+    <title>{% block title %}{% translate "Varnet International Biotechnology University" %}{% endblock %}</title>
 
-    <meta name="description" content="{% block meta_description %}{% translate "Varnet Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi." %}{% endblock %}">
+    <meta name="description" content="{% block meta_description %}{% translate "Varnet Xalqaro Biotexnologiyalar Universiteti — biotexnologiya, ekologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi." %}{% endblock %}">
     <meta name="theme-color" content="#22804F">
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="Varnet Biotech University">
-    <meta property="og:title" content="{% block og_title %}{% translate "Varnet Biotexnologiyalar Universiteti" %}{% endblock %}">
+    <meta property="og:site_name" content="Varnet International Biotechnology University">
+    <meta property="og:title" content="{% block og_title %}{% translate "Varnet Xalqaro Biotexnologiyalar Universiteti" %}{% endblock %}">
     <meta property="og:description" content="{% block og_description %}{% translate "Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi." %}{% endblock %}">
     <meta property="og:image" content="{% static 'images/logo.png' %}">
     <meta name="twitter:card" content="summary_large_image">
 
-    <link rel="icon" href="{% static 'images/logo.png' %}" type="image/png">
-    <link rel="apple-touch-icon" href="{% static 'images/logo.png' %}">
+    <link rel="icon" href="{% static 'images/favicon.png' %}" type="image/png">
+    <link rel="apple-touch-icon" href="{% static 'images/favicon.png' %}">
 
     <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -85,7 +85,7 @@
             <div class="logo">
                 <a href="{% url 'main:home' %}" aria-label="{% translate 'Bosh sahifa' %}">
                     <img src="{% static 'images/logo.png' %}" id="navbar-logo" class="navbar-logo-img"
-                         alt="{% translate 'Varnet Biotexnologiyalar Universiteti' %}" width="190" height="46">
+                         alt="{% translate 'Varnet Xalqaro Biotexnologiyalar Universiteti' %}" width="162" height="90">
                 </a>
             </div>
 
@@ -169,7 +169,7 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-section">
-                    <h3>{% translate "Varnet Biotexnologiyalar Universiteti" %}</h3>
+                    <h3>{% translate "Varnet Xalqaro Biotexnologiyalar Universiteti" %}</h3>
                     <p>{% translate "Biotexnologiya va innovatsiyalar sohasida yetakchi oliy ta'lim muassasasi" %}</p>
                 </div>
                 <div class="footer-section">
@@ -193,7 +193,7 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; {% now "Y" %} Varnet Biotexnologiyalar Universiteti. Barcha huquqlar himoyalangan.</p>
+                <p>&copy; {% now "Y" %} Varnet Xalqaro Biotexnologiyalar Universiteti. Barcha huquqlar himoyalangan.</p>
             </div>
         </div>
     </footer>

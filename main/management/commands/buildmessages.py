@@ -150,7 +150,7 @@ class Command(BaseCommand):
 
         catalog = polib.POFile(check_for_duplicates=False)
         catalog.metadata = {
-            'Project-Id-Version': 'Varnet Biotech University',
+            'Project-Id-Version': 'Varnet International Biotechnology University',
             'POT-Creation-Date': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M+0000'),
             'MIME-Version': '1.0',
             'Content-Type': 'text/plain; charset=UTF-8',

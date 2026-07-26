@@ -1,5 +1,11 @@
 """
-Django settings for varnet project.
+Django settings for varnet project — NAMUNA fayl.
+
+Haqiqiy `varnet/settings.py` git'ga yuklanmaydi: har bir muhit (kompyuter,
+server) o'z nusxasini saqlaydi va deploy paytida u tegilmaydi. Yangi joyda
+ishga tushirishda shu faylni nusxalab oling:
+
+    cp varnet/settings.example.py varnet/settings.py
 
 Muhitga bog'liq qiymatlar (SECRET_KEY, DEBUG, ALLOWED_HOSTS) `.env` faylidan
 yoki tizim o'zgaruvchilaridan o'qiladi. Namuna uchun `.env.example` ga qarang.
