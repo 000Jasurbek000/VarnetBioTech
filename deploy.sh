@@ -152,7 +152,9 @@ run "manage.py migrate" "$PYTHON_BIN" manage.py migrate --noinput
 step "Tarjima va statik fayllarni yig'ish"
 
 run "manage.py buildmessages" "$PYTHON_BIN" manage.py buildmessages
-run "manage.py collectstatic" "$PYTHON_BIN" manage.py collectstatic --noinput --clear
+# `--clear` ishlatilmaydi: eski hashli fayllar joyida qolsa, yangilanish
+# paytida ochilgan sahifalar uslubsiz qolmaydi.
+run "manage.py collectstatic" "$PYTHON_BIN" manage.py collectstatic --noinput
 
 if ! "$PYTHON_BIN" manage.py check --deploy --fail-level ERROR >/dev/null 2>&1; then
     warn "manage.py check --deploy ogohlantirish berdi (batafsil: $PYTHON_BIN manage.py check --deploy)"

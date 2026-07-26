@@ -104,12 +104,28 @@ kodni oladi (`git fetch` + `reset --hard`), sozlamalarni joyiga qaytaradi,
 zaxiralab, pull'dan keyin tiklaydi — serverdagi sozlamalar hech qachon
 o'zgarmaydi.
 
-Birinchi marta ishga tushirishdan oldin (bir marta):
+### Birinchi marta (faqat bir marta)
+
+Serverda hozircha `deploy.sh` yo'q va `varnet/settings.py` git tomonidan
+kuzatilmoqda. Shuning uchun birinchi yangilanish qo'lda bajariladi —
+sozlamani zaxiralab, keyin kodni oling:
 
 ```bash
+cd ~/varnet
+cp varnet/settings.py ~/settings.py.zaxira
+
+git fetch origin
+git reset --hard origin/main
+
+cp ~/settings.py.zaxira varnet/settings.py
 chmod +x deploy.sh
 cp deploy.conf.example deploy.conf   # faqat kerak bo'lsa sozlang
+
+./deploy.sh
 ```
+
+Shundan keyin `varnet/settings.py` git'dan chiqadi va har safar faqat
+`./deploy.sh` yetarli bo'ladi.
 
 `deploy.conf` orqali `PYTHON_BIN` (virtualenv Python'i), `BRANCH`,
 `RESTART_CMD` va `SKIP_PIP` ni belgilash mumkin. Hech narsa sozlanmasa,

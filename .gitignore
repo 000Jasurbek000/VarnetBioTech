@@ -41,3 +41,7 @@ deploy.conf
 # Vaqtinchalik fayllar
 _shots/
 *.bak
+
+# Deploy (deploy.sh zaxiralari va Passenger'ning restart fayli)
+.deploy-backup/
+tmp/
