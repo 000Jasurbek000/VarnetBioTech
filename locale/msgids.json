@@ -128,7 +128,8 @@
  "Bakalavr qabuli": [
   "bakalavr_qabuli.html",
   "base.html",
-  "kvota_va_ballar.html"
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Iyun — ro‘yxatdan o‘tish": [
   "bakalavr_qabuli.html"
@@ -220,8 +221,14 @@
  "Universitetimizdagi bakalavriat yo‘nalishlari": [
   "bakalavr_qabuli.html"
  ],
- "Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida yangilanadi.": [
+ "Tasdiqlangan ta'lim yo'nalishlari. Batafsil o'quv rejasi va qabul shartlari har bir yo'nalish sahifasida.": [
   "bakalavr_qabuli.html"
+ ],
+ "Kod": [
+  "bakalavr_qabuli.html",
+  "kvota_va_ballar.html",
+  "magistr_qabuli.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Yo‘nalish": [
   "bakalavr_qabuli.html",
@@ -230,65 +237,26 @@
  "Muddat": [
   "bakalavr_qabuli.html",
   "magistr_qabuli.html",
-  "malaka_oshirish.html"
+  "malaka_oshirish.html",
+  "yonalish_biotexnologiya.html"
+ ],
+ "Til": [
+  "bakalavr_qabuli.html",
+  "magistr_qabuli.html"
  ],
  "Shakl": [
   "bakalavr_qabuli.html",
   "magistr_qabuli.html"
  ],
- "Profil fanlar (namuna)": [
-  "bakalavr_qabuli.html"
- ],
- "Biotexnologiya": [
+ "Kvota": [
   "bakalavr_qabuli.html",
-  "home.html",
-  "kvota_va_ballar.html",
-  "universitet_haqida.html"
- ],
- "4 yil": [
-  "bakalavr_qabuli.html"
- ],
- "Kunduzgi": [
-  "bakalavr_qabuli.html",
-  "hujjat_topshirish.html",
-  "kvota_va_ballar.html",
   "magistr_qabuli.html",
-  "malaka_oshirish.html"
+  "yonalish_biotexnologiya.html"
+ ],
+ "Profil fanlar": [
+  "bakalavr_qabuli.html"
  ],
  "Biologiya, Kimyo": [
-  "bakalavr_qabuli.html"
- ],
- "Ekologiya va atrof-muhit muhofazasi": [
-  "bakalavr_qabuli.html"
- ],
- "Kunduzgi / Part-time": [
-  "bakalavr_qabuli.html"
- ],
- "Biologiya, Geografiya": [
-  "bakalavr_qabuli.html"
- ],
- "Farmatsevtika biotexnologiyasi": [
-  "bakalavr_qabuli.html",
-  "kvota_va_ballar.html"
- ],
- "Kimyo, Biologiya": [
-  "bakalavr_qabuli.html"
- ],
- "Agrobiotexnologiya": [
-  "bakalavr_qabuli.html",
-  "home.html",
-  "ilmiy_faoliyat.html",
-  "kvota_va_ballar.html",
-  "magistr_qabuli.html",
-  "universitet_haqida.html"
- ],
- "Bioinformatika": [
-  "bakalavr_qabuli.html",
-  "ilmiy_faoliyat.html",
-  "kvota_va_ballar.html",
-  "universitet_haqida.html"
- ],
- "Matematika, Informatika": [
   "bakalavr_qabuli.html"
  ],
  "Talablar": [
@@ -319,7 +287,8 @@
   "bakalavr_qabuli.html",
   "base.html",
   "kvota_va_ballar.html",
-  "magistr_qabuli.html"
+  "magistr_qabuli.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Hujjat topshirishni boshlang": [
   "bakalavr_qabuli.html"
@@ -332,9 +301,10 @@
   "home.html",
   "kvota_va_ballar.html",
   "topshiriladigan_hujjatlar.html",
-  "universitet_haqida.html"
+  "universitet_haqida.html",
+  "yonalish_biotexnologiya.html"
  ],
- "Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi. Aniq blokni <a href=\"https://my.uzbmb.uz\" target=\"_blank\" rel=\"noopener\">my.uzbmb.uz</a> portalidan tekshiring.": [
+ "<a href=\"{{ yonalish_url }}\">Biotexnologiya</a> yo'nalishining to'liq o'quv rejasi va kirish test fanlari alohida sahifada.": [
   "bakalavr_qabuli.html"
  ],
  "Barqaror rivojlanish — Varnet International Biotechnology University": [
@@ -536,6 +506,7 @@
   "fakultet_detail.html",
   "fakultetlar.html",
   "home.html",
+  "structure.html",
   "universitet_haqida.html"
  ],
  "Rahbariyat": [
@@ -578,7 +549,8 @@
  "Magistr qabuli": [
   "base.html",
   "kvota_va_ballar.html",
-  "magistr_qabuli.html"
+  "magistr_qabuli.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Hujjatlar": [
   "base.html",
@@ -908,7 +880,8 @@
  ],
  "Ta'lim yo'nalishi": [
   "fakultet_detail.html",
-  "hujjat_topshirish.html"
+  "hujjat_topshirish.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Kafedra": [
   "fakultet_detail.html",
@@ -939,13 +912,18 @@
  "Ta'lim yo'nalishlari": [
   "fakultet_detail.html",
   "home.html",
-  "universitet_haqida.html"
+  "universitet_haqida.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Bakalavriat": [
   "fakultet_detail.html",
   "universitet_haqida.html"
  ],
  "Magistratura": [
+  "fakultet_detail.html",
+  "universitet_haqida.html"
+ ],
+ "O'quv rejasi va qabul shartlari": [
   "fakultet_detail.html",
   "universitet_haqida.html"
  ],
@@ -1078,9 +1056,14 @@
   "home.html",
   "universitet_haqida.html"
  ],
- "Biotexnologiya fakulteti": [
+ "Biotexnologiya": [
   "home.html",
   "universitet_haqida.html"
+ ],
+ "Biotexnologiya fakulteti": [
+  "home.html",
+  "universitet_haqida.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida chuqur bilim.": [
   "home.html"
@@ -1091,7 +1074,6 @@
  ],
  "Ekologiya": [
   "home.html",
-  "kvota_va_ballar.html",
   "universitet_haqida.html"
  ],
  "Ekologiya va atrof-muhit": [
@@ -1134,6 +1116,11 @@
  ],
  "Agro": [
   "home.html",
+  "universitet_haqida.html"
+ ],
+ "Agrobiotexnologiya": [
+  "home.html",
+  "ilmiy_faoliyat.html",
   "universitet_haqida.html"
  ],
  "Qishloq xo'jaligi biotexnologiyasi, gen muhandisligi va zamonaviy seleksiya.": [
@@ -1387,10 +1374,16 @@
   "hujjat_topshirish.html"
  ],
  "Ta'lim shakli": [
-  "hujjat_topshirish.html"
+  "hujjat_topshirish.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Ta'lim shaklini tanlang": [
   "hujjat_topshirish.html"
+ ],
+ "Kunduzgi": [
+  "hujjat_topshirish.html",
+  "kvota_va_ballar.html",
+  "malaka_oshirish.html"
  ],
  "Sirtqi": [
   "hujjat_topshirish.html"
@@ -1400,7 +1393,8 @@
   "kvota_va_ballar.html"
  ],
  "Ta'lim tili": [
-  "hujjat_topshirish.html"
+  "hujjat_topshirish.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Ta'lim tilini tanlang": [
   "hujjat_topshirish.html"
@@ -1454,7 +1448,8 @@
   "hujjat_topshirish.html"
  ],
  "Yo'nalish": [
-  "hujjat_topshirish.html"
+  "hujjat_topshirish.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Tahrirlash": [
   "hujjat_topshirish.html"
@@ -1548,9 +1543,7 @@
   "ilmiy_faoliyat.html"
  ],
  "Biofarmatsevtika": [
-  "ilmiy_faoliyat.html",
-  "magistr_qabuli.html",
-  "universitet_haqida.html"
+  "ilmiy_faoliyat.html"
  ],
  "Dori vositalari ishlab chiqish, biologik faol birikmalar sintezi.": [
   "ilmiy_faoliyat.html"
@@ -1563,6 +1556,10 @@
  ],
  "Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar.": [
   "ilmiy_faoliyat.html"
+ ],
+ "Bioinformatika": [
+  "ilmiy_faoliyat.html",
+  "universitet_haqida.html"
  ],
  "Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari.": [
   "ilmiy_faoliyat.html"
@@ -1645,7 +1642,8 @@
   "kvota_va_ballar.html"
  ],
  "Turi": [
-  "kvota_va_ballar.html"
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Savollar": [
   "kvota_va_ballar.html"
@@ -1654,7 +1652,8 @@
   "kvota_va_ballar.html"
  ],
  "Jami": [
-  "kvota_va_ballar.html"
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Ona tili (o‘zbek / rus)": [
   "kvota_va_ballar.html"
@@ -1717,25 +1716,38 @@
  "Davlat komissiyasi qarori": [
   "kvota_va_ballar.html"
  ],
- "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)": [
+ "Varnet — yo‘nalishlar bo‘yicha kvota": [
   "kvota_va_ballar.html"
  ],
- "Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida rasmiy tasdiqlanadi.": [
+ "Tasdiqlangan qabul kvotalari. Grant va kontrakt bo‘yicha taqsimot hamda o‘tish ballari qabul e’lonida e’lon qilinadi.": [
+  "kvota_va_ballar.html"
+ ],
+ "Jami kvota": [
   "kvota_va_ballar.html"
  ],
  "Grant": [
-  "kvota_va_ballar.html"
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Kontrakt": [
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
+ ],
+ "O‘tish bali": [
   "kvota_va_ballar.html"
  ],
- "O‘tgan yil o‘tish balli*": [
+ "Aniq emas": [
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
+ ],
+ "Mavjud emas": [
+  "kvota_va_ballar.html",
+  "yonalish_biotexnologiya.html"
+ ],
+ "Jami (tasdiqlangan)": [
   "kvota_va_ballar.html"
  ],
- "Jami (namuna)": [
-  "kvota_va_ballar.html"
- ],
- "* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal chegaralar Davlat qabul komissiyasi tomonidan belgilanadi.": [
+ "Qabul ballari hozircha e’lon qilinmagan. Grant va kontrakt kvotalari aniq bo‘lganda ushbu jadval yangilanadi.": [
   "kvota_va_ballar.html"
  ],
  "Grant va imtiyoz": [
@@ -1814,9 +1826,6 @@
  "my.edu.uz / magistr.edu.uz": [
   "magistr_qabuli.html"
  ],
- "Til": [
-  "magistr_qabuli.html"
- ],
  "Chet tili sertifikati": [
   "magistr_qabuli.html"
  ],
@@ -1871,32 +1880,21 @@
  "Mutaxassisliklar": [
   "magistr_qabuli.html"
  ],
- "Magistratura yo‘nalishlari (namuna)": [
+ "Magistratura yo‘nalishlari": [
   "magistr_qabuli.html"
  ],
- "Varnet Xalqaro Biotexnologiyalar Universitetidagi asosiy magistratura dasturlari.": [
+ "Tasdiqlangan magistratura dasturlari.": [
   "magistr_qabuli.html"
  ],
  "Mutaxassislik": [
   "magistr_qabuli.html"
  ],
- "Asos": [
+ "Kunduzgi, Kechki, Masofaviy": [
   "magistr_qabuli.html"
  ],
- "Molekulyar biologiya va biotexnologiya": [
-  "magistr_qabuli.html"
- ],
- "Grant / Kontrakt": [
-  "magistr_qabuli.html"
- ],
- "Ekologiya va barqaror rivojlanish": [
-  "magistr_qabuli.html"
- ],
- "Kunduzgi / Kechki": [
-  "magistr_qabuli.html"
- ],
- "Bioinformatika va raqamli biologiya": [
-  "magistr_qabuli.html"
+ "nafar": [
+  "magistr_qabuli.html",
+  "yonalish_biotexnologiya.html"
  ],
  "Respublika kvotasi": [
   "magistr_qabuli.html"
@@ -3050,34 +3048,31 @@
  "Yo'nalishlar": [
   "universitet_haqida.html"
  ],
- "Bakalavriat va magistratura dasturlarimiz — 45 ta yo'nalish.": [
+ "Bakalavriat va magistratura dasturlarimiz.": [
   "universitet_haqida.html"
  ],
  "IT va innovatsiya": [
   "universitet_haqida.html"
  ],
- "Molekulyar biologiya": [
+ "Biotexnologiya (tarmoqlar bo'yicha)": [
   "universitet_haqida.html"
  ],
- "4 yil &middot; Kunduzgi": [
+ "4 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy": [
   "universitet_haqida.html"
  ],
- "Virusologiya va immunologiya": [
+ "kvota": [
   "universitet_haqida.html"
  ],
- "2 yil &middot; Kunduzgi": [
+ "2 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy": [
   "universitet_haqida.html"
  ],
- "Biotexnologiya va gen muhandisligi": [
-  "universitet_haqida.html"
- ],
- "4 yil &middot; Kunduzgi / Sirtqi": [
-  "universitet_haqida.html"
- ],
- "Neyrobiotexnologiya": [
+ "Kirish test fanlari, fanlar ro'yxati, kvota": [
   "universitet_haqida.html"
  ],
  "Ekologiya va tabiatni muhofaza qilish": [
+  "universitet_haqida.html"
+ ],
+ "4 yil &middot; Kunduzgi": [
   "universitet_haqida.html"
  ],
  "Su resurslarini boshqarish": [
@@ -3087,6 +3082,9 @@
   "universitet_haqida.html"
  ],
  "Barqaror energiya tizimlari": [
+  "universitet_haqida.html"
+ ],
+ "2 yil &middot; Kunduzgi": [
   "universitet_haqida.html"
  ],
  "Iqlim o'zgarishi va monitoring": [
@@ -3108,6 +3106,9 @@
   "universitet_haqida.html"
  ],
  "Farmatsevtik kimyo": [
+  "universitet_haqida.html"
+ ],
+ "4 yil &middot; Kunduzgi / Sirtqi": [
   "universitet_haqida.html"
  ],
  "Analitik kimyo": [
@@ -3141,6 +3142,9 @@
   "universitet_haqida.html"
  ],
  "2–3 kurs": [
+  "universitet_haqida.html"
+ ],
+ "Molekulyar biologiya": [
   "universitet_haqida.html"
  ],
  "1–3 kurs": [
@@ -3259,5 +3263,86 @@
  ],
  "Ilmiy jurnal yangi son uchun maqolalar qabul qilinmoqda": [
   "yangiliklar.html"
+ ],
+ "Malakaviy kodi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Ta'lim turi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "O'qish muddati": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Qabul kvotasi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Kirish testi fanlari": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Ta'lim yo'nalishiga mos 2 ta fan": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "ball": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Majburiy fanlar bloki": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Chet tili sertifikati (IELTS, TOEFL, GCT va boshqalar) tegishli fanda imtihonsiz maksimal ball imtiyozini berishi mumkin.": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Magistratura dasturi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Bakalavriat o'quv rejasi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "II. Ishchi o'quv rejasi — fanlar ro'yxati (soatlar bo'yicha).": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Majburiy fanlar": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "soat": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Fan nomi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Soat": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Majburiy fanlar jami": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Tanlov fanlar": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Har bir qatorda talaba ikki variantdan birini tanlaydi.": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Variant A": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Variant B": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Tanlov fanlar jami": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Malakaviy amaliyot": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Yakuniy davlat attestatsiyasi": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "kredit": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "Qabul va kvota": [
+  "yonalish_biotexnologiya.html"
+ ],
+ "O'tish bali": [
+  "yonalish_biotexnologiya.html"
  ]
 }

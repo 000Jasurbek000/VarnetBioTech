@@ -133,7 +133,7 @@
     <div class="uh-container">
         <div class="uh-tag"><i class="fas fa-route"></i> {% translate "Yo'nalishlar" %}</div>
         <h2 class="uh-h2">{% translate "Ta'lim yo'nalishlari" %}</h2>
-        <p class="uh-lead">{% translate "Bakalavriat va magistratura dasturlarimiz — 45 ta yo'nalish." %}</p>
+        <p class="uh-lead">{% translate "Bakalavriat va magistratura dasturlarimiz." %}</p>
 
         <div class="uh-yon-tabs">
             <button class="uh-yon-tab active" onclick="showYon('bio',this)">{% translate "Biotexnologiya" %}</button>
@@ -147,49 +147,24 @@
             <div class="uh-yon-card">
                 <div class="uh-yon-dot"><i class="fas fa-dna"></i></div>
                 <div>
-                    <div class="uh-yon-name">{% translate "Molekulyar biologiya" %}</div>
-                    <div class="uh-yon-meta">{% translate "4 yil &middot; Kunduzgi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Bakalavriat" %}</span>
+                    <div class="uh-yon-name">60710200 — {% translate "Biotexnologiya (tarmoqlar bo'yicha)" %}</div>
+                    <div class="uh-yon-meta">{% translate "4 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy" %}</div>
+                    <span class="uh-yon-badge">{% translate "Bakalavriat" %} · 200 {% translate "kvota" %}</span>
                 </div>
             </div>
             <div class="uh-yon-card">
-                <div class="uh-yon-dot"><i class="fas fa-microscope"></i></div>
+                <div class="uh-yon-dot"><i class="fas fa-flask"></i></div>
                 <div>
-                    <div class="uh-yon-name">{% translate "Mikrobiologiya" %}</div>
-                    <div class="uh-yon-meta">{% translate "4 yil &middot; Kunduzgi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Bakalavriat" %}</span>
+                    <div class="uh-yon-name">70710201 — {% translate "Biotexnologiya" %}</div>
+                    <div class="uh-yon-meta">{% translate "2 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy" %}</div>
+                    <span class="uh-yon-badge">{% translate "Magistratura" %} · 6 {% translate "kvota" %}</span>
                 </div>
             </div>
-            <div class="uh-yon-card">
-                <div class="uh-yon-dot"><i class="fas fa-virus"></i></div>
+            <div class="uh-yon-card uh-yon-card--link">
+                <div class="uh-yon-dot"><i class="fas fa-book-open"></i></div>
                 <div>
-                    <div class="uh-yon-name">{% translate "Virusologiya va immunologiya" %}</div>
-                    <div class="uh-yon-meta">{% translate "2 yil &middot; Kunduzgi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Magistratura" %}</span>
-                </div>
-            </div>
-            <div class="uh-yon-card">
-                <div class="uh-yon-dot"><i class="fas fa-atom"></i></div>
-                <div>
-                    <div class="uh-yon-name">{% translate "Biotexnologiya va gen muhandisligi" %}</div>
-                    <div class="uh-yon-meta">{% translate "4 yil &middot; Kunduzgi / Sirtqi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Bakalavriat" %}</span>
-                </div>
-            </div>
-            <div class="uh-yon-card">
-                <div class="uh-yon-dot"><i class="fas fa-brain"></i></div>
-                <div>
-                    <div class="uh-yon-name">{% translate "Neyrobiotexnologiya" %}</div>
-                    <div class="uh-yon-meta">{% translate "2 yil &middot; Kunduzgi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Magistratura" %}</span>
-                </div>
-            </div>
-            <div class="uh-yon-card">
-                <div class="uh-yon-dot"><i class="fas fa-pills"></i></div>
-                <div>
-                    <div class="uh-yon-name">{% translate "Biofarmatsevtika" %}</div>
-                    <div class="uh-yon-meta">{% translate "4 yil &middot; Kunduzgi" %}</div>
-                    <span class="uh-yon-badge">{% translate "Bakalavriat" %}</span>
+                    <div class="uh-yon-name"><a href="{% url 'main:yonalish_biotexnologiya' %}">{% translate "O'quv rejasi va qabul shartlari" %}</a></div>
+                    <div class="uh-yon-meta">{% translate "Kirish test fanlari, fanlar ro'yxati, kvota" %}</div>
                 </div>
             </div>
         </div>

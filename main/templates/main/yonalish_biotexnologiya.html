@@ -1,0 +1,243 @@
+{% extends 'main/base.html' %}
+{% load static i18n %}
+
+{% block title %}{{ program.bakalavr.nom }} — Varnet International Biotechnology University{% endblock %}
+
+{% block meta_description %}{{ program.bakalavr.nom }} ta'lim yo'nalishi: qabul kvotalari, kirish test fanlari, o'quv rejasi va ta'lim shakllari.{% endblock %}
+
+{% block content %}
+
+{% url 'main:fakultetlar' as fakultetlar_url %}
+{% translate "Ta'lim yo'nalishlari" as sh_parent %}
+{% translate "Ta'lim yo'nalishi" as sh_badge %}
+{% include 'main/includes/page_subheader.html' with image='images/subheader/bakalavr-qabuli-hero.jpg' badge_icon='fa-dna' badge=sh_badge title=program.bakalavr.nom desc=program.bakalavr.nom parent_url=fakultetlar_url parent_label=sh_parent crumb=program.bakalavr.nom %}
+
+<section class="yr-page">
+    <div class="container">
+
+        <div class="yr-back-wrap">
+            <a href="{% url 'main:fakultet_detail' fakultet_id %}" class="yr-back-btn">
+                <i class="fas fa-arrow-left"></i> {% translate "Biotexnologiya fakulteti" %}
+            </a>
+        </div>
+
+        <!-- ASOSIY MA'LUMOT -->
+        <div class="yr-info-grid">
+            <div class="yr-info-card">
+                <span class="yr-info-label">{% translate "Malakaviy kodi" %}</span>
+                <strong>{{ program.bakalavr.kod }}</strong>
+            </div>
+            <div class="yr-info-card">
+                <span class="yr-info-label">{% translate "Ta'lim turi" %}</span>
+                <strong>{{ program.bakalavr.turi }}</strong>
+            </div>
+            <div class="yr-info-card">
+                <span class="yr-info-label">{% translate "Ta'lim tili" %}</span>
+                <strong>{{ program.til }}</strong>
+            </div>
+            <div class="yr-info-card">
+                <span class="yr-info-label">{% translate "Ta'lim shakli" %}</span>
+                <strong>{{ program.shakllar|join:", " }}</strong>
+            </div>
+            <div class="yr-info-card">
+                <span class="yr-info-label">{% translate "O'qish muddati" %}</span>
+                <strong>{{ program.bakalavr.muddat }}</strong>
+            </div>
+            <div class="yr-info-card yr-info-card--accent">
+                <span class="yr-info-label">{% translate "Qabul kvotasi" %}</span>
+                <strong>{{ program.bakalavr.kvota }} {% translate "nafar" %}</strong>
+            </div>
+        </div>
+
+        <!-- KIRISH TESTI -->
+        <div class="yr-block">
+            <h2 class="yr-block-title"><i class="fas fa-clipboard-check"></i> {% translate "Kirish testi fanlari" %}</h2>
+            <div class="yr-two-col">
+                <div class="yr-col">
+                    <h3 class="yr-col-title">{% translate "Ta'lim yo'nalishiga mos 2 ta fan" %}</h3>
+                    <ul class="yr-list">
+                        {% for fan in program.profil_fanlar %}
+                        <li><i class="fas fa-flask"></i> {{ fan.nom }} — <strong>{{ fan.koeffitsient }}</strong> {% translate "ball" %}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+                <div class="yr-col">
+                    <h3 class="yr-col-title">{% translate "Majburiy fanlar bloki" %}</h3>
+                    <ul class="yr-list">
+                        {% for fan in program.majburiy_fanlar %}
+                        <li>
+                            <i class="fas fa-check"></i> {{ fan.nom }} — <strong>{{ fan.koeffitsient }}</strong> {% translate "ball" %}
+                            {% if fan.izoh %}<small>{{ fan.izoh }}</small>{% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <p class="yr-note">
+                <i class="fas fa-info-circle"></i>
+                {% translate "Chet tili sertifikati (IELTS, TOEFL, GCT va boshqalar) tegishli fanda imtihonsiz maksimal ball imtiyozini berishi mumkin." %}
+            </p>
+        </div>
+
+        <!-- MAGISTRATURA -->
+        <div class="yr-block yr-block--gray">
+            <h2 class="yr-block-title"><i class="fas fa-user-graduate"></i> {% translate "Magistratura dasturi" %}</h2>
+            <div class="qb-table-wrap">
+                <table class="qb-table">
+                    <thead>
+                        <tr>
+                            <th>{% translate "Kod" %}</th>
+                            <th>{% translate "Yo'nalish" %}</th>
+                            <th>{% translate "Turi" %}</th>
+                            <th>{% translate "Muddat" %}</th>
+                            <th>{% translate "Kvota" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ program.magistr.kod }}</td>
+                            <td>{{ program.magistr.nom }}</td>
+                            <td>{{ program.magistr.turi }}</td>
+                            <td>{{ program.magistr.muddat }}</td>
+                            <td><strong>{{ program.magistr.kvota }}</strong> {% translate "nafar" %}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <!-- O'QUV REJASI -->
+        <div class="yr-block">
+            <h2 class="yr-block-title"><i class="fas fa-book-open"></i> {% translate "Bakalavriat o'quv rejasi" %}</h2>
+            <p class="yr-lead">{% translate "II. Ishchi o'quv rejasi — fanlar ro'yxati (soatlar bo'yicha)." %}</p>
+
+            <h3 class="yr-subtitle">{% translate "Majburiy fanlar" %} — {{ program.oquv_reja.majburiy_jami }} {% translate "soat" %}</h3>
+            <div class="qb-table-wrap yr-table-wrap">
+                <table class="qb-table yr-table">
+                    <thead>
+                        <tr>
+                            <th>T/r</th>
+                            <th>{% translate "Kod" %}</th>
+                            <th>{% translate "Fan nomi" %}</th>
+                            <th>{% translate "Soat" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for fan in program.oquv_reja.majburiy %}
+                        <tr>
+                            <td>{{ fan.tr }}</td>
+                            <td><code>{{ fan.kod }}</code></td>
+                            <td>{{ fan.nom }}</td>
+                            <td><strong>{{ fan.soat }}</strong></td>
+                        </tr>
+                        {% endfor %}
+                        <tr class="qb-total">
+                            <td colspan="3">{% translate "Majburiy fanlar jami" %}</td>
+                            <td><strong>{{ program.oquv_reja.majburiy_jami }}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3 class="yr-subtitle">{% translate "Tanlov fanlar" %} — {{ program.oquv_reja.tanlov_jami }} {% translate "soat" %}</h3>
+            <p class="yr-note yr-note--inline">{% translate "Har bir qatorda talaba ikki variantdan birini tanlaydi." %}</p>
+            <div class="qb-table-wrap yr-table-wrap">
+                <table class="qb-table yr-table">
+                    <thead>
+                        <tr>
+                            <th>T/r</th>
+                            <th>{% translate "Variant A" %}</th>
+                            <th>{% translate "Variant B" %}</th>
+                            <th>{% translate "Soat" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for qator in program.oquv_reja.tanlov %}
+                        <tr>
+                            <td>{{ qator.tr }}</td>
+                            <td>
+                                <code>{{ qator.variantlar.0.kod }}</code>
+                                {{ qator.variantlar.0.nom }}
+                            </td>
+                            <td>
+                                <code>{{ qator.variantlar.1.kod }}</code>
+                                {{ qator.variantlar.1.nom }}
+                            </td>
+                            <td><strong>{{ qator.variantlar.0.soat }}</strong></td>
+                        </tr>
+                        {% endfor %}
+                        <tr class="qb-total">
+                            <td colspan="3">{% translate "Tanlov fanlar jami" %}</td>
+                            <td><strong>{{ program.oquv_reja.tanlov_jami }}</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="yr-summary">
+                <div class="yr-summary-item">
+                    <span>{% translate "Malakaviy amaliyot" %}</span>
+                    <strong>{{ program.oquv_reja.amaliyot }} {% translate "soat" %}</strong>
+                </div>
+                <div class="yr-summary-item">
+                    <span>{% translate "Yakuniy davlat attestatsiyasi" %}</span>
+                    <strong>—</strong>
+                </div>
+                <div class="yr-summary-item yr-summary-item--total">
+                    <span>{% translate "Jami" %}</span>
+                    <strong>{{ program.oquv_reja.jami }} {% translate "soat" %} / {{ program.bakalavr.kreditlar }} {% translate "kredit" %}</strong>
+                </div>
+            </div>
+        </div>
+
+        <!-- QABUL VA KVOTA -->
+        <div class="yr-block yr-block--gray">
+            <h2 class="yr-block-title"><i class="fas fa-list-ol"></i> {% translate "Qabul va kvota" %}</h2>
+            <div class="qb-table-wrap">
+                <table class="qb-table">
+                    <thead>
+                        <tr>
+                            <th>{% translate "Yo'nalish" %}</th>
+                            <th>{% translate "Kod" %}</th>
+                            <th>{% translate "Turi" %}</th>
+                            <th>{% translate "Kvota" %}</th>
+                            <th>{% translate "Grant" %}</th>
+                            <th>{% translate "Kontrakt" %}</th>
+                            <th>{% translate "O'tish bali" %}</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>{{ program.bakalavr.nom }}</td>
+                            <td>{{ program.bakalavr.kod }}</td>
+                            <td>{{ program.bakalavr.turi }}</td>
+                            <td><strong>{{ program.bakalavr.kvota }}</strong></td>
+                            <td>{% translate "Aniq emas" %}</td>
+                            <td>{% translate "Aniq emas" %}</td>
+                            <td>{% translate "Mavjud emas" %}</td>
+                        </tr>
+                        <tr>
+                            <td>{{ program.magistr.nom }}</td>
+                            <td>{{ program.magistr.kod }}</td>
+                            <td>{{ program.magistr.turi }}</td>
+                            <td><strong>{{ program.magistr.kvota }}</strong></td>
+                            <td>{% translate "Aniq emas" %}</td>
+                            <td>{% translate "Aniq emas" %}</td>
+                            <td>{% translate "Mavjud emas" %}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="yr-links">
+            <a href="{% url 'main:bakalavr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-plus"></i> {% translate "Bakalavr qabuli" %}</a>
+            <a href="{% url 'main:magistr_qabuli' %}" class="hm-btn-outline"><i class="fas fa-user-graduate"></i> {% translate "Magistr qabuli" %}</a>
+            <a href="{% url 'main:kvota_va_ballar' %}" class="hm-btn-outline"><i class="fas fa-list-ol"></i> {% translate "Kvota va ballar" %}</a>
+            <a href="{% url 'main:hujjat_topshirish' %}" class="hm-btn-green"><i class="fas fa-file-alt"></i> {% translate "Hujjat topshirish" %}</a>
+        </div>
+
+    </div>
+</section>
+
+{% endblock %}

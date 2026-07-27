@@ -157,71 +157,52 @@
     <div class="fl-container">
         <div class="fl-head">
             <div class="fl-tag"><i class="fas fa-university"></i> {% translate "Universitet" %}</div>
-            <h2 class="fl-h2">{% translate "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)" %}</h2>
-            <p class="fl-sub">
-                {% translate "Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida rasmiy tasdiqlanadi." %}
-            </p>
+            <h2 class="fl-h2">{% translate "Varnet — yo‘nalishlar bo‘yicha kvota" %}</h2>
+            <p class="fl-sub">{% translate "Tasdiqlangan qabul kvotalari. Grant va kontrakt bo‘yicha taqsimot hamda o‘tish ballari qabul e’lonida e’lon qilinadi." %}</p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
+                        <th>{% translate "Kod" %}</th>
                         <th>{% translate "Yo‘nalish" %}</th>
+                        <th>{% translate "Turi" %}</th>
+                        <th>{% translate "Jami kvota" %}</th>
                         <th>{% translate "Grant" %}</th>
                         <th>{% translate "Kontrakt" %}</th>
-                        <th>{% translate "Jami" %}</th>
-                        <th>{% translate "O‘tgan yil o‘tish balli*" %}</th>
+                        <th>{% translate "O‘tish bali" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{% translate "Biotexnologiya" %}</td>
-                        <td>25</td>
-                        <td>55</td>
-                        <td>80</td>
-                        <td>98,5</td>
+                        <td>{{ biotexnologiya.bakalavr.kod }}</td>
+                        <td><a href="{% url 'main:yonalish_biotexnologiya' %}">{{ biotexnologiya.bakalavr.nom }}</a></td>
+                        <td>{{ biotexnologiya.bakalavr.turi }}</td>
+                        <td><strong>{{ biotexnologiya.bakalavr.kvota }}</strong></td>
+                        <td>{% translate "Aniq emas" %}</td>
+                        <td>{% translate "Aniq emas" %}</td>
+                        <td>{% translate "Mavjud emas" %}</td>
                     </tr>
                     <tr>
-                        <td>{% translate "Ekologiya" %}</td>
-                        <td>20</td>
-                        <td>45</td>
-                        <td>65</td>
-                        <td>86,2</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Farmatsevtika biotexnologiyasi" %}</td>
-                        <td>15</td>
-                        <td>40</td>
-                        <td>55</td>
-                        <td>102,1</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Agrobiotexnologiya" %}</td>
-                        <td>18</td>
-                        <td>42</td>
-                        <td>60</td>
-                        <td>84,7</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Bioinformatika" %}</td>
-                        <td>12</td>
-                        <td>38</td>
-                        <td>50</td>
-                        <td>110,4</td>
+                        <td>{{ biotexnologiya.magistr.kod }}</td>
+                        <td>{{ biotexnologiya.magistr.nom }}</td>
+                        <td>{{ biotexnologiya.magistr.turi }}</td>
+                        <td><strong>{{ biotexnologiya.magistr.kvota }}</strong></td>
+                        <td>{% translate "Aniq emas" %}</td>
+                        <td>{% translate "Aniq emas" %}</td>
+                        <td>{% translate "Mavjud emas" %}</td>
                     </tr>
                     <tr class="qb-total">
-                        <td>{% translate "Jami (namuna)" %}</td>
-                        <td>90</td>
-                        <td>220</td>
-                        <td>310</td>
-                        <td>—</td>
+                        <td colspan="3">{% translate "Jami (tasdiqlangan)" %}</td>
+                        <td><strong>{{ biotexnologiya.bakalavr.kvota|add:biotexnologiya.magistr.kvota }}</strong></td>
+                        <td colspan="3">—</td>
                     </tr>
                 </tbody>
             </table>
         </div>
         <p class="qb-note">
             <i class="fas fa-exclamation-circle"></i>
-            {% translate "* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal chegaralar Davlat qabul komissiyasi tomonidan belgilanadi." %}
+            {% translate "Qabul ballari hozircha e’lon qilinmagan. Grant va kontrakt kvotalari aniq bo‘lganda ushbu jadval yangilanadi." %}
         </p>
     </div>
 </section>

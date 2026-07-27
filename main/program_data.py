@@ -1,0 +1,113 @@
+"""Ta'lim yo'nalishlari bo'yicha rasmiy ma'lumotlar (o'zbek tilida saqlanadi)."""
+
+BIOTEXNOLOGIYA = {
+    'slug': 'biotexnologiya',
+    'fakultet_id': 1,
+    'til': "O'zbek tili",
+    'shakllar': ['Kunduzgi', 'Kechki', 'Masofaviy'],
+    'profil_fanlar': [
+        {'nom': 'Biologiya', 'koeffitsient': '3,1'},
+        {'nom': 'Kimyo', 'koeffitsient': '2,1'},
+    ],
+    'majburiy_fanlar': [
+        {'nom': "Ona tili (o'zbek, rus, qoraqalpoq)", 'koeffitsient': '1,1'},
+        {'nom': 'Matematika', 'koeffitsient': '1,1'},
+        {'nom': "O'zbekiston tarixi", 'koeffitsient': '1,1', 'izoh': "Majburiy blokning ushbu fanida faqat O'zbekiston tarixi bo'yicha savollar beriladi."},
+    ],
+    'bakalavr': {
+        'kod': '60710200',
+        'nom': "Biotexnologiya (tarmoqlar bo'yicha)",
+        'turi': 'Bakalavriat',
+        'muddat': '4 yil',
+        'kvota': 200,
+        'grant_kvota': None,
+        'kontrakt_kvota': None,
+        'otish_bali': None,
+        'kreditlar': 240,
+        'jami_soat': 7200,
+    },
+    'magistr': {
+        'kod': '70710201',
+        'nom': 'Biotexnologiya',
+        'turi': 'Magistratura',
+        'muddat': '2 yil',
+        'kvota': 6,
+        'grant_kvota': None,
+        'kontrakt_kvota': None,
+        'otish_bali': None,
+    },
+    'oquv_reja': {
+        'majburiy_jami': 4410,
+        'tanlov_jami': 1770,
+        'amaliyot': 1020,
+        'jami': 7200,
+        'majburiy': [
+            {'tr': '1.01', 'kod': 'ORT 1104', 'nom': "O'zbek (rus) tili", 'soat': 120},
+            {'tr': '1.02', 'kod': 'DINI104', 'nom': 'Dinshunoslik', 'soat': 120},
+            {'tr': '1.03', 'kod': 'LJVNK12308', 'nom': 'Umumiy va noorganik kimyo 1.2', 'soat': 240},
+            {'tr': '1.04', 'kod': 'XT11208', 'nom': 'Xorijiy til 1.2', 'soat': 240},
+            {'tr': '1.05', 'kod': 'FIZI1208', 'nom': 'Fizika 1.2', 'soat': 240},
+            {'tr': '1.06', 'kod': 'OM11208', 'nom': 'Oliy matematika 1.2', 'soat': 240},
+            {'tr': '1.07', 'kod': 'OEYT1204', 'nom': "O'zbekistonning eng yangi tarixi", 'soat': 120},
+            {'tr': '1.08', 'kod': 'MKG1204', 'nom': 'Muhandislik va kompyuter grafikasi', 'soat': 120},
+            {'tr': '1.09', 'kod': 'MS1404', 'nom': 'Metrologiya va standartlashtirish', 'soat': 120},
+            {'tr': '1.10', 'kod': 'SIM1704', 'nom': 'Soha iqtisodiyoti va menejmenti', 'soat': 120},
+            {'tr': '1.11', 'kod': 'FAL1504', 'nom': 'Falsafa', 'soat': 120},
+            {'tr': '1.12', 'kod': 'EKOI504', 'nom': 'Ekologiya', 'soat': 120},
+            {'tr': '1.13', 'kod': 'HFX1704', 'nom': 'Hayot faoliyati xavfsizligi', 'soat': 120},
+            {'tr': '1.14', 'kod': 'IXT1104', 'nom': 'Ixtisoslikka kirish', 'soat': 120},
+            {'tr': '1.15', 'kod': 'MIK1206', 'nom': 'Mikrobiologiya', 'soat': 180},
+            {'tr': '1.16', 'kod': 'BTA12310', 'nom': 'Biotexnologiya asoslari 1.2', 'soat': 300},
+            {'tr': '1.17', 'kod': 'GHM16709', 'nom': 'Gen va hujayra muhandisligi 1.2', 'soat': 270},
+            {'tr': '1.18', 'kod': 'TTAT1104', 'nom': 'Texnik tizimlarda axborot texnologiyalari', 'soat': 120},
+            {'tr': '1.19', 'kod': 'QXBT4508', 'nom': "Qishloq xo'jaligi biotexnologiyasi 1.2", 'soat': 240},
+            {'tr': '1.20', 'kod': 'TUOBT16708', 'nom': 'Tuproq unumdorligini oshirishda biotexnologiya 1.2', 'soat': 240},
+            {'tr': '1.21', 'kod': 'BJJ13408', 'nom': 'Biotexnologik jarayonlar va jihozlari 1.2', 'soat': 240},
+            {'tr': '1.22', 'kod': 'OXQBT15608', 'nom': "O'simliklarni himoya qilishda biotexnologiya", 'soat': 240},
+            {'tr': '1.23', 'kod': 'MBT14508', 'nom': 'Mikrob biotexnologiyasi', 'soat': 240},
+            {'tr': '1.24', 'kod': 'OFBK1106', 'nom': "O'simliklar fiziologiyasi va biokimyosi", 'soat': 180},
+        ],
+        'tanlov': [
+            {'tr': '2.01', 'variantlar': [
+                {'kod': 'MEYET2306', 'nom': 'Meva ekinlarini yetishtirish texnologiyasi', 'soat': 240},
+                {'kod': 'BB2306', 'nom': 'Biopreparatlar biotexnologiyasi', 'soat': 240},
+            ]},
+            {'tr': '2.02', 'variantlar': [
+                {'kod': 'EKOBTB2406', 'nom': 'Ekobiotexnologiya', 'soat': 180},
+                {'kod': 'CHBTB2406', 'nom': 'Chorvachilikda biotexnologiya', 'soat': 180},
+            ]},
+            {'tr': '2.03', 'variantlar': [
+                {'kod': 'BZTU2606', 'nom': 'Biotexnologiyada zamonaviy tadqiqot usullari', 'soat': 180},
+                {'kod': 'QXMSQIB2606', 'nom': "Qishloq xo'jaligi mahsulotlarini saqlash va qayta ishlash biotexnologiyasi", 'soat': 180},
+            ]},
+            {'tr': '2.04', 'variantlar': [
+                {'kod': 'NB2506', 'nom': 'Nanobiotexnologiya', 'soat': 180},
+                {'kod': 'MB2506', 'nom': 'Mikroorganizmlar biotexnologiyasi', 'soat': 180},
+            ]},
+            {'tr': '2.05', 'variantlar': [
+                {'kod': "YTO'RK2302", 'nom': "Yangi tahrirdagi O'zbekiston Respublikasi Konstitutsiyasi", 'soat': 60},
+                {'kod': 'NBT2302', 'nom': "Kasbiy ma'naviyat", 'soat': 60},
+            ]},
+            {'tr': '2.06', 'variantlar': [
+                {'kod': 'SB2709', 'nom': 'Sanoat biotexnologiyasi', 'soat': 270},
+                {'kod': 'MBG2709', 'nom': 'Molekulyar biologiya va genetika', 'soat': 270},
+            ]},
+            {'tr': '2.07', 'variantlar': [
+                {'kod': 'BSI2506', 'nom': "Biotexnologiyada sun'iy intellekt", 'soat': 270},
+                {'kod': "DO'YB2506", 'nom': "Dorivor o'simliklar yetishtirish biotexnologiyasi", 'soat': 270},
+            ]},
+            {'tr': '2.08', 'variantlar': [
+                {'kod': 'HFXA2402', 'nom': 'Hayot faoliyati xavfsizligi asoslari', 'soat': 60},
+                {'kod': 'EAMM2402', 'nom': 'Ekologiya va atrof-muhit muhofazasi', 'soat': 60},
+            ]},
+            {'tr': '2.09', 'variantlar': [
+                {'kod': 'FVFM2304', 'nom': "Atrof-muhitni muhofaza qilish va yashil rivojlanish", 'soat': 60},
+                {'kod': 'VA2304', 'nom': 'Yashil iqtisodiyot', 'soat': 60},
+            ]},
+            {'tr': '2.10', 'variantlar': [
+                {'kod': 'ZB2604', 'nom': "Zamburug'lar biotexnologiyasi", 'soat': 240},
+                {'kod': 'VA2708', 'nom': 'Virusologiya asoslari', 'soat': 240},
+            ]},
+        ],
+    },
+}

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Varnet International Biotechnology University\n"
-"POT-Creation-Date: 2026-07-26 14:57+0000\n"
+"POT-Creation-Date: 2026-07-27 19:33+0000\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,6 +169,7 @@ msgstr ""
 "programlarına başvuru."
 
 #: bakalavr_qabuli.html base.html kvota_va_ballar.html
+#: yonalish_biotexnologiya.html
 msgid "Bakalavr qabuli"
 msgstr "Lisans Kabulü"
 
@@ -314,77 +315,45 @@ msgstr "Üniversitemizdeki lisans programları"
 
 #: bakalavr_qabuli.html
 msgid ""
-"Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida "
-"yangilanadi."
+"Tasdiqlangan ta'lim yo'nalishlari. Batafsil o'quv rejasi va qabul shartlari "
+"har bir yo'nalish sahifasida."
 msgstr ""
-"Temel eğitim programları (örnek). Tam liste kabul duyurusunda güncellenir."
+"Onaylanmış eğitim programları. Ayrıntılı müfredat ve kabul şartları her "
+"program sayfasında."
+
+#: bakalavr_qabuli.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
+msgid "Kod"
+msgstr "Kod"
 
 #: bakalavr_qabuli.html kvota_va_ballar.html
 msgid "Yo‘nalish"
 msgstr "Program"
 
 #: bakalavr_qabuli.html magistr_qabuli.html malaka_oshirish.html
+#: yonalish_biotexnologiya.html
 msgid "Muddat"
 msgstr "Süre"
+
+#: bakalavr_qabuli.html magistr_qabuli.html
+msgid "Til"
+msgstr "Dil"
 
 #: bakalavr_qabuli.html magistr_qabuli.html
 msgid "Shakl"
 msgstr "Öğrenim şekli"
 
-#: bakalavr_qabuli.html
-msgid "Profil fanlar (namuna)"
-msgstr "Alan dersleri (örnek)"
-
-#: bakalavr_qabuli.html home.html kvota_va_ballar.html universitet_haqida.html
-msgid "Biotexnologiya"
-msgstr "Biyoteknoloji"
+#: bakalavr_qabuli.html magistr_qabuli.html yonalish_biotexnologiya.html
+msgid "Kvota"
+msgstr "Kontenjan"
 
 #: bakalavr_qabuli.html
-msgid "4 yil"
-msgstr "4 yıl"
-
-#: bakalavr_qabuli.html hujjat_topshirish.html kvota_va_ballar.html
-#: magistr_qabuli.html malaka_oshirish.html
-msgid "Kunduzgi"
-msgstr "Örgün"
+msgid "Profil fanlar"
+msgstr "Profil dersleri"
 
 #: bakalavr_qabuli.html
 msgid "Biologiya, Kimyo"
 msgstr "Biyoloji, Kimya"
-
-#: bakalavr_qabuli.html
-msgid "Ekologiya va atrof-muhit muhofazasi"
-msgstr "Ekoloji ve Çevre Koruma"
-
-#: bakalavr_qabuli.html
-msgid "Kunduzgi / Part-time"
-msgstr "Örgün / Yarı zamanlı"
-
-#: bakalavr_qabuli.html
-msgid "Biologiya, Geografiya"
-msgstr "Biyoloji, Coğrafya"
-
-#: bakalavr_qabuli.html kvota_va_ballar.html
-msgid "Farmatsevtika biotexnologiyasi"
-msgstr "Farmasötik Biyoteknoloji"
-
-#: bakalavr_qabuli.html
-msgid "Kimyo, Biologiya"
-msgstr "Kimya, Biyoloji"
-
-#: bakalavr_qabuli.html home.html ilmiy_faoliyat.html kvota_va_ballar.html
-#: magistr_qabuli.html universitet_haqida.html
-msgid "Agrobiotexnologiya"
-msgstr "Agrobiyoteknoloji"
-
-#: bakalavr_qabuli.html ilmiy_faoliyat.html kvota_va_ballar.html
-#: universitet_haqida.html
-msgid "Bioinformatika"
-msgstr "Biyoinformatik"
-
-#: bakalavr_qabuli.html
-msgid "Matematika, Informatika"
-msgstr "Matematik, Bilişim"
 
 #: bakalavr_qabuli.html
 msgid "Talablar"
@@ -421,6 +390,7 @@ msgid "Topshiriladigan hujjatlar"
 msgstr "Gerekli Belgeler"
 
 #: bakalavr_qabuli.html base.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
 msgid "Kvota va ballar"
 msgstr "Kontenjan ve Puanlar"
 
@@ -434,18 +404,17 @@ msgstr "Çevrimiçi başvuru bırakın veya kabul birimiyle iletişime geçin."
 
 #: bakalavr_qabuli.html home.html kvota_va_ballar.html
 #: topshiriladigan_hujjatlar.html universitet_haqida.html
+#: yonalish_biotexnologiya.html
 msgid "Hujjat topshirish"
 msgstr "Başvuru yap"
 
 #: bakalavr_qabuli.html
 msgid ""
-"Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi. Aniq blokni <a "
-"href=\"https://my.uzbmb.uz\" target=\"_blank\" "
-"rel=\"noopener\">my.uzbmb.uz</a> portalidan tekshiring."
+"<a href=\"{{ yonalish_url }}\">Biotexnologiya</a> yo'nalishining to'liq "
+"o'quv rejasi va kirish test fanlari alohida sahifada."
 msgstr ""
-"Alan dersleri her yıl Bakanlık tarafından onaylanır. Kesin ders bloğunu <a "
-"href=\"https://my.uzbmb.uz\" target=\"_blank\" "
-"rel=\"noopener\">my.uzbmb.uz</a> portalından kontrol edin."
+"<a href=\"{{ yonalish_url }}\">Biyoteknoloji</a> programının tam müfredatı "
+"ve giriş sınav dersleri ayrı bir sayfada."
 
 #: barqaror_rivojlanish.html
 msgid "Barqaror rivojlanish — Varnet International Biotechnology University"
@@ -698,7 +667,7 @@ msgstr "Üniversite Hakkında"
 msgid "Tuzilma"
 msgstr "Yapı"
 
-#: base.html fakultet_detail.html fakultetlar.html home.html
+#: base.html fakultet_detail.html fakultetlar.html home.html structure.html
 #: universitet_haqida.html
 msgid "Fakultetlar"
 msgstr "Fakülteler"
@@ -737,6 +706,7 @@ msgid "Qabul"
 msgstr "Kabul"
 
 #: base.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
 msgid "Magistr qabuli"
 msgstr "Yüksek Lisans Kabulü"
 
@@ -1183,9 +1153,9 @@ msgstr "Kabul saatleri"
 msgid "Tashkil etilgan"
 msgstr "Kuruluş yılı"
 
-#: fakultet_detail.html hujjat_topshirish.html
+#: fakultet_detail.html hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim yo'nalishi"
-msgstr "Program"
+msgstr "Eğitim programı"
 
 #: fakultet_detail.html fakultetlar.html
 msgid "Kafedra"
@@ -1216,8 +1186,9 @@ msgid "Kafedra mudiri"
 msgstr "Bölüm başkanı"
 
 #: fakultet_detail.html home.html universitet_haqida.html
+#: yonalish_biotexnologiya.html
 msgid "Ta'lim yo'nalishlari"
-msgstr "Eğitim programı"
+msgstr "Eğitim programları"
 
 #: fakultet_detail.html universitet_haqida.html
 msgid "Bakalavriat"
@@ -1226,6 +1197,10 @@ msgstr "Lisans"
 #: fakultet_detail.html universitet_haqida.html
 msgid "Magistratura"
 msgstr "Yüksek Lisans"
+
+#: fakultet_detail.html universitet_haqida.html
+msgid "O'quv rejasi va qabul shartlari"
+msgstr "Müfredat ve kabul şartları"
 
 #: fakultet_detail.html home.html
 msgid "Ilmiy laboratoriyalar"
@@ -1407,6 +1382,10 @@ msgid ""
 msgstr "Her fakülte modern donanıma ve deneyimli öğretim kadrosuna sahiptir."
 
 #: home.html universitet_haqida.html
+msgid "Biotexnologiya"
+msgstr "Biyoteknoloji"
+
+#: home.html universitet_haqida.html yonalish_biotexnologiya.html
 msgid "Biotexnologiya fakulteti"
 msgstr "Biyoteknoloji Fakültesi"
 
@@ -1422,7 +1401,7 @@ msgstr ""
 msgid "12 yo'nalish"
 msgstr "12 program"
 
-#: home.html kvota_va_ballar.html universitet_haqida.html
+#: home.html universitet_haqida.html
 msgid "Ekologiya"
 msgstr "Ekoloji"
 
@@ -1477,6 +1456,10 @@ msgstr "10 program"
 #: home.html universitet_haqida.html
 msgid "Agro"
 msgstr "Agro"
+
+#: home.html ilmiy_faoliyat.html universitet_haqida.html
+msgid "Agrobiotexnologiya"
+msgstr "Agrobiyoteknoloji"
 
 #: home.html
 msgid ""
@@ -1783,13 +1766,17 @@ msgstr "Lisans"
 msgid "Magistr"
 msgstr "Yüksek lisans"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim shakli"
-msgstr "Öğrenim şekli"
+msgstr "Eğitim şekli"
 
 #: hujjat_topshirish.html
 msgid "Ta'lim shaklini tanlang"
 msgstr "Öğrenim şeklini seçin"
+
+#: hujjat_topshirish.html kvota_va_ballar.html malaka_oshirish.html
+msgid "Kunduzgi"
+msgstr "Örgün"
 
 #: hujjat_topshirish.html
 msgid "Sirtqi"
@@ -1799,7 +1786,7 @@ msgstr "Uzaktan"
 msgid "Kechki"
 msgstr "Akşam"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim tili"
 msgstr "Öğretim dili"
 
@@ -1871,7 +1858,7 @@ msgstr "Ana telefon"
 msgid "Ta'lim ma'lumotlari"
 msgstr "Öğrenim bilgileri"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Yo'nalish"
 msgstr ""
 
@@ -2009,7 +1996,7 @@ msgid "Foydali mikroorganizmlar, biopreparatlar va sanoat fermentatsiyasi."
 msgstr ""
 "Faydalı mikroorganizmalar, biyopreparatlar ve endüstriyel fermantasyon."
 
-#: ilmiy_faoliyat.html magistr_qabuli.html universitet_haqida.html
+#: ilmiy_faoliyat.html
 msgid "Biofarmatsevtika"
 msgstr "Biyofarmasötik"
 
@@ -2028,6 +2015,10 @@ msgstr "Çevresel biyoteknoloji"
 #: ilmiy_faoliyat.html
 msgid "Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar."
 msgstr "Çevrenin iyileştirilmesi, biyoremediasyon ve yeşil teknolojiler."
+
+#: ilmiy_faoliyat.html universitet_haqida.html
+msgid "Bioinformatika"
+msgstr "Biyoinformatik"
 
 #: ilmiy_faoliyat.html
 msgid "Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari."
@@ -2146,7 +2137,7 @@ msgstr "Lisans sınavı 5 ders ve 90 sorudan oluşur. Azami puan —"
 msgid "Fan"
 msgstr "Ders"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Turi"
 msgstr "Türü"
 
@@ -2158,7 +2149,7 @@ msgstr "Soru"
 msgid "Ball hisobi"
 msgstr "Puan hesabı"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Jami"
 msgstr "Toplam"
 
@@ -2243,40 +2234,52 @@ msgid "Davlat komissiyasi qarori"
 msgstr "Devlet komisyonu kararı"
 
 #: kvota_va_ballar.html
-msgid "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)"
-msgstr "Varnet — programlara göre kontenjan (örnek)"
+msgid "Varnet — yo‘nalishlar bo‘yicha kvota"
+msgstr "Varnet — programlara göre kontenjan"
 
 #: kvota_va_ballar.html
 msgid ""
-"Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida"
-" rasmiy tasdiqlanadi."
+"Tasdiqlangan qabul kvotalari. Grant va kontrakt bo‘yicha taqsimot hamda "
+"o‘tish ballari qabul e’lonida e’lon qilinadi."
 msgstr ""
-"Aşağıdaki sayılar örnek niteliğindedir. Kesin kontenjan her yıl kabul "
-"duyurusunda resmî olarak onaylanır."
+"Onaylanmış kabul kontenjanları. Burs ve ücretli dağılım ile geçme puanları "
+"kabul duyurusunda ilan edilecektir."
 
 #: kvota_va_ballar.html
+msgid "Jami kvota"
+msgstr "Toplam kontenjan"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Grant"
 msgstr "Burslu"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Kontrakt"
 msgstr "Ücretli"
 
 #: kvota_va_ballar.html
-msgid "O‘tgan yil o‘tish balli*"
-msgstr "Geçen yılın taban puanı*"
+msgid "O‘tish bali"
+msgstr "Geçme puanı"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
+msgid "Aniq emas"
+msgstr "Belirtilmemiş"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
+msgid "Mavjud emas"
+msgstr "Mevcut değil"
 
 #: kvota_va_ballar.html
-msgid "Jami (namuna)"
-msgstr "Toplam (örnek)"
+msgid "Jami (tasdiqlangan)"
+msgstr "Toplam (onaylı)"
 
 #: kvota_va_ballar.html
 msgid ""
-"* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal "
-"chegaralar Davlat qabul komissiyasi tomonidan belgilanadi."
+"Qabul ballari hozircha e’lon qilinmagan. Grant va kontrakt kvotalari aniq "
+"bo‘lganda ushbu jadval yangilanadi."
 msgstr ""
-"* Taban puanlar yarışma sonuçlarına göre her yıl değişir. Asgari sınırlar "
-"Devlet Kabul Komisyonu tarafından belirlenir."
+"Kabul puanları henüz ilan edilmedi. Burs ve ücretli kontenjanlar "
+"netleştiğinde bu tablo güncellenecektir."
 
 #: kvota_va_ballar.html
 msgid "Grant va imtiyoz"
@@ -2410,10 +2413,6 @@ msgid "my.edu.uz / magistr.edu.uz"
 msgstr "my.edu.uz / magistr.edu.uz"
 
 #: magistr_qabuli.html
-msgid "Til"
-msgstr "Dil"
-
-#: magistr_qabuli.html
 msgid "Chet tili sertifikati"
 msgstr "Yabancı dil sertifikası"
 
@@ -2508,44 +2507,24 @@ msgid "Mutaxassisliklar"
 msgstr "Uzmanlık alanları"
 
 #: magistr_qabuli.html
-msgid "Magistratura yo‘nalishlari (namuna)"
-msgstr "Yüksek lisans programları (örnek)"
+msgid "Magistratura yo‘nalishlari"
+msgstr "Yüksek lisans programları"
 
 #: magistr_qabuli.html
-msgid ""
-"Varnet Xalqaro Biotexnologiyalar Universitetidagi asosiy magistratura "
-"dasturlari."
-msgstr ""
-"Varnet Uluslararası Biyoteknoloji Üniversitesi'ndeki temel yüksek lisans "
-"programları."
+msgid "Tasdiqlangan magistratura dasturlari."
+msgstr "Onaylanmış yüksek lisans programları."
 
 #: magistr_qabuli.html
 msgid "Mutaxassislik"
 msgstr "Uzmanlık alanı"
 
 #: magistr_qabuli.html
-msgid "Asos"
-msgstr "Öğrenim türü"
+msgid "Kunduzgi, Kechki, Masofaviy"
+msgstr "Örgün, İkinci öğretim, Uzaktan"
 
-#: magistr_qabuli.html
-msgid "Molekulyar biologiya va biotexnologiya"
-msgstr "Moleküler Biyoloji ve Biyoteknoloji"
-
-#: magistr_qabuli.html
-msgid "Grant / Kontrakt"
-msgstr "Burslu / Ücretli"
-
-#: magistr_qabuli.html
-msgid "Ekologiya va barqaror rivojlanish"
-msgstr "Ekoloji ve Sürdürülebilir Kalkınma"
-
-#: magistr_qabuli.html
-msgid "Kunduzgi / Kechki"
-msgstr "Örgün / Akşam"
-
-#: magistr_qabuli.html
-msgid "Bioinformatika va raqamli biologiya"
-msgstr "Biyoinformatik ve Dijital Biyoloji"
+#: magistr_qabuli.html yonalish_biotexnologiya.html
+msgid "nafar"
+msgstr "kişi"
 
 #: magistr_qabuli.html
 msgid "Respublika kvotasi"
@@ -4233,44 +4212,40 @@ msgid "Yo'nalishlar"
 msgstr "Programlar"
 
 #: universitet_haqida.html
-msgid "Bakalavriat va magistratura dasturlarimiz — 45 ta yo'nalish."
-msgstr "Lisans ve yüksek lisans programlarımız — 45 alan."
+msgid "Bakalavriat va magistratura dasturlarimiz."
+msgstr "Lisans ve yüksek lisans programlarımız."
 
 #: universitet_haqida.html
 msgid "IT va innovatsiya"
 msgstr "BT ve inovasyon"
 
 #: universitet_haqida.html
-msgid "Molekulyar biologiya"
-msgstr "Moleküler Biyoloji"
+msgid "Biotexnologiya (tarmoqlar bo'yicha)"
+msgstr "Biyoteknoloji (sektörlere göre)"
 
 #: universitet_haqida.html
-msgid "4 yil &middot; Kunduzgi"
-msgstr "4 yıl &middot; Örgün"
+msgid "4 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy"
+msgstr "4 yıl &middot; Özbekçe &middot; Örgün, İkinci öğretim, Uzaktan"
 
 #: universitet_haqida.html
-msgid "Virusologiya va immunologiya"
-msgstr "Viroloji ve İmmünoloji"
+msgid "kvota"
+msgstr "kontenjan"
 
 #: universitet_haqida.html
-msgid "2 yil &middot; Kunduzgi"
-msgstr "2 yıl &middot; Örgün"
+msgid "2 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy"
+msgstr "2 yıl &middot; Özbekçe &middot; Örgün, İkinci öğretim, Uzaktan"
 
 #: universitet_haqida.html
-msgid "Biotexnologiya va gen muhandisligi"
-msgstr "Biyoteknoloji ve Gen Mühendisliği"
-
-#: universitet_haqida.html
-msgid "4 yil &middot; Kunduzgi / Sirtqi"
-msgstr "4 yıl &middot; Örgün / Uzaktan"
-
-#: universitet_haqida.html
-msgid "Neyrobiotexnologiya"
-msgstr "Nörobiyoteknoloji"
+msgid "Kirish test fanlari, fanlar ro'yxati, kvota"
+msgstr "Giriş dersleri, ders listesi, kontenjan"
 
 #: universitet_haqida.html
 msgid "Ekologiya va tabiatni muhofaza qilish"
 msgstr "Ekoloji ve Doğa Koruma"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi"
+msgstr "4 yıl &middot; Örgün"
 
 #: universitet_haqida.html
 msgid "Su resurslarini boshqarish"
@@ -4283,6 +4258,10 @@ msgstr "4 yıl &middot; Uzaktan"
 #: universitet_haqida.html
 msgid "Barqaror energiya tizimlari"
 msgstr "Sürdürülebilir Enerji Sistemleri"
+
+#: universitet_haqida.html
+msgid "2 yil &middot; Kunduzgi"
+msgstr "2 yıl &middot; Örgün"
 
 #: universitet_haqida.html
 msgid "Iqlim o'zgarishi va monitoring"
@@ -4311,6 +4290,10 @@ msgstr "Organik Kimya"
 #: universitet_haqida.html
 msgid "Farmatsevtik kimyo"
 msgstr "Farmasötik Kimya"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi / Sirtqi"
+msgstr "4 yıl &middot; Örgün / Uzaktan"
 
 #: universitet_haqida.html
 msgid "Analitik kimyo"
@@ -4355,6 +4338,10 @@ msgstr "Biyokimya"
 #: universitet_haqida.html
 msgid "2–3 kurs"
 msgstr "2–3. sınıf"
+
+#: universitet_haqida.html
+msgid "Molekulyar biologiya"
+msgstr "Moleküler Biyoloji"
 
 #: universitet_haqida.html
 msgid "1–3 kurs"
@@ -4535,3 +4522,115 @@ msgstr "Haber 8"
 #: yangiliklar.html
 msgid "Ilmiy jurnal yangi son uchun maqolalar qabul qilinmoqda"
 msgstr ""
+
+#: yonalish_biotexnologiya.html
+msgid "Malakaviy kodi"
+msgstr "Nitelik kodu"
+
+#: yonalish_biotexnologiya.html
+msgid "Ta'lim turi"
+msgstr "Eğitim düzeyi"
+
+#: yonalish_biotexnologiya.html
+msgid "O'qish muddati"
+msgstr "Eğitim süresi"
+
+#: yonalish_biotexnologiya.html
+msgid "Qabul kvotasi"
+msgstr "Kabul kontenjanı"
+
+#: yonalish_biotexnologiya.html
+msgid "Kirish testi fanlari"
+msgstr "Giriş sınav dersleri"
+
+#: yonalish_biotexnologiya.html
+msgid "Ta'lim yo'nalishiga mos 2 ta fan"
+msgstr "Programa uygun 2 ders"
+
+#: yonalish_biotexnologiya.html
+msgid "ball"
+msgstr "puan"
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar bloki"
+msgstr "Zorunlu dersler bloğu"
+
+#: yonalish_biotexnologiya.html
+msgid ""
+"Chet tili sertifikati (IELTS, TOEFL, GCT va boshqalar) tegishli fanda "
+"imtihonsiz maksimal ball imtiyozini berishi mumkin."
+msgstr ""
+"Yabancı dil sertifikası (IELTS, TOEFL, GCT vb.) ilgili derste sınavsız "
+"maksimum puan avantajı sağlayabilir."
+
+#: yonalish_biotexnologiya.html
+msgid "Magistratura dasturi"
+msgstr "Yüksek lisans programı"
+
+#: yonalish_biotexnologiya.html
+msgid "Bakalavriat o'quv rejasi"
+msgstr "Lisans müfredatı"
+
+#: yonalish_biotexnologiya.html
+msgid "II. Ishchi o'quv rejasi — fanlar ro'yxati (soatlar bo'yicha)."
+msgstr "II. Çalışma müfredatı — ders listesi (saat bazında)."
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar"
+msgstr "Zorunlu dersler"
+
+#: yonalish_biotexnologiya.html
+msgid "soat"
+msgstr "saat"
+
+#: yonalish_biotexnologiya.html
+msgid "Fan nomi"
+msgstr "Ders adı"
+
+#: yonalish_biotexnologiya.html
+msgid "Soat"
+msgstr "Saat"
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar jami"
+msgstr "Zorunlu dersler toplamı"
+
+#: yonalish_biotexnologiya.html
+msgid "Tanlov fanlar"
+msgstr "Seçmeli dersler"
+
+#: yonalish_biotexnologiya.html
+msgid "Har bir qatorda talaba ikki variantdan birini tanlaydi."
+msgstr "Her satırda öğrenci iki seçenekten birini seçer."
+
+#: yonalish_biotexnologiya.html
+msgid "Variant A"
+msgstr "Seçenek A"
+
+#: yonalish_biotexnologiya.html
+msgid "Variant B"
+msgstr "Seçenek B"
+
+#: yonalish_biotexnologiya.html
+msgid "Tanlov fanlar jami"
+msgstr "Seçmeli dersler toplamı"
+
+#: yonalish_biotexnologiya.html
+msgid "Malakaviy amaliyot"
+msgstr "Mesleki staj"
+
+#: yonalish_biotexnologiya.html
+msgid "Yakuniy davlat attestatsiyasi"
+msgstr "Nihai devlet attestationu"
+
+#: yonalish_biotexnologiya.html
+msgid "kredit"
+msgstr "kredi"
+
+#: yonalish_biotexnologiya.html
+msgid "Qabul va kvota"
+msgstr "Kabul ve kontenjan"
+
+#: yonalish_biotexnologiya.html
+msgid "O'tish bali"
+msgstr "Geçme puanı"

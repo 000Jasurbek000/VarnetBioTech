@@ -112,6 +112,13 @@
                     </ul>
                 </div>
             </div>
+            {% if fakultet.id == 1 %}
+            <div class="fd-program-link">
+                <a href="{% url 'main:yonalish_biotexnologiya' %}" class="hm-btn-green">
+                    <i class="fas fa-book"></i> {% translate "O'quv rejasi va qabul shartlari" %}
+                </a>
+            </div>
+            {% endif %}
         </div>
 
         <!-- LABORATORIYALAR -->

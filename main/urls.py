@@ -27,6 +27,7 @@ urlpatterns = [
     path('bakalavr-qabuli/', views.bakalavr_qabuli, name='bakalavr_qabuli'),
     path('magistr-qabuli/', views.magistr_qabuli, name='magistr_qabuli'),
     path('kvota-va-ballar/', views.kvota_va_ballar, name='kvota_va_ballar'),
+    path('yonalishlar/biotexnologiya/', views.yonalish_biotexnologiya, name='yonalish_biotexnologiya'),
     path('malaka-oshirish/', views.malaka_oshirish, name='malaka_oshirish'),
     path('ekofaol-talabalar/', views.ekofaol_talabalar, name='ekofaol_talabalar'),
 ]

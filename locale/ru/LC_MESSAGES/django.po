@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Varnet International Biotechnology University\n"
-"POT-Creation-Date: 2026-07-26 14:57+0000\n"
+"POT-Creation-Date: 2026-07-27 19:33+0000\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,6 +169,7 @@ msgstr ""
 "приёма — по принципу «сначала тест, затем выбор»."
 
 #: bakalavr_qabuli.html base.html kvota_va_ballar.html
+#: yonalish_biotexnologiya.html
 msgid "Bakalavr qabuli"
 msgstr "Приём в бакалавриат"
 
@@ -315,78 +316,45 @@ msgstr "Направления бакалавриата в нашем униве
 
 #: bakalavr_qabuli.html
 msgid ""
-"Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida "
-"yangilanadi."
+"Tasdiqlangan ta'lim yo'nalishlari. Batafsil o'quv rejasi va qabul shartlari "
+"har bir yo'nalish sahifasida."
 msgstr ""
-"Основные направления обучения (примеры). Полный перечень обновляется в "
-"объявлении о приёме."
+"Утверждённые направления подготовки. Подробный учебный план и условия приёма"
+" — на странице каждого направления."
+
+#: bakalavr_qabuli.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
+msgid "Kod"
+msgstr "Код"
 
 #: bakalavr_qabuli.html kvota_va_ballar.html
 msgid "Yo‘nalish"
 msgstr "Направление"
 
 #: bakalavr_qabuli.html magistr_qabuli.html malaka_oshirish.html
+#: yonalish_biotexnologiya.html
 msgid "Muddat"
 msgstr "Срок"
+
+#: bakalavr_qabuli.html magistr_qabuli.html
+msgid "Til"
+msgstr "Язык"
 
 #: bakalavr_qabuli.html magistr_qabuli.html
 msgid "Shakl"
 msgstr "Форма"
 
-#: bakalavr_qabuli.html
-msgid "Profil fanlar (namuna)"
-msgstr "Профильные предметы (примеры)"
-
-#: bakalavr_qabuli.html home.html kvota_va_ballar.html universitet_haqida.html
-msgid "Biotexnologiya"
-msgstr "Биотехнология"
+#: bakalavr_qabuli.html magistr_qabuli.html yonalish_biotexnologiya.html
+msgid "Kvota"
+msgstr "Квота"
 
 #: bakalavr_qabuli.html
-msgid "4 yil"
-msgstr "4 года"
-
-#: bakalavr_qabuli.html hujjat_topshirish.html kvota_va_ballar.html
-#: magistr_qabuli.html malaka_oshirish.html
-msgid "Kunduzgi"
-msgstr "Очно"
+msgid "Profil fanlar"
+msgstr "Профильные предметы"
 
 #: bakalavr_qabuli.html
 msgid "Biologiya, Kimyo"
 msgstr "Биология, химия"
-
-#: bakalavr_qabuli.html
-msgid "Ekologiya va atrof-muhit muhofazasi"
-msgstr "Экология и охрана окружающей среды"
-
-#: bakalavr_qabuli.html
-msgid "Kunduzgi / Part-time"
-msgstr "Очно / Неполная нагрузка"
-
-#: bakalavr_qabuli.html
-msgid "Biologiya, Geografiya"
-msgstr "Биология, география"
-
-#: bakalavr_qabuli.html kvota_va_ballar.html
-msgid "Farmatsevtika biotexnologiyasi"
-msgstr "Фармацевтическая биотехнология"
-
-#: bakalavr_qabuli.html
-msgid "Kimyo, Biologiya"
-msgstr "Химия, биология"
-
-#: bakalavr_qabuli.html home.html ilmiy_faoliyat.html kvota_va_ballar.html
-#: magistr_qabuli.html universitet_haqida.html
-msgid "Agrobiotexnologiya"
-msgstr "Агробиотехнология"
-
-#: bakalavr_qabuli.html ilmiy_faoliyat.html kvota_va_ballar.html
-#: universitet_haqida.html
-msgid "Bioinformatika"
-msgstr "Биоинформатика"
-
-#: bakalavr_qabuli.html
-msgid "Matematika, Informatika"
-msgstr "Математика, информатика"
 
 #: bakalavr_qabuli.html
 msgid "Talablar"
@@ -426,6 +394,7 @@ msgid "Topshiriladigan hujjatlar"
 msgstr "Необходимые документы"
 
 #: bakalavr_qabuli.html base.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
 msgid "Kvota va ballar"
 msgstr "Квоты и проходные баллы"
 
@@ -439,18 +408,17 @@ msgstr "Оставьте онлайн-заявку или свяжитесь с 
 
 #: bakalavr_qabuli.html home.html kvota_va_ballar.html
 #: topshiriladigan_hujjatlar.html universitet_haqida.html
+#: yonalish_biotexnologiya.html
 msgid "Hujjat topshirish"
 msgstr "Подать документы"
 
 #: bakalavr_qabuli.html
 msgid ""
-"Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi. Aniq blokni <a "
-"href=\"https://my.uzbmb.uz\" target=\"_blank\" "
-"rel=\"noopener\">my.uzbmb.uz</a> portalidan tekshiring."
+"<a href=\"{{ yonalish_url }}\">Biotexnologiya</a> yo'nalishining to'liq "
+"o'quv rejasi va kirish test fanlari alohida sahifada."
 msgstr ""
-"Профильные предметы ежегодно утверждаются Министерством. Точный блок "
-"уточняйте на портале <a href=\"https://my.uzbmb.uz\" target=\"_blank\" "
-"rel=\"noopener\">my.uzbmb.uz</a>."
+"Полный учебный план и вступительные предметы направления <a href=\"{{ "
+"yonalish_url }}\">Биотехнология</a> — на отдельной странице."
 
 #: barqaror_rivojlanish.html
 msgid "Barqaror rivojlanish — Varnet International Biotechnology University"
@@ -704,7 +672,7 @@ msgstr "Об университете"
 msgid "Tuzilma"
 msgstr "Структура"
 
-#: base.html fakultet_detail.html fakultetlar.html home.html
+#: base.html fakultet_detail.html fakultetlar.html home.html structure.html
 #: universitet_haqida.html
 msgid "Fakultetlar"
 msgstr "Факультеты"
@@ -743,6 +711,7 @@ msgid "Qabul"
 msgstr "Приём"
 
 #: base.html kvota_va_ballar.html magistr_qabuli.html
+#: yonalish_biotexnologiya.html
 msgid "Magistr qabuli"
 msgstr "Приём в магистратуру"
 
@@ -1190,9 +1159,9 @@ msgstr "Приёмные часы"
 msgid "Tashkil etilgan"
 msgstr "Год основания"
 
-#: fakultet_detail.html hujjat_topshirish.html
+#: fakultet_detail.html hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim yo'nalishi"
-msgstr "Направление обучения"
+msgstr "Направление подготовки"
 
 #: fakultet_detail.html fakultetlar.html
 msgid "Kafedra"
@@ -1223,8 +1192,9 @@ msgid "Kafedra mudiri"
 msgstr "Заведующий кафедрой"
 
 #: fakultet_detail.html home.html universitet_haqida.html
+#: yonalish_biotexnologiya.html
 msgid "Ta'lim yo'nalishlari"
-msgstr "Направлений обучения"
+msgstr "Направления подготовки"
 
 #: fakultet_detail.html universitet_haqida.html
 msgid "Bakalavriat"
@@ -1233,6 +1203,10 @@ msgstr "Бакалавриат"
 #: fakultet_detail.html universitet_haqida.html
 msgid "Magistratura"
 msgstr "Магистратура"
+
+#: fakultet_detail.html universitet_haqida.html
+msgid "O'quv rejasi va qabul shartlari"
+msgstr "Учебный план и условия приёма"
 
 #: fakultet_detail.html home.html
 msgid "Ilmiy laboratoriyalar"
@@ -1416,6 +1390,10 @@ msgstr ""
 "преподавательским составом."
 
 #: home.html universitet_haqida.html
+msgid "Biotexnologiya"
+msgstr "Биотехнология"
+
+#: home.html universitet_haqida.html yonalish_biotexnologiya.html
 msgid "Biotexnologiya fakulteti"
 msgstr "Факультет биотехнологии"
 
@@ -1431,7 +1409,7 @@ msgstr ""
 msgid "12 yo'nalish"
 msgstr "12 направлений"
 
-#: home.html kvota_va_ballar.html universitet_haqida.html
+#: home.html universitet_haqida.html
 msgid "Ekologiya"
 msgstr "Экология"
 
@@ -1492,6 +1470,10 @@ msgstr "10 направлений"
 #: home.html universitet_haqida.html
 msgid "Agro"
 msgstr "Агро"
+
+#: home.html ilmiy_faoliyat.html universitet_haqida.html
+msgid "Agrobiotexnologiya"
+msgstr "Агробиотехнология"
 
 #: home.html
 msgid ""
@@ -1800,13 +1782,17 @@ msgstr "Бакалавриат"
 msgid "Magistr"
 msgstr "Магистратура"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim shakli"
 msgstr "Форма обучения"
 
 #: hujjat_topshirish.html
 msgid "Ta'lim shaklini tanlang"
 msgstr "Выберите форму обучения"
+
+#: hujjat_topshirish.html kvota_va_ballar.html malaka_oshirish.html
+msgid "Kunduzgi"
+msgstr "Очно"
 
 #: hujjat_topshirish.html
 msgid "Sirtqi"
@@ -1816,7 +1802,7 @@ msgstr "Заочная"
 msgid "Kechki"
 msgstr "Вечерняя"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Ta'lim tili"
 msgstr "Язык обучения"
 
@@ -1888,7 +1874,7 @@ msgstr "Основной телефон"
 msgid "Ta'lim ma'lumotlari"
 msgstr "Сведения об образовании"
 
-#: hujjat_topshirish.html
+#: hujjat_topshirish.html yonalish_biotexnologiya.html
 msgid "Yo'nalish"
 msgstr ""
 
@@ -2026,7 +2012,7 @@ msgstr "Микробиология"
 msgid "Foydali mikroorganizmlar, biopreparatlar va sanoat fermentatsiyasi."
 msgstr "Полезные микроорганизмы, биопрепараты и промышленная ферментация."
 
-#: ilmiy_faoliyat.html magistr_qabuli.html universitet_haqida.html
+#: ilmiy_faoliyat.html
 msgid "Biofarmatsevtika"
 msgstr "Биофармацевтика"
 
@@ -2046,6 +2032,10 @@ msgstr "Экологическая биотехнология"
 #: ilmiy_faoliyat.html
 msgid "Atrof-muhitni tiklash, bioremediatsiya va yashil texnologiyalar."
 msgstr "Восстановление окружающей среды, биоремедиация и зелёные технологии."
+
+#: ilmiy_faoliyat.html universitet_haqida.html
+msgid "Bioinformatika"
+msgstr "Биоинформатика"
 
 #: ilmiy_faoliyat.html
 msgid "Katta biologik ma’lumotlar tahlili va sun’iy intellekt yondashuvlari."
@@ -2171,7 +2161,7 @@ msgstr ""
 msgid "Fan"
 msgstr "Предмет"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Turi"
 msgstr "Тип"
 
@@ -2183,9 +2173,9 @@ msgstr "Вопросы"
 msgid "Ball hisobi"
 msgstr "Начисление баллов"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Jami"
-msgstr "Всего"
+msgstr "Итого"
 
 #: kvota_va_ballar.html
 msgid "Ona tili (o‘zbek / rus)"
@@ -2268,40 +2258,52 @@ msgid "Davlat komissiyasi qarori"
 msgstr "Решение государственной комиссии"
 
 #: kvota_va_ballar.html
-msgid "Varnet — yo‘nalishlar bo‘yicha kvota (namuna)"
-msgstr "Varnet — квоты по направлениям (примеры)"
+msgid "Varnet — yo‘nalishlar bo‘yicha kvota"
+msgstr "Varnet — квоты по направлениям"
 
 #: kvota_va_ballar.html
 msgid ""
-"Quyidagi raqamlar namuna ko‘rinishida. Yakuniy kvota har yili qabul e’lonida"
-" rasmiy tasdiqlanadi."
+"Tasdiqlangan qabul kvotalari. Grant va kontrakt bo‘yicha taqsimot hamda "
+"o‘tish ballari qabul e’lonida e’lon qilinadi."
 msgstr ""
-"Приведённые цифры носят примерный характер. Окончательные квоты официально "
-"утверждаются ежегодно в объявлении о приёме."
+"Утверждённые квоты приёма. Распределение по гранту и контракту, а также "
+"проходные баллы будут объявлены в приказе о приёме."
 
 #: kvota_va_ballar.html
+msgid "Jami kvota"
+msgstr "Общая квота"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Grant"
 msgstr "Грант"
 
-#: kvota_va_ballar.html
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
 msgid "Kontrakt"
 msgstr "Контракт"
 
 #: kvota_va_ballar.html
-msgid "O‘tgan yil o‘tish balli*"
-msgstr "Проходной балл прошлого года*"
+msgid "O‘tish bali"
+msgstr "Проходной балл"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
+msgid "Aniq emas"
+msgstr "Не определено"
+
+#: kvota_va_ballar.html yonalish_biotexnologiya.html
+msgid "Mavjud emas"
+msgstr "Нет данных"
 
 #: kvota_va_ballar.html
-msgid "Jami (namuna)"
-msgstr "Всего (пример)"
+msgid "Jami (tasdiqlangan)"
+msgstr "Итого (утверждено)"
 
 #: kvota_va_ballar.html
 msgid ""
-"* O‘tish ballari tanlov natijalariga qarab har yili o‘zgaradi. Minimal "
-"chegaralar Davlat qabul komissiyasi tomonidan belgilanadi."
+"Qabul ballari hozircha e’lon qilinmagan. Grant va kontrakt kvotalari aniq "
+"bo‘lganda ushbu jadval yangilanadi."
 msgstr ""
-"* Проходные баллы меняются ежегодно в зависимости от результатов конкурса. "
-"Минимальные пороги устанавливаются Государственной приёмной комиссией."
+"Проходные баллы пока не опубликованы. Таблица будет обновлена после "
+"утверждения квот гранта и контракта."
 
 #: kvota_va_ballar.html
 msgid "Grant va imtiyoz"
@@ -2438,10 +2440,6 @@ msgid "my.edu.uz / magistr.edu.uz"
 msgstr "my.edu.uz / magistr.edu.uz"
 
 #: magistr_qabuli.html
-msgid "Til"
-msgstr "Язык"
-
-#: magistr_qabuli.html
 msgid "Chet tili sertifikati"
 msgstr "Сертификат по иностранному языку"
 
@@ -2538,44 +2536,24 @@ msgid "Mutaxassisliklar"
 msgstr "Специальности"
 
 #: magistr_qabuli.html
-msgid "Magistratura yo‘nalishlari (namuna)"
-msgstr "Направления магистратуры (примеры)"
+msgid "Magistratura yo‘nalishlari"
+msgstr "Направления магистратуры"
 
 #: magistr_qabuli.html
-msgid ""
-"Varnet Xalqaro Biotexnologiyalar Universitetidagi asosiy magistratura "
-"dasturlari."
-msgstr ""
-"Основные программы магистратуры Международного университета биотехнологий "
-"Varnet."
+msgid "Tasdiqlangan magistratura dasturlari."
+msgstr "Утверждённые программы магистратуры."
 
 #: magistr_qabuli.html
 msgid "Mutaxassislik"
 msgstr "Специальность"
 
 #: magistr_qabuli.html
-msgid "Asos"
-msgstr "Основа"
+msgid "Kunduzgi, Kechki, Masofaviy"
+msgstr "Очная, заочная, дистанционная"
 
-#: magistr_qabuli.html
-msgid "Molekulyar biologiya va biotexnologiya"
-msgstr "Молекулярная биология и биотехнология"
-
-#: magistr_qabuli.html
-msgid "Grant / Kontrakt"
-msgstr "Грант / Контракт"
-
-#: magistr_qabuli.html
-msgid "Ekologiya va barqaror rivojlanish"
-msgstr "Экология и устойчивое развитие"
-
-#: magistr_qabuli.html
-msgid "Kunduzgi / Kechki"
-msgstr "Очно / Вечерне"
-
-#: magistr_qabuli.html
-msgid "Bioinformatika va raqamli biologiya"
-msgstr "Биоинформатика и цифровая биология"
+#: magistr_qabuli.html yonalish_biotexnologiya.html
+msgid "nafar"
+msgstr "чел."
 
 #: magistr_qabuli.html
 msgid "Respublika kvotasi"
@@ -4275,44 +4253,40 @@ msgid "Yo'nalishlar"
 msgstr "Направления"
 
 #: universitet_haqida.html
-msgid "Bakalavriat va magistratura dasturlarimiz — 45 ta yo'nalish."
-msgstr "Наши программы бакалавриата и магистратуры — 45 направлений."
+msgid "Bakalavriat va magistratura dasturlarimiz."
+msgstr "Наши программы бакалавриата и магистратуры."
 
 #: universitet_haqida.html
 msgid "IT va innovatsiya"
 msgstr "IT и инновации"
 
 #: universitet_haqida.html
-msgid "Molekulyar biologiya"
-msgstr "Молекулярная биология"
+msgid "Biotexnologiya (tarmoqlar bo'yicha)"
+msgstr "Биотехнология (по отраслям)"
 
 #: universitet_haqida.html
-msgid "4 yil &middot; Kunduzgi"
-msgstr "4 года &middot; Очно"
+msgid "4 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy"
+msgstr "4 года &middot; узбекский &middot; очная, заочная, дистанционная"
 
 #: universitet_haqida.html
-msgid "Virusologiya va immunologiya"
-msgstr "Вирусология и иммунология"
+msgid "kvota"
+msgstr "квота"
 
 #: universitet_haqida.html
-msgid "2 yil &middot; Kunduzgi"
-msgstr "2 года &middot; Очно"
+msgid "2 yil &middot; O'zbek tili &middot; Kunduzgi, Kechki, Masofaviy"
+msgstr "2 года &middot; узбекский &middot; очная, заочная, дистанционная"
 
 #: universitet_haqida.html
-msgid "Biotexnologiya va gen muhandisligi"
-msgstr "Биотехнология и генная инженерия"
-
-#: universitet_haqida.html
-msgid "4 yil &middot; Kunduzgi / Sirtqi"
-msgstr "4 года &middot; Очно / Заочно"
-
-#: universitet_haqida.html
-msgid "Neyrobiotexnologiya"
-msgstr "Нейробиотехнология"
+msgid "Kirish test fanlari, fanlar ro'yxati, kvota"
+msgstr "Вступительные предметы, список дисциплин, квота"
 
 #: universitet_haqida.html
 msgid "Ekologiya va tabiatni muhofaza qilish"
 msgstr "Экология и охрана природы"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi"
+msgstr "4 года &middot; Очно"
 
 #: universitet_haqida.html
 msgid "Su resurslarini boshqarish"
@@ -4325,6 +4299,10 @@ msgstr "4 года &middot; Заочно"
 #: universitet_haqida.html
 msgid "Barqaror energiya tizimlari"
 msgstr "Системы устойчивой энергетики"
+
+#: universitet_haqida.html
+msgid "2 yil &middot; Kunduzgi"
+msgstr "2 года &middot; Очно"
 
 #: universitet_haqida.html
 msgid "Iqlim o'zgarishi va monitoring"
@@ -4353,6 +4331,10 @@ msgstr "Органическая химия"
 #: universitet_haqida.html
 msgid "Farmatsevtik kimyo"
 msgstr "Фармацевтическая химия"
+
+#: universitet_haqida.html
+msgid "4 yil &middot; Kunduzgi / Sirtqi"
+msgstr "4 года &middot; Очно / Заочно"
 
 #: universitet_haqida.html
 msgid "Analitik kimyo"
@@ -4397,6 +4379,10 @@ msgstr "Биохимия"
 #: universitet_haqida.html
 msgid "2–3 kurs"
 msgstr "2–3 курс"
+
+#: universitet_haqida.html
+msgid "Molekulyar biologiya"
+msgstr "Молекулярная биология"
 
 #: universitet_haqida.html
 msgid "1–3 kurs"
@@ -4578,3 +4564,115 @@ msgstr "Новость 8"
 #: yangiliklar.html
 msgid "Ilmiy jurnal yangi son uchun maqolalar qabul qilinmoqda"
 msgstr ""
+
+#: yonalish_biotexnologiya.html
+msgid "Malakaviy kodi"
+msgstr "Код квалификации"
+
+#: yonalish_biotexnologiya.html
+msgid "Ta'lim turi"
+msgstr "Уровень обучения"
+
+#: yonalish_biotexnologiya.html
+msgid "O'qish muddati"
+msgstr "Срок обучения"
+
+#: yonalish_biotexnologiya.html
+msgid "Qabul kvotasi"
+msgstr "Квота приёма"
+
+#: yonalish_biotexnologiya.html
+msgid "Kirish testi fanlari"
+msgstr "Вступительные предметы"
+
+#: yonalish_biotexnologiya.html
+msgid "Ta'lim yo'nalishiga mos 2 ta fan"
+msgstr "2 предмета, соответствующих направлению"
+
+#: yonalish_biotexnologiya.html
+msgid "ball"
+msgstr "балл"
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar bloki"
+msgstr "Блок обязательных предметов"
+
+#: yonalish_biotexnologiya.html
+msgid ""
+"Chet tili sertifikati (IELTS, TOEFL, GCT va boshqalar) tegishli fanda "
+"imtihonsiz maksimal ball imtiyozini berishi mumkin."
+msgstr ""
+"Сертификат иностранного языка (IELTS, TOEFL, GCT и др.) может дать "
+"максимальный балл по соответствующему предмету без сдачи экзамена."
+
+#: yonalish_biotexnologiya.html
+msgid "Magistratura dasturi"
+msgstr "Программа магистратуры"
+
+#: yonalish_biotexnologiya.html
+msgid "Bakalavriat o'quv rejasi"
+msgstr "Учебный план бакалавриата"
+
+#: yonalish_biotexnologiya.html
+msgid "II. Ishchi o'quv rejasi — fanlar ro'yxati (soatlar bo'yicha)."
+msgstr "II. Рабочий учебный план — перечень дисциплин (в часах)."
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar"
+msgstr "Обязательные дисциплины"
+
+#: yonalish_biotexnologiya.html
+msgid "soat"
+msgstr "часов"
+
+#: yonalish_biotexnologiya.html
+msgid "Fan nomi"
+msgstr "Название дисциплины"
+
+#: yonalish_biotexnologiya.html
+msgid "Soat"
+msgstr "Часы"
+
+#: yonalish_biotexnologiya.html
+msgid "Majburiy fanlar jami"
+msgstr "Итого обязательных"
+
+#: yonalish_biotexnologiya.html
+msgid "Tanlov fanlar"
+msgstr "Дисциплины по выбору"
+
+#: yonalish_biotexnologiya.html
+msgid "Har bir qatorda talaba ikki variantdan birini tanlaydi."
+msgstr "В каждой строке студент выбирает один из двух вариантов."
+
+#: yonalish_biotexnologiya.html
+msgid "Variant A"
+msgstr "Вариант A"
+
+#: yonalish_biotexnologiya.html
+msgid "Variant B"
+msgstr "Вариант B"
+
+#: yonalish_biotexnologiya.html
+msgid "Tanlov fanlar jami"
+msgstr "Итого по выбору"
+
+#: yonalish_biotexnologiya.html
+msgid "Malakaviy amaliyot"
+msgstr "Профессиональная практика"
+
+#: yonalish_biotexnologiya.html
+msgid "Yakuniy davlat attestatsiyasi"
+msgstr "Итоговая государственная аттестация"
+
+#: yonalish_biotexnologiya.html
+msgid "kredit"
+msgstr "кредитов"
+
+#: yonalish_biotexnologiya.html
+msgid "Qabul va kvota"
+msgstr "Приём и квоты"
+
+#: yonalish_biotexnologiya.html
+msgid "O'tish bali"
+msgstr "Проходной балл"

@@ -94,49 +94,29 @@
     <div class="fl-container">
         <div class="fl-head">
             <div class="fl-tag"><i class="fas fa-microscope"></i> {% translate "Mutaxassisliklar" %}</div>
-            <h2 class="fl-h2">{% translate "Magistratura yo‘nalishlari (namuna)" %}</h2>
-            <p class="fl-sub">{% translate "Varnet Xalqaro Biotexnologiyalar Universitetidagi asosiy magistratura dasturlari." %}</p>
+            <h2 class="fl-h2">{% translate "Magistratura yo‘nalishlari" %}</h2>
+            <p class="fl-sub">{% translate "Tasdiqlangan magistratura dasturlari." %}</p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
+                        <th>{% translate "Kod" %}</th>
                         <th>{% translate "Mutaxassislik" %}</th>
                         <th>{% translate "Muddat" %}</th>
+                        <th>{% translate "Til" %}</th>
                         <th>{% translate "Shakl" %}</th>
-                        <th>{% translate "Asos" %}</th>
+                        <th>{% translate "Kvota" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{% translate "Molekulyar biologiya va biotexnologiya" %}</td>
-                        <td>{% translate "2 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Grant / Kontrakt" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Ekologiya va barqaror rivojlanish" %}</td>
-                        <td>{% translate "2 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Grant / Kontrakt" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Biofarmatsevtika" %}</td>
-                        <td>{% translate "2 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Grant / Kontrakt" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Agrobiotexnologiya" %}</td>
-                        <td>{% translate "2 yil" %}</td>
-                        <td>{% translate "Kunduzgi / Kechki" %}</td>
-                        <td>{% translate "Grant / Kontrakt" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Bioinformatika va raqamli biologiya" %}</td>
-                        <td>{% translate "2 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Grant / Kontrakt" %}</td>
+                        <td>{{ biotexnologiya.magistr.kod }}</td>
+                        <td><a href="{% url 'main:yonalish_biotexnologiya' %}">{{ biotexnologiya.magistr.nom }}</a></td>
+                        <td>{{ biotexnologiya.magistr.muddat }}</td>
+                        <td>{{ biotexnologiya.til }}</td>
+                        <td>{% translate "Kunduzgi, Kechki, Masofaviy" %}</td>
+                        <td><strong>{{ biotexnologiya.magistr.kvota }}</strong> {% translate "nafar" %}</td>
                     </tr>
                 </tbody>
             </table>

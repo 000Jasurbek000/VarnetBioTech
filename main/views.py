@@ -3,6 +3,8 @@ from io import BytesIO
 from django.http import Http404, HttpResponse
 from django.shortcuts import render
 
+from .program_data import BIOTEXNOLOGIYA
+
 from reportlab.lib import colors
 from reportlab.lib.enums import TA_CENTER
 from reportlab.lib.pagesizes import A3, landscape
@@ -48,17 +50,31 @@ def sport_va_hordiq(request):
 
 def bakalavr_qabuli(request):
     """Bachelor admissions page"""
-    return render(request, 'main/bakalavr_qabuli.html')
+    return render(request, 'main/bakalavr_qabuli.html', {
+        'biotexnologiya': BIOTEXNOLOGIYA,
+    })
 
 
 def magistr_qabuli(request):
     """Master admissions page"""
-    return render(request, 'main/magistr_qabuli.html')
+    return render(request, 'main/magistr_qabuli.html', {
+        'biotexnologiya': BIOTEXNOLOGIYA,
+    })
 
 
 def kvota_va_ballar(request):
     """Quota and scores page"""
-    return render(request, 'main/kvota_va_ballar.html')
+    return render(request, 'main/kvota_va_ballar.html', {
+        'biotexnologiya': BIOTEXNOLOGIYA,
+    })
+
+
+def yonalish_biotexnologiya(request):
+    """Biotexnologiya ta'lim yo'nalishi — o'quv rejasi va qabul ma'lumotlari"""
+    return render(request, 'main/yonalish_biotexnologiya.html', {
+        'program': BIOTEXNOLOGIYA,
+        'fakultet_id': BIOTEXNOLOGIYA['fakultet_id'],
+    })
 
 
 def malaka_oshirish(request):
@@ -287,7 +303,7 @@ FAKULTETLAR_DATA = {
         'tavsif': 'Zamonaviy biologik texnologiyalar, genetika va molekulyar biologiya sohasida '
                   'chuqur nazariy bilim hamda amaliy ko\'nikma beradi.',
         'tashkil_yili': '2018',
-        'yonalishlar_soni': 12,
+        'yonalishlar_soni': 1,
         'talabalar_soni': 1240,
         'oqituvchilar_soni': 78,
         'laboratoriyalar_soni': 3,
@@ -317,14 +333,10 @@ FAKULTETLAR_DATA = {
             {'nom': 'Oziq-ovqat biotexnologiyasi kafedrasi', 'mudir': 'Ashurova Dilnoza Sobirovna'},
         ],
         'bakalavr': [
-            'Biotexnologiya (tarmoqlar bo\'yicha)',
-            'Sanoat biotexnologiyasi',
-            'Oziq-ovqat biotexnologiyasi',
-            'Molekulyar biologiya',
+            '60710200 — Biotexnologiya (tarmoqlar bo\'yicha)',
         ],
         'magistratura': [
-            'Sanoat biotexnologiyasi',
-            'Molekulyar biotexnologiya va gen muhandisligi',
+            '70710201 — Biotexnologiya',
         ],
         'laboratoriyalar': [
             'Fermentatsiya va bioreaktorlar laboratoriyasi',

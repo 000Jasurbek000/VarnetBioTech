@@ -105,57 +105,38 @@
         <div class="fl-head">
             <div class="fl-tag"><i class="fas fa-graduation-cap"></i> {% translate "Yo‘nalishlar" %}</div>
             <h2 class="fl-h2">{% translate "Universitetimizdagi bakalavriat yo‘nalishlari" %}</h2>
-            <p class="fl-sub">{% translate "Asosiy ta’lim yo‘nalishlari (namuna). To‘liq ro‘yxat qabul e’lonida yangilanadi." %}</p>
+            <p class="fl-sub">{% translate "Tasdiqlangan ta'lim yo'nalishlari. Batafsil o'quv rejasi va qabul shartlari har bir yo'nalish sahifasida." %}</p>
         </div>
         <div class="qb-table-wrap">
             <table class="qb-table">
                 <thead>
                     <tr>
+                        <th>{% translate "Kod" %}</th>
                         <th>{% translate "Yo‘nalish" %}</th>
                         <th>{% translate "Muddat" %}</th>
+                        <th>{% translate "Til" %}</th>
                         <th>{% translate "Shakl" %}</th>
-                        <th>{% translate "Profil fanlar (namuna)" %}</th>
+                        <th>{% translate "Kvota" %}</th>
+                        <th>{% translate "Profil fanlar" %}</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td>{% translate "Biotexnologiya" %}</td>
-                        <td>{% translate "4 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
+                        <td>{{ biotexnologiya.bakalavr.kod }}</td>
+                        <td><a href="{% url 'main:yonalish_biotexnologiya' %}">{{ biotexnologiya.bakalavr.nom }}</a></td>
+                        <td>{{ biotexnologiya.bakalavr.muddat }}</td>
+                        <td>{{ biotexnologiya.til }}</td>
+                        <td>{{ biotexnologiya.shakllar|join:", " }}</td>
+                        <td><strong>{{ biotexnologiya.bakalavr.kvota }}</strong></td>
                         <td>{% translate "Biologiya, Kimyo" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Ekologiya va atrof-muhit muhofazasi" %}</td>
-                        <td>{% translate "4 yil" %}</td>
-                        <td>{% translate "Kunduzgi / Part-time" %}</td>
-                        <td>{% translate "Biologiya, Geografiya" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Farmatsevtika biotexnologiyasi" %}</td>
-                        <td>{% translate "4 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Kimyo, Biologiya" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Agrobiotexnologiya" %}</td>
-                        <td>{% translate "4 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Biologiya, Kimyo" %}</td>
-                    </tr>
-                    <tr>
-                        <td>{% translate "Bioinformatika" %}</td>
-                        <td>{% translate "4 yil" %}</td>
-                        <td>{% translate "Kunduzgi" %}</td>
-                        <td>{% translate "Matematika, Informatika" %}</td>
                     </tr>
                 </tbody>
             </table>
         </div>
+        {% url 'main:yonalish_biotexnologiya' as yonalish_url %}
         <p class="qb-note">
-            <i class="fas fa-exclamation-circle"></i>
-            {% blocktranslate trimmed %}Profil fanlar har yili Vazirlik tomonidan tasdiqlanadi.
-            Aniq blokni <a href="https://my.uzbmb.uz" target="_blank" rel="noopener">my.uzbmb.uz</a>
-            portalidan tekshiring.{% endblocktranslate %}
+            <i class="fas fa-info-circle"></i>
+            {% blocktranslate trimmed %}<a href="{{ yonalish_url }}">Biotexnologiya</a> yo'nalishining to'liq o'quv rejasi va kirish test fanlari alohida sahifada.{% endblocktranslate %}
         </p>
     </div>
 </section>
